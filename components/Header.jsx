@@ -161,8 +161,12 @@ const contactLinks = [
 export default function Header() {
   const [showMobile, setShowMobile] = useState(false);
 
-  const handleMobileClick = () => {
+  const handleMobileIconClick = () => {
     setShowMobile(!showMobile);
+  };
+
+  const handleMobileClose = () => {
+    if (showMobile) setShowMobile(false);
   };
 
   return (
@@ -283,6 +287,7 @@ export default function Header() {
           <div>
             <Link href='/'>
               <Image
+                onClick={handleMobileClose}
                 src='/images/ames-logo.svg'
                 width={200}
                 height={200}
@@ -291,7 +296,7 @@ export default function Header() {
             </Link>
           </div>
 
-          <button onClick={handleMobileClick}>
+          <button onClick={handleMobileIconClick}>
             <FiMenu className='w-8 h-8' />
           </button>
         </div>
@@ -306,6 +311,7 @@ export default function Header() {
             <div className='flex flex-col gap-1 p-2 bg-white'>
               {productLinks.map((link, idx) => (
                 <Link
+                  onClick={handleMobileClose}
                   key={idx}
                   href={link.href}
                   className='px-2 py-1 text-nowrap'
@@ -321,6 +327,7 @@ export default function Header() {
             <div className='flex flex-col gap-1 p-2 bg-white'>
               {supportLinks.map((link, idx) => (
                 <Link
+                  onClick={handleMobileClose}
                   key={idx}
                   href={link.href}
                   className='px-2 py-1 text-nowrap'
@@ -336,6 +343,7 @@ export default function Header() {
             <div className='flex flex-col gap-1 p-2 bg-white'>
               {salesLinks.map((link, idx) => (
                 <Link
+                  onClick={handleMobileClose}
                   key={idx}
                   href={link.href}
                   className='px-2 py-1 text-nowrap'
@@ -351,6 +359,7 @@ export default function Header() {
             <div className='flex flex-col gap-1 p-2 bg-white'>
               {aboutLinks.map((link, idx) => (
                 <Link
+                  onClick={handleMobileClose}
                   key={idx}
                   href={link.href}
                   className='px-2 py-1 text-nowrap'
@@ -366,6 +375,7 @@ export default function Header() {
             <div className='flex flex-col gap-1 p-2 bg-white'>
               {resourcesLinks.map((link, idx) => (
                 <Link
+                  onClick={handleMobileClose}
                   key={idx}
                   href={link.href}
                   className='px-2 py-1 text-nowrap'
@@ -381,6 +391,7 @@ export default function Header() {
             <div className='flex flex-col gap-1 p-2 bg-white'>
               {contactLinks.map((link, idx) => (
                 <Link
+                  onClick={handleMobileClose}
                   target={link.external && '_blank'}
                   key={idx}
                   href={link.href}
