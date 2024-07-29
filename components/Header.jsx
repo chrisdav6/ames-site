@@ -1,6 +1,12 @@
+'use client';
+import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import NavItem from './NavItem';
+import { FiMenu } from 'react-icons/fi';
+import { FaFacebook } from 'react-icons/fa';
+import { FaInstagram, FaXTwitter } from 'react-icons/fa6';
+import { IoLogoYoutube } from 'react-icons/io';
 
 const productLinks = [
   {
@@ -126,117 +132,270 @@ const contactLinks = [
     name: 'Contact Support',
     href: '/support/supportRequest',
   },
+  {
+    name: 'Facebook',
+    href: 'https://www.facebook.com/p/Ames-Engineering-Inc-100068806555835',
+    external: true,
+    icon: <FaFacebook />,
+  },
+  {
+    name: 'Twitter',
+    href: 'https://x.com/AmesEngineering',
+    external: true,
+    icon: <FaXTwitter />,
+  },
+  {
+    name: 'Instagram',
+    href: 'https://www.instagram.com/ames_engineering',
+    external: true,
+    icon: <FaInstagram />,
+  },
+  {
+    name: 'Youtube',
+    href: 'https://youtube.com',
+    external: true,
+    icon: <IoLogoYoutube />,
+  },
 ];
 
 export default function Header() {
+  const [showMobile, setShowMobile] = useState(false);
+
+  const handleMobileClick = () => {
+    setShowMobile(!showMobile);
+  };
+
   return (
-    <header className='flex items-center justify-between gap-6 w-full py-5 px-10 xl:px-40 bg-white border-b'>
-      <div>
-        <Link href='/'>
-          <Image
-            src='/images/ames-logo.svg'
-            width={200}
-            height={200}
-            alt='Ames Engineering Logo'
-          />
-        </Link>
+    <header>
+      <div className='hidden md:flex items-center justify-between gap-6 w-full py-5 px-10 xl:px-40 bg-white border-b'>
+        <div>
+          <Link href='/'>
+            <Image
+              src='/images/ames-logo.svg'
+              width={200}
+              height={200}
+              alt='Ames Engineering Logo'
+            />
+          </Link>
+        </div>
+
+        {/* DESKTOP MENU */}
+        <nav className='hidden md:flex items-center gap-2 text-sm lg:text-base xl:gap-4 xl:text-lg'>
+          <button className='relative group'>
+            <NavItem name='Products' />
+            <div className='hidden group-hover:flex flex-col gap-2 absolute p-2 bg-white border'>
+              {productLinks.map((link, idx) => (
+                <Link
+                  key={idx}
+                  href={link.href}
+                  className='px-2 py-1 hover:bg-amesRed hover:text-white text-left text-nowrap'
+                >
+                  {link.name}
+                </Link>
+              ))}
+            </div>
+          </button>
+
+          <button className='relative group'>
+            <NavItem name='Support' />
+            <div className='hidden group-hover:flex flex-col gap-2 absolute p-2 bg-white border'>
+              {supportLinks.map((link, idx) => (
+                <Link
+                  key={idx}
+                  href={link.href}
+                  className='px-2 py-1 hover:bg-amesRed hover:text-white text-left text-nowrap'
+                >
+                  {link.name}
+                </Link>
+              ))}
+            </div>
+          </button>
+
+          <button className='relative group'>
+            <NavItem name='Sales' />
+            <div className='hidden group-hover:flex flex-col gap-2 absolute p-2 bg-white border'>
+              {salesLinks.map((link, idx) => (
+                <Link
+                  key={idx}
+                  href={link.href}
+                  className='px-2 py-1 hover:bg-amesRed hover:text-white text-left text-nowrap'
+                >
+                  {link.name}
+                </Link>
+              ))}
+            </div>
+          </button>
+
+          <button className='relative group'>
+            <NavItem name='About' />
+            <div className='hidden group-hover:flex flex-col gap-2 absolute p-2 bg-white border'>
+              {aboutLinks.map((link, idx) => (
+                <Link
+                  key={idx}
+                  href={link.href}
+                  className='px-2 py-1 hover:bg-amesRed hover:text-white text-left text-nowrap'
+                >
+                  {link.name}
+                </Link>
+              ))}
+            </div>
+          </button>
+
+          <button className='relative group'>
+            <NavItem name='Resources' />
+            <div className='hidden group-hover:flex flex-col gap-2 absolute right-0 p-2 bg-white border'>
+              {resourcesLinks.map((link, idx) => (
+                <Link
+                  key={idx}
+                  href={link.href}
+                  className='px-2 py-1 hover:bg-amesRed hover:text-white text-left text-nowrap'
+                >
+                  {link.name}
+                </Link>
+              ))}
+            </div>
+          </button>
+
+          <button className='relative group'>
+            <NavItem name='Contact' />
+            <div className='hidden group-hover:flex flex-col gap-2 absolute right-0 p-2 bg-white border'>
+              {contactLinks.map((link, idx) => (
+                <Link
+                  target={link.external && '_blank'}
+                  key={idx}
+                  href={link.href}
+                  className={`px-2 py-1 hover:bg-amesRed hover:text-white text-left text-nowrap ${
+                    link.icon && 'flex items-center gap-1'
+                  }`}
+                >
+                  {link.icon && link.icon}
+                  {link.name}
+                </Link>
+              ))}
+            </div>
+          </button>
+        </nav>
       </div>
 
-      {/* DESKTOP MENU */}
-      <nav className='hidden md:flex items-center gap-2 text-sm lg:text-base xl:gap-4 xl:text-lg'>
-        <button className='relative group'>
-          <NavItem name='Products' />
-          <div className='hidden group-hover:flex flex-col gap-2 absolute p-2 bg-white border'>
-            {productLinks.map((link, idx) => (
-              <Link
-                key={idx}
-                href={link.href}
-                className='px-2 py-1 hover:bg-amesRed hover:text-white text-left text-nowrap'
-              >
-                {link.name}
-              </Link>
-            ))}
-          </div>
-        </button>
-
-        <button className='relative group'>
-          <NavItem name='Support' />
-          <div className='hidden group-hover:flex flex-col gap-2 absolute p-2 bg-white border'>
-            {supportLinks.map((link, idx) => (
-              <Link
-                key={idx}
-                href={link.href}
-                className='px-2 py-1 hover:bg-amesRed hover:text-white text-left text-nowrap'
-              >
-                {link.name}
-              </Link>
-            ))}
-          </div>
-        </button>
-
-        <button className='relative group'>
-          <NavItem name='Sales' />
-          <div className='hidden group-hover:flex flex-col gap-2 absolute p-2 bg-white border'>
-            {salesLinks.map((link, idx) => (
-              <Link
-                key={idx}
-                href={link.href}
-                className='px-2 py-1 hover:bg-amesRed hover:text-white text-left text-nowrap'
-              >
-                {link.name}
-              </Link>
-            ))}
-          </div>
-        </button>
-
-        <button className='relative group'>
-          <NavItem name='About' />
-          <div className='hidden group-hover:flex flex-col gap-2 absolute p-2 bg-white border'>
-            {aboutLinks.map((link, idx) => (
-              <Link
-                key={idx}
-                href={link.href}
-                className='px-2 py-1 hover:bg-amesRed hover:text-white text-left text-nowrap'
-              >
-                {link.name}
-              </Link>
-            ))}
-          </div>
-        </button>
-
-        <button className='relative group'>
-          <NavItem name='Resources' />
-          <div className='hidden group-hover:flex flex-col gap-2 absolute right-0 p-2 bg-white border'>
-            {resourcesLinks.map((link, idx) => (
-              <Link
-                key={idx}
-                href={link.href}
-                className='px-2 py-1 hover:bg-amesRed hover:text-white text-left text-nowrap'
-              >
-                {link.name}
-              </Link>
-            ))}
-          </div>
-        </button>
-
-        <button className='relative group'>
-          <NavItem name='Contact' />
-          <div className='hidden group-hover:flex flex-col gap-2 absolute right-0 p-2 bg-white border'>
-            {contactLinks.map((link, idx) => (
-              <Link
-                key={idx}
-                href={link.href}
-                className='px-2 py-1 hover:bg-amesRed hover:text-white text-left text-nowrap'
-              >
-                {link.name}
-              </Link>
-            ))}
-          </div>
-        </button>
-      </nav>
-
       {/* MOBILE MENU */}
-      <nav className='hidden'></nav>
+      <div className='flex flex-col items-center justify-between gap-6 w-full py-5 px-10 xl:px-40 bg-white border-b md:hidden'>
+        <div className='flex items-center justify-between w-full'>
+          <div>
+            <Link href='/'>
+              <Image
+                src='/images/ames-logo.svg'
+                width={200}
+                height={200}
+                alt='Ames Engineering Logo'
+              />
+            </Link>
+          </div>
+
+          <button onClick={handleMobileClick}>
+            <FiMenu className='w-8 h-8' />
+          </button>
+        </div>
+
+        <nav
+          className={`${
+            showMobile ? 'flex' : 'hidden'
+          } flex-col items-center gap-1 text-sm lg:text-base xl:gap-4 xl:text-lg transition-all duration-1000 md:hidden`}
+        >
+          <button className='relative group'>
+            <NavItem name='Products' mobile={true} />
+            <div className='flex flex-col gap-1 p-2 bg-white'>
+              {productLinks.map((link, idx) => (
+                <Link
+                  key={idx}
+                  href={link.href}
+                  className='px-2 py-1 text-nowrap'
+                >
+                  {link.name}
+                </Link>
+              ))}
+            </div>
+          </button>
+
+          <button className='relative group'>
+            <NavItem name='Support' mobile={true} />
+            <div className='flex flex-col gap-1 p-2 bg-white'>
+              {supportLinks.map((link, idx) => (
+                <Link
+                  key={idx}
+                  href={link.href}
+                  className='px-2 py-1 text-nowrap'
+                >
+                  {link.name}
+                </Link>
+              ))}
+            </div>
+          </button>
+
+          <button className='relative group'>
+            <NavItem name='Sales' mobile={true} />
+            <div className='flex flex-col gap-1 p-2 bg-white'>
+              {salesLinks.map((link, idx) => (
+                <Link
+                  key={idx}
+                  href={link.href}
+                  className='px-2 py-1 text-nowrap'
+                >
+                  {link.name}
+                </Link>
+              ))}
+            </div>
+          </button>
+
+          <button className='relative group'>
+            <NavItem name='About' mobile={true} />
+            <div className='flex flex-col gap-1 p-2 bg-white'>
+              {aboutLinks.map((link, idx) => (
+                <Link
+                  key={idx}
+                  href={link.href}
+                  className='px-2 py-1 text-nowrap'
+                >
+                  {link.name}
+                </Link>
+              ))}
+            </div>
+          </button>
+
+          <button className='relative group'>
+            <NavItem name='Resources' mobile={true} />
+            <div className='flex flex-col gap-1 p-2 bg-white'>
+              {resourcesLinks.map((link, idx) => (
+                <Link
+                  key={idx}
+                  href={link.href}
+                  className='px-2 py-1 text-nowrap'
+                >
+                  {link.name}
+                </Link>
+              ))}
+            </div>
+          </button>
+
+          <button className='relative group'>
+            <NavItem name='Contact' mobile={true} />
+            <div className='flex flex-col gap-1 p-2 bg-white'>
+              {contactLinks.map((link, idx) => (
+                <Link
+                  target={link.external && '_blank'}
+                  key={idx}
+                  href={link.href}
+                  className={`px-2 py-1 text-nowrap ${
+                    link.icon && 'flex items-center justify-center gap-1'
+                  }`}
+                >
+                  {link.icon && link.icon}
+                  {link.name}
+                </Link>
+              ))}
+            </div>
+          </button>
+        </nav>
+      </div>
     </header>
   );
 }
