@@ -1,14 +1,136 @@
-'use client';
-import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import NavItem from './NavItem';
 
-export default function Header() {
-  const [hover, setHover] = useState(false);
+const productLinks = [
+  {
+    name: '8300 High Speed Profiler',
+    href: '/products/8300-high-speed-profiler',
+  },
+  {
+    name: 'Transverse Profiling System',
+    href: '/products/transverse-profiling-system',
+  },
+  {
+    name: '6300 Lightweight Profiler',
+    href: '/products/6300-lightweight-profiler',
+  },
+  {
+    name: '4200 Profilograph',
+    href: '/products/4200-profilograph',
+  },
+  {
+    name: 'Laser Texture Scanner 9400/9400HD',
+    href: '/products/laser-texture-scanner-model-9400',
+  },
+  {
+    name: 'Rapid Laser Texture Scanner 9500',
+    href: '/products/laser-texture-scanner-model-9500',
+  },
+  {
+    name: 'Real-Time Profiler',
+    href: '/products/real-time-profiler',
+  },
+  {
+    name: 'Pro GPS-DMI 250',
+    href: '/products/pro-gps-dmi-250',
+  },
+  {
+    name: 'Pro GPS-DMI Laptop',
+    href: '/products/ames-pro-gps-dmi-laptop',
+  },
+  {
+    name: 'Pro GPS-DMI HD Imaging',
+    href: '/products/ames-pro-gps-dmi-hd-imaging',
+  },
+  {
+    name: 'LMI Gocator Laser System',
+    href: '/products/lmi-gocator-laser',
+  },
+  {
+    name: 'Ames AccuTexture 100',
+    href: '/products/ames-accutexture-100',
+  },
+  {
+    name: 'Profiler Software and Data Analysis',
+    href: '/products/software-data-analysis',
+  },
+];
 
+const supportLinks = [
+  {
+    name: 'Technical Support',
+    href: '/support/#techsupport',
+  },
+  {
+    name: 'Software Support',
+    href: '/support/#softwaresupport',
+  },
+  {
+    name: 'Training',
+    href: '/support/#training',
+  },
+  {
+    name: 'Support Request',
+    href: '/support/supportRequest',
+  },
+  {
+    name: 'Parts Request',
+    href: '/support/supportRequest',
+  },
+];
+
+const salesLinks = [
+  {
+    name: 'Sales Request',
+    href: '/sales/salesRequest',
+  },
+  {
+    name: 'Equipment Delivery',
+    href: '/sales/equipmentDelivery',
+  },
+];
+
+const aboutLinks = [
+  {
+    name: 'Our Company',
+    href: '/about',
+  },
+  {
+    name: 'Our Team',
+    href: '/about/our-team',
+  },
+];
+
+const resourcesLinks = [
+  {
+    name: 'Research Reports',
+    href: '/resources',
+  },
+  {
+    name: 'Inertial Road Profilers FAQ',
+    href: '/resources/inertial-road-profilers-faq',
+  },
+];
+
+const contactLinks = [
+  {
+    name: 'Main Contact',
+    href: '/contact',
+  },
+  {
+    name: 'Contact Sales',
+    href: '/sales/salesRequest',
+  },
+  {
+    name: 'Contact Support',
+    href: '/support/supportRequest',
+  },
+];
+
+export default function Header() {
   return (
-    <header className='flex items-center justify-between gap-6 w-full py-5 px-10 xl:px-60 bg-white border-b'>
+    <header className='flex items-center justify-between gap-6 w-full py-5 px-10 xl:px-40 bg-white border-b'>
       <div>
         <Link href='/'>
           <Image
@@ -23,108 +145,94 @@ export default function Header() {
       {/* DESKTOP MENU */}
       <nav className='hidden md:flex items-center gap-2 text-sm lg:text-base xl:gap-4 xl:text-lg'>
         <button className='relative group'>
-          <NavItem name='Products' hover={hover} />
-          <div
-            className='hidden group-hover:flex flex-col gap-2 absolute px-4 py-4 bg-white w-[350px] border'
-            onMouseEnter={() => setHover(true)}
-            onMouseLeave={() => setHover(false)}
-          >
-            <Link
-              href='/products/8300-high-speed-profiler'
-              className='p-1 hover:bg-amesRed hover:text-white text-left'
-            >
-              8300 High Speed Profiler
-            </Link>
-            <Link
-              href='/products/transverse-profiling-system'
-              className='p-1 hover:bg-amesRed hover:text-white text-left'
-            >
-              Transverse Profiling System
-            </Link>
-            <Link
-              href='/products/6300-lightweight-profiler'
-              className='p-1 hover:bg-amesRed hover:text-white text-left'
-            >
-              6300 Lightweight Profiler
-            </Link>
-            <Link
-              href='/products/4200-profilograph'
-              className='p-1 hover:bg-amesRed hover:text-white text-left'
-            >
-              4200 Profilograph
-            </Link>
-            <Link
-              href='/products/laser-texture-scanner-model-9400'
-              className='p-1 hover:bg-amesRed hover:text-white text-left'
-            >
-              Laser Texture Scanner 9400/9400HD
-            </Link>
-            <Link
-              href='/products/laser-texture-scanner-model-9500'
-              className='p-1 hover:bg-amesRed hover:text-white text-left'
-            >
-              Rapid Laser Texture Scanner 9500
-            </Link>
-            <Link
-              href='/products/real-time-profiler'
-              className='p-1 hover:bg-amesRed hover:text-white text-left'
-            >
-              Real-Time Profiler
-            </Link>
-            <Link
-              href='/products/pro-gps-dmi-250'
-              className='p-1 hover:bg-amesRed hover:text-white text-left'
-            >
-              Pro GPS-DMI 250
-            </Link>
-            <Link
-              href='/products/ames-pro-gps-dmi-laptop'
-              className='p-1 hover:bg-amesRed hover:text-white text-left'
-            >
-              Pro GPS-DMI Laptop
-            </Link>
-            <Link
-              href='/products/ames-pro-gps-dmi-hd-imaging'
-              className='p-1 hover:bg-amesRed hover:text-white text-left'
-            >
-              Pro GPS-DMI HD Imaging
-            </Link>
-            <Link
-              href='/products/lmi-gocator-laser'
-              className='p-1 hover:bg-amesRed hover:text-white text-left'
-            >
-              LMI Gocator Laser System
-            </Link>
-            <Link
-              href='/products/ames-accutexture-100'
-              className='p-1 hover:bg-amesRed hover:text-white text-left'
-            >
-              Ames AccuTexture 100
-            </Link>
-            <Link
-              href='/products/software-data-analysis'
-              className='p-1 hover:bg-amesRed hover:text-white text-left'
-            >
-              Profiler Software and Data Analysis
-            </Link>
+          <NavItem name='Products' />
+          <div className='hidden group-hover:flex flex-col gap-2 absolute p-2 bg-white border'>
+            {productLinks.map((link, idx) => (
+              <Link
+                key={idx}
+                href={link.href}
+                className='px-2 py-1 hover:bg-amesRed hover:text-white text-left text-nowrap'
+              >
+                {link.name}
+              </Link>
+            ))}
           </div>
         </button>
 
-        <Link href='/support'>
+        <button className='relative group'>
           <NavItem name='Support' />
-        </Link>
-        <Link href='/sales'>
+          <div className='hidden group-hover:flex flex-col gap-2 absolute p-2 bg-white border'>
+            {supportLinks.map((link, idx) => (
+              <Link
+                key={idx}
+                href={link.href}
+                className='px-2 py-1 hover:bg-amesRed hover:text-white text-left text-nowrap'
+              >
+                {link.name}
+              </Link>
+            ))}
+          </div>
+        </button>
+
+        <button className='relative group'>
           <NavItem name='Sales' />
-        </Link>
-        <Link href='/about'>
+          <div className='hidden group-hover:flex flex-col gap-2 absolute p-2 bg-white border'>
+            {salesLinks.map((link, idx) => (
+              <Link
+                key={idx}
+                href={link.href}
+                className='px-2 py-1 hover:bg-amesRed hover:text-white text-left text-nowrap'
+              >
+                {link.name}
+              </Link>
+            ))}
+          </div>
+        </button>
+
+        <button className='relative group'>
           <NavItem name='About' />
-        </Link>
-        <Link href='/resources'>
+          <div className='hidden group-hover:flex flex-col gap-2 absolute p-2 bg-white border'>
+            {aboutLinks.map((link, idx) => (
+              <Link
+                key={idx}
+                href={link.href}
+                className='px-2 py-1 hover:bg-amesRed hover:text-white text-left text-nowrap'
+              >
+                {link.name}
+              </Link>
+            ))}
+          </div>
+        </button>
+
+        <button className='relative group'>
           <NavItem name='Resources' />
-        </Link>
-        <Link href='/contact'>
+          <div className='hidden group-hover:flex flex-col gap-2 absolute right-0 p-2 bg-white border'>
+            {resourcesLinks.map((link, idx) => (
+              <Link
+                key={idx}
+                href={link.href}
+                className='px-2 py-1 hover:bg-amesRed hover:text-white text-left text-nowrap'
+              >
+                {link.name}
+              </Link>
+            ))}
+          </div>
+        </button>
+
+        <button className='relative group'>
           <NavItem name='Contact' />
-        </Link>
+          <div className='hidden group-hover:flex flex-col gap-2 absolute right-0 p-2 bg-white border'>
+            {contactLinks.map((link, idx) => (
+              <Link
+                key={idx}
+                href={link.href}
+                className='px-2 py-1 hover:bg-amesRed hover:text-white text-left text-nowrap'
+              >
+                {link.name}
+              </Link>
+            ))}
+          </div>
+        </button>
       </nav>
 
       {/* MOBILE MENU */}

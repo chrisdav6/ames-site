@@ -1,17 +1,6 @@
-'use client';
-import { usePathname } from 'next/navigation';
-
-export default function NavItem({ name, hover }) {
-  const pathname = usePathname();
-  const activeStyle = pathname.replace('/', '');
-
+export default function NavItem({ name }) {
   return (
-    <div
-      className={` text-black-900 px-4 py-2 transition duration-300 hover:bg-amesRed hover:text-white ${
-        activeStyle === name.toLowerCase() &&
-        'bg-amesRed text-white transition duration-300'
-      } ${hover && 'bg-amesRed text-white transition duration-300'}`}
-    >
+    <div className='text-black-900 px-4 py-2 transition duration-300 hover:bg-amesRed hover:text-white'>
       {name}
     </div>
   );
