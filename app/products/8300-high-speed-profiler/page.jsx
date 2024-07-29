@@ -1,3 +1,3 @@
 export default function HighSpeedProfiler8300() {
-  return <div>HighSpeedProfiler8300</div>;
+  return <div>8300 High Speed Inertial Road Profiler</div>;
 }

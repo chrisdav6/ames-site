@@ -38,6 +38,10 @@ const productLinks = [
     href: '/products/real-time-profiler',
   },
   {
+    name: 'Pro GPS-DMI Overview',
+    href: '/products/ames-gps-dmi',
+  },
+  {
     name: 'Pro GPS-DMI 250',
     href: '/products/pro-gps-dmi-250',
   },
