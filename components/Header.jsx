@@ -7,6 +7,7 @@ import { FiMenu } from 'react-icons/fi';
 import { FaFacebook } from 'react-icons/fa';
 import { FaInstagram, FaXTwitter } from 'react-icons/fa6';
 import { IoLogoYoutube } from 'react-icons/io';
+import { IoClose } from 'react-icons/io5';
 
 const productLinks = [
   {
@@ -339,7 +340,11 @@ export default function Header() {
           </div>
 
           <button onClick={handleMobileIconClick}>
-            <FiMenu className='w-8 h-8' />
+            {showMobile ? (
+              <IoClose className='w-8 h-8' />
+            ) : (
+              <FiMenu className='w-8 h-8' />
+            )}
           </button>
         </div>
 
