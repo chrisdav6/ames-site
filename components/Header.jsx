@@ -164,6 +164,7 @@ const contactLinks = [
 
 export default function Header() {
   const [showMobile, setShowMobile] = useState(false);
+  const [closeHover, setCloseHover] = useState(false);
 
   const handleMobileIconClick = () => {
     setShowMobile(!showMobile);
@@ -171,6 +172,13 @@ export default function Header() {
 
   const handleMobileClose = () => {
     if (showMobile) setShowMobile(false);
+  };
+
+  const handleCloseHoverOnClick = () => {
+    setCloseHover(true);
+    setTimeout(() => {
+      setCloseHover(false);
+    }, 200);
   };
 
   return (
@@ -191,12 +199,17 @@ export default function Header() {
         <nav className='hidden md:flex items-center gap-2 text-sm lg:text-base xl:gap-4 xl:text-lg'>
           <button className='relative group'>
             <NavItem name='Products' />
-            <div className='hidden group-hover:flex flex-col gap-2 absolute p-2 bg-white border'>
+            <div
+              className={`hidden group-hover:flex flex-col gap-1 absolute p-2 bg-white border ${
+                closeHover && 'group-hover:hidden'
+              }`}
+              onClick={handleCloseHoverOnClick}
+            >
               {productLinks.map((link, idx) => (
                 <Link
                   key={idx}
                   href={link.href}
-                  className='px-2 py-1 hover:bg-amesRed hover:text-white text-left text-nowrap'
+                  className='px-2 py-1 hover:bg-amesRed hover:text-white text-base text-left text-nowrap'
                 >
                   {link.name}
                 </Link>
@@ -206,12 +219,17 @@ export default function Header() {
 
           <button className='relative group'>
             <NavItem name='Support' />
-            <div className='hidden group-hover:flex flex-col gap-2 absolute p-2 bg-white border'>
+            <div
+              className={`hidden group-hover:flex flex-col gap-1 absolute p-2 bg-white border ${
+                closeHover && 'group-hover:hidden'
+              }`}
+              onClick={handleCloseHoverOnClick}
+            >
               {supportLinks.map((link, idx) => (
                 <Link
                   key={idx}
                   href={link.href}
-                  className='px-2 py-1 hover:bg-amesRed hover:text-white text-left text-nowrap'
+                  className='px-2 py-1 hover:bg-amesRed hover:text-white text-base text-left text-nowrap'
                 >
                   {link.name}
                 </Link>
@@ -221,12 +239,17 @@ export default function Header() {
 
           <button className='relative group'>
             <NavItem name='Sales' />
-            <div className='hidden group-hover:flex flex-col gap-2 absolute p-2 bg-white border'>
+            <div
+              className={`hidden group-hover:flex flex-col gap-1 absolute p-2 bg-white border ${
+                closeHover && 'group-hover:hidden'
+              }`}
+              onClick={handleCloseHoverOnClick}
+            >
               {salesLinks.map((link, idx) => (
                 <Link
                   key={idx}
                   href={link.href}
-                  className='px-2 py-1 hover:bg-amesRed hover:text-white text-left text-nowrap'
+                  className='px-2 py-1 hover:bg-amesRed hover:text-white text-base text-left text-nowrap'
                 >
                   {link.name}
                 </Link>
@@ -236,12 +259,17 @@ export default function Header() {
 
           <button className='relative group'>
             <NavItem name='About' />
-            <div className='hidden group-hover:flex flex-col gap-2 absolute p-2 bg-white border'>
+            <div
+              className={`hidden group-hover:flex flex-col gap-1 absolute p-2 bg-white border ${
+                closeHover && 'group-hover:hidden'
+              }`}
+              onClick={handleCloseHoverOnClick}
+            >
               {aboutLinks.map((link, idx) => (
                 <Link
                   key={idx}
                   href={link.href}
-                  className='px-2 py-1 hover:bg-amesRed hover:text-white text-left text-nowrap'
+                  className='px-2 py-1 hover:bg-amesRed hover:text-white text-base text-left text-nowrap'
                 >
                   {link.name}
                 </Link>
@@ -251,12 +279,17 @@ export default function Header() {
 
           <button className='relative group'>
             <NavItem name='Resources' />
-            <div className='hidden group-hover:flex flex-col gap-2 absolute right-0 p-2 bg-white border'>
+            <div
+              className={`hidden group-hover:flex flex-col gap-1 absolute right-0 p-2 bg-white border ${
+                closeHover && 'group-hover:hidden'
+              }`}
+              onClick={handleCloseHoverOnClick}
+            >
               {resourcesLinks.map((link, idx) => (
                 <Link
                   key={idx}
                   href={link.href}
-                  className='px-2 py-1 hover:bg-amesRed hover:text-white text-left text-nowrap'
+                  className='px-2 py-1 hover:bg-amesRed hover:text-white text-base text-left text-nowrap'
                 >
                   {link.name}
                 </Link>
@@ -266,13 +299,18 @@ export default function Header() {
 
           <button className='relative group'>
             <NavItem name='Contact' />
-            <div className='hidden group-hover:flex flex-col gap-2 absolute right-0 p-2 bg-white border'>
+            <div
+              className={`hidden group-hover:flex flex-col gap-1 absolute right-0 p-2 bg-white border ${
+                closeHover && 'group-hover:hidden'
+              }`}
+              onClick={handleCloseHoverOnClick}
+            >
               {contactLinks.map((link, idx) => (
                 <Link
                   target={link.external && '_blank'}
                   key={idx}
                   href={link.href}
-                  className={`px-2 py-1 hover:bg-amesRed hover:text-white text-left text-nowrap ${
+                  className={`px-2 py-1 hover:bg-amesRed hover:text-white text-base text-left text-nowrap ${
                     link.icon && 'flex items-center gap-1'
                   }`}
                 >
