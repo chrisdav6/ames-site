@@ -1,3 +1,9 @@
+export const metadata = {
+  title: 'Ames Engineering | Support',
+  description:
+    'For technical support and equipment maintenance, contact us at (515)-292-8194 or email us at techsupport@amesengineering.com.',
+};
+
 export default function Support() {
   return (
     <div>

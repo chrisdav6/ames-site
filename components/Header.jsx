@@ -93,6 +93,10 @@ const supportLinks = [
 
 const salesLinks = [
   {
+    name: "Let's Work Together!",
+    href: '/sales',
+  },
+  {
     name: 'Sales Request',
     href: '/sales/salesRequest',
   },
