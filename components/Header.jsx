@@ -187,7 +187,7 @@ export default function Header() {
   };
 
   return (
-    <header className='sticky top-0 z-20'>
+    <header className='sticky top-0 z-20 shadow-lg'>
       <div className='hidden md:flex items-center justify-between gap-6 w-full py-6 px-10 xl:px-40 bg-white border-b'>
         <div>
           <Link href='/'>

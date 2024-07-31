@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
     <html lang='en'>
       <body className='flex flex-col'>
         <Header />
-        <main className='flex flex-1'>{children}</main>
+        <main className='flex flex-1 overflow-x-hidden'>{children}</main>
         <Footer />
       </body>
     </html>
