@@ -2,9 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Temporary */
 @layer base {
   body,
   html {
-    @apply min-h-screen;
+    @apply min-h-[3000px];
   }
 }
