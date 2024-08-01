@@ -1,3 +1,4 @@
+'use client';
 import Link from 'next/link';
 import { FaFacebook } from 'react-icons/fa';
 import { FaInstagram, FaXTwitter } from 'react-icons/fa6';
@@ -11,6 +12,14 @@ import { FaRegThumbsUp } from 'react-icons/fa';
 import { IoIosArrowDropupCircle } from 'react-icons/io';
 
 export default function Footer() {
+  const isBrowser = () => typeof window !== 'undefined'; //The approach recommended by Next.js
+
+  //Scroll to top
+  function scrollToTop() {
+    if (!isBrowser()) return;
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
   return (
     <footer className='flex flex-col items-center justify-center w-full bg-[#202020] text-white'>
       {/* 3 Part Section */}
@@ -181,13 +190,14 @@ export default function Footer() {
           </p>
         </div>
         <div>
-          <Link
+          <button
+            onClick={scrollToTop}
             href='/'
             className='flex items-center gap-2 hover:text-[#42b3e5] transition duration-300'
           >
             <p>Go To Top</p>
             <IoIosArrowDropupCircle />
-          </Link>
+          </button>
         </div>
       </section>
     </footer>
