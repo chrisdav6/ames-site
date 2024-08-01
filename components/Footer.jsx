@@ -7,6 +7,7 @@ import { FaChalkboardTeacher } from 'react-icons/fa';
 import { BiPurchaseTagAlt } from 'react-icons/bi';
 import { FaTelegramPlane } from 'react-icons/fa';
 import { PiPhoneCallBold } from 'react-icons/pi';
+import { FaRegThumbsUp } from 'react-icons/fa';
 
 export default function Footer() {
   return (
@@ -49,7 +50,7 @@ export default function Footer() {
       </section>
 
       {/* Lower Footer Section */}
-      <section className='grid lg:grid-cols-3 py-10 w-full px-10 xl:px-40'>
+      <section className='grid lg:grid-cols-3 gap-10 py-10 w-full px-10 xl:px-40'>
         {/* Left */}
         <div className='p-5 text-center lg:text-left'>
           <h3 className='text-2xl font-bold'>Contact Us</h3>
@@ -65,7 +66,7 @@ export default function Footer() {
               <br />
               <a
                 href='tel:5152928194'
-                className='flex items-center justify-center lg:justify-start gap-1 hover:text-[#42b3e5] transition duration-300 group'
+                className='flex items-center mx-auto lg:mx-0 w-fit gap-1 hover:text-[#42b3e5] transition duration-300 group'
               >
                 515-292-8194
                 <span className='hidden lg:group-hover:block'>
@@ -77,7 +78,7 @@ export default function Footer() {
               <p>
                 <Link
                   href='/sales/salesRequest'
-                  className='flex items-center justify-center lg:justify-start gap-1 hover:text-[#42b3e5] transition duration-300 group'
+                  className='flex items-center mx-auto lg:mx-0 w-fit gap-1 hover:text-[#42b3e5] transition duration-300 group'
                 >
                   Contact Sales
                   <span className='hidden lg:group-hover:block'>
@@ -88,7 +89,7 @@ export default function Footer() {
               <p className='-mt-1'>
                 <Link
                   href='/support/supportRequest'
-                  className='flex items-center justify-center lg:justify-start gap-1 hover:text-[#42b3e5] transition duration-300 group'
+                  className='flex items-center mx-auto lg:mx-0 w-fit gap-1 hover:text-[#42b3e5] transition duration-300 group'
                 >
                   Contact Support
                   <span className='hidden lg:group-hover:block'>
@@ -121,9 +122,48 @@ export default function Footer() {
           </div>
         </div>
         {/* Center */}
-        <div className='p-5'>2</div>
+        <div className='p-5 text-center lg:text-left'>
+          <h3 className='text-2xl font-bold'>On Site Demonstrations</h3>
+          <hr className='w-48 h-[2px] mx-auto border-0 mt-2 bg-[#42b3e5] lg:mx-0' />
+
+          <div className='mt-5'>
+            <p className='text-lg text-[#909090] leading-6'>
+              Interested in one of our products? We love giving demonstration on
+              our various technologies and sensors. Set up an appointment today!
+              <Link
+                href='/sales/salesRequest'
+                className='flex items-center justify-center lg:justify-start w-fit gap-2 bg-amesRed py-4 px-6 mt-5 mx-auto lg:mx-0 hover:bg-[#CC0000] transition duration-300 text-white group'
+              >
+                Let's Do This!
+                <span className='hidden lg:group-hover:block'>
+                  <FaRegThumbsUp />
+                </span>
+              </Link>
+            </p>
+          </div>
+        </div>
         {/* Right */}
-        <div className='p-5'>3</div>
+        <div className='p-5 text-center lg:text-left'>
+          <h3 className='text-2xl font-bold'>Engineering</h3>
+          <hr className='w-48 h-[2px] mx-auto border-0 mt-2 bg-[#42b3e5] lg:mx-0' />
+
+          <div className='mt-5'>
+            <p className='text-lg text-[#909090] leading-6'>
+              Ames Engineering is at the forefront in the development of sensor
+              technology for pavement measurements. Over the years, we have
+              worked side-by-side with the paving industry and government
+              agencies to develop systems that yield exceptional data accuracy
+              and performance. Recent research reports are listed below, and we
+              invite you to review them...{' '}
+              <Link
+                href='/resources'
+                className='hover:text-[#42b3e5] transition duration-300 underline'
+              >
+                (Read More)
+              </Link>
+            </p>
+          </div>
+        </div>
       </section>
     </footer>
   );
