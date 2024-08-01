@@ -5,6 +5,8 @@ import { IoLogoYoutube } from 'react-icons/io';
 import { FaShippingFast } from 'react-icons/fa';
 import { FaChalkboardTeacher } from 'react-icons/fa';
 import { BiPurchaseTagAlt } from 'react-icons/bi';
+import { FaTelegramPlane } from 'react-icons/fa';
+import { PiPhoneCallBold } from 'react-icons/pi';
 
 export default function Footer() {
   return (
@@ -63,26 +65,35 @@ export default function Footer() {
               <br />
               <a
                 href='tel:5152928194'
-                className='hover:text-[#42b3e5] transition duration-300'
+                className='flex items-center justify-center lg:justify-start gap-1 hover:text-[#42b3e5] transition duration-300 group'
               >
                 515-292-8194
+                <span className='hidden lg:group-hover:block'>
+                  <PiPhoneCallBold />
+                </span>
               </a>
             </address>
             <div className='text-lg mt-5 text-[#909090]'>
               <p>
                 <Link
                   href='/sales/salesRequest'
-                  className='hover:text-[#42b3e5] transition duration-300'
+                  className='flex items-center justify-center lg:justify-start gap-1 hover:text-[#42b3e5] transition duration-300 group'
                 >
                   Contact Sales
+                  <span className='hidden lg:group-hover:block'>
+                    <FaTelegramPlane />
+                  </span>
                 </Link>
               </p>
               <p className='-mt-1'>
                 <Link
                   href='/support/supportRequest'
-                  className='hover:text-[#42b3e5] transition duration-300'
+                  className='flex items-center justify-center lg:justify-start gap-1 hover:text-[#42b3e5] transition duration-300 group'
                 >
                   Contact Support
+                  <span className='hidden lg:group-hover:block'>
+                    <FaTelegramPlane />
+                  </span>
                 </Link>
               </p>
             </div>
