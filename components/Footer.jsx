@@ -8,6 +8,7 @@ import { BiPurchaseTagAlt } from 'react-icons/bi';
 import { FaTelegramPlane } from 'react-icons/fa';
 import { PiPhoneCallBold } from 'react-icons/pi';
 import { FaRegThumbsUp } from 'react-icons/fa';
+import { IoIosArrowDropupCircle } from 'react-icons/io';
 
 export default function Footer() {
   return (
@@ -50,7 +51,7 @@ export default function Footer() {
       </section>
 
       {/* Lower Footer Section */}
-      <section className='grid lg:grid-cols-3 gap-10 py-10 w-full px-10 xl:px-40'>
+      <section className='grid lg:grid-cols-3 gap-10 py-6 w-full px-10 xl:px-40'>
         {/* Left */}
         <div className='p-5 text-center lg:text-left'>
           <h3 className='text-2xl font-bold'>Contact Us</h3>
@@ -163,6 +164,30 @@ export default function Footer() {
               </Link>
             </p>
           </div>
+        </div>
+      </section>
+
+      {/* Copyright Footer Section */}
+      <section className='flex flex-col md:flex-row items-center justify-between w-full py-8 px-10 xl:px-40 bg-[#151515]'>
+        <div>
+          <p>
+            &copy; 2024 Ames Engineering, LLC -
+            <Link
+              href='/privacy-policy'
+              className='hover:text-[#42b3e5] transition duration-300 underline ml-1'
+            >
+              Privacy Policy
+            </Link>
+          </p>
+        </div>
+        <div>
+          <Link
+            href='/'
+            className='flex items-center gap-2 hover:text-[#42b3e5] transition duration-300'
+          >
+            <p>Go To Top</p>
+            <IoIosArrowDropupCircle />
+          </Link>
         </div>
       </section>
     </footer>
