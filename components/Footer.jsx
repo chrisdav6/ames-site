@@ -53,7 +53,7 @@ export default function Footer() {
             </div>
             <div>
               <h3 className='text-2xl font-bold'>Purchase</h3>
-              <p className='text-xl'>On-Site Demonstrations</p>
+              <p className='text-xl'>Contact Our Sales Team Today!</p>
             </div>
           </div>
         </Link>
