@@ -11,6 +11,10 @@ import { IoClose } from 'react-icons/io5';
 
 const productLinks = [
   {
+    name: 'All Products',
+    href: '/all-products',
+  },
+  {
     name: '8300 High Speed Profiler',
     href: '/products/8300-high-speed-profiler',
   },
@@ -187,7 +191,7 @@ export default function Header() {
   };
 
   return (
-    <header className='sticky top-0 z-20 shadow-lg'>
+    <header className='sticky top-0 z-[100] shadow-lg'>
       <div className='hidden md:flex items-center justify-between gap-6 w-full py-6 px-10 xl:px-40 bg-white border-b'>
         <div>
           <Link href='/'>
