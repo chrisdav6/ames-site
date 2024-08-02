@@ -84,7 +84,10 @@ export default function Footer() {
                 </span>
               </a>
             </address>
-            <div className='text-lg mt-5 text-[#909090]'>
+
+            <hr className='w-24 h-[1px] mx-auto border-0 my-3 bg-[#909090] lg:mx-0' />
+
+            <div className='text-lg text-[#909090]'>
               <p>
                 <Link
                   href='/sales/salesRequest'
@@ -110,7 +113,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className='mt-6 flex items-center justify-center gap-2 lg:justify-start'>
+          <div className='mt-4 flex items-center justify-center gap-2 lg:justify-start'>
             <a
               href='https://www.facebook.com/p/Ames-Engineering-Inc-100068806555835'
               target='_blank'
