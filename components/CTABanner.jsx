@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { BsConeStriped } from 'react-icons/bs';
-import { IoIosArrowDroprightCircle } from 'react-icons/io';
+import { FaCalendarAlt } from 'react-icons/fa';
 
 export default function CTABanner() {
   return (
@@ -14,20 +14,20 @@ export default function CTABanner() {
             <h3 className='text-2xl font-bold'>
               Onsite Demonstrations and Consultation
             </h3>
-            <p className='text-md mt-1 max-w-[400px] mx-auto md:mx-0 lg:max-w-full'>
-              Ames Engineering is foremost in developing sensor technology for
-              pavement measurements.
+            <p className='text-md'>
+              Foremost in developing sensor technology for pavement
+              measurements.
             </p>
           </div>
         </div>
         <div className='mt-5 md:mt-0'>
           <Link
-            href='/all-products'
+            href='/sales/salesRequest'
             className='flex items-center gap-1 w-fit px-3 py-2 border border-[#CC0000] bg-[#CC0000] text-white hover:bg-white hover:text-[#CC0000] transition duration-300 group'
           >
-            See All Products
+            Make an Appointment!
             <span>
-              <IoIosArrowDroprightCircle className='hidden group-hover:flex w-5 h-5' />
+              <FaCalendarAlt className='hidden group-hover:flex w-4 h-4' />
             </span>
           </Link>
         </div>
