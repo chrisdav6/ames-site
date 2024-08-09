@@ -18,6 +18,9 @@ module.exports = {
       },
     },
     extend: {
+      boxShadow: {
+        '3xl': '0px 0px 11px 3px rgba(0,0,0,0.26)',
+      },
       colors: {
         amesRed: '#DC3130',
         border: 'hsl(var(--border))',

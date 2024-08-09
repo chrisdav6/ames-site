@@ -24,7 +24,10 @@ export default function Footer() {
     <footer className='flex flex-col items-center justify-center w-full bg-[#202020] text-white'>
       {/* 3 Part Section */}
       <section className='grid lg:grid-cols-3 w-full xl:px-40'>
-        <Link href='/sales/equipmentDelivery'>
+        <Link
+          href='/sales/equipmentDelivery'
+          className='lg:hover:scale-[1.03] lg:hover:shadow-3xl transition duration-300'
+        >
           <div className='flex items-center gap-4 bg-[#FF403F] p-5'>
             <div className='hidden 2xl:block'>
               <FaShippingFast className='w-14 h-14' />
@@ -35,7 +38,10 @@ export default function Footer() {
             </div>
           </div>
         </Link>
-        <Link href='/support#training'>
+        <Link
+          href='/support#training'
+          className='lg:hover:scale-[1.03] lg:hover:shadow-3xl transition duration-300'
+        >
           <div className='flex items-center gap-4 bg-[#DC3130] p-5'>
             <div className='hidden 2xl:block'>
               <FaChalkboardTeacher className='w-14 h-14' />
@@ -46,7 +52,10 @@ export default function Footer() {
             </div>
           </div>
         </Link>
-        <Link href='/sales/salesRequest'>
+        <Link
+          href='/sales/salesRequest'
+          className='lg:hover:scale-[1.03] lg:hover:shadow-3xl transition duration-300'
+        >
           <div className='flex items-center gap-4 bg-[#CC0000] p-5'>
             <div className='hidden 2xl:block'>
               <BiPurchaseTagAlt className='w-14 h-14' />
