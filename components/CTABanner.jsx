@@ -4,7 +4,7 @@ import { FaCalendarAlt } from 'react-icons/fa';
 
 export default function CTABanner() {
   return (
-    <section className='2xl:px-80 2xl:mt-10'>
+    <section className='2xl:px-80 2xl:mt-14'>
       <div className='flex flex-col text-center md:flex-row md:text-left items-center justify-between bg-[#F0F0F0] p-5'>
         <div className='flex items-center gap-2 text-[#202020]'>
           <div className='hidden lg:block'>

@@ -21,7 +21,7 @@ export default function Footer() {
   }
 
   return (
-    <footer className='flex flex-col items-center justify-center w-full bg-[#202020] text-white'>
+    <footer className='flex flex-col items-center justify-center w-full bg-[#202020] text-white mt-20'>
       {/* 3 Part Section */}
       <section className='grid lg:grid-cols-3 w-full xl:px-40'>
         <Link

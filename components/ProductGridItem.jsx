@@ -11,7 +11,7 @@ export default function ProductGridItem({ href, src, alt, title, subTitle }) {
         <Image
           src={src}
           alt={alt}
-          className='object-cover xl:group-hover:brightness-75 transition duration-300'
+          className='object-cover xl:group-hover:brightness-75 transition duration-300 max-h-[225px]'
           width={1000}
           height={1000}
         />
