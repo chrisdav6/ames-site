@@ -1,6 +1,7 @@
 import CTABanner from '@/components/CTABanner';
 import HeroCarousel from '@/components/HeroCarousel';
 import LowerRedHero from '@/components/LowerRedHero';
+import ProductGrid from '@/components/ProductGrid';
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <HeroCarousel />
       <LowerRedHero />
       <CTABanner />
+      <ProductGrid />
     </div>
   );
 }

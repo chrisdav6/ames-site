@@ -6,7 +6,7 @@
 @layer base {
   body,
   html {
-    @apply min-h-[3000px];
+    @apply min-h-[2500px];
     scroll-behavior: smooth;
   }
 }
