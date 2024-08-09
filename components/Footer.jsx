@@ -77,7 +77,7 @@ export default function Footer() {
 
           <div className='mt-5'>
             <address className='text-lg not-italic text-[#909090]'>
-              Ames Engineering
+              Ames Engineering LLC
               <br />
               1293 XE Place
               <br />
@@ -126,19 +126,29 @@ export default function Footer() {
             <a
               href='https://www.facebook.com/p/Ames-Engineering-Inc-100068806555835'
               target='_blank'
+              className='lg:hover:-translate-y-0.5 transition duration-300'
             >
               <FaFacebook className='w-7 h-7 text-[#909090] hover:text-[#0865FE] transition duration-300' />
             </a>
-            <a href='https://x.com/AmesEngineering' target='_blank'>
+            <a
+              href='https://x.com/AmesEngineering'
+              target='_blank'
+              className='lg:hover:-translate-y-0.5 transition duration-300'
+            >
               <FaXTwitter className='w-7 h-7 text-[#909090] hover:text-[#000000] transition duration-300' />
             </a>
             <a
               href='https://www.instagram.com/ames_engineering'
               target='_blank'
+              className='lg:hover:-translate-y-0.5 transition duration-300'
             >
               <FaInstagram className='w-7 h-7 text-[#909090] hover:text-[#fc5cfc] transition duration-300' />
             </a>
-            <a href='https://www.youtube.com' target='_blank'>
+            <a
+              href='https://www.youtube.com'
+              target='_blank'
+              className='lg:hover:-translate-y-0.5 transition duration-300'
+            >
               <IoLogoYoutube className='w-7 h-7 text-[#909090] hover:text-[#F40000] transition duration-300' />
             </a>
           </div>
@@ -192,7 +202,7 @@ export default function Footer() {
       <section className='flex flex-col md:flex-row items-center justify-between w-full py-8 px-10 xl:px-40 bg-[#151515]'>
         <div>
           <p>
-            &copy; 2024 Ames Engineering, LLC -
+            &copy; 2024 Ames Engineering LLC -
             <Link
               href='/privacy-policy'
               className='hover:text-[#42b3e5] transition duration-300 underline ml-1'
