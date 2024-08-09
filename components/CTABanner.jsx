@@ -11,19 +11,19 @@ export default function CTABanner() {
             <BsConeStriped className='w-14 h-14' />
           </div>
           <div>
-            <h3 className='text-2xl font-bold'>
+            <h3 className='text-3xl md:text-2xl font-bold'>
               Onsite Demonstrations and Consultation
             </h3>
-            <p className='text-md mt-2 md:mt-0'>
+            <p className='text-xl md:text-md mt-2 md:mt-0'>
               Foremost in developing sensor technology for pavement
               measurements.
             </p>
           </div>
         </div>
-        <div className='mt-5 md:mt-0'>
+        <div className='mt-5 md:mt-0 min-w-fit'>
           <Link
             href='/sales/salesRequest'
-            className='flex items-center gap-1 w-fit px-3 py-2 border border-[#CC0000] bg-[#CC0000] text-white hover:bg-white hover:text-[#CC0000] transition duration-300 group'
+            className='flex items-center gap-1 w-fit px-5 py-4 text-lg md:text-md md:px-3 md:py-2 border border-[#CC0000] bg-[#CC0000] text-white hover:bg-white hover:text-[#CC0000] transition duration-300 group'
           >
             Make an Appointment!
             <span>
