@@ -13,7 +13,7 @@ export default function HeroCarousel() {
   return (
     <div
       id='carouselExampleCaptions'
-      className='relative z-[-10]'
+      className='relative z-[10]'
       data-twe-carousel-init
       data-twe-ride='carousel'
       data-twe-interval='10000'
@@ -23,7 +23,7 @@ export default function HeroCarousel() {
     >
       {/* <!--Carousel indicators--> */}
       <div
-        className='absolute bottom-0 left-0 right-0 z-[2] mx-[15%] mb-4 flex list-none justify-center p-0 md:bottom-24'
+        className='absolute bottom-0 left-0 right-0 z-[20] mx-[15%] mb-4 flex list-none justify-center p-0 md:bottom-24'
         data-twe-carousel-indicators
       >
         <button

@@ -3,7 +3,7 @@ import { IoIosArrowDroprightCircle } from 'react-icons/io';
 
 export default function LowerRedHero() {
   return (
-    <section className='hidden md:grid md:grid-cols-3 w-full 2xl:px-80 text-white -mt-20 z-[50]'>
+    <section className='relative hidden md:grid md:grid-cols-3 w-full 2xl:px-80 text-white -mt-20 z-[30]'>
       <div className='bg-[#FF403F] p-5'>
         <h3 className='text-2xl font-bold'>Products &amp; Services</h3>
         <p className='text-md mt-4 2xl:max-w-[85%]'>
