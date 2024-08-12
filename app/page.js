@@ -5,7 +5,7 @@ import ProductGrid from '@/components/ProductGrid';
 
 export default function Home() {
   return (
-    <div className='relative w-screen'>
+    <div className='w-screen'>
       <HeroCarousel />
       <LowerRedHero />
       <CTABanner />
