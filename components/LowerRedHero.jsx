@@ -4,7 +4,7 @@ import { IoIosArrowDroprightCircle } from 'react-icons/io';
 export default function LowerRedHero() {
   return (
     <section className='relative hidden md:grid md:grid-cols-3 w-full 2xl:px-80 text-white -mt-20 z-[30]'>
-      <div className='bg-[#FF403F] p-5'>
+      <div className='bg-[#FF403F] p-10 2xl:p-5'>
         <h3 className='text-2xl font-bold'>Products &amp; Services</h3>
         <p className='text-md mt-4 2xl:max-w-[85%]'>
           Ames Engineering is foremost in developing sensor technology for
@@ -20,7 +20,7 @@ export default function LowerRedHero() {
           </span>
         </Link>
       </div>
-      <div className='gap-4 bg-[#DC3130] p-5'>
+      <div className='gap-4 bg-[#DC3130] p-10 2xl:p-5'>
         <h3 className='text-2xl font-bold'>New Product Innovations</h3>
         <p className='text-md mt-4 2xl:max-w-[85%]'>
           The latest innovation from Ames Engineering is here, learn more about
@@ -36,7 +36,7 @@ export default function LowerRedHero() {
           </span>
         </Link>
       </div>
-      <div className='gap-4 bg-[#CC0000] p-5'>
+      <div className='gap-4 bg-[#CC0000] p-10 2xl:p-5'>
         <h3 className='text-2xl font-bold'>Industry Solutions</h3>
         <p className='text-md mt-4 2xl:max-w-[85%]'>
           Find industry news and learn how Ames Engineering is leading concrete

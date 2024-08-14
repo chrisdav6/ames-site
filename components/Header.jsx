@@ -192,7 +192,7 @@ export default function Header() {
 
   return (
     <header className='md:sticky top-0 z-[100] shadow-lg'>
-      <div className='hidden md:flex items-center justify-between gap-6 w-full py-6 px-10 xl:px-40 bg-white border-b'>
+      <div className='hidden md:flex items-center justify-between gap-6 w-full py-6 px-10 2xl:px-80 bg-white border-b'>
         <div>
           <Link href='/'>
             <Image

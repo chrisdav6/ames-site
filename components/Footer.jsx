@@ -23,12 +23,12 @@ export default function Footer() {
   return (
     <footer className='flex flex-col items-center justify-center w-full bg-[#202020] text-white mt-20'>
       {/* 3 Part Section */}
-      <section className='grid lg:grid-cols-3 w-full xl:px-40'>
+      <section className='grid lg:grid-cols-3 w-full 2xl:px-80'>
         <Link
           href='/sales/equipmentDelivery'
           className='lg:hover:scale-[1.03] lg:hover:shadow-3xl transition duration-300'
         >
-          <div className='flex items-center gap-4 bg-[#FF403F] p-5'>
+          <div className='flex items-center gap-4 bg-[#FF403F] p-5 pl-10 2xl:pl-5'>
             <div className='hidden 2xl:block'>
               <FaShippingFast className='w-14 h-14' />
             </div>
@@ -42,7 +42,7 @@ export default function Footer() {
           href='/support#training'
           className='lg:hover:scale-[1.03] lg:hover:shadow-3xl transition duration-300'
         >
-          <div className='flex items-center gap-4 bg-[#DC3130] p-5'>
+          <div className='flex items-center gap-4 bg-[#DC3130] p-5 pl-10 2xl:pl-5'>
             <div className='hidden 2xl:block'>
               <FaChalkboardTeacher className='w-14 h-14' />
             </div>
@@ -56,20 +56,20 @@ export default function Footer() {
           href='/sales/salesRequest'
           className='lg:hover:scale-[1.03] lg:hover:shadow-3xl transition duration-300'
         >
-          <div className='flex items-center gap-4 bg-[#CC0000] p-5'>
+          <div className='flex items-center gap-4 bg-[#CC0000] p-5 pl-10 2xl:pl-5'>
             <div className='hidden 2xl:block'>
               <BiPurchaseTagAlt className='w-14 h-14' />
             </div>
             <div>
               <h3 className='text-2xl font-bold'>Purchase</h3>
-              <p className='text-xl'>Contact Our Sales Team Today!</p>
+              <p className='text-xl'>Contact Sales Today!</p>
             </div>
           </div>
         </Link>
       </section>
 
       {/* Lower Footer Section */}
-      <section className='grid lg:grid-cols-3 gap-10 py-6 w-full px-10 xl:px-40'>
+      <section className='grid lg:grid-cols-3 gap-10 py-6 w-full px-10 2xl:px-80'>
         {/* Left */}
         <div className='p-5 text-center lg:text-left'>
           <h3 className='text-2xl font-bold'>Contact Us</h3>
@@ -199,7 +199,7 @@ export default function Footer() {
       </section>
 
       {/* Copyright Footer Section */}
-      <section className='flex flex-col md:flex-row items-center justify-between w-full py-8 px-10 xl:px-40 bg-[#151515]'>
+      <section className='flex flex-col md:flex-row items-center justify-between w-full py-8 px-10 2xl:px-80 bg-[#151515]'>
         <div>
           <p>
             &copy; 2024 Ames Engineering LLC -
