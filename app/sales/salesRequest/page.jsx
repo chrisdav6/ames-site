@@ -1,3 +1,5 @@
+import { SalesForm } from '@/components/forms/SalesForm';
+
 export const metadata = {
   title: 'Ames Engineering | Sales Request',
   description:
@@ -6,7 +8,7 @@ export const metadata = {
 
 export default function SalesRequest() {
   return (
-    <div className='px-10 2xl:px-80 pt-14'>
+    <div className='w-full px-10 2xl:px-80 pt-14'>
       <div>
         <h3 className='mx-auto md:mx-0 text-2xl font-bold bg-amesRed w-fit py-2 px-3 text-white'>
           Sales Request
@@ -18,6 +20,10 @@ export default function SalesRequest() {
           </p>
           <p className='font-bold'>Email us, we’re happy to help!</p>
         </div>
+      </div>
+
+      <div>
+        <SalesForm />
       </div>
     </div>
   );

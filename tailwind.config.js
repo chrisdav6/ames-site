@@ -6,7 +6,6 @@ module.exports = {
     './components/**/*.{js,jsx}',
     './app/**/*.{js,jsx}',
     './src/**/*.{js,jsx}',
-    './node_modules/tw-elements/js/**/*.js',
   ],
   prefix: '',
   theme: {
@@ -78,5 +77,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require('tailwindcss-animate'), require('tw-elements/plugin.cjs')],
+  plugins: [require('tailwindcss-animate')],
 };
