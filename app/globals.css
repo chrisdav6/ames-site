@@ -66,10 +66,6 @@
   body {
     @apply bg-background text-foreground;
   }
-}
-
-/* Temporary */
-@layer base {
   body,
   html {
     @apply min-h-[2500px];
