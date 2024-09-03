@@ -22,13 +22,24 @@ import {
 
 const formSchema = z.object({
   name: z.string().min(2, {
-    message: 'Name must be at least 2 characters.',
+    message: 'Please enter your name.',
   }),
   company: z.string().min(2, {
-    message: 'Company must be at least 2 characters.',
+    message: 'Please enter your company name.',
   }),
   state: z.string(),
-  country: z.string(),
+  country: z.string().min(2, {
+    message: 'Please select your country.',
+  }),
+  phone: z.string().min(2, {
+    message: 'Please enter your phone number.',
+  }),
+  email: z.string().email({
+    message: 'Please enter your email address.',
+  }),
+  how: z.string().min(2, {
+    message: 'Please select an option.',
+  }),
 });
 
 export function SalesForm() {
@@ -39,6 +50,9 @@ export function SalesForm() {
       company: '',
       state: '',
       country: '',
+      phone: '',
+      email: '',
+      how: '',
     },
   });
 
@@ -526,6 +540,81 @@ export function SalesForm() {
             )}
           />
         </div>
+
+        {/* Phone and Email */}
+        <div className='grid gap-4 lg:grid-cols-2 lg:gap-6'>
+          <FormField
+            control={form.control}
+            name='phone'
+            render={({ field }) => (
+              <FormItem>
+                <FormLabel className='text-lg'>Phone</FormLabel>
+                <FormControl>
+                  <Input {...field} className='border-gray-800 text-lg' />
+                </FormControl>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
+          <FormField
+            control={form.control}
+            name='email'
+            render={({ field }) => (
+              <FormItem>
+                <FormLabel className='text-lg'>Email</FormLabel>
+                <FormControl>
+                  <Input {...field} className='border-gray-800 text-lg' />
+                </FormControl>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
+        </div>
+
+        {/* How Did You Hear About Us and Send More Info On */}
+        <div className='grid gap-4 lg:grid-cols-2 lg:gap-6'>
+          <FormField
+            control={form.control}
+            name='how'
+            render={({ field }) => (
+              <FormItem>
+                <FormLabel className='text-lg'>
+                  How did you hear about us?
+                </FormLabel>
+                <Select
+                  onValueChange={field.onChange}
+                  defaultValue={field.value}
+                >
+                  <FormControl className='border-gray-800 text-lg z-[200]'>
+                    <SelectTrigger>
+                      <SelectValue />
+                    </SelectTrigger>
+                  </FormControl>
+                  <SelectContent>
+                    <SelectItem value='Internet Search'>
+                      Internet Search
+                    </SelectItem>
+                    <SelectItem value='Magazine'>Magazine</SelectItem>
+                    <SelectItem value='Facebook'>Facebook</SelectItem>
+                    <SelectItem value='Twitter'>Twitter</SelectItem>
+                    <SelectItem value='Instagram'>Instagram</SelectItem>
+                    <SelectItem value='World of Asphalt'>
+                      World of Asphalt
+                    </SelectItem>
+                    <SelectItem value='ConExpo'>ConExpo</SelectItem>
+                    <SelectItem value='Other Tradeshow'>
+                      Other Tradeshow
+                    </SelectItem>
+                    <SelectItem value='Friend'>Friend</SelectItem>
+                  </SelectContent>
+                </Select>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
+          {/* Send Info On */}
+        </div>
+
         <Button type='submit' className='text-lg !mt-12'>
           Submit
         </Button>
