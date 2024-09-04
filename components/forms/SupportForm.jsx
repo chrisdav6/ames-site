@@ -19,64 +19,8 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select';
-import { Checkbox } from '@/components/ui/checkbox';
+import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 import { Textarea } from '@/components/ui/textarea';
-
-// Items for Checkbox Input
-const items = [
-  {
-    id: '8300 High Speed Profiler',
-    label: '8300 High Speed Profiler',
-  },
-  {
-    id: 'Transverse Profiling System',
-    label: 'Transverse Profiling System',
-  },
-  {
-    id: '6300 Lightweight Profiler',
-    label: '6300 Lightweight Profiler',
-  },
-  {
-    id: '4200 Profilograph',
-    label: '4200 Profilograph',
-  },
-  {
-    id: 'Laser Texture Scanner 9400/9400HD',
-    label: 'Laser Texture Scanner 9400/9400HD',
-  },
-  {
-    id: 'Rapid Laser Texture Scanner 9500',
-    label: 'Rapid Laser Texture Scanner 9500',
-  },
-  {
-    id: 'Real-Time Profiler',
-    label: 'Real-Time Profiler',
-  },
-  {
-    id: 'Pro GPS-DMI 250',
-    label: 'Pro GPS-DMI 250',
-  },
-  {
-    id: 'Pro GPS-DMI Laptop',
-    label: 'Pro GPS-DMI Laptop',
-  },
-  {
-    id: 'Pro GPS-DMI HD Imaging',
-    label: 'Pro GPS-DMI HD Imaging',
-  },
-  {
-    id: 'LMI Gocator Laser System',
-    label: 'LMI Gocator Laser System',
-  },
-  {
-    id: 'Ames AccuTexture 100',
-    label: 'Ames AccuTexture 100',
-  },
-  {
-    id: 'Profiler Software and Data Analysis',
-    label: 'Profiler Software and Data Analysis',
-  },
-];
 
 const formSchema = z.object({
   name: z.string().min(2, {
@@ -85,7 +29,12 @@ const formSchema = z.object({
   company: z.string().min(2, {
     message: 'Please enter your company name.',
   }),
+  address: z.string().min(2, {
+    message: 'Please enter your address.',
+  }),
+  city: z.string(),
   state: z.string(),
+  zipcode: z.string(),
   country: z.string().min(2, {
     message: 'Please select your country.',
   }),
@@ -95,27 +44,34 @@ const formSchema = z.object({
   email: z.string().email({
     message: 'Please enter your email address.',
   }),
-  how: z.string().min(2, {
+  estimate: z.string().min(2, {
     message: 'Please select an option.',
   }),
-  items: z.array(z.string()).refine((value) => value.some((item) => item), {
-    message: 'You have to select at least one item.',
+  serial: z.string().min(2, {
+    message: 'Please enter product serial number.',
+  }),
+  product: z.string().min(1, {
+    message: 'Please select a product.',
   }),
   message: z.string(),
 });
 
-export function SalesForm() {
+export function SupportForm() {
   const form = useForm({
     resolver: zodResolver(formSchema),
     defaultValues: {
       name: '',
       company: '',
+      address: '',
+      city: '',
       state: '',
+      zipcode: '',
       country: '',
       phone: '',
       email: '',
-      how: '',
-      items: [],
+      estimate: '',
+      serial: '',
+      product: '',
       message: '',
     },
   });
@@ -162,8 +118,37 @@ export function SalesForm() {
           />
         </div>
 
-        {/* State and Country */}
+        {/* Address */}
+        <FormField
+          control={form.control}
+          name='address'
+          render={({ field }) => (
+            <FormItem>
+              <FormLabel className='text-lg'>Address</FormLabel>
+              <FormControl>
+                <Input {...field} className='border-gray-800 text-lg' />
+              </FormControl>
+              <FormMessage />
+            </FormItem>
+          )}
+        />
+
+        {/* City and State */}
         <div className='grid gap-4 lg:grid-cols-2 lg:gap-10'>
+          {/* City */}
+          <FormField
+            control={form.control}
+            name='city'
+            render={({ field }) => (
+              <FormItem>
+                <FormLabel className='text-lg'>City</FormLabel>
+                <FormControl>
+                  <Input {...field} className='border-gray-800 text-lg' />
+                </FormControl>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
           {/* State */}
           <FormField
             control={form.control}
@@ -234,6 +219,24 @@ export function SalesForm() {
                     <SelectItem value='WY'>Wyoming</SelectItem>
                   </SelectContent>
                 </Select>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
+        </div>
+
+        {/* Zipcode and Country */}
+        <div className='grid gap-4 lg:grid-cols-2 lg:gap-10'>
+          {/* Zipcode */}
+          <FormField
+            control={form.control}
+            name='zipcode'
+            render={({ field }) => (
+              <FormItem>
+                <FormLabel className='text-lg'>Zipcode</FormLabel>
+                <FormControl>
+                  <Input {...field} className='border-gray-800 text-lg' />
+                </FormControl>
                 <FormMessage />
               </FormItem>
             )}
@@ -641,94 +644,177 @@ export function SalesForm() {
           />
         </div>
 
-        {/* How Did You Hear About Us and Send More Info On */}
+        {/* Estimate, Serial Number and Choose Product */}
         <div className='grid gap-4 lg:grid-cols-2 lg:gap-10'>
-          {/* How did you hear about us */}
-          <FormField
-            control={form.control}
-            name='how'
-            render={({ field }) => (
-              <FormItem>
-                <FormLabel className='text-lg'>
-                  How did you hear about us?
-                </FormLabel>
-                <Select
-                  onValueChange={field.onChange}
-                  defaultValue={field.value}
-                >
-                  <FormControl className='border-gray-800 text-lg z-[200]'>
-                    <SelectTrigger>
-                      <SelectValue />
-                    </SelectTrigger>
-                  </FormControl>
-                  <SelectContent>
-                    <SelectItem value='Internet Search'>
-                      Internet Search
-                    </SelectItem>
-                    <SelectItem value='Magazine'>Magazine</SelectItem>
-                    <SelectItem value='Facebook'>Facebook</SelectItem>
-                    <SelectItem value='Twitter'>Twitter</SelectItem>
-                    <SelectItem value='Instagram'>Instagram</SelectItem>
-                    <SelectItem value='World of Asphalt'>
-                      World of Asphalt
-                    </SelectItem>
-                    <SelectItem value='ConExpo'>ConExpo</SelectItem>
-                    <SelectItem value='Other Tradeshow'>
-                      Other Tradeshow
-                    </SelectItem>
-                    <SelectItem value='Friend'>Friend</SelectItem>
-                  </SelectContent>
-                </Select>
-                <FormMessage />
-              </FormItem>
-            )}
-          />
-          {/* Send More Info On */}
-          <FormField
-            control={form.control}
-            name='items'
-            render={() => (
-              <FormItem>
-                <div className='mt-5 xl:mt-10 mb-3'>
+          <div className='flex flex-col gap-4'>
+            {/* Estimate */}
+            <FormField
+              control={form.control}
+              name='estimate'
+              render={({ field }) => (
+                <FormItem>
                   <FormLabel className='text-lg'>
-                    Please send me information on:
+                    Please Include Estimate
                   </FormLabel>
-                </div>
-                <div className='grid xl:grid-cols-2 gap-1 gap-x-12 lg:gap-x-20'>
-                  {items.map((item) => (
-                    <FormField
-                      key={item.id}
-                      control={form.control}
-                      name='items'
-                      render={({ field }) => {
-                        return (
-                          <FormItem
-                            key={item.id}
-                            className='flex flex-row items-center space-x-3 space-y-0 !mt-1'
-                          >
-                            <FormControl>
-                              <Checkbox
-                                checked={field.value?.includes(item.id)}
-                                onCheckedChange={(checked) => {
-                                  return checked
-                                    ? field.onChange([...field.value, item.id])
-                                    : field.onChange(
-                                        field.value?.filter(
-                                          (value) => value !== item.id
-                                        )
-                                      );
-                                }}
-                              />
-                            </FormControl>
-                            <FormLabel className='text-lg font-normal'>
-                              {item.label}
-                            </FormLabel>
-                          </FormItem>
-                        );
-                      }}
-                    />
-                  ))}
-                </div>
+                  <Select
+                    onValueChange={field.onChange}
+                    defaultValue={field.value}
+                  >
+                    <FormControl className='border-gray-800 text-lg z-[200]'>
+                      <SelectTrigger>
+                        <SelectValue />
+                      </SelectTrigger>
+                    </FormControl>
+                    <SelectContent>
+                      <SelectItem value='1000'>
+                        If cost of repair is more than $1,000
+                      </SelectItem>
+                      <SelectItem value='750'>
+                        If cost of repair is more than $750
+                      </SelectItem>
+                      <SelectItem value='500'>
+                        If cost of repair is more than $500
+                      </SelectItem>
+                      <SelectItem value='calibration'>
+                        If cost of repair is more than calibration cost
+                      </SelectItem>
+                      <SelectItem value='no'>No</SelectItem>
+                    </SelectContent>
+                  </Select>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+            {/* Serial Number */}
+            <FormField
+              control={form.control}
+              name='serial'
+              render={({ field }) => (
+                <FormItem>
+                  <FormLabel className='text-lg'>Serial Number</FormLabel>
+                  <FormControl>
+                    <Input {...field} className='border-gray-800 text-lg' />
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+          </div>
+          {/* Product For Repair */}
+          <FormField
+            control={form.control}
+            name='product'
+            render={({ field }) => (
+              <FormItem className='space-y-3 mt-5 xl:mt-10 mb-3'>
+                <FormLabel className='text-lg'>
+                  Choose Product for Repair
+                </FormLabel>
+                <FormControl>
+                  <RadioGroup
+                    onValueChange={field.onChange}
+                    defaultValue={field.value}
+                    className='flex flex-col space-y-1'
+                  >
+                    <div className='grid xl:grid-cols-2 gap-1 gap-x-12 lg:gap-x-20'>
+                      <FormItem className='flex items-center space-x-3 space-y-0'>
+                        <FormControl>
+                          <RadioGroupItem value='8300 High Speed Profiler' />
+                        </FormControl>
+                        <FormLabel className='text-lg font-normal'>
+                          8300 High Speed Profiler
+                        </FormLabel>
+                      </FormItem>
+                      <FormItem className='flex items-center space-x-3 space-y-0'>
+                        <FormControl>
+                          <RadioGroupItem value='Transverse Profiling System' />
+                        </FormControl>
+                        <FormLabel className='text-lg font-normal'>
+                          Transverse Profiling System
+                        </FormLabel>
+                      </FormItem>
+                      <FormItem className='flex items-center space-x-3 space-y-0'>
+                        <FormControl>
+                          <RadioGroupItem value='6300 Lightweight Profiler' />
+                        </FormControl>
+                        <FormLabel className='text-lg font-normal'>
+                          6300 Lightweight Profiler
+                        </FormLabel>
+                      </FormItem>
+                      <FormItem className='flex items-center space-x-3 space-y-0'>
+                        <FormControl>
+                          <RadioGroupItem value='4200 Profilograph' />
+                        </FormControl>
+                        <FormLabel className='text-lg font-normal'>
+                          4200 Profilograph
+                        </FormLabel>
+                      </FormItem>
+                      <FormItem className='flex items-center space-x-3 space-y-0'>
+                        <FormControl>
+                          <RadioGroupItem value='Laser Texture Scanner 9400/9400HD' />
+                        </FormControl>
+                        <FormLabel className='text-lg font-normal'>
+                          Laser Texture Scanner 9400/9400HD
+                        </FormLabel>
+                      </FormItem>
+                      <FormItem className='flex items-center space-x-3 space-y-0'>
+                        <FormControl>
+                          <RadioGroupItem value='Rapid Laser Texture Scanner 9500' />
+                        </FormControl>
+                        <FormLabel className='text-lg font-normal'>
+                          Rapid Laser Texture Scanner 9500
+                        </FormLabel>
+                      </FormItem>
+                      <FormItem className='flex items-center space-x-3 space-y-0'>
+                        <FormControl>
+                          <RadioGroupItem value='Real-Time Profiler' />
+                        </FormControl>
+                        <FormLabel className='text-lg font-normal'>
+                          Real-Time Profiler
+                        </FormLabel>
+                      </FormItem>
+                      <FormItem className='flex items-center space-x-3 space-y-0'>
+                        <FormControl>
+                          <RadioGroupItem value='Pro GPS-DMI 250' />
+                        </FormControl>
+                        <FormLabel className='text-lg font-normal'>
+                          Pro GPS-DMI 250
+                        </FormLabel>
+                      </FormItem>
+                      <FormItem className='flex items-center space-x-3 space-y-0'>
+                        <FormControl>
+                          <RadioGroupItem value='Pro GPS-DMI Laptop' />
+                        </FormControl>
+                        <FormLabel className='text-lg font-normal'>
+                          Pro GPS-DMI Laptop
+                        </FormLabel>
+                      </FormItem>
+                      <FormItem className='flex items-center space-x-3 space-y-0'>
+                        <FormControl>
+                          <RadioGroupItem value='Pro GPS-DMI HD Imaging' />
+                        </FormControl>
+                        <FormLabel className='text-lg font-normal'>
+                          Pro GPS-DMI HD Imaging
+                        </FormLabel>
+                      </FormItem>
+                      <FormItem className='flex items-center space-x-3 space-y-0'>
+                        <FormControl>
+                          <RadioGroupItem value='LMI Gocator Laser System' />
+                        </FormControl>
+                        <FormLabel className='text-lg font-normal'>
+                          LMI Gocator Laser System
+                        </FormLabel>
+                      </FormItem>
+                      <FormItem className='flex items-center space-x-3 space-y-0'>
+                        <FormControl>
+                          <RadioGroupItem value='Ames AccuTexture 100' />
+                        </FormControl>
+                        <FormLabel className='text-lg font-normal'>
+                          Ames AccuTexture 100
+                        </FormLabel>
+                      </FormItem>
+                    </div>
+                  </RadioGroup>
+                </FormControl>
                 <FormMessage />
               </FormItem>
             )}
@@ -741,7 +827,9 @@ export function SalesForm() {
           name='message'
           render={({ field }) => (
             <FormItem>
-              <FormLabel className='text-lg'>Message</FormLabel>
+              <FormLabel className='text-lg'>
+                Description of Service Required
+              </FormLabel>
               <FormControl>
                 <Textarea
                   className='resize-none border-gray-800 text-lg !h-48'
