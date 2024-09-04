@@ -20,6 +20,7 @@ import {
   SelectValue,
 } from '@/components/ui/select';
 import { Checkbox } from '@/components/ui/checkbox';
+import { Textarea } from '@/components/ui/textarea';
 
 // Items for Checkbox Input
 const items = [
@@ -100,6 +101,7 @@ const formSchema = z.object({
   items: z.array(z.string()).refine((value) => value.some((item) => item), {
     message: 'You have to select at least one item.',
   }),
+  message: z.string(),
 });
 
 export function SalesForm() {
@@ -114,6 +116,7 @@ export function SalesForm() {
       email: '',
       how: '',
       items: [],
+      message: '',
     },
   });
 
@@ -731,6 +734,24 @@ export function SalesForm() {
             )}
           />
         </div>
+
+        {/* Message */}
+        <FormField
+          control={form.control}
+          name='message'
+          render={({ field }) => (
+            <FormItem>
+              <FormLabel className='text-lg'>Message</FormLabel>
+              <FormControl>
+                <Textarea
+                  className='resize-none border-gray-800 text-lg !h-48'
+                  {...field}
+                />
+              </FormControl>
+              <FormMessage />
+            </FormItem>
+          )}
+        />
 
         <Button type='submit' className='text-lg !mt-12'>
           Submit
