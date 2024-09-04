@@ -19,6 +19,63 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select';
+import { Checkbox } from '@/components/ui/checkbox';
+
+// Items for Checkbox Input
+const items = [
+  {
+    id: '8300 High Speed Profiler',
+    label: '8300 High Speed Profiler',
+  },
+  {
+    id: 'Transverse Profiling System',
+    label: 'Transverse Profiling System',
+  },
+  {
+    id: '6300 Lightweight Profiler',
+    label: '6300 Lightweight Profiler',
+  },
+  {
+    id: '4200 Profilograph',
+    label: '4200 Profilograph',
+  },
+  {
+    id: 'Laser Texture Scanner 9400/9400HD',
+    label: 'Laser Texture Scanner 9400/9400HD',
+  },
+  {
+    id: 'Rapid Laser Texture Scanner 9500',
+    label: 'Rapid Laser Texture Scanner 9500',
+  },
+  {
+    id: 'Real-Time Profiler',
+    label: 'Real-Time Profiler',
+  },
+  {
+    id: 'Pro GPS-DMI 250',
+    label: 'Pro GPS-DMI 250',
+  },
+  {
+    id: 'Pro GPS-DMI Laptop',
+    label: 'Pro GPS-DMI Laptop',
+  },
+  {
+    id: 'Pro GPS-DMI HD Imaging',
+    label: 'Pro GPS-DMI HD Imaging',
+  },
+  {
+    id: 'LMI Gocator Laser System',
+    label: 'LMI Gocator Laser System',
+  },
+  {
+    id: 'Ames AccuTexture 100',
+    label: 'Ames AccuTexture 100',
+  },
+  {
+    id: 'Profiler Software and Data Analysis',
+    label: 'Profiler Software and Data Analysis',
+  },
+];
 
 const formSchema = z.object({
   name: z.string().min(2, {
@@ -40,6 +97,9 @@ const formSchema = z.object({
   how: z.string().min(2, {
     message: 'Please select an option.',
   }),
+  items: z.array(z.string()).refine((value) => value.some((item) => item), {
+    message: 'You have to select at least one item.',
+  }),
 });
 
 export function SalesForm() {
@@ -53,6 +113,7 @@ export function SalesForm() {
       phone: '',
       email: '',
       how: '',
+      items: [],
     },
   });
 
@@ -67,7 +128,8 @@ export function SalesForm() {
         className='space-y-6 w-full mt-8 lg:mt-12'
       >
         {/* Name and Company */}
-        <div className='grid gap-4 lg:grid-cols-2 lg:gap-6'>
+        <div className='grid gap-4 lg:grid-cols-2 lg:gap-10'>
+          {/* Name */}
           <FormField
             control={form.control}
             name='name'
@@ -81,6 +143,7 @@ export function SalesForm() {
               </FormItem>
             )}
           />
+          {/* Company */}
           <FormField
             control={form.control}
             name='company'
@@ -97,7 +160,8 @@ export function SalesForm() {
         </div>
 
         {/* State and Country */}
-        <div className='grid gap-4 lg:grid-cols-2 lg:gap-6'>
+        <div className='grid gap-4 lg:grid-cols-2 lg:gap-10'>
+          {/* State */}
           <FormField
             control={form.control}
             name='state'
@@ -171,6 +235,7 @@ export function SalesForm() {
               </FormItem>
             )}
           />
+          {/* Country */}
           <FormField
             control={form.control}
             name='country'
@@ -542,7 +607,8 @@ export function SalesForm() {
         </div>
 
         {/* Phone and Email */}
-        <div className='grid gap-4 lg:grid-cols-2 lg:gap-6'>
+        <div className='grid gap-4 lg:grid-cols-2 lg:gap-10'>
+          {/* Phone */}
           <FormField
             control={form.control}
             name='phone'
@@ -556,6 +622,7 @@ export function SalesForm() {
               </FormItem>
             )}
           />
+          {/* Email */}
           <FormField
             control={form.control}
             name='email'
@@ -572,7 +639,8 @@ export function SalesForm() {
         </div>
 
         {/* How Did You Hear About Us and Send More Info On */}
-        <div className='grid gap-4 lg:grid-cols-2 lg:gap-6'>
+        <div className='grid gap-4 lg:grid-cols-2 lg:gap-10'>
+          {/* How did you hear about us */}
           <FormField
             control={form.control}
             name='how'
@@ -612,7 +680,56 @@ export function SalesForm() {
               </FormItem>
             )}
           />
-          {/* Send Info On */}
+          {/* Send More Info On */}
+          <FormField
+            control={form.control}
+            name='items'
+            render={() => (
+              <FormItem>
+                <div className='mt-10 mb-3'>
+                  <FormLabel className='text-lg'>
+                    Please send me information on:
+                  </FormLabel>
+                </div>
+                <div className='w-full grid xl:grid-cols-2 gap-1 gap-x-12 lg:gap-x-20'>
+                  {items.map((item) => (
+                    <FormField
+                      key={item.id}
+                      control={form.control}
+                      name='items'
+                      render={({ field }) => {
+                        return (
+                          <FormItem
+                            key={item.id}
+                            className='flex flex-row items-center space-x-3 space-y-0 !mt-1'
+                          >
+                            <FormControl>
+                              <Checkbox
+                                checked={field.value?.includes(item.id)}
+                                onCheckedChange={(checked) => {
+                                  return checked
+                                    ? field.onChange([...field.value, item.id])
+                                    : field.onChange(
+                                        field.value?.filter(
+                                          (value) => value !== item.id
+                                        )
+                                      );
+                                }}
+                              />
+                            </FormControl>
+                            <FormLabel className='text-lg font-normal'>
+                              {item.label}
+                            </FormLabel>
+                          </FormItem>
+                        );
+                      }}
+                    />
+                  ))}
+                </div>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
         </div>
 
         <Button type='submit' className='text-lg !mt-12'>
