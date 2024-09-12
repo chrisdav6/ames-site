@@ -124,7 +124,7 @@ export default function Footer() {
 
           <div className='mt-4 flex items-center justify-center gap-2 lg:justify-start'>
             <a
-              href='https://www.facebook.com/p/Ames-Engineering-Inc-100068806555835'
+              href='https://www.facebook.com/AmesEngineeringLLC'
               target='_blank'
               className='lg:hover:-translate-y-0.5 transition duration-300'
             >
