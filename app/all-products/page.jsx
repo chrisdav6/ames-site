@@ -1,3 +1,4 @@
+import CTABanner from '@/components/CTABanner';
 import ProductGrid from '@/components/ProductGrid';
 
 export const metadata = {
@@ -15,6 +16,10 @@ export default function AllProducts() {
       </div>
 
       <ProductGrid />
+
+      <div className='mt-20'>
+        <CTABanner />
+      </div>
     </div>
   );
 }
