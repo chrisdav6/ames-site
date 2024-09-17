@@ -5,10 +5,10 @@ import 'swiper/css';
 
 export default function ImageSwiper({ images }) {
   return (
-    <Swiper className='h-[500px] w-full'>
+    <Swiper className='h-[500px] w-full overflow-hidden'>
       {images.map((image, idx) => (
-        <SwiperSlide key={idx}>
-          <div>
+        <SwiperSlide key={idx} className='w-full'>
+          <div className='w-full'>
             <Image
               src={image.src}
               width={1000}

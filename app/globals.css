@@ -68,6 +68,12 @@
   }
   body,
   html {
+    scroll-padding-top: 1rem;
     scroll-behavior: smooth;
+
+    /* Fix for scroll to anchor with fixed navbar on large screens*/
+    @media (min-width: 768px) {
+      scroll-padding-top: 9.5rem;
+    }
   }
 }

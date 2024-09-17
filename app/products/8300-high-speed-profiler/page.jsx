@@ -1,4 +1,7 @@
 import ImageSwiper from '@/components/ImageSwiper';
+import Image from 'next/image';
+import Link from 'next/link';
+import { Button } from '@/components/ui/button';
 
 export const metadata = {
   title: 'Ames Engineering | 8300 High Speed Inertial Road Profiler',
@@ -13,16 +16,246 @@ const images = [
 
 export default function HighSpeedProfiler8300() {
   return (
-    <div className='px-10 2xl:px-80 pt-14'>
+    <div className='w-full justify-center pt-10 px-6 2xl:px-80 md:pt-14'>
       <div>
-        <h3 className='mx-auto md:mx-0 text-2xl font-bold bg-amesRed w-fit py-2 px-3 text-white'>
+        <h3 className='mx-auto text-center md:text-left md:mx-0 text-2xl font-bold bg-amesRed w-fit py-2 px-3 text-white'>
           8300 High Speed Inertial Road Profiler
         </h3>
       </div>
 
       {/* Images */}
-      <div className='mt-10'>
-        <ImageSwiper images={images} />
+      <div className='mt-4 w-full h-[300px] md:h-[600px] relative'>
+        {/* <ImageSwiper images={images} /> Experimenting */}
+        <Image
+          src='/images/HighSpeedProfilerProductImage.jpg'
+          fill
+          alt='8300 High Speed Profiler'
+          className='w-full object-cover object-[-50px] md:object-center'
+          priority
+        />
+      </div>
+
+      {/* Product Buttons */}
+      <div className='flex items-center justify-center md:justify-start gap-2 mt-6'>
+        <Button asChild className='px-4 py-5 text-lg hover:bg-amesRed'>
+          <Link
+            href='/pdf/Ames8300HighSpeedProfilerBrochure.pdf'
+            target='_blank'
+          >
+            Brochure
+          </Link>
+        </Button>
+        <Button asChild className='px-4 py-5 text-lg hover:bg-amesRed'>
+          <Link href='/sales/salesRequest'>Sales</Link>
+        </Button>
+        <Button asChild className='px-4 py-5 text-lg hover:bg-amesRed'>
+          <Link href='/support/supportRequest'>Service</Link>
+        </Button>
+      </div>
+
+      {/* Product Description */}
+      <div className='mt-6 text-lg text-center md:text-left'>
+        <p>
+          The{' '}
+          <span className='font-bold'>
+            Model 8300 High Speed Inertial Profiler
+          </span>{' '}
+          is designed as a portable inertial profiling system that can be used
+          on multiple vehicles. It can be front or rear mounted and can easily
+          install onto any vehicle using a standard 2″ receiver hitch. A rugged
+          Panasonic Toughbook laptop mounts inside the cab to control all of the
+          profiler system functions.
+        </p>
+
+        <div className='mt-6 font-bold '>
+          <p className='underline'>
+            The Ames High Speed Profiler meets or exceeds the following
+            requirements:
+          </p>
+          <span className='block mt-2'>
+            - ASTM E950 Class 1 profiler specifications
+          </span>
+          <span className='block'>- AASHTO PP 51-02</span>
+          <span className='block'>- Texas test method TEX 1001-S</span>
+        </div>
+
+        <p className='mt-6'>
+          Now available with a{' '}
+          <Link
+            href='/products/ames-gps-dmi'
+            className='font-bold text-amesRed'
+          >
+            Profiler GPS-DMI
+          </Link>
+          , this revolutionary device replaces the need for a wheel mounted
+          encoder while improving data collection efficiency and operator
+          safety.
+        </p>
+
+        <p className='mt-6'>
+          The Model 8300 can be configured with several options, including an
+          upgraded permanently-mounted frame, environmental temperature and
+          humidity sensors, Macrotexture capabilities, photo logging
+          capabilities, and up to three profile sensors! See our list of options
+          below for more details.
+        </p>
+
+        <p className='mt-6'>
+          We developed this system with paving contractors, testing agencies,
+          and State and Federal highway departments in mind in order to make
+          their jobs more efficient.
+        </p>
+
+        <p className='mt-6 font-bold'>
+          Need more information on High Speed Profilers in general? Take a look
+          at our{' '}
+          <Link
+            href='/resources/inertial-road-profilers-faq'
+            className='font-bold text-amesRed'
+          >
+            Frequently Asked Questions
+          </Link>{' '}
+          page for more information.
+        </p>
+      </div>
+
+      {/* Specs */}
+      <div className='flex items-center justify-center flex-wrap md:justify-start gap-2 mt-10'>
+        <Button asChild className='px-4 py-5 text-lg hover:bg-amesRed'>
+          <Link href='#specs'>Specs</Link>
+        </Button>
+        <Button asChild className='px-4 py-5 text-lg hover:bg-amesRed'>
+          <Link href='#computerHardware'>Computer Hardware</Link>
+        </Button>
+        <Button asChild className='px-4 py-5 text-lg hover:bg-amesRed'>
+          <Link href='#computerSoftware'>Computer Software</Link>
+        </Button>
+        <Button asChild className='px-4 py-5 text-lg hover:bg-amesRed'>
+          <Link href='#sensors'>Available Sensors</Link>
+        </Button>
+        <Button asChild className='px-4 py-5 text-lg hover:bg-amesRed'>
+          <Link href='#options'>Available Options</Link>
+        </Button>
+      </div>
+
+      <div id='specs' className='mt-6 text-center md:text-left'>
+        <h3 className='text-xl font-extrabold text-amesRed underline'>Specs</h3>
+        <ul className='text-lg mt-2'>
+          <li>
+            - High Speed system can be on front or rear mount using the vehicles
+            standard 2″ hitch receiver
+          </li>
+          <li>
+            - Ruggedized laptop mounted in cab of vehicle with test personnel
+          </li>
+          <li>- Single or dual wheel track systems</li>
+          <li>- Frame is adjustable to accommodate different vehicles</li>
+          <li>
+            - Capable of collecting measurements at speeds between 10 and 70 mph
+          </li>
+          <li>
+            - Laser height sensor with a range of eight inches and a resolution
+            of 0.002 inch
+          </li>
+          <li>
+            - Horizontal distance measured with either optical encoder with 0.15
+            inch resolution or Our{' '}
+            <Link
+              href='/products/ames-gps-dmi'
+              className='font-bold text-amesRed'
+            >
+              Profiler GPS-DMI
+            </Link>{' '}
+            Option (Accurate to 0.05%)
+          </li>
+          <li>- Pavement elevation sampling: 16,000 samples per second</li>
+          <li>
+            - Pavement elevation sample storage: software selectable 1-16
+            samples/foot
+          </li>
+          <li>- Profile wavelength range: 0.5 to 6,400 feet</li>
+          <li>- Accelerometer resolution: 0.0001g</li>
+        </ul>
+      </div>
+
+      <div id='computerHardware' className='mt-4 text-center md:text-left'>
+        <h3 className='text-xl font-extrabold text-amesRed underline'>
+          Computer Hardware
+        </h3>
+        <ul className='text-lg mt-2'>
+          <li>
+            - Panasonic Toughbook laptop with a 500 GB hard drive and 4 GB of
+            RAM, upgradable with more RAM and up to 1 TB SSD.
+          </li>
+          <li>
+            - Color SVGA anti-reflective, outdoor readable touch display screen
+          </li>
+          <li>
+            - Ethernet connection from laptop to data acquisition computer
+          </li>
+          <li>
+            - RS-485 serial network and ethernet in one cable between data
+            acquisition computer and all modules
+          </li>
+          <li>
+            - All electronic components housed in water resistant and dust tight
+            enclosures
+          </li>
+          <li>
+            - Field replacement of any component does not require re-calibration
+            of the system
+          </li>
+          <li>
+            - Capable of field installing a second sensor to profile both wheel
+            tracks simultaneously
+          </li>
+        </ul>
+      </div>
+
+      <div id='computerSoftware' className='mt-4 text-center md:text-left'>
+        <h3 className='text-xl font-extrabold text-amesRed underline'>
+          Computer Software
+        </h3>
+        <ul className='text-lg mt-2'>
+          <li>- Microsoft Windows operating system</li>
+          <li>- Display profile in real time while data is being collected</li>
+          <li>
+            - Calculates Profile Index (PI), International Roughness Index
+            (IRI), Half-car Roughness Index (HRI), Ride Quality
+          </li>
+          <li>- Index (RQI), and Ride Number (RN)</li>
+          <li>
+            - Plots true profile, California profilograph profile, and rolling
+            straightedge profile
+          </li>
+          <li>- Equipped with variable high and low pass filter options</li>
+          <li>- Contains automatic bump detection software</li>
+          <li>
+            - Capable of displaying “true” profile, rolling straightedge, and
+            California type profilograph profile on screen
+          </li>
+          <li>
+            - Identifies location of “out-of-specification” bumps and dips
+          </li>
+          <li>- Bumps can be located easily using system’s odometer mode</li>
+          <li>
+            - Equipped with the following export file options: PPF format, ERD
+            format, Texas PRO format, comma separated variable (CSV) format and
+            generated report tables format (HTML)
+          </li>
+        </ul>
+      </div>
+
+      <div id='sensors' className='mt-4 text-center md:text-left'>
+        <h3 className='text-xl font-extrabold text-amesRed underline'>
+          Available Sensors
+        </h3>
+      </div>
+
+      <div id='options' className='mt-4 text-center md:text-left'>
+        <h3 className='text-xl font-extrabold text-amesRed underline'>
+          Available Options
+        </h3>
       </div>
     </div>
   );
