@@ -2,7 +2,7 @@ import ProductGrid from '@/components/ProductGrid';
 
 export const metadata = {
   title: 'Ames Engineering | Products',
-  description: 'See all of our products.',
+  description: 'Ames Engineering Products.',
 };
 
 export default function AllProducts() {
