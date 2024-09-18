@@ -64,23 +64,7 @@ export default function HighSpeedProfiler8300() {
           on multiple vehicles. It can be front or rear mounted and can easily
           install onto any vehicle using a standard 2″ receiver hitch. A rugged
           Panasonic Toughbook laptop mounts inside the cab to control all of the
-          profiler system functions.
-        </p>
-
-        <div className='mt-6 font-bold '>
-          <p className='underline'>
-            The Ames High Speed Profiler meets or exceeds the following
-            requirements:
-          </p>
-          <span className='block mt-2'>
-            - ASTM E950 Class 1 profiler specifications
-          </span>
-          <span className='block'>- AASHTO PP 51-02</span>
-          <span className='block'>- Texas test method TEX 1001-S</span>
-        </div>
-
-        <p className='mt-6'>
-          Now available with a{' '}
+          profiler system functions. Now available with a{' '}
           <Link
             href='/products/ames-gps-dmi'
             className='font-bold text-amesRed'
@@ -97,14 +81,22 @@ export default function HighSpeedProfiler8300() {
           upgraded permanently-mounted frame, environmental temperature and
           humidity sensors, Macrotexture capabilities, photo logging
           capabilities, and up to three profile sensors! See our list of options
-          below for more details.
+          below for more details. We developed this system with paving
+          contractors, testing agencies, and State and Federal highway
+          departments in mind in order to make their jobs more efficient.
         </p>
 
-        <p className='mt-6'>
-          We developed this system with paving contractors, testing agencies,
-          and State and Federal highway departments in mind in order to make
-          their jobs more efficient.
-        </p>
+        <div className='mt-6 font-bold '>
+          <p className='underline'>
+            The Ames High Speed Profiler meets or exceeds the following
+            requirements:
+          </p>
+          <span className='block mt-2'>
+            - ASTM E950 Class 1 profiler specifications
+          </span>
+          <span className='block'>- AASHTO PP 51-02</span>
+          <span className='block'>- Texas test method TEX 1001-S</span>
+        </div>
 
         <p className='mt-6 font-bold'>
           Need more information on High Speed Profilers in general? Take a look
