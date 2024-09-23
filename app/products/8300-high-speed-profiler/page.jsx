@@ -2,6 +2,7 @@ import ImageSwiper from '@/components/ImageSwiper';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
+import SmallCardLink from '@/components/SmallCardLink';
 
 export const metadata = {
   title: 'Ames Engineering | 8300 High Speed Inertial Road Profiler',
@@ -242,6 +243,21 @@ export default function HighSpeedProfiler8300() {
         <h3 className='text-xl font-extrabold text-amesRed underline'>
           Available Sensors
         </h3>
+
+        <section className='grid md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-5 justify-center w-full mt-4'>
+          <SmallCardLink
+            href='/products/lmi-gocator-laser'
+            src='/images/LMIGocatorLaserProductGrid.jpg'
+            alt='Concrete Line Laser'
+            title='LMI 5K Gocator'
+          />
+          <SmallCardLink
+            href='/products/ames-accutexture-100'
+            src='/images/AccuTexture100ProductGrid.jpg'
+            alt='AccuTexture 100'
+            title='Single Point Sensor'
+          />
+        </section>
       </div>
 
       <div id='options' className='mt-4 text-center md:text-left'>
