@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import SmallCardLink from '@/components/SmallCardLink';
+import OptionsCard from '@/components/OptionsCard';
 
 export const metadata = {
   title: 'Ames Engineering | 8300 High Speed Inertial Road Profiler',
@@ -239,7 +240,7 @@ export default function HighSpeedProfiler8300() {
         </ul>
       </div>
 
-      <div id='sensors' className='mt-4 text-center md:text-left'>
+      <div id='sensors' className='mt-8 text-center md:text-left'>
         <h3 className='text-xl font-extrabold text-amesRed underline'>
           Available Sensors
         </h3>
@@ -260,10 +261,63 @@ export default function HighSpeedProfiler8300() {
         </section>
       </div>
 
-      <div id='options' className='mt-4 text-center md:text-left'>
+      <div id='options' className='mt-8 text-center md:text-left'>
         <h3 className='text-xl font-extrabold text-amesRed underline'>
           Available Options
         </h3>
+
+        <section className='grid lg:grid-cols-2 gap-5 justify-center w-full mt-4'>
+          <OptionsCard
+            href='/products/transverse-profiling-system'
+            src='/images/TransverseImagingProductGrid.jpg'
+            alt='Transverse Imaging System'
+            title='Transverse Profiling System'
+            text='Our Transverse Profiling System can be integrated with a Longitudinal Profiler to measure rutting and cross-slope as well as profile!'
+          />
+          <OptionsCard
+            src='/images/MacrotextureDataCollectionCardImage.jpg'
+            alt='Macrotexture Data Collection'
+            title='Macrotexture Data Collection'
+            text='Collect Macrotexture and Profile Data at the same time, from the same sensor! Texture indices can be calculated later, including Mean Profile Depth (MPD), RMS, ETD, Ra, Rq, Rsk, Rku, VAR, and Length. MPD can be calculated according to ISO 13473-1:2019E or ISO 13473-1:1997. This option requires our Ames Single Point Sensors.'
+          />
+          <OptionsCard
+            href='/products/ames-gps-dmi'
+            src='/images/ProGPS-DMICardImage.jpg'
+            alt='Profiler GPS-DMI'
+            title='Profiler GPS-DMI'
+            text='The Profiler GPS-DMI option uses our Pro GPS-DMI system in place of a traditional wheel-mounted encoder. This option removes the need to do distance calibrations! It also allows for using GPS data to define the start and stop locations of data collection rather than an autotrigger sensor.'
+          />
+          <OptionsCard
+            src='/images/SoftwareProductGrid.jpg'
+            alt='GPS Tracer'
+            title='GPS Tracer'
+            text='The GPS Tracer option displays your current location on a profile trace from a previously collected run. This option is useful for marking bumps and dips.'
+          />
+          <OptionsCard
+            src='/images/WheelEncoderCardImage.jpg'
+            alt='Wheel Encoder'
+            title='Wheel Encoder'
+            text='We offer traditional wheel-mounted encoders if you are working in an area with poor-to-nonexistent GPS reception.'
+          />
+          <OptionsCard
+            src='/images/WheelEncoderCardImage.jpg'
+            alt='AutoTrigger (Cone or Downward)'
+            title='AutoTrigger (Cone or Downward)'
+            text='We offer both downward facing and sideways facing autotrigger options for triggering start, stop, and event locations by tape or cone.'
+          />
+          <OptionsCard
+            src='/images/SurveyProFrameCardImage.jpg'
+            alt='Survey Pro Frame'
+            title='Survey Pro Frame'
+            text='Our Survey Pro Frame is a permanently mounted alternative to our standard frame. This frame supports a third sensor mounted in the center wheeltrack.'
+          />
+          <OptionsCard
+            src='/images/AmbientSensorsCardImage.jpg'
+            alt='Ambient Temperature, Humidity Sensors'
+            title='Ambient Temperature, Humidity Sensors'
+            text='Add ambient temperature and humidity sensors to your profiler!'
+          />
+        </section>
       </div>
     </div>
   );
