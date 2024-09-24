@@ -20,9 +20,9 @@ export default function HighSpeedProfiler8300() {
   return (
     <div className='w-full justify-center pt-10 px-6 2xl:px-80 md:pt-14'>
       <div>
-        <h3 className='mx-auto text-center md:text-left md:mx-0 text-2xl font-bold bg-amesRed w-fit py-2 px-3 text-white'>
+        <h1 className='mx-auto text-center md:text-left md:mx-0 text-2xl font-bold bg-amesRed w-fit py-2 px-3 text-white'>
           8300 High Speed Inertial Road Profiler
-        </h3>
+        </h1>
       </div>
 
       {/* Images */}
