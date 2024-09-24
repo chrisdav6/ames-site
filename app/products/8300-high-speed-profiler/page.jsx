@@ -300,7 +300,7 @@ export default function HighSpeedProfiler8300() {
             text='We offer traditional wheel-mounted encoders if you are working in an area with poor-to-nonexistent GPS reception.'
           />
           <OptionsCard
-            src='/images/WheelEncoderCardImage.jpg'
+            src='/images/AutoTriggerCardImage.jpg'
             alt='AutoTrigger (Cone or Downward)'
             title='AutoTrigger (Cone or Downward)'
             text='We offer both downward facing and sideways facing autotrigger options for triggering start, stop, and event locations by tape or cone.'
