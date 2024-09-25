@@ -359,7 +359,7 @@ export default function Header() {
         <nav
           className={`${
             showMobile ? 'flex' : 'hidden'
-          } flex-col items-center gap-1 text-sm lg:text-base xl:gap-4 xl:text-lg transition-all duration-1000 md:hidden`}
+          } flex-col items-center gap-1 text-lg lg:text-base xl:gap-4 xl:text-lg transition-all duration-1000 md:hidden`}
         >
           <button className='relative group'>
             <NavItem name='Products' mobile={true} />
