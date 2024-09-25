@@ -34,7 +34,7 @@ export default function TransverseProfilingSystem() {
       <div className='flex items-center justify-center md:justify-start gap-2 mt-6'>
         <Button asChild className='px-4 py-5 text-lg hover:bg-amesRed'>
           <Link
-            href='/pdf/Ames8300HighSpeedProfilerBrochure.pdf'
+            href='/pdf/Ames3DTransverseProfileMeasurementSystemBrochure.pdf'
             target='_blank'
           >
             Brochure
@@ -52,263 +52,132 @@ export default function TransverseProfilingSystem() {
       <div className='mt-6 text-lg text-center md:text-left'>
         <p>
           The{' '}
-          <span className='font-bold'>
-            Model 8300 High Speed Inertial Profiler
-          </span>{' '}
-          is designed as a portable inertial profiling system that can be used
-          on multiple vehicles. It can be front or rear mounted and can easily
-          install onto any vehicle using a standard 2″ receiver hitch. A rugged
-          Panasonic Toughbook laptop mounts inside the cab to control all of the
-          profiler system functions. Now available with a{' '}
-          <Link
-            href='/products/ames-gps-dmi'
-            className='font-bold text-amesRed'
-          >
-            Profiler GPS-DMI
-          </Link>
-          , this revolutionary device replaces the need for a wheel mounted
-          encoder while improving data collection efficiency and operator
-          safety.
+          <span className='font-bold'>Ames Transverse Profiling System</span> is
+          the latest innovation to complete your asset management data
+          collection. It collects the entire lane width as you drive, and can be
+          used to measure many roadway features, including - rutting, lane
+          markings, visual crack inspection and edge drop-offs.
         </p>
 
         <p className='mt-6'>
-          The Model 8300 can be configured with several options, including an
-          upgraded permanently-mounted frame, environmental temperature and
-          humidity sensors, Macrotexture capabilities, photo logging
-          capabilities, and up to three profile sensors! See our list of options
-          below for more details. We developed this system with paving
-          contractors, testing agencies, and State and Federal highway
-          departments in mind in order to make their jobs more efficient.
-        </p>
-
-        <div className='mt-6 font-bold '>
-          <p className='underline'>
-            The Ames High Speed Profiler meets or exceeds the following
-            requirements:
-          </p>
-          <span className='block mt-2'>
-            - ASTM E950 Class 1 profiler specifications
-          </span>
-          <span className='block'>- AASHTO PP 51-02</span>
-          <span className='block'>- Texas test method TEX 1001-S</span>
-        </div>
-
-        <p className='mt-6 font-bold'>
-          Need more information on High Speed Profilers in general? Take a look
-          at our{' '}
-          <Link
-            href='/resources/inertial-road-profilers-faq'
-            className='font-bold text-amesRed'
-          >
-            Frequently Asked Questions
-          </Link>{' '}
-          page for more information.
+          The system uses a single laser and high speed camera to capture 3D
+          transverse profile data at highway speeds. Capable of being either
+          integrated with our High Speed Profiler or used as a standalone unit,
+          it easily installs onto your host vehicle making it one of the most
+          cost effective solutions for pavement condition data collection.
         </p>
       </div>
 
       {/* Specs */}
       <div className='flex items-center justify-center flex-wrap md:justify-start gap-2 mt-10'>
         <Button asChild className='px-4 py-5 text-lg hover:bg-amesRed'>
-          <Link href='#specs'>Specs</Link>
+          <Link href='#systemOverview'>System Overview</Link>
         </Button>
         <Button asChild className='px-4 py-5 text-lg hover:bg-amesRed'>
-          <Link href='#computerHardware'>Computer Hardware</Link>
+          <Link href='#2K'>2K Features</Link>
         </Button>
         <Button asChild className='px-4 py-5 text-lg hover:bg-amesRed'>
-          <Link href='#computerSoftware'>Computer Software</Link>
+          <Link href='#4K'>4K Features</Link>
         </Button>
         <Button asChild className='px-4 py-5 text-lg hover:bg-amesRed'>
-          <Link href='#sensors'>Available Sensors</Link>
-        </Button>
-        <Button asChild className='px-4 py-5 text-lg hover:bg-amesRed'>
-          <Link href='#options'>Available Options</Link>
+          <Link href='#additionalFeatures'>Additional Features</Link>
         </Button>
       </div>
 
-      <div id='specs' className='mt-6 text-center md:text-left'>
-        <h3 className='text-xl font-extrabold text-amesRed underline'>Specs</h3>
-        <ul className='text-lg mt-2'>
-          <li>
-            - High Speed system can be on front or rear mount using the vehicles
-            standard 2″ hitch receiver
-          </li>
-          <li>
-            - Ruggedized laptop mounted in cab of vehicle with test personnel
-          </li>
-          <li>- Single or dual wheel track systems</li>
-          <li>- Frame is adjustable to accommodate different vehicles</li>
-          <li>
-            - Capable of collecting measurements at speeds between 10 and 70 mph
-          </li>
-          <li>
-            - Laser height sensor with a range of eight inches and a resolution
-            of 0.002 inch
-          </li>
-          <li>
-            - Horizontal distance measured with either optical encoder with 0.15
-            inch resolution or Our{' '}
-            <Link
-              href='/products/ames-gps-dmi'
-              className='font-bold text-amesRed'
-            >
-              Profiler GPS-DMI
-            </Link>{' '}
-            Option (Accurate to 0.05%)
-          </li>
-          <li>- Pavement elevation sampling: 16,000 samples per second</li>
-          <li>
-            - Pavement elevation sample storage: software selectable 1-16
-            samples/foot
-          </li>
-          <li>- Profile wavelength range: 0.5 to 6,400 feet</li>
-          <li>- Accelerometer resolution: 0.0001g</li>
-        </ul>
-      </div>
-
-      <div id='computerHardware' className='mt-4 text-center md:text-left'>
+      <div id='systemOverview' className='mt-6 text-center md:text-left'>
         <h3 className='text-xl font-extrabold text-amesRed underline'>
-          Computer Hardware
+          System Overview
         </h3>
         <ul className='text-lg mt-2'>
           <li>
-            - Panasonic Toughbook laptop with a 500 GB hard drive and 4 GB of
-            RAM, upgradable with more RAM and up to 1 TB SSD.
+            - Portable system easily installs onto host vehicle using standard
+            mounting hardware
           </li>
           <li>
-            - Color SVGA anti-reflective, outdoor readable touch display screen
+            - One compact sensor unit capable of covering entire lane 13′ width
+            (4m)
           </li>
           <li>
-            - Ethernet connection from laptop to data acquisition computer
+            - Uses a standard ruggedized laptop computer for data collection and
+            analysis
           </li>
           <li>
-            - RS-485 serial network and ethernet in one cable between data
-            acquisition computer and all modules
+            - Comprehensive analysis software for post collection viewing and
+            analyzing of pavement condition data
           </li>
-          <li>
-            - All electronic components housed in water resistant and dust tight
-            enclosures
-          </li>
-          <li>
-            - Field replacement of any component does not require re-calibration
-            of the system
-          </li>
-          <li>
-            - Capable of field installing a second sensor to profile both wheel
-            tracks simultaneously
-          </li>
+          <li>- Different systems designed to meet your needs & budget</li>
         </ul>
       </div>
 
-      <div id='computerSoftware' className='mt-4 text-center md:text-left'>
+      <div id='2K' className='mt-4 text-center md:text-left'>
         <h3 className='text-xl font-extrabold text-amesRed underline'>
-          Computer Software
+          Transverse Profile & Rut System – 2K Features
         </h3>
         <ul className='text-lg mt-2'>
-          <li>- Microsoft Windows operating system</li>
-          <li>- Display profile in real time while data is being collected</li>
           <li>
-            - Calculates Profile Index (PI), International Roughness Index
-            (IRI), Half-car Roughness Index (HRI), Ride Quality
+            - Collects surface image, lane markings, rut data, sealed & unsealed
+            crack detection
           </li>
-          <li>- Index (RQI), and Ride Number (RN)</li>
-          <li>
-            - Plots true profile, California profilograph profile, and rolling
-            straightedge profile
-          </li>
-          <li>- Equipped with variable high and low pass filter options</li>
-          <li>- Contains automatic bump detection software</li>
-          <li>
-            - Capable of displaying “true” profile, rolling straightedge, and
-            California type profilograph profile on screen
-          </li>
-          <li>
-            - Identifies location of “out-of-specification” bumps and dips
-          </li>
-          <li>- Bumps can be located easily using system’s odometer mode</li>
-          <li>
-            - Equipped with the following export file options: PPF format, ERD
-            format, Texas PRO format, comma separated variable (CSV) format and
-            generated report tables format (HTML)
-          </li>
+          <li>- 2,048 Points / Profile</li>
+          <li>- Sample Rate – 2,500-4,000 Profiles / second</li>
+          <li>- Travel Speed – 60 mph</li>
+          <li>- Longitudinal Spacing – 0.25 – 0.5 inch</li>
+          <li>- Transverse Coverage – 13 feet</li>
+          <li>- Transverse Resolution – 1.95mm</li>
+          <li>- Vertical Range +/- 4 inches</li>
+          <li>- Vertical Resolution – 0.65 mm</li>
         </ul>
       </div>
 
-      <div id='sensors' className='mt-8 text-center md:text-left'>
+      <div id='4K' className='mt-4 text-center md:text-left'>
         <h3 className='text-xl font-extrabold text-amesRed underline'>
-          Available Sensors
+          Transverse Profile & Rut System – 4K Features
         </h3>
-
-        <section className='grid md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-5 justify-center w-full mt-4'>
-          <SmallCardLink
-            href='/products/lmi-gocator-laser'
-            src='/images/LMIGocatorLaserProductGrid.jpg'
-            alt='Concrete Line Laser'
-            title='LMI 5K Gocator'
-          />
-          <SmallCardLink
-            href='/products/ames-accutexture-100'
-            src='/images/AccuTexture100ProductGrid.jpg'
-            alt='AccuTexture 100'
-            title='Single Point Sensor'
-          />
-        </section>
+        <ul className='text-lg mt-2'>
+          <li>
+            - Collects the best surface image, lane markings, rut data, sealed &
+            unsealed crack detection and estimated macrotexture
+          </li>
+          <li>- 4,096 Points / Profile</li>
+          <li>- Sample Rate – 2,500 – 4,000 Profiles / second</li>
+          <li>- Travel Speed – 60 mph</li>
+          <li>- Longitudinal Spacing – 0.1 – 0.2 inch</li>
+          <li>- Transverse Coverage – 13 feet</li>
+          <li>- Transverse Resolution – 1.95mm</li>
+          <li>- Vertical Range +/- 4 inches</li>
+          <li>- Vertical Resolution – 0.30 mm</li>
+        </ul>
       </div>
 
-      <div id='options' className='mt-8 text-center md:text-left'>
+      <div id='additionalFeatures' className='mt-8 text-center md:text-left'>
         <h3 className='text-xl font-extrabold text-amesRed underline'>
-          Available Options
+          Additional Features
         </h3>
 
         <section className='grid lg:grid-cols-2 gap-5 justify-center w-full mt-4'>
           <OptionsCard
-            href='/products/transverse-profiling-system'
-            src='/images/TransverseImagingProductGrid.jpg'
-            alt='Transverse Imaging System'
-            title='Transverse Profiling System'
-            text='Our Transverse Profiling System can be integrated with a Longitudinal Profiler to measure rutting and cross-slope as well as profile!'
+            src='/images/vehicleMountCardImage.jpg'
+            alt='Vehicle Mount'
+            title='Vehicle Mount'
+            text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo omnis impedit placeat autem eos fugit consequuntur molestiae magnam.'
           />
           <OptionsCard
-            src='/images/MacrotextureDataCollectionCardImage.jpg'
-            alt='Macrotexture Data Collection'
-            title='Macrotexture Data Collection'
-            text='Collect Macrotexture and Profile Data at the same time, from the same sensor! Texture indices can be calculated later, including Mean Profile Depth (MPD), RMS, ETD, Ra, Rq, Rsk, Rku, VAR, and Length. MPD can be calculated according to ISO 13473-1:2019E or ISO 13473-1:1997. This option requires our Ames Single Point Sensors.'
+            src='/images/modelViewCardImage.jpg'
+            alt='3D Model View'
+            title='3D Model View'
+            text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo omnis impedit placeat autem eos fugit consequuntur molestiae magnam.'
           />
           <OptionsCard
-            href='/products/ames-gps-dmi'
-            src='/images/ProGPS-DMICardImage.jpg'
-            alt='Profiler GPS-DMI'
-            title='Profiler GPS-DMI'
-            text='The Profiler GPS-DMI option uses our Pro GPS-DMI system in place of a traditional wheel-mounted encoder. This option removes the need to do distance calibrations! It also allows for using GPS data to define the start and stop locations of data collection rather than an autotrigger sensor.'
+            src='/images/rangeViewCardImage.jpg'
+            alt='3D Range View'
+            title='3D Range View'
+            text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo omnis impedit placeat autem eos fugit consequuntur molestiae magnam.'
           />
           <OptionsCard
-            src='/images/SoftwareProductGrid.jpg'
-            alt='GPS Tracer'
-            title='GPS Tracer'
-            text='The GPS Tracer option displays your current location on a profile trace from a previously collected run. This option is useful for marking bumps and dips.'
-          />
-          <OptionsCard
-            src='/images/WheelEncoderCardImage.jpg'
-            alt='Wheel Encoder'
-            title='Wheel Encoder'
-            text='We offer traditional wheel-mounted encoders if you are working in an area with poor-to-nonexistent GPS reception.'
-          />
-          <OptionsCard
-            src='/images/AutoTriggerCardImage.jpg'
-            alt='AutoTrigger (Cone or Downward)'
-            title='AutoTrigger (Cone or Downward)'
-            text='We offer both downward facing and sideways facing autotrigger options for triggering start, stop, and event locations by tape or cone.'
-          />
-          <OptionsCard
-            src='/images/SurveyProFrameCardImage.jpg'
-            alt='Survey Pro Frame'
-            title='Survey Pro Frame'
-            text='Our Survey Pro Frame is a permanently mounted alternative to our standard frame. This frame supports a third sensor mounted in the center wheeltrack.'
-          />
-          <OptionsCard
-            src='/images/AmbientSensorsCardImage.jpg'
-            alt='Ambient Temperature, Humidity Sensors'
-            title='Ambient Temperature, Humidity Sensors'
-            text='Add ambient temperature and humidity sensors to your profiler!'
+            src='/images/intensityViewCardImage.jpg'
+            alt='3D Intensity View'
+            title='3D Intensity View'
+            text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo omnis impedit placeat autem eos fugit consequuntur molestiae magnam.'
           />
         </section>
       </div>
