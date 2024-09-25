@@ -1,4 +1,3 @@
-import ImageSwiper from '@/components/ImageSwiper';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
@@ -11,11 +10,6 @@ export const metadata = {
     'The Ames High Speed Inertial Road Profiler allows for smoothness measurement of a roadway at up to 70 MPH.',
 };
 
-const images = [
-  { src: '/images/AccuTexture100ProductGrid.jpg', alt: 'First' },
-  { src: '/images/SoftwareProductGrid.jpg', alt: 'Second' },
-];
-
 export default function HighSpeedProfiler8300() {
   return (
     <div className='w-full justify-center pt-10 px-6 2xl:px-80 md:pt-14'>
@@ -27,7 +21,6 @@ export default function HighSpeedProfiler8300() {
 
       {/* Images */}
       <div className='mt-4 w-full h-[300px] md:h-[600px] relative'>
-        {/* <ImageSwiper images={images} /> Experimenting */}
         <Image
           src='/images/HighSpeedProfilerProductImage.jpg'
           fill
