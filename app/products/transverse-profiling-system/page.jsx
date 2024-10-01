@@ -154,6 +154,7 @@ export default function TransverseProfilingSystem() {
           Additional Features
         </h3>
 
+        {/* Need features text */}
         <section className='grid lg:grid-cols-2 gap-5 justify-center w-full mt-4'>
           <OptionsCard
             src='/images/vehicleMountCardImage.jpg'

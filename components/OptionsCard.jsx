@@ -8,7 +8,7 @@ export default function OptionsCard({ href, src, alt, title, text }) {
         <Image
           src={src}
           alt={alt}
-          className='object-cover md:max-h-[200px] md:max-w-[200px] w-100 md:mr-4 shadow-md'
+          className='object-cover md:max-h-[200px] md:max-w-[200px] w-100 md:mr-4 shadow-md border-[2px] border-gray-700'
           width={1000}
           height={1000}
         />
