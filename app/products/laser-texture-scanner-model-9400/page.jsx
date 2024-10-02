@@ -84,6 +84,18 @@ export default function LaserTextureScannerModel9400() {
           scans per charge.
         </p>
 
+        <p className='mt-6'>
+          Check out our article featured in{' '}
+          <Link
+            href='/pdf/CP2CenterNewsAmes.pdf'
+            target='_blank'
+            className='font-bold text-amesRed'
+          >
+            CP2 News Center
+          </Link>{' '}
+          about the Ames Texture Scanner!
+        </p>
+
         <div className='flex flex-col md:flex-row mt-8 gap-4'>
           <PhotoWithCaption
             image='/images/operatingScanner.jpg'
