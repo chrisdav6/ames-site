@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import OptionsCard from '@/components/OptionsCard';
 import PhotoWithCaption from '@/components/PhotoWithCaption';
 
 export const metadata = {
@@ -218,7 +217,7 @@ export default function LaserTextureScannerModel9400() {
           />
         </div>
 
-        <ul className='text-lg mt-2'>
+        <ul className='text-lg mt-4'>
           <li>- 3X faster scan speed at the highest resolution</li>
           <li>
             - 5X better vertical resolution and 2X better length resolution

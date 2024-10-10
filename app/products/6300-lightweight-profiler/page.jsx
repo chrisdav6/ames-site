@@ -222,6 +222,10 @@ export default function LightWeightProfiler6300() {
           Additional Features
         </h3>
 
+        <h2 className='mt-5 p-4 bg-orange-600 text-xl text-white'>
+          Don't forget to update text below
+        </h2>
+
         {/* Need features text */}
         <section className='grid lg:grid-cols-2 gap-5 justify-center w-full mt-4'>
           <OptionsCard
