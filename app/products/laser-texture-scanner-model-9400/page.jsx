@@ -114,7 +114,6 @@ export default function LaserTextureScannerModel9400() {
         </div>
 
         <div className='mt-8'>
-          <div></div>
           <div>
             <p className='underline'>9400 and 9400HD Common Characteristics</p>
             <span className='block mt-2'>

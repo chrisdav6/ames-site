@@ -77,9 +77,10 @@ export default function RapidLaserTextureScannerModel9500() {
         </div>
 
         <div className='mt-6'>
-          <div></div>
           <div>
-            <p className='underline'>Common Applications</p>
+            <h3 className='text-xl font-extrabold text-amesRed underline'>
+              Common Applications
+            </h3>
             <span className='block mt-2'>- Sand Patch Test Alternative</span>
             <span className='block'>- Bridge Decks</span>
             <span className='block'>- Paving Stones</span>
