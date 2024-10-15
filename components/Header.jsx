@@ -93,6 +93,10 @@ const supportLinks = [
     name: 'Parts Request',
     href: '/support/supportRequest',
   },
+  {
+    name: 'Product Warranty Registration',
+    href: '/support/productRegistration',
+  },
 ];
 
 const salesLinks = [
