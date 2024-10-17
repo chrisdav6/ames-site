@@ -1,5 +1,6 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import { Toaster } from '@/components/ui/toaster';
 import './globals.css';
 
 export const metadata = {
@@ -13,6 +14,7 @@ export default function RootLayout({ children }) {
     <html lang='en'>
       <body className='flex flex-col'>
         <Header />
+        <Toaster />
         <main className='flex flex-1 overflow-x-hidden'>{children}</main>
         <Footer />
       </body>

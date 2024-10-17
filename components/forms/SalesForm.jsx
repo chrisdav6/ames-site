@@ -21,6 +21,7 @@ import {
 } from '@/components/ui/select';
 import { Checkbox } from '@/components/ui/checkbox';
 import { Textarea } from '@/components/ui/textarea';
+import { useToast } from '@/hooks/use-toast';
 
 // Items for Checkbox Input
 const items = [
@@ -105,6 +106,8 @@ const formSchema = z.object({
 });
 
 export function SalesForm() {
+  const { toast } = useToast();
+
   const form = useForm({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -120,8 +123,25 @@ export function SalesForm() {
     },
   });
 
-  function onSubmit(values) {
-    console.log(values);
+  async function onSubmit(values) {
+    const res = await fetch('/api/send', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(values),
+    });
+
+    if (res.ok) {
+      console.log('Okay!');
+      form.reset();
+
+      toast({
+        variant: 'success',
+        title: 'Sales Request Submitted!',
+        description: 'Thank You!',
+      });
+    }
   }
 
   return (
