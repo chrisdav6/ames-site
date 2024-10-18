@@ -124,7 +124,7 @@ export function SalesForm() {
   });
 
   async function onSubmit(values) {
-    const res = await fetch('/api/send', {
+    const res = await fetch('/api/sendSales', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
