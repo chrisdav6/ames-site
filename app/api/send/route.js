@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import SalesEmailTemplate from '@/components/forms/SalesEmailTemplate';
+import SalesEmail from '@/email/sales-email';
 import { Resend } from 'resend';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
@@ -11,11 +11,11 @@ export async function POST(req) {
 
   try {
     const { data, error } = await resend.emails.send({
-      from: 'Acme <onboarding@resend.dev>',
+      from: 'Sales Request <onboarding@resend.dev>',
       to: ['cdavis@transtechsys.com'],
       subject: 'Ames Sales Request',
       replyTo: email,
-      react: SalesEmailTemplate({
+      react: SalesEmail({
         name,
         company,
         state,
