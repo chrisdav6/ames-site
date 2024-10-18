@@ -29,6 +29,7 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from '@/components/ui/popover';
+import { useToast } from '@/hooks/use-toast';
 
 const formSchema = z.object({
   name: z.string().min(2, {
@@ -59,6 +60,8 @@ const formSchema = z.object({
 });
 
 export function WarrantyForm() {
+  const { toast } = useToast();
+
   const form = useForm({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -74,8 +77,25 @@ export function WarrantyForm() {
     },
   });
 
-  function onSubmit(values) {
-    console.log(values);
+  async function onSubmit(values) {
+    const res = await fetch('/api/sendWarranty', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(values),
+    });
+
+    if (res.ok) {
+      console.log('Okay!');
+      form.reset();
+
+      toast({
+        variant: 'success',
+        title: 'Warranty Registration Submitted!',
+        description: 'Thank You!',
+      });
+    }
   }
 
   return (
