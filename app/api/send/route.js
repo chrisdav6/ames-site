@@ -14,6 +14,7 @@ export async function POST(req) {
       from: 'Acme <onboarding@resend.dev>',
       to: ['cdavis@transtechsys.com'],
       subject: 'Ames Sales Request',
+      replyTo: email,
       react: SalesEmailTemplate({
         name,
         company,
