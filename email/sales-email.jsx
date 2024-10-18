@@ -4,6 +4,7 @@ import {
   Head,
   Hr,
   Preview,
+  Heading,
   Section,
   Text,
 } from '@react-email/components';
@@ -26,24 +27,57 @@ export default function SalesEmail({
       <Preview>Ames Sales Request</Preview>
       <Tailwind>
         <Body>
-          <Section>Ames Sales Request</Section>
+          <Heading as='h2'>Ames Sales Request</Heading>
           <Hr />
-          <Text>Name: {name}</Text>
-          <Text>Company: {company}</Text>
-          <Text>State: {state}</Text>
-          <Text>Country: {country}</Text>
-          <Text>Phone: {phone}</Text>
-          <Text>Email: {email}</Text>
-          <Text>How did you hear about us?: {how}</Text>
+          <Text style={{ fontSize: 16, marginBottom: '0' }}>Name: {name}</Text>
+          <Text style={{ fontSize: 16, marginBottom: '0', marginTop: '0' }}>
+            Company: {company}
+          </Text>
+          <Text style={{ fontSize: 16, marginBottom: '0', marginTop: '0' }}>
+            State: {state}
+          </Text>
+          <Text style={{ fontSize: 16, marginBottom: '0', marginTop: '0' }}>
+            Country: {country}
+          </Text>
+          <Text style={{ fontSize: 16, marginBottom: '0', marginTop: '0' }}>
+            Phone: {phone}
+          </Text>
+          <Text style={{ fontSize: 16, marginBottom: '0', marginTop: '0' }}>
+            Email: {email}
+          </Text>
+          <Text style={{ fontSize: 16, marginBottom: '0', marginTop: '0' }}>
+            How did you hear about us?: {how}
+          </Text>
           <Section>
-            <Text>Please send info on:</Text>
+            <Text
+              style={{
+                fontSize: 16,
+                marginBottom: '0',
+                textDecoration: 'underline',
+              }}
+            >
+              Please send info on:
+            </Text>
             {items.map((item, idx) => (
-              <Text key={idx}>{item}</Text>
+              <Text
+                key={idx}
+                style={{ fontSize: 16, marginBottom: '0', marginTop: '0' }}
+              >
+                - {item}
+              </Text>
             ))}
           </Section>
           <Section>
-            <Text className='underline'>Message:</Text>
-            <Text>{message}</Text>
+            <Text
+              style={{
+                fontSize: 16,
+                marginBottom: '0',
+                textDecoration: 'underline',
+              }}
+            >
+              Message:
+            </Text>
+            <Text style={{ fontSize: 16, marginTop: '0' }}>{message}</Text>
           </Section>
         </Body>
       </Tailwind>

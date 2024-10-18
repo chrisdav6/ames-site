@@ -15,17 +15,19 @@ export async function POST(req) {
       to: ['cdavis@transtechsys.com'],
       subject: 'Ames Sales Request',
       replyTo: email,
-      react: SalesEmail({
-        name,
-        company,
-        state,
-        country,
-        phone,
-        email,
-        how,
-        items,
-        message,
-      }),
+      react: (
+        <SalesEmail
+          name={name}
+          company={company}
+          state={state}
+          country={country}
+          phone={phone}
+          email={email}
+          how={how}
+          items={items}
+          message={message}
+        />
+      ),
     });
 
     if (error) {
