@@ -21,6 +21,7 @@ import {
 } from '@/components/ui/select';
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 import { Textarea } from '@/components/ui/textarea';
+import { useToast } from '@/hooks/use-toast';
 
 const formSchema = z.object({
   name: z.string().min(2, {
@@ -57,6 +58,8 @@ const formSchema = z.object({
 });
 
 export function SupportForm() {
+  const { toast } = useToast();
+
   const form = useForm({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -76,8 +79,25 @@ export function SupportForm() {
     },
   });
 
-  function onSubmit(values) {
-    console.log(values);
+  async function onSubmit(values) {
+    const res = await fetch('/api/sendSupport', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(values),
+    });
+
+    if (res.ok) {
+      console.log('Okay!');
+      form.reset();
+
+      toast({
+        variant: 'success',
+        title: 'Support Request Submitted!',
+        description: 'Thank You!',
+      });
+    }
   }
 
   return (
@@ -666,19 +686,19 @@ export function SupportForm() {
                       </SelectTrigger>
                     </FormControl>
                     <SelectContent>
-                      <SelectItem value='1000'>
+                      <SelectItem value='If cost is over $1000'>
                         If cost of repair is more than $1,000
                       </SelectItem>
-                      <SelectItem value='750'>
+                      <SelectItem value='If cost is over $750'>
                         If cost of repair is more than $750
                       </SelectItem>
-                      <SelectItem value='500'>
+                      <SelectItem value='If cost is over $500'>
                         If cost of repair is more than $500
                       </SelectItem>
-                      <SelectItem value='calibration'>
+                      <SelectItem value='If cost is more than calibration'>
                         If cost of repair is more than calibration cost
                       </SelectItem>
-                      <SelectItem value='no'>No</SelectItem>
+                      <SelectItem value='No'>No</SelectItem>
                     </SelectContent>
                   </Select>
                   <FormMessage />
