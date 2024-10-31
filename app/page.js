@@ -8,7 +8,12 @@ export default function Home() {
     <div className='w-screen'>
       <HeroCarousel />
       <LowerRedHero />
-      <CTABanner />
+      <CTABanner
+        text='Onsite Demonstrations and Consultation'
+        subText='Foremost in developing sensor technology for pavement
+              measurements.'
+        btnText='Make an Appointment!'
+      />
       <ProductGrid />
     </div>
   );

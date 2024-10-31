@@ -18,7 +18,12 @@ export default function AllProducts() {
       <ProductGrid />
 
       <div className='mt-20'>
-        <CTABanner />
+        <CTABanner
+          text='Onsite Demonstrations and Consultation'
+          subText='Foremost in developing sensor technology for pavement
+              measurements.'
+          btnText='Make an Appointment!'
+        />
       </div>
     </div>
   );

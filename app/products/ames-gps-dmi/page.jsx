@@ -5,13 +5,14 @@ import PhotoWithCaption from '@/components/PhotoWithCaption';
 import {
   Table,
   TableBody,
-  TableCaption,
   TableCell,
   TableHead,
   TableHeader,
   TableRow,
 } from '@/components/ui/table';
 import { Check } from 'lucide-react';
+import TestimonialCarousel from '@/components/TestimonialCarousel';
+import CTABanner from '@/components/CTABanner';
 
 export const metadata = {
   title: 'Ames Engineering | GPS Distance Measurement Instruments',
@@ -354,7 +355,13 @@ export default function ProGPSDMI() {
         </div>
 
         {/* Testimonials */}
-        <div className='mt-10'></div>
+        <div className='mt-16'>
+          <h2 className='mx-auto text-center md:text-left md:mx-0 text-xl font-bold bg-amesRed w-fit py-2 px-3 text-white'>
+            Testimonials
+          </h2>
+
+          <TestimonialCarousel />
+        </div>
       </div>
     </div>
   );
