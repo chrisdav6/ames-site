@@ -73,7 +73,7 @@ export default function HeroCarousel() {
           style={{ backfaceVisibility: 'hidden' }}
         >
           <img
-            src='/images/slider-1.jpg'
+            src='/images/slider-1withLogo.jpg'
             className='block w-full h-[600px] lg:h-[700px] xl:h-[800px] object-cover brightness-[60%]'
             alt='...'
           />
