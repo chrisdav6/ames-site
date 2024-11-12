@@ -102,14 +102,14 @@ export default function PrivacyPolicy() {
             should contact us immediately at{' '}
             <a
               href='tel:5152928194'
-              className='hover:text-amesRed hover:underline transition duration-300 group'
+              className='hover:text-amesRed hover:underline transition duration-300'
             >
               515-292-8194
             </a>{' '}
             or email at{' '}
             <a
               href='mailto:info@amesengineering.com?subject=Ames Engineering Website Privacy Policy'
-              className='hover:text-amesRed hover:underline transition duration-300 group'
+              className='hover:text-amesRed hover:underline transition duration-300'
             >
               info@amesengineering.com
             </a>

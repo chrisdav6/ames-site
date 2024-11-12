@@ -1,5 +1,7 @@
 import CTABanner from '@/components/CTABanner';
 import ProductGrid from '@/components/ProductGrid';
+import { BsConeStriped } from 'react-icons/bs';
+import { FaCalendarAlt } from 'react-icons/fa';
 
 export const metadata = {
   title: 'Ames Engineering | Products',
@@ -23,6 +25,10 @@ export default function AllProducts() {
           subText='Foremost in developing sensor technology for pavement
               measurements.'
           btnText='Make an Appointment!'
+          icon={<BsConeStriped className='w-14 h-14' />}
+          btnIcon={
+            <FaCalendarAlt className='hidden group-hover:flex w-4 h-4' />
+          }
         />
       </div>
     </div>
