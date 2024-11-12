@@ -36,7 +36,7 @@ export default function PrivacyPolicy() {
         </div>
 
         <div className='text-left text-lg mt-8'>
-          <h2 className='font-bold'>
+          <h2 className='font-bold underline'>
             Information Collection, Use, and Sharing
           </h2>
           <p className='mt-2'>
@@ -59,7 +59,7 @@ export default function PrivacyPolicy() {
         </div>
 
         <div className='text-left text-lg mt-8'>
-          <h2 className='font-bold'>
+          <h2 className='font-bold underline'>
             Your Access to and Control Over Information
           </h2>
           <p className='mt-2'>
@@ -76,7 +76,7 @@ export default function PrivacyPolicy() {
         </div>
 
         <div className='text-left text-lg mt-8'>
-          <h2 className='font-bold'>Security</h2>
+          <h2 className='font-bold underline'>Security</h2>
           <p className='mt-2'>
             We take precautions to protect your information. When you submit
             sensitive information via the website, your information is protected
@@ -102,14 +102,14 @@ export default function PrivacyPolicy() {
             should contact us immediately at{' '}
             <a
               href='tel:5152928194'
-              className='hover:text-amesRed transition duration-300 group'
+              className='hover:text-amesRed hover:underline transition duration-300 group'
             >
               515-292-8194
             </a>{' '}
             or email at{' '}
             <a
               href='mailto:info@amesengineering.com?subject=Ames Engineering Website Privacy Policy'
-              className='hover:text-amesRed transition duration-300 group'
+              className='hover:text-amesRed hover:underline transition duration-300 group'
             >
               info@amesengineering.com
             </a>
