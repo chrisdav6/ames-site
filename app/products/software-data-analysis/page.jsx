@@ -28,9 +28,9 @@ export default function ProfilerSoftwareAndDataAnalysis() {
       {/* Images */}
       <div className='mt-4 w-full h-[300px] md:h-[600px] relative'>
         <Image
-          src='/images/Accutexture100ProductImage.jpg'
+          src='/images/ProfilerSoftwareProductImage.jpg'
           fill
-          alt='Ames AccuTexture 100'
+          alt='Ames Profiler Software and Data Analysis'
           className='w-full object-cover object-[-150px] md:object-center'
           priority
         />
