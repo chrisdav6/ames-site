@@ -77,6 +77,14 @@ const items = [
     id: 'Profiler Software and Data Analysis',
     label: 'Profiler Software and Data Analysis',
   },
+  {
+    id: 'Custom Builds',
+    label: 'Custom Builds',
+  },
+  {
+    id: 'Product Training',
+    label: 'Product Training',
+  },
 ];
 
 const formSchema = z.object({
