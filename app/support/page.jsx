@@ -20,7 +20,7 @@ export default function Support() {
           </h3>
 
           <div className='flex flex-col lg:flex-row gap-6 mt-6 text-center md:text-left text-lg'>
-            <div className='md:max-w-5xl'>
+            <div className='lg:max-w-2xl xl:max-w-3xl 2xl:max-w-5xl'>
               <p>
                 We build our equipment with pride and aim to serve our customers
                 with unmatched service after the sale. We believe that
@@ -75,7 +75,7 @@ export default function Support() {
                 className='shadow-md'
               />
             </div>
-            <div className='md:max-w-5xl'>
+            <div className='lg:max-w-2xl xl:max-w-3xl 2xl:max-w-5xl'>
               <p>
                 Our proprietary software programs are designed to work
                 seamlessly with our equipment for the most efficient data
@@ -104,7 +104,7 @@ export default function Support() {
           </h3>
 
           <div className='flex flex-col lg:flex-row gap-6 mt-6 text-center md:text-left text-lg'>
-            <div className='md:max-w-5xl'>
+            <div className='lg:max-w-2xl xl:max-w-3xl 2xl:max-w-5xl'>
               <p>
                 In a world of changing specifications and standards, continued
                 education for operators and field leaders improves outcomes,
