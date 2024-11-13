@@ -43,10 +43,10 @@ export default function OurCompany() {
           </div>
           <div>
             <Image
-              src='/images/rtpInUse.jpg'
+              src='/images/aboutAmes.png'
               width={1000}
               height={1000}
-              alt='Ames Tech Support'
+              alt='About Ames Engineering'
               className='shadow-md'
             />
           </div>
