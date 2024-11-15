@@ -110,7 +110,7 @@ const salesLinks = [
   },
   {
     name: 'Equipment Delivery',
-    href: '/sales/equipmentDelivery',
+    href: '/sales/#equipmentDelivery',
   },
   {
     name: 'Tradeshows',
