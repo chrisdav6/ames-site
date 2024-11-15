@@ -1,5 +1,4 @@
 import TeamCard from '@/components/TeamCard';
-import Image from 'next/image';
 
 export const metadata = {
   title: 'Ames Engineering | Our Team',
