@@ -86,11 +86,7 @@ const supportLinks = [
     href: '/support/#training',
   },
   {
-    name: 'Support Request',
-    href: '/support/supportRequest',
-  },
-  {
-    name: 'Parts Request',
+    name: 'Support/Parts Request',
     href: '/support/supportRequest',
   },
   {
