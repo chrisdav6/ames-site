@@ -76,6 +76,149 @@ export default function Tradeshows() {
             linkedInURL='https://www.linkedin.com/company/the-national-academies'
             hr={true}
           />
+          <TradeshowCard
+            date='January 6 - 8, 2025'
+            img='/images/mapa-logo.png'
+            alt='Missouri Asphalt Paving Association'
+            url='https://moasphalt.org/events'
+            name='35th Annual MAPA Conference - Columbia, MO'
+            text1='The Missouri Asphalt Paving Association conference is your chance to get caught up on the outlook of the industry and check out the new innovative technologies available from exhibitors on the showroom floor, bringing you information on the most current industry news. Along with education, the conference gives you a fantastic opportunity to network with peers and meet other industry professionals'
+            facebookURL='https://www.facebook.com/MoAsphalt'
+            twitterURL='https://x.com/MoAsphalt'
+            linkedInURL='https://www.linkedin.com/company/moasphalt'
+            hr={true}
+          />
+          <TradeshowCard
+            date='January 28 - 30, 2025'
+            img='/images/pavex.png'
+            alt='PAVE/X Pavement Experience'
+            url='https://www.pavexshow.com'
+            name='PAVE/X: The Pavement Experience - Chattanooga, TN - Booth #1035'
+            text1='Through this new, unique event PAVE/X Pavement Experience aims to help contractors and business owners propel their business and expertise forward with live equipment demonstrations, an in-depth educational program and deeper connection opportunities on an expansive trade show floor.'
+            facebookURL='https://www.facebook.com/PAVEXShow'
+            instagramURL='https://www.instagram.com/pavexshow'
+            linkedInURL='https://www.linkedin.com/company/pave-x-show'
+            hr={true}
+          />
+          <TradeshowCard
+            date='February 19 - 20, 2025'
+            img='/images/rmaces-logo.png'
+            alt='Rocky Mountain Asphalt Conference & Equipment Show'
+            url='https://whova.com/web/lJQ-iWM97zLvsS%40GTUGkBcEBL2hv--Nzwq5VzVuKgMs%3D'
+            name='52nd Annual RMACES - Denver, CO'
+            text1='The 52nd Annual Rocky Mountain Asphalt Conference & Equipment Show. With over 100 vendors and exhibitors, this is your chance to connect with the best in the business and elevate your brand to new heights. Contractors, suppliers, governmental agency representatives, and consultants from the Rocky Mountain West hold an annual conference in Colorado to discuss new developments and quality advancements of asphalt pavements.'
+            facebookURL='https://www.facebook.com/profile.php?id=100046331990282'
+            instagramURL='https://www.instagram.com/colorado_asphalt_pavement_asso'
+            linkedInURL='https://www.linkedin.com/company/colorado-asphalt-pavement-associaiton'
+            hr={true}
+          />
+          <TradeshowCard
+            date='February 26 - 27, 2025'
+            img='/images/michigan-asphalt-logo.png'
+            alt='Michigan Asphalt Paving Association'
+            url='https://mms.apa-mi.org//Calendar/moreinfo.php?eventid=137288'
+            name='APAM 68th Annual Paving Conference - Mt. Pleasant, MI'
+            text1='The Michigan Asphalt Paving Association annual asphalt paving conference. This event is considered one of the most informative in the construction industry, featuring a full day of information and educational sessions.'
+            facebookURL='https://www.facebook.com/AsphaltPavementAssociationOfMichigan'
+            twitterURL='https://x.com/AsphaltPerforms'
+            instagramURL='https://www.instagram.com/asphaltperforms'
+            linkedInURL='https://www.linkedin.com/company/asphalt-pavement-association-of-michigan-inc'
+            hr={true}
+          />
+          <TradeshowCard
+            date='March 18 - 19, 2025'
+            img='/images/ohio-logo.png'
+            alt='Flexible Pavements of Ohio'
+            url='https://www.flexiblepavements.org/OhioAsphaltExpo'
+            name='Ohio Asphalt Expo - Columbus, OH'
+            text1='The Asphalt Expo is a premiere asphalt pavement event with multiple concurrent educational sessions and an indoor and outdoor trade show and exhibition. If you construct, inspect,manage or maintain local or private transportation infrastructure the Ohio Asphalt Expo has the information you need to ensure a successful, long-lasting asphalt pavement.'
+            facebookURL='https://www.facebook.com/flexiblepavements'
+            twitterURL='https://x.com/Ohio_Asphalt'
+            instagramURL='https://www.instagram.com/flexpaveoh'
+            linkedInURL='https://www.linkedin.com/company/flexible-pavements-of-ohio'
+            youtubeURL='https://www.youtube.com/user/FlexiblePavementOhio'
+            hr={true}
+          />
+          <TradeshowCard
+            date='March 25 - 27, 2025'
+            img='/images/woa-logo.png'
+            alt='World of Asphalt'
+            url='https://www.worldofasphalt.com'
+            name='World of Asphalt - St. Louis, MO - Booth #1008'
+            text1={`World of Asphalt is the leading asphalt trade show and conference. Over 450 of the industry's leading manufacturers and service providers in the aggregate, asphalt, pavement maintenance, and traffic safety industry sectors come together at World of Asphalt to showcase their latest products and technologies. The conference features learning opportunities with leading industry experts to discuss solutions to issues affecting the asphalt industry.`}
+            facebookURL='https://www.facebook.com/WorldofAsphalt'
+            twitterURL='https://x.com/WorldofAsphalt'
+            instagramURL='https://www.instagram.com/world.of.asphalt'
+            linkedInURL='https://www.linkedin.com/company/world-of-asphalt'
+            youtubeURL='https://www.youtube.com/user/WorldofAsphalt'
+            hr={true}
+          />
+          <TradeshowCard
+            date='April 8 - 9, 2025'
+            img='/images/maine-logo.png'
+            alt='Maine Asphalt Paving Association'
+            url='https://maine-apa.org/paving-seminar'
+            name='MAPA 20th Annual Spring Paving Seminar - Bangor, ME'
+            text1={`Maine Asphalt Paving Association's 18th Annual Spring Paving Seminar. Invigorating workshops, networking opportunities and the largest Industry equipment show in Maine. MAPA works to encourage and promote the safe and environmentally sound use of bituminous asphalt products throughout the state of Maine.`}
+            facebookURL='https://www.facebook.com/profile.php?id=100063700834665'
+            youtubeURL='https://www.youtube.com/channel/UC_Sx_eaSqmNYtj7n5iYofjw'
+            hr={true}
+          />
+          <TradeshowCard
+            date='July 8 - 11, 2025'
+            img='/images/napa-logo.png'
+            alt='National Asphalt Pavement Association'
+            url='https://www.asphaltpavement.org/programs/napa-events/napa-midyear-meeting'
+            name='NAPA Midyear Meeting - Louisville, KY'
+            text1='The NAPA Midyear Meeting is three comprehensive days of committee meetings and educational sessions focused on advancing the asphalt pavement industry. Throughout this meeting, NAPA leadership gathers input, makes decisions, and reaffirms the strategic direction of our industry, members, and stakeholders.'
+            facebookURL='https://www.facebook.com/AsphaltPavement'
+            twitterURL='https://x.com/NAPATweets'
+            instagramURL='https://www.instagram.com/goasphalt'
+            linkedInURL='https://www.linkedin.com/company/asphaltpavement'
+            youtubeURL='https://www.youtube.com/channel/UCDroWs5yMvWHi1mEjHPOAIw'
+            hr={true}
+          />
+          <TradeshowCard
+            date='September 8 - 11, 2025'
+            img='/images/txapa-logo.png'
+            alt='Texas Asphalt Pavement Association'
+            url='https://texasasphalt.org/events/2025-annual-meeting'
+            name={`TXAPA's 50th Annual Meeting - San Antonio, TX`}
+            text1={`TXAPA holds its annual meeting over four days in mid-September, combining education, networking, and fun. The agenda features award-winning speakers and entertainers and includes technical sessions, ample networking time, a golf tournament, casino night, and a live and silent auction benefiting the TXAPA Scholarship Program. The size of the meeting has grown significantly since the first one in 1974. In 2019, more than 600 TXAPA members, TxDOT personnel, and their spouses attended. The meeting venue is always one of Texas’ premier destination resorts.`}
+            facebookURL='https://www.facebook.com/TexasAsphalt'
+            twitterURL='https://x.com/TexasAsphalt'
+            instagramURL='https://www.instagram.com/texasasphaltpavement'
+            linkedInURL='https://www.linkedin.com/company/texas-asphalt-pavement-association'
+            youtubeURL='https://www.youtube.com/channel/UCg9R6YxcVok22oBpf3PN8zg'
+            hr={true}
+          />
+          <TradeshowCard
+            date='March 3 - 7, 2026'
+            img='/images/conexpo-logo.png'
+            alt='CONEXPO-CON/AGG'
+            url='https://www.conexpoconagg.com'
+            name='ConExpo - Las Vegas, NV'
+            text1={`Held once every 3 years, CONEXPO-CON/AGG is North America’s largest construction trade show representing asphalt, aggregates, concrete, earthmoving, lifting, mining, utilities and more. 2,800 exhibitors, 2,500,000 square feet and 150 education sessions! Bringing contractors, dealers, distributors, service providers, engineers and producers together in one place. No other show connects attendees from every major construction sector.`}
+            facebookURL='https://www.facebook.com/conexpoconagg'
+            twitterURL='https://x.com/conexpoconagg'
+            instagramURL='https://www.instagram.com/conexpoconagg'
+            linkedInURL='https://www.linkedin.com/company/conexpoconagg'
+            youtubeURL='https://www.youtube.com/user/conexpoconagg'
+            hr={true}
+          />
+          <TradeshowCard
+            date='2027'
+            img='/images/ncat-conference.png'
+            alt='National Center for Asphalt Technology'
+            url='https://eng.auburn.edu/research/centers/ncat/testtrack/conference.html'
+            name='NCAT Test Track Conference - Auburn, AL'
+            text1='Held every three years, the Test Track Conference is a forum to present research findings from the previous cycle of accelerated pavement testing. During the two and a half day program, participants learn about advancements in asphalt pavement design, construction, technologies, and maintenance that are more cost effective and improve performance. The conference also provides a valuable networking opportunity and sets the stage for further cooperation among federal, state, and local agencies as well as the private sector.'
+            facebookURL='https://www.facebook.com/NCATAuburn'
+            twitterURL='https://x.com/ncatauburn'
+            instagramURL='https://www.instagram.com/auburnasphalt'
+            linkedInURL='https://www.linkedin.com/company/ncatauburn'
+            youtubeURL='https://www.youtube.com/channel/UC5grTAnUU_oE9F2FPpEdgJw'
+          />
         </div>
       </div>
     </div>

@@ -38,27 +38,37 @@ export default function TradeshowCard({
           <div className='flex flex-row items-center justify-center md:justify-start gap-1 mt-4'>
             {facebookURL && (
               <a href={facebookURL} target='_blank'>
-                {<FaFacebook className='text-xl' />}
+                {
+                  <FaFacebook className='text-xl text-gray-800 hover:text-[#1877F2] transition duration-300' />
+                }
               </a>
             )}
             {twitterURL && (
               <a href={twitterURL} target='_blank'>
-                {<FaXTwitter className='text-xl' />}
+                {
+                  <FaXTwitter className='text-xl text-gray-800 hover:text-black transition duration-300' />
+                }
               </a>
             )}
             {instagramURL && (
               <a href={instagramURL} target='_blank'>
-                {<FaInstagram className='text-xl' />}
+                {
+                  <FaInstagram className='text-xl text-gray-800 hover:text-[#5b51d8] transition duration-300' />
+                }
               </a>
             )}
             {linkedInURL && (
               <a href={linkedInURL} target='_blank'>
-                {<FaLinkedin className='text-xl' />}
+                {
+                  <FaLinkedin className='text-xl text-gray-800 hover:text-[#0a66c2] transition duration-300' />
+                }
               </a>
             )}
             {youtubeURL && (
               <a href={youtubeURL} target='_blank'>
-                {<FaYoutubeSquare className='text-xl' />}
+                {
+                  <FaYoutubeSquare className='text-xl text-gray-800 hover:text-[#FF0000] transition duration-300' />
+                }
               </a>
             )}
           </div>
