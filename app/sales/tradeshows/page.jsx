@@ -1,3 +1,4 @@
+import GoogleTradeshowMap from '@/components/GoogleTradeshowMap';
 import TradeshowCard from '@/components/TradeshowCard';
 
 export const metadata = {
@@ -8,8 +9,10 @@ export const metadata = {
 
 export default function Tradeshows() {
   return (
-    <div className='w-full px-10 2xl:px-80 pt-14'>
-      <div>
+    <div>
+      <GoogleTradeshowMap />
+
+      <div className='w-full px-10 2xl:px-80 pt-14'>
         <h3 className='mx-auto md:mx-0 text-2xl font-bold bg-amesRed w-fit py-2 px-3 text-white'>
           Tradeshows
         </h3>
