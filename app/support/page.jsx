@@ -133,7 +133,7 @@ export default function Support() {
       <div className='mt-20 w-full'>
         <CTABanner
           text='Upcoming Training Events'
-          subText='Contact our sales team for out training schedule!'
+          subText='Contact our sales team for our training schedule!'
           btnText='Get In Touch!'
           icon={<FaChalkboardTeacher className='w-14 h-14' />}
           btnIcon={<FiSend className='hidden group-hover:flex w-4 h-4' />}
