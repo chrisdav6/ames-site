@@ -69,8 +69,6 @@ export default function GoogleTradeshowMap() {
         >
           {markers.map((markerItem, index) => (
             <div key={index}>
-              {console.log(markerItem.position)}
-              {console.log(infoWindowContent[index])}
               <AdvancedMarker
                 ref={markerRef}
                 position={markerItem.position}
