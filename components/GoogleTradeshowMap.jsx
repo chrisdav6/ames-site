@@ -37,7 +37,7 @@ export default function GoogleTradeshowMap() {
     <APIProvider apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}>
       <div style={{ height: '550px', width: '100%' }}>
         <Map
-          zoom={4.5}
+          defaultZoom={4.5}
           defaultCenter={defaultPosition}
           mapId={process.env.NEXT_PUBLIC_TRADESHOW_MAP_ID}
           clickableIcons={false}
