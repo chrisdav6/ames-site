@@ -16,7 +16,7 @@ export default function OurCompany() {
 
         <div className='flex flex-col lg:flex-row gap-6 mt-6 text-center md:text-left text-lg'>
           <div className='lg:max-w-2xl xl:max-w-3xl 2xl:max-w-4xl'>
-            <p className='font-bold'>
+            <p className='font-bold text-xl max-w-[550px] mx-auto md:mx-0'>
               Ames Engineering is at the forefront in the development of
               Laser-based pavement measurement equipment.
             </p>
