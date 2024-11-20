@@ -163,12 +163,12 @@ const contactLinks = [
     external: true,
     icon: <FaInstagram />,
   },
-  {
-    name: 'Youtube',
-    href: 'https://youtube.com',
-    external: true,
-    icon: <IoLogoYoutube />,
-  },
+  // {
+  //   name: 'Youtube',
+  //   href: 'https://youtube.com',
+  //   external: true,
+  //   icon: <IoLogoYoutube />,
+  // },
 ];
 
 export default function Header() {
