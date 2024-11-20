@@ -119,10 +119,6 @@ const aboutLinks = [
     name: 'Our Company',
     href: '/about',
   },
-  {
-    name: 'Our Team',
-    href: '/about/our-team',
-  },
 ];
 
 const resourcesLinks = [
