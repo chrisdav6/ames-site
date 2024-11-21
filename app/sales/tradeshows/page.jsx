@@ -86,7 +86,7 @@ export default function Tradeshows() {
             date='January 6 - 8, 2025'
             img='/images/mapa-logo.png'
             alt='Missouri Asphalt Paving Association'
-            url='https://moasphalt.org/events'
+            url='https://moasphalt.org/events/35th-annual-mapa-conference'
             name='35th Annual MAPA Conference - Columbia, MO'
             text1='The Missouri Asphalt Paving Association conference is your chance to get caught up on the outlook of the industry and check out the new innovative technologies available from exhibitors on the showroom floor, bringing you information on the most current industry news. Along with education, the conference gives you a fantastic opportunity to network with peers and meet other industry professionals'
             facebookURL='https://www.facebook.com/MoAsphalt'

@@ -71,7 +71,7 @@ export default function GoogleTradeshowMap() {
       booth: '',
       cityState: 'Columbia, MO',
       date: 'January 6-8, 2025',
-      url: 'https://moasphalt.org/events',
+      url: 'https://moasphalt.org/events/35th-annual-mapa-conference',
       lat: 38.948857,
       lng: -92.334012,
     },
