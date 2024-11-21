@@ -101,7 +101,7 @@ export default function GoogleTradeshowMap() {
       booth: '',
       cityState: 'Mt. Pleasant, MI',
       date: 'February 26-27, 2025',
-      url: 'https://mms.apa-mi.org//Calendar/moreinfo.php?eventid=137288',
+      url: 'https://www.apa-mi.org/pc_home_page.php',
       lat: 43.600198,
       lng: -84.769425,
     },

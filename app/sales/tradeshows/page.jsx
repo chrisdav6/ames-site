@@ -123,13 +123,14 @@ export default function Tradeshows() {
             date='February 26 - 27, 2025'
             img='/images/michigan-asphalt-logo.png'
             alt='Michigan Asphalt Paving Association'
-            url='https://mms.apa-mi.org//Calendar/moreinfo.php?eventid=137288'
+            url='https://www.apa-mi.org/pc_home_page.php'
             name='APAM 68th Annual Paving Conference - Mt. Pleasant, MI'
             text1='The Michigan Asphalt Paving Association annual asphalt paving conference. This event is considered one of the most informative in the construction industry, featuring a full day of information and educational sessions.'
             facebookURL='https://www.facebook.com/AsphaltPavementAssociationOfMichigan'
             twitterURL='https://x.com/AsphaltPerforms'
             instagramURL='https://www.instagram.com/asphaltperforms'
             linkedInURL='https://www.linkedin.com/company/asphalt-pavement-association-of-michigan-inc'
+            youtubeURL='https://www.youtube.com/channel/UC6zuZ5WXlIwLiZEtnMbatDg'
             hr={true}
           />
           <TradeshowCard
