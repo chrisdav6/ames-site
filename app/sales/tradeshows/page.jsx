@@ -18,8 +18,8 @@ export default function Tradeshows() {
         </h3>
 
         <p className='mt-6 text-center md:text-left text-lg'>
-          Ames Engineering will be attending the following events. Be sure to
-          see us at a show near you!
+          Ames Engineering will attend the following events. Be sure to see us
+          at a show near you!
         </p>
 
         <div className='flex flex-col gap-8 mt-8 text-center md:text-left text-lg'>
