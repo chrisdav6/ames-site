@@ -116,6 +116,7 @@ export default function Tradeshows() {
             facebookURL='https://www.facebook.com/profile.php?id=100046331990282'
             instagramURL='https://www.instagram.com/colorado_asphalt_pavement_asso'
             linkedInURL='https://www.linkedin.com/company/colorado-asphalt-pavement-associaiton'
+            youtubeURL='https://www.youtube.com/channel/UCSJR-A8JiJq5Vh6ibbMJEoA'
             hr={true}
           />
           <TradeshowCard
