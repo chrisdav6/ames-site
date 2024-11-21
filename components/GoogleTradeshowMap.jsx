@@ -51,7 +51,7 @@ export default function GoogleTradeshowMap() {
       booth: '',
       cityState: 'St. Cloud, MN',
       date: 'December 10-11, 2024',
-      url: 'https://www.asphaltisbest.com/events/EventDetails.aspx?id=1853252&group=',
+      url: 'https://www.asphaltisbest.com/page/conference',
       lat: 45.553381,
       lng: -94.164918,
     },

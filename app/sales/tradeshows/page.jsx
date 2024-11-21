@@ -60,7 +60,7 @@ export default function Tradeshows() {
             date='December 10 - 11, 2024'
             img='/images/mn-logo.png'
             alt='Minnesota Asphalt Pavement Association'
-            url='https://www.asphaltisbest.com/events/EventDetails.aspx?id=1853252&group='
+            url='https://www.asphaltisbest.com/page/conference'
             name='2024 Minnesota Asphalt Conference - St. Cloud, MN'
             text1='The Minnesota Asphalt Pavement Association (MAPA) and the Minnesota Association of Asphalt Paving Technologists (MAAPT) hold thier annual conference. Featuring educational sessions, breakouts, hospitality room, and an awards dinner.'
             facebookURL='https://www.facebook.com/MnAsphaltPavementAssoc'
