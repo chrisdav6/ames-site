@@ -23,6 +23,18 @@ export default function Tradeshows() {
         </p>
 
         <div className='flex flex-col gap-8 mt-8 text-center md:text-left text-lg'>
+          {/* <TradeshowCard
+            date='December 11 - 13, 2024'
+            img='/images/apai-logo.png'
+            alt='Asphalt Pavement Association of Indiana'
+            url='https://www.asphaltindiana.org/events.php'
+            name='APAI Winter Conference and Expo - Muncie, IN'
+            text1='The Asphalt Pavement Association of Indiana annual winter conference and trade show. Held each December, over 600 individuals and 50 vendors participate and discuss production and construction of quality asphalt pavements.'
+            facebookURL='https://www.facebook.com/AsphaltPavementAssociationIndiana'
+            twitterURL='https://x.com/asphaltindiana'
+            linkedInURL='https://www.linkedin.com/company/asphalt-pavement-association-of-indiana-apai'
+            hr={true}
+          /> 
           <TradeshowCard
             date='November 19 - 21, 2024'
             img='/images/seaupg-logo.png'
@@ -32,6 +44,7 @@ export default function Tradeshows() {
             text1='The SEAUPG annual meeting is held in the fall of each year. Hosted by state Departments of Transportation from each sub-group in rotation. SEAUPG Annual Meetings & Exhibits allow interaction between agencies, users, producers and material/equipment suppliers throughout the Southeastern states as well as the nation and abroad.'
             hr={true}
           />
+          */}
           <TradeshowCard
             date='December 3 - 4, 2024'
             img='/images/wisconsin-asphalt-logo.png'
@@ -53,18 +66,6 @@ export default function Tradeshows() {
             twitterURL='https://x.com/mnasphalt'
             instagramURL='https://www.instagram.com/mnasphalt'
             linkedInURL='https://www.linkedin.com/company/minnesota-asphalt-pavement-association'
-            hr={true}
-          />
-          <TradeshowCard
-            date='December 11 - 13, 2024'
-            img='/images/apai-logo.png'
-            alt='Asphalt Pavement Association of Indiana'
-            url='https://www.asphaltindiana.org/events.php'
-            name='APAI Winter Conference and Expo - Muncie, IN'
-            text1='The Asphalt Pavement Association of Indiana annual winter conference and trade show. Held each December, over 600 individuals and 50 vendors participate and discuss production and construction of quality asphalt pavements.'
-            facebookURL='https://www.facebook.com/AsphaltPavementAssociationIndiana'
-            twitterURL='https://x.com/asphaltindiana'
-            linkedInURL='https://www.linkedin.com/company/asphalt-pavement-association-of-indiana-apai'
             hr={true}
           />
           <TradeshowCard

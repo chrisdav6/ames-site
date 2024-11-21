@@ -9,8 +9,18 @@ import {
 } from '@vis.gl/react-google-maps';
 import Image from 'next/image';
 
-export default function GoogleTradeshowMap() {
-  const [shows, setShows] = useState([
+//PAST SHOWS
+/*
+  {
+      imgUrl: '/images/apai-logo.png',
+      name: 'APAI Winter Conference and Expo',
+      booth: '',
+      cityState: 'Muncie, IN',
+      date: 'December 11-13, 2024',
+      url: 'https://www.asphaltindiana.org/events.php',
+      lat: 40.206962,
+      lng: -85.393312,
+    },
     {
       imgUrl: '/images/seaupg-logo.png',
       name: 'SEAUPG',
@@ -21,6 +31,10 @@ export default function GoogleTradeshowMap() {
       lat: 30.702498,
       lng: -88.056333,
     },
+  */
+
+export default function GoogleTradeshowMap() {
+  const [shows, setShows] = useState([
     {
       imgUrl: '/images/wisconsin-asphalt-logo.png',
       name: 'WAPA 65th Annual Conference',
@@ -40,16 +54,6 @@ export default function GoogleTradeshowMap() {
       url: 'https://www.asphaltisbest.com/events/EventDetails.aspx?id=1853252&group=',
       lat: 45.553381,
       lng: -94.164918,
-    },
-    {
-      imgUrl: '/images/apai-logo.png',
-      name: 'APAI Winter Conference and Expo',
-      booth: '',
-      cityState: 'Muncie, IN',
-      date: 'December 11-13, 2024',
-      url: 'https://www.asphaltindiana.org/events.php',
-      lat: 40.206962,
-      lng: -85.393312,
     },
     {
       imgUrl: '/images/trb-logo.png',
