@@ -79,6 +79,7 @@ export default function Tradeshows() {
             facebookURL='https://www.facebook.com/NASEMTRB'
             twitterURL='https://x.com/nasemtrb'
             linkedInURL='https://www.linkedin.com/company/the-national-academies'
+            youtubeURL='https://www.youtube.com/@nationalacademies'
             hr={true}
           />
           <TradeshowCard
