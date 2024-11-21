@@ -41,7 +41,7 @@ export default function GoogleTradeshowMap() {
       booth: '',
       cityState: 'Wisconsin Dells, WI',
       date: 'December 3-4, 2024',
-      url: 'https://www.wispave.org/event/wapas-65th-annual-conference-and-business-meeting',
+      url: 'https://www.wispave.org/wapas-65th-annual-conference-and-business-meeting',
       lat: 43.625082,
       lng: -89.775456,
     },
