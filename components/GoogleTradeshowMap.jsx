@@ -193,6 +193,7 @@ export default function GoogleTradeshowMap() {
           {shows.map((show, index) => (
             <div key={index}>
               <AdvancedMarker
+                title={show.name}
                 position={{ lat: show.lat, lng: show.lng }}
                 onClick={() => {
                   show === selectedShow
