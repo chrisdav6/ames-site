@@ -103,9 +103,9 @@ export default function LightWeightProfiler6300() {
         <Button asChild className='px-4 py-5 text-lg hover:bg-amesRed'>
           <Link href='#trailer'>Transport Trailer</Link>
         </Button>
-        <Button asChild className='px-4 py-5 text-lg hover:bg-amesRed'>
+        {/* <Button asChild className='px-4 py-5 text-lg hover:bg-amesRed'>
           <Link href='#additionalFeatures'>Additional Features</Link>
-        </Button>
+        </Button> */}
       </div>
 
       <div id='specs' className='mt-6 text-center md:text-left'>
@@ -217,7 +217,7 @@ export default function LightWeightProfiler6300() {
         </ul>
       </div>
 
-      <div id='additionalFeatures' className='mt-8 text-center md:text-left'>
+      {/* <div id='additionalFeatures' className='mt-8 text-center md:text-left'>
         <h3 className='text-xl font-extrabold text-amesRed underline'>
           Additional Features
         </h3>
@@ -226,7 +226,6 @@ export default function LightWeightProfiler6300() {
           Don't forget to update text below
         </h2>
 
-        {/* Need features text */}
         <section className='grid lg:grid-cols-2 gap-5 justify-center w-full mt-4'>
           <OptionsCard
             src='/images/dataAcquisitionUnitCardImage.jpg'
@@ -241,7 +240,7 @@ export default function LightWeightProfiler6300() {
             text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo omnis impedit placeat autem eos fugit consequuntur molestiae magnam.'
           />
         </section>
-      </div>
+      </div> */}
     </div>
   );
 }
