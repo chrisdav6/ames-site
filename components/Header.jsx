@@ -330,9 +330,7 @@ export default function Header() {
                   href={link.href}
                   className={`px-2 py-1 hover:bg-amesRed hover:text-white text-base text-left text-nowrap ${
                     link.icon && 'flex items-center gap-1'
-                  } ${
-                    link.transtech && 'hover:bg-[#ffd000] hover:text-gray-900'
-                  }`}
+                  } ${link.transtech && 'hover:bg-gray-800'}`}
                 >
                   {link.icon && link.icon}
                   {link.name}
