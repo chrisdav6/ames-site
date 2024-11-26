@@ -146,6 +146,15 @@ const contactLinks = [
     href: '/support/supportRequest',
   },
   {
+    name: 'TransTech Systems',
+    href: 'https://transtechsys.com',
+    external: true,
+    transtech: true,
+  },
+];
+
+const socialLinks = [
+  {
     name: 'Facebook',
     href: 'https://www.facebook.com/AmesEngineeringLLC',
     external: true,
@@ -168,7 +177,7 @@ const contactLinks = [
   //   href: 'https://youtube.com',
   //   external: true,
   //   icon: <IoLogoYoutube />,
-  // },
+  // },];
 ];
 
 export default function Header() {
@@ -321,6 +330,25 @@ export default function Header() {
                   href={link.href}
                   className={`px-2 py-1 hover:bg-amesRed hover:text-white text-base text-left text-nowrap ${
                     link.icon && 'flex items-center gap-1'
+                  } ${
+                    link.transtech && 'hover:bg-[#ffd000] hover:text-gray-900'
+                  }`}
+                >
+                  {link.icon && link.icon}
+                  {link.name}
+                </Link>
+              ))}
+              <hr className='border-1 border-gray-300 mt-2' />
+              <h3 className='font-extrabold text-base text-left mt-2 ml-2 cursor-text'>
+                Follow Us
+              </h3>
+              {socialLinks.map((link, idx) => (
+                <Link
+                  target={link.external && '_blank'}
+                  key={idx}
+                  href={link.href}
+                  className={`px-2 py-1 hover:bg-amesRed hover:text-white text-base text-left text-nowrap ${
+                    link.icon && 'flex items-center gap-1'
                   }`}
                 >
                   {link.icon && link.icon}
@@ -445,6 +473,24 @@ export default function Header() {
             <NavItem name='Contact' mobile={true} />
             <div className='flex flex-col gap-1 p-2 bg-white'>
               {contactLinks.map((link, idx) => (
+                <Link
+                  onClick={handleMobileClose}
+                  target={link.external && '_blank'}
+                  key={idx}
+                  href={link.href}
+                  className={`px-2 py-1 text-nowrap ${
+                    link.icon && 'flex items-center justify-center gap-1'
+                  }`}
+                >
+                  {link.icon && link.icon}
+                  {link.name}
+                </Link>
+              ))}
+              <hr className='border-1 border-gray-300 mt-2' />
+              <h3 className='font-bold text-xl mt-2 mb-2 cursor-text'>
+                Follow Us
+              </h3>
+              {socialLinks.map((link, idx) => (
                 <Link
                   onClick={handleMobileClose}
                   target={link.external && '_blank'}
