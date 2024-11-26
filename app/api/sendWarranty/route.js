@@ -22,7 +22,7 @@ export async function POST(req) {
     const { data, error } = await resend.emails.send({
       // from: 'Product Warranty Registration <onboarding@resend.dev>',
       from: 'Product Warranty Registration <website@amesengineering.com>',
-      to: ['cdavis@transtechsys.com', 'chris.davis5440@gmail.com'],
+      to: ['cdavis@transtechsys.com', 'sales@amesengineering.com'],
       subject: 'Ames Product Warranty Registration',
       replyTo: email,
       react: (
