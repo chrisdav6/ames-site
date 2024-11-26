@@ -13,7 +13,7 @@ export async function POST(req) {
     const { data, error } = await resend.emails.send({
       // from: 'Sales Request <onboarding@resend.dev>',
       from: 'Sales Request <website@amesengineering.com>',
-      to: ['cdavis@transtechsys.com'],
+      to: ['cdavis@transtechsys.com', 'sales@amesengineering.com'],
       subject: 'Ames Sales Request',
       replyTo: email,
       react: (
