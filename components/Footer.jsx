@@ -25,7 +25,7 @@ export default function Footer() {
       {/* 3 Part Section */}
       <section className='grid lg:grid-cols-3 w-full 2xl:px-80'>
         <Link
-          href='/sales/equipmentDelivery'
+          href='/sales/#equipmentDelivery'
           className='lg:hover:scale-[1.03] lg:hover:shadow-3xl transition duration-300'
         >
           <div className='flex items-center gap-4 bg-[#FF403F] p-5 pl-10 2xl:pl-5'>
