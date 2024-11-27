@@ -10,7 +10,7 @@ export default function ProductRegistration() {
   return (
     <div className='w-full px-10 2xl:px-80 pt-14'>
       <div>
-        <h3 className='mx-auto md:mx-0 text-2xl font-bold bg-amesRed w-fit py-2 px-3 text-white'>
+        <h3 className='mx-auto md:mx-0 text-center md:text-left text-2xl font-bold bg-amesRed w-fit py-2 px-3 text-white'>
           Product Warranty Registration
         </h3>
         <div className='text-center md:text-left text-lg mt-4'>
