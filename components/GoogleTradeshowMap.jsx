@@ -181,7 +181,7 @@ export default function GoogleTradeshowMap() {
 
   return (
     <APIProvider apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}>
-      <div style={{ height: '550px', width: '100%' }}>
+      <div className='h-[350px] w-[100%] md:h-[550px]'>
         <Map
           defaultZoom={4.75}
           defaultCenter={defaultPosition}
