@@ -78,9 +78,9 @@ export default function TransverseProfilingSystem() {
         <Button asChild className='px-4 py-5 text-lg hover:bg-amesRed'>
           <Link href='#4K'>4K Features</Link>
         </Button>
-        {/* <Button asChild className='px-4 py-5 text-lg hover:bg-amesRed'>
+        <Button asChild className='px-4 py-5 text-lg hover:bg-amesRed'>
           <Link href='#additionalFeatures'>Additional Features</Link>
-        </Button> */}
+        </Button>
       </div>
 
       <div id='systemOverview' className='mt-6 text-center md:text-left'>
@@ -148,42 +148,38 @@ export default function TransverseProfilingSystem() {
         </ul>
       </div>
 
-      {/* <div id='additionalFeatures' className='mt-8 text-center md:text-left'>
+      <div id='additionalFeatures' className='mt-8 text-center md:text-left'>
         <h3 className='text-xl font-extrabold text-amesRed underline'>
           Additional Features
         </h3>
-
-        <h2 className='mt-5 p-4 bg-orange-600 text-xl text-white'>
-          Don't forget to update text below
-        </h2>
 
         <section className='grid lg:grid-cols-2 gap-5 justify-center w-full mt-4'>
           <OptionsCard
             src='/images/vehicleMountCardImage.jpg'
             alt='Vehicle Mount'
             title='Vehicle Mount'
-            text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo omnis impedit placeat autem eos fugit consequuntur molestiae magnam.'
+            text='The “Transverse Laser Sensor” is designed for quick and secure installation on your vehicle using standard mounting hardware. Its setup ensures seamless integration, making it a reliable choice for precision measurements in the field.'
           />
           <OptionsCard
             src='/images/modelViewCardImage.jpg'
             alt='3D Model View'
             title='3D Model View'
-            text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo omnis impedit placeat autem eos fugit consequuntur molestiae magnam.'
+            text='The 3D mode capability enhances surface analysis, aiding in efficient maintenance planning and decision-making. It generates detailed color maps of pavement surfaces to visually identify and accurately assess distressed areas. '
           />
           <OptionsCard
             src='/images/rangeViewCardImage.jpg'
             alt='3D Range View'
             title='3D Range View'
-            text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo omnis impedit placeat autem eos fugit consequuntur molestiae magnam.'
+            text='The 3D Range View provides identification of pavement distress, cracking, potholes, and raveling, all paired with geo-referenced location data. '
           />
           <OptionsCard
             src='/images/intensityViewCardImage.jpg'
             alt='3D Intensity View'
             title='3D Intensity View'
-            text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo omnis impedit placeat autem eos fugit consequuntur molestiae magnam.'
+            text='The 3D Intensity View delivers high-resolution imaging, enabling detailed visualization and accurate identification of various types of pavement distress.'
           />
         </section>
-      </div> */}
+      </div>
     </div>
   );
 }
