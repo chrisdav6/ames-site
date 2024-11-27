@@ -27,10 +27,6 @@ const productLinks = [
     href: '/products/6300-lightweight-profiler',
   },
   {
-    name: '4200 Profilograph',
-    href: '/products/4200-profilograph',
-  },
-  {
     name: 'Laser Texture Scanner 9400/9400HD',
     href: '/products/laser-texture-scanner-model-9400',
   },
