@@ -103,9 +103,9 @@ export default function LightWeightProfiler6300() {
         <Button asChild className='px-4 py-5 text-lg hover:bg-amesRed'>
           <Link href='#trailer'>Transport Trailer</Link>
         </Button>
-        {/* <Button asChild className='px-4 py-5 text-lg hover:bg-amesRed'>
+        <Button asChild className='px-4 py-5 text-lg hover:bg-amesRed'>
           <Link href='#additionalFeatures'>Additional Features</Link>
-        </Button> */}
+        </Button>
       </div>
 
       <div id='specs' className='mt-6 text-center md:text-left'>
@@ -217,30 +217,26 @@ export default function LightWeightProfiler6300() {
         </ul>
       </div>
 
-      {/* <div id='additionalFeatures' className='mt-8 text-center md:text-left'>
+      <div id='additionalFeatures' className='mt-8 text-center md:text-left'>
         <h3 className='text-xl font-extrabold text-amesRed underline'>
           Additional Features
         </h3>
-
-        <h2 className='mt-5 p-4 bg-orange-600 text-xl text-white'>
-          Don't forget to update text below
-        </h2>
 
         <section className='grid lg:grid-cols-2 gap-5 justify-center w-full mt-4'>
           <OptionsCard
             src='/images/dataAcquisitionUnitCardImage.jpg'
             alt='Data Acquisition Unit'
             title='Data Acquisition Unit'
-            text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo omnis impedit placeat autem eos fugit consequuntur molestiae magnam.'
+            text='Efficiently managing power distribution from the host vehicle to all connected components. It seamlessly transmits system data to the laptop via an Ethernet connection. The Data Acquisition Unit is available in all profiler system setups.'
           />
           <OptionsCard
             src='/images/panasonicToughbookMountCardImage.jpg'
-            alt='Panasonic Toughbook Mount'
-            title='Panasonic Toughbook Mount'
-            text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo omnis impedit placeat autem eos fugit consequuntur molestiae magnam.'
+            alt='Panasonic Toughbook'
+            title='Panasonic Toughbook'
+            text='Ames Engineering relies on the rugged and durable “Panasonic Toughbook” series for all data collection and analysis tasks. These laptops are designed to withstand harsh environments and ensure reliable performance and durability in demanding field conditions.'
           />
         </section>
-      </div> */}
+      </div>
     </div>
   );
 }
