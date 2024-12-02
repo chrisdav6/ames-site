@@ -160,8 +160,9 @@ export default function Footer() {
 
           <div className='mt-5'>
             <p className='text-lg text-[#909090] leading-6'>
-              Interested in one of our products? We love giving demonstration on
-              our various technologies and sensors. Set up an appointment today!
+              Interested in one of our products? We love giving demonstrations
+              on our various technologies and sensors. Set up an appointment
+              today!
               <Link
                 href='/sales/salesRequest'
                 className='flex items-center justify-center lg:justify-start w-fit gap-2 bg-amesRed py-4 px-6 mt-5 mx-auto lg:mx-0 hover:bg-[#CC0000] transition duration-300 text-white group'
