@@ -27,13 +27,13 @@ export default function ProductGrid() {
         subTitle='Model 6300'
       />
 
-      <ProductGridItem
+      {/* <ProductGridItem
         href='/products/4200-profilograph'
         src='/images/ProfilographProductGrid.jpg'
         alt='Profilograph Upgrades'
         title='Profilograph Upgrades'
         subTitle='Model 4200 Tablet Upgrades'
-      />
+      /> */}
 
       <ProductGridItem
         href='/products/laser-texture-scanner-model-9400'
