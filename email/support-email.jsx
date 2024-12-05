@@ -12,6 +12,7 @@ import { Tailwind } from '@react-email/components';
 
 export default function SupportEmail({
   name,
+  company,
   address,
   city,
   state,
@@ -33,6 +34,9 @@ export default function SupportEmail({
           <Heading as='h2'>Ames Support Request</Heading>
           <Hr />
           <Text style={{ fontSize: 16, marginBottom: '0' }}>Name: {name}</Text>
+          <Text style={{ fontSize: 16, marginBottom: '0', marginTop: '0' }}>
+            Company: {company}
+          </Text>
           <Text style={{ fontSize: 16, marginBottom: '0', marginTop: '0' }}>
             Address: {address}
           </Text>

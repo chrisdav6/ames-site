@@ -8,6 +8,7 @@ export async function POST(req) {
   const body = await req.json();
   const {
     name,
+    company,
     address,
     city,
     state,
@@ -31,6 +32,7 @@ export async function POST(req) {
       react: (
         <SupportEmail
           name={name}
+          company={company}
           address={address}
           city={city}
           state={state}
