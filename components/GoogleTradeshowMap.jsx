@@ -31,10 +31,6 @@ import Image from 'next/image';
       lat: 30.702498,
       lng: -88.056333,
     },
-  */
-
-export default function GoogleTradeshowMap() {
-  const [shows, setShows] = useState([
     {
       imgUrl: '/images/wisconsin-asphalt-logo.png',
       name: 'WAPA 65th Annual Conference',
@@ -45,6 +41,10 @@ export default function GoogleTradeshowMap() {
       lat: 43.625082,
       lng: -89.775456,
     },
+  */
+
+export default function GoogleTradeshowMap() {
+  const [shows, setShows] = useState([
     {
       imgUrl: '/images/mn-logo.png',
       name: '2024 Minnesota Asphalt Conference',
