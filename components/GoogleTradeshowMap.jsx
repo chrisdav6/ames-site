@@ -156,6 +156,17 @@ export default function GoogleTradeshowMap() {
       lng: -98.223925,
     },
     {
+      imgUrl: '/images/calcimaLogo.png',
+      name: 'CalCIMA Education Conference',
+      booth: '',
+      cityState: 'Anaheim, CA',
+      date: 'November 10-13, 2025',
+      url: 'https://www.calcimaconference.org',
+      lat: 33.829713,
+      lng: -117.908835,
+    },
+
+    {
       imgUrl: '/images/conexpo-logo.png',
       name: 'ConExpo',
       booth: '',

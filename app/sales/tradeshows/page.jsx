@@ -201,6 +201,20 @@ export default function Tradeshows() {
             hr={true}
           />
           <TradeshowCard
+            date='November 10 - 13, 2025'
+            img='/images/calcimaLogo.png'
+            alt='CalCima'
+            url='https://www.calcimaconference.org'
+            name='CalCIMA 2025 Education Conference - Anaheim, CA'
+            text1='Join us at the CalCIMA 2025 Education Conference, there will be multiple sessions about concrete, environmental impacts, asphalt and more. This is also a great opportunity to connect with professionals in the construction and industrial minerals industries, as well as learn about all the different companies. We hope to see you there!'
+            facebookURL='https://www.facebook.com/CalCIMA.org'
+            twitterURL='https://x.com/CalcimaRocks'
+            instagramURL='https://www.instagram.com/calcimarocks'
+            linkedInURL='https://www.linkedin.com/company/calcima'
+            youtubeURL='https://www.youtube.com/channel/UC-7hBI95v83T8mHA-FVFkXQ'
+            hr={true}
+          />
+          <TradeshowCard
             date='March 3 - 7, 2026'
             img='/images/conexpo-logo.png'
             alt='CONEXPO-CON/AGG'
