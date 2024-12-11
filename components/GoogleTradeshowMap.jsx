@@ -31,16 +31,6 @@ import Image from 'next/image';
       lat: 30.702498,
       lng: -88.056333,
     },
-    {
-      imgUrl: '/images/wisconsin-asphalt-logo.png',
-      name: 'WAPA 65th Annual Conference',
-      booth: '',
-      cityState: 'Wisconsin Dells, WI',
-      date: 'December 3-4, 2024',
-      url: 'https://www.wispave.org/wapas-65th-annual-conference-and-business-meeting',
-      lat: 43.625082,
-      lng: -89.775456,
-    },
   */
 
 export default function GoogleTradeshowMap() {
@@ -165,7 +155,16 @@ export default function GoogleTradeshowMap() {
       lat: 33.829713,
       lng: -117.908835,
     },
-
+    {
+      imgUrl: '/images/wisconsin-asphalt-logo.png',
+      name: 'WAPA 66th Annual Conference',
+      booth: '',
+      cityState: 'Wisconsin Dells, WI',
+      date: 'December 2-3, 2025',
+      url: 'https://www.wispave.org',
+      lat: 43.625082,
+      lng: -89.775456,
+    },
     {
       imgUrl: '/images/conexpo-logo.png',
       name: 'ConExpo',

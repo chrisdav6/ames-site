@@ -44,17 +44,6 @@ export default function Tradeshows() {
             text1='The SEAUPG annual meeting is held in the fall of each year. Hosted by state Departments of Transportation from each sub-group in rotation. SEAUPG Annual Meetings & Exhibits allow interaction between agencies, users, producers and material/equipment suppliers throughout the Southeastern states as well as the nation and abroad.'
             hr={true}
           />
-          <TradeshowCard
-            date='December 3 - 4, 2024'
-            img='/images/wisconsin-asphalt-logo.png'
-            alt='WAPA'
-            url='https://www.wispave.org/wapas-65th-annual-conference-and-business-meeting'
-            name='WAPA’s 65th Annual Conference and Business Meeting - Wisconsin Dells, WI'
-            text1='The Wisconsin Asphalt Pavement Association (WAPA) annual conference tackles subjects on a wide range of issues related to asphalt design, construction, maintenance, technical specifications, costs, marketing, and public policy at all levels of government (local, state, and federal).'
-            twitterURL='https://x.com/wispave'
-            youtubeURL='https://www.youtube.com/channel/UC51A1W2jB-YrkYiI8YaiSew'
-            hr={true}
-          />
           */}
           <TradeshowCard
             date='December 10 - 11, 2024'
@@ -212,6 +201,17 @@ export default function Tradeshows() {
             instagramURL='https://www.instagram.com/calcimarocks'
             linkedInURL='https://www.linkedin.com/company/calcima'
             youtubeURL='https://www.youtube.com/channel/UC-7hBI95v83T8mHA-FVFkXQ'
+            hr={true}
+          />
+          <TradeshowCard
+            date='December 2 - 3, 2025'
+            img='/images/wisconsin-asphalt-logo.png'
+            alt='WAPA'
+            url='https://www.wispave.org'
+            name='WAPA’s 66th Annual Conference and Business Meeting - Wisconsin Dells, WI'
+            text1='The Wisconsin Asphalt Pavement Association (WAPA) annual conference tackles subjects on a wide range of issues related to asphalt design, construction, maintenance, technical specifications, costs, marketing, and public policy at all levels of government (local, state, and federal).'
+            twitterURL='https://x.com/wispave'
+            youtubeURL='https://www.youtube.com/channel/UC51A1W2jB-YrkYiI8YaiSew'
             hr={true}
           />
           <TradeshowCard
