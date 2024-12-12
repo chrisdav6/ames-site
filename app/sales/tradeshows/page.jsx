@@ -44,7 +44,6 @@ export default function Tradeshows() {
             text1='The SEAUPG annual meeting is held in the fall of each year. Hosted by state Departments of Transportation from each sub-group in rotation. SEAUPG Annual Meetings & Exhibits allow interaction between agencies, users, producers and material/equipment suppliers throughout the Southeastern states as well as the nation and abroad.'
             hr={true}
           />
-          */}
           <TradeshowCard
             date='December 10 - 11, 2024'
             img='/images/mn-logo.png'
@@ -58,6 +57,8 @@ export default function Tradeshows() {
             linkedInURL='https://www.linkedin.com/company/minnesota-asphalt-pavement-association'
             hr={true}
           />
+          */}
+
           <TradeshowCard
             date='January 5 - 9, 2025'
             img='/images/trb-logo.png'

@@ -31,10 +31,6 @@ import Image from 'next/image';
       lat: 30.702498,
       lng: -88.056333,
     },
-  */
-
-export default function GoogleTradeshowMap() {
-  const [shows, setShows] = useState([
     {
       imgUrl: '/images/mn-logo.png',
       name: '2024 Minnesota Asphalt Conference',
@@ -45,6 +41,10 @@ export default function GoogleTradeshowMap() {
       lat: 45.553381,
       lng: -94.164918,
     },
+  */
+
+export default function GoogleTradeshowMap() {
+  const [shows, setShows] = useState([
     {
       imgUrl: '/images/trb-logo.png',
       name: 'TRB 104th Annual Meeting',
