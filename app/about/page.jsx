@@ -33,7 +33,7 @@ export default function OurCompany() {
             </p>
 
             <p className='mt-4'>
-              Ames Engineering, Inc is a privately held Iowa Corporation that
+              Ames Engineering LLC is a privately held Iowa Corporation that
               continues to operate as the leading manufacturer of road profiling
               and measuring equipment, including profilographs, road profilers,
               texture profilers and texture meters. We’re proud to do as much of
