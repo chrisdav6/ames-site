@@ -124,6 +124,19 @@ export default function Tradeshows() {
             hr={true}
           />
           <TradeshowCard
+            date='March 5 - 7, 2025'
+            img='/images/paiky-logo.png'
+            alt='PAIKY 2025 Winter Training School'
+            url='https://members.paiky.org/site_event_detail.cfm?pk_association_event=31956'
+            name='PAIKY 2025 Winter Training School - Louisville, KY'
+            text1='PAIKY invites and encourages participation in the Winter Training School from the entire association membership, the Kentucky Transportation Cabinet, city and county officials, architects, engineers and affiliated associates and groups.'
+            facebookURL='https://www.facebook.com/asphaltky'
+            twitterURL='https://x.com/AsphaltKY'
+            instagramURL='https://www.instagram.com/asphaltky'
+            linkedInURL='https://www.linkedin.com/in/asphalt-in-kentucky-50918555'
+            hr={true}
+          />
+          <TradeshowCard
             date='March 18 - 19, 2025'
             img='/images/ohio-logo.png'
             alt='Flexible Pavements of Ohio'

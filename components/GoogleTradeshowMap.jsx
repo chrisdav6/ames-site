@@ -96,6 +96,16 @@ export default function GoogleTradeshowMap() {
       lng: -84.769425,
     },
     {
+      imgUrl: '/images/paiky-logo.png',
+      name: 'PAIKY 2025 Winter Training School',
+      booth: '',
+      cityState: 'Louisville, KY',
+      date: 'March 5-7, 2025',
+      url: 'https://members.paiky.org/site_event_detail.cfm?pk_association_event=31956',
+      lat: 38.236821,
+      lng: -84.747838,
+    },
+    {
       imgUrl: '/images/ohio-logo.png',
       name: 'Ohio Asphalt Expo',
       booth: '',
