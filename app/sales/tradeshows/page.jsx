@@ -57,6 +57,18 @@ export default function Tradeshows() {
             linkedInURL='https://www.linkedin.com/company/minnesota-asphalt-pavement-association'
             hr={true}
           />
+          <TradeshowCard
+            date='January 28 - 30, 2025'
+            img='/images/pavex.png'
+            alt='PAVE/X Pavement Experience'
+            url='https://www.pavexshow.com'
+            name='PAVE/X: The Pavement Experience - Chattanooga, TN - Booth #1035'
+            text1='Through this new, unique event PAVE/X Pavement Experience aims to help contractors and business owners propel their business and expertise forward with live equipment demonstrations, an in-depth educational program and deeper connection opportunities on an expansive trade show floor.'
+            facebookURL='https://www.facebook.com/PAVEXShow'
+            instagramURL='https://www.instagram.com/pavexshow'
+            linkedInURL='https://www.linkedin.com/company/pave-x-show'
+            hr={true}
+          />
           */}
 
           <TradeshowCard
@@ -82,18 +94,6 @@ export default function Tradeshows() {
             facebookURL='https://www.facebook.com/MoAsphalt'
             twitterURL='https://x.com/MoAsphalt'
             linkedInURL='https://www.linkedin.com/company/moasphalt'
-            hr={true}
-          />
-          <TradeshowCard
-            date='January 28 - 30, 2025'
-            img='/images/pavex.png'
-            alt='PAVE/X Pavement Experience'
-            url='https://www.pavexshow.com'
-            name='PAVE/X: The Pavement Experience - Chattanooga, TN - Booth #1035'
-            text1='Through this new, unique event PAVE/X Pavement Experience aims to help contractors and business owners propel their business and expertise forward with live equipment demonstrations, an in-depth educational program and deeper connection opportunities on an expansive trade show floor.'
-            facebookURL='https://www.facebook.com/PAVEXShow'
-            instagramURL='https://www.instagram.com/pavexshow'
-            linkedInURL='https://www.linkedin.com/company/pave-x-show'
             hr={true}
           />
           <TradeshowCard

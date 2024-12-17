@@ -41,6 +41,16 @@ import Image from 'next/image';
       lat: 45.553381,
       lng: -94.164918,
     },
+    {
+      imgUrl: '/images/pavex.png',
+      name: 'PAVE/X: The Pavement Experience',
+      booth: 'Booth #1035',
+      cityState: 'Chattanooga, TN',
+      date: 'January 28-30, 2025',
+      url: 'https://www.pavexshow.com',
+      lat: 35.038162,
+      lng: -85.305639,
+    },
   */
 
 export default function GoogleTradeshowMap() {
@@ -64,16 +74,6 @@ export default function GoogleTradeshowMap() {
       url: 'https://moasphalt.org/events/35th-annual-mapa-conference',
       lat: 38.948857,
       lng: -92.334012,
-    },
-    {
-      imgUrl: '/images/pavex.png',
-      name: 'PAVE/X: The Pavement Experience',
-      booth: 'Booth #1035',
-      cityState: 'Chattanooga, TN',
-      date: 'January 28-30, 2025',
-      url: 'https://www.pavexshow.com',
-      lat: 35.038162,
-      lng: -85.305639,
     },
     {
       imgUrl: '/images/rmaces-logo.png',
