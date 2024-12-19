@@ -136,6 +136,16 @@ export default function GoogleTradeshowMap() {
       lng: -68.781424,
     },
     {
+      imgUrl: '/images/rpugLogo.png',
+      name: 'Road Profile Users Group 2025 Conference',
+      booth: '',
+      cityState: 'Denton, TX',
+      date: 'April 28-May 1, 2025',
+      url: 'https://rpug.org',
+      lat: 33.210594,
+      lng: -97.136568,
+    },
+    {
       imgUrl: '/images/napa-logo.png',
       name: 'NAPA Midyear Meeting',
       booth: '',
