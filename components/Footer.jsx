@@ -20,6 +20,10 @@ export default function Footer() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
+  //Get Year for Copyright
+  const date = new Date();
+  const year = date.getFullYear();
+
   return (
     <footer className='flex flex-col items-center justify-center w-full bg-[#202020] text-white mt-20'>
       {/* 3 Part Section */}
@@ -203,7 +207,7 @@ export default function Footer() {
       <section className='flex flex-col md:flex-row items-center justify-between w-full py-8 px-10 2xl:px-80 bg-[#151515]'>
         <div>
           <p>
-            &copy; 2024 Ames Engineering LLC -
+            &copy; {year} Ames Engineering LLC -
             <Link
               href='/privacy-policy'
               className='hover:text-[#42b3e5] transition duration-300 underline ml-1'
