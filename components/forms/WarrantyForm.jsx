@@ -1,4 +1,5 @@
 'use client';
+import { useState } from 'react';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm } from 'react-hook-form';
 import { z } from 'zod';
@@ -60,6 +61,7 @@ const formSchema = z.object({
 });
 
 export function WarrantyForm() {
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
 
   const form = useForm({
@@ -78,6 +80,7 @@ export function WarrantyForm() {
   });
 
   async function onSubmit(values) {
+    setIsSubmitting(true);
     const res = await fetch('/api/sendWarranty', {
       method: 'POST',
       headers: {
@@ -87,6 +90,7 @@ export function WarrantyForm() {
     });
 
     if (res.ok) {
+      setIsSubmitting(false);
       console.log('Okay!');
       form.reset();
 
@@ -95,6 +99,8 @@ export function WarrantyForm() {
         title: 'Warranty Registration Submitted!',
         description: 'Thank You!',
       });
+    } else {
+      setIsSubmitting(false);
     }
   }
 
@@ -793,8 +799,12 @@ export function WarrantyForm() {
           />
         </div>
 
-        <Button type='submit' className='text-lg !mt-12'>
-          Submit
+        <Button
+          type='submit'
+          className='text-lg !mt-12'
+          disabled={isSubmitting}
+        >
+          {isSubmitting ? 'Submitting...' : 'Submit'}
         </Button>
       </form>
     </Form>
