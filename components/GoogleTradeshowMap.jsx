@@ -51,10 +51,6 @@ import Image from 'next/image';
       lat: 35.038162,
       lng: -85.305639,
     },
-  */
-
-export default function GoogleTradeshowMap() {
-  const [shows, setShows] = useState([
     {
       imgUrl: '/images/trb-logo.png',
       name: 'TRB 104th Annual Meeting',
@@ -75,6 +71,10 @@ export default function GoogleTradeshowMap() {
       lat: 38.948857,
       lng: -92.334012,
     },
+  */
+
+export default function GoogleTradeshowMap() {
+  const [shows, setShows] = useState([
     {
       imgUrl: '/images/rmaces-logo.png',
       name: '52nd Annual RMACES',
