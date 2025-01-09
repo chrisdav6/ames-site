@@ -69,31 +69,7 @@ export default function Tradeshows() {
             linkedInURL='https://www.linkedin.com/company/pave-x-show'
             hr={true}
           />
-          <TradeshowCard
-            date='January 5 - 9, 2025'
-            img='/images/trb-logo.png'
-            alt='Transportation Research Board'
-            url='https://trb-annual-meeting.nationalacademies.org'
-            name='TRB 104th Annual Meeting - Washington, DC - Booth #524'
-            text1={`The Transportation Research Board's (TRB) Annual Meeting is the largest global gathering of transportation professionals and researchers with a focus on innovative solutions for all modes of transportation. The meeting program will cover all transportation modes, with more than 5,000 presentations in nearly 800 sessions and workshops, addressing topics of interest to policy makers, administrators, practitioners, researchers, and representatives of government, industry, and academic institutions.`}
-            facebookURL='https://www.facebook.com/NASEMTRB'
-            twitterURL='https://x.com/nasemtrb'
-            linkedInURL='https://www.linkedin.com/company/the-national-academies'
-            youtubeURL='https://www.youtube.com/@nationalacademies'
-            hr={true}
-          />
-          <TradeshowCard
-            date='January 6 - 8, 2025'
-            img='/images/mapa-logo.png'
-            alt='Missouri Asphalt Paving Association'
-            url='https://moasphalt.org/events/35th-annual-mapa-conference'
-            name='35th Annual MAPA Conference - Columbia, MO'
-            text1='The Missouri Asphalt Paving Association conference is your chance to get caught up on the outlook of the industry and check out the new innovative technologies available from exhibitors on the showroom floor, bringing you information on the most current industry news. Along with education, the conference gives you a fantastic opportunity to network with peers and meet other industry professionals'
-            facebookURL='https://www.facebook.com/MoAsphalt'
-            twitterURL='https://x.com/MoAsphalt'
-            linkedInURL='https://www.linkedin.com/company/moasphalt'
-            hr={true}
-          />*/}
+          */}
 
           <TradeshowCard
             date='February 19 - 20, 2025'
@@ -234,6 +210,31 @@ export default function Tradeshows() {
             text1='The Wisconsin Asphalt Pavement Association (WAPA) annual conference tackles subjects on a wide range of issues related to asphalt design, construction, maintenance, technical specifications, costs, marketing, and public policy at all levels of government (local, state, and federal).'
             twitterURL='https://x.com/wispave'
             youtubeURL='https://www.youtube.com/channel/UC51A1W2jB-YrkYiI8YaiSew'
+            hr={true}
+          />
+          <TradeshowCard
+            date='January 5 - 7, 2026'
+            img='/images/mapa-logo.png'
+            alt='Missouri Asphalt Paving Association'
+            url='https://moasphalt.org/events'
+            name='36th Annual MAPA Conference - Columbia, MO'
+            text1='The Missouri Asphalt Paving Association conference is your chance to get caught up on the outlook of the industry and check out the new innovative technologies available from exhibitors on the showroom floor, bringing you information on the most current industry news. Along with education, the conference gives you a fantastic opportunity to network with peers and meet other industry professionals'
+            facebookURL='https://www.facebook.com/MoAsphalt'
+            twitterURL='https://x.com/MoAsphalt'
+            linkedInURL='https://www.linkedin.com/company/moasphalt'
+            hr={true}
+          />
+          <TradeshowCard
+            date='January 11 - 15, 2026'
+            img='/images/trb-logo.png'
+            alt='Transportation Research Board'
+            url='https://trb-annual-meeting.nationalacademies.org'
+            name='TRB 105th Annual Meeting - Washington, DC - Booth #727'
+            text1={`The Transportation Research Board's (TRB) Annual Meeting is the largest global gathering of transportation professionals and researchers with a focus on innovative solutions for all modes of transportation. The meeting program will cover all transportation modes, with more than 5,000 presentations in nearly 800 sessions and workshops, addressing topics of interest to policy makers, administrators, practitioners, researchers, and representatives of government, industry, and academic institutions.`}
+            facebookURL='https://www.facebook.com/NASEMTRB'
+            twitterURL='https://x.com/nasemtrb'
+            linkedInURL='https://www.linkedin.com/company/the-national-academies'
+            youtubeURL='https://www.youtube.com/@nationalacademies'
             hr={true}
           />
           <TradeshowCard

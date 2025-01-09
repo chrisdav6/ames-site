@@ -51,26 +51,6 @@ import Image from 'next/image';
       lat: 35.038162,
       lng: -85.305639,
     },
-    {
-      imgUrl: '/images/trb-logo.png',
-      name: 'TRB 104th Annual Meeting',
-      booth: 'Booth #524',
-      cityState: 'Washington, DC',
-      date: 'January 5-9, 2025',
-      url: 'https://trb-annual-meeting.nationalacademies.org',
-      lat: 38.911744,
-      lng: -77.018697,
-    },
-    {
-      imgUrl: '/images/mapa-logo.png',
-      name: '35th Annual MAPA Conference',
-      booth: '',
-      cityState: 'Columbia, MO',
-      date: 'January 6-8, 2025',
-      url: 'https://moasphalt.org/events/35th-annual-mapa-conference',
-      lat: 38.948857,
-      lng: -92.334012,
-    },
   */
 
 export default function GoogleTradeshowMap() {
@@ -184,6 +164,26 @@ export default function GoogleTradeshowMap() {
       url: 'https://www.wispave.org',
       lat: 43.625082,
       lng: -89.775456,
+    },
+    {
+      imgUrl: '/images/mapa-logo.png',
+      name: '36th Annual MAPA Conference',
+      booth: '',
+      cityState: 'Columbia, MO',
+      date: 'January 5-7, 2026',
+      url: 'https://moasphalt.org/events',
+      lat: 38.948857,
+      lng: -92.334012,
+    },
+    {
+      imgUrl: '/images/trb-logo.png',
+      name: 'TRB 105th Annual Meeting',
+      booth: 'Booth #727',
+      cityState: 'Washington, DC',
+      date: 'January 11-15, 2026',
+      url: 'https://trb-annual-meeting.nationalacademies.org',
+      lat: 38.911744,
+      lng: -77.018697,
     },
     {
       imgUrl: '/images/conexpo-logo.png',
