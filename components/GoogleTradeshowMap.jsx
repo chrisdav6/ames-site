@@ -32,16 +32,6 @@ import Image from 'next/image';
       lng: -88.056333,
     },
     {
-      imgUrl: '/images/mn-logo.png',
-      name: '2024 Minnesota Asphalt Conference',
-      booth: '',
-      cityState: 'St. Cloud, MN',
-      date: 'December 10-11, 2024',
-      url: 'https://www.asphaltisbest.com/page/conference',
-      lat: 45.553381,
-      lng: -94.164918,
-    },
-    {
       imgUrl: '/images/pavex.png',
       name: 'PAVE/X: The Pavement Experience',
       booth: 'Booth #1035',
@@ -164,6 +154,16 @@ export default function GoogleTradeshowMap() {
       url: 'https://www.wispave.org',
       lat: 43.625082,
       lng: -89.775456,
+    },
+    {
+      imgUrl: '/images/mn-logo.png',
+      name: '2025 Minnesota Asphalt Conference',
+      booth: '',
+      cityState: 'St. Cloud, MN',
+      date: 'December 9-10, 2025',
+      url: 'https://www.asphaltisbest.com/events/EventDetails.aspx?id=1853252&group=',
+      lat: 45.553381,
+      lng: -94.164918,
     },
     {
       imgUrl: '/images/mapa-logo.png',
