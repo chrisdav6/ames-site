@@ -138,6 +138,16 @@ export default function Tradeshows() {
             hr={true}
           />
           <TradeshowCard
+            date='April 14 - 17, 2025'
+            img='/images/naceLogo.png'
+            alt='NACE 2025 Annual Conference'
+            url='https://www.countyengineers.org/2025-annual-meeting'
+            name='NACE 2025 Annual Conference - Schaumburg, IL'
+            text1={`As a county road and infrastructure professional, NACE 2025 is one of the best investments. NACE and the Illinois Association of County Engineers invites you to connect with peers from across the country, discover strategies for cost savings and operational efficiency, and enhance your toolkit with innovative, practical solutions. NACE is thrilled to return to the Midwest for the first time since 2019.`}
+            facebookURL='https://www.facebook.com/engineersnace'
+            hr={true}
+          />
+          <TradeshowCard
             date='April 28 - May 1, 2025'
             img='/images/rpugLogo.png'
             alt='Road Profile Users&#39;s Group'

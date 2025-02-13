@@ -106,6 +106,16 @@ export default function GoogleTradeshowMap() {
       lng: -68.781424,
     },
     {
+      imgUrl: '/images/naceLogo.png',
+      name: 'NACE 2025 Annual Conference',
+      booth: '',
+      cityState: 'Schaumburg, IL',
+      date: 'April 14-17, 2025',
+      url: 'https://www.countyengineers.org/2025-annual-meeting',
+      lat: 42.031074,
+      lng: -88.080154,
+    },
+    {
       imgUrl: '/images/rpugLogo.png',
       name: 'Road Profile Users Group 2025 Conference',
       booth: '',
