@@ -56,8 +56,6 @@ export default function Tradeshows() {
             linkedInURL='https://www.linkedin.com/company/pave-x-show'
             hr={true}
           />
-          */}
-
           <TradeshowCard
             date='February 19 - 20, 2025'
             img='/images/rmaces-logo.png'
@@ -71,6 +69,8 @@ export default function Tradeshows() {
             youtubeURL='https://www.youtube.com/channel/UCSJR-A8JiJq5Vh6ibbMJEoA'
             hr={true}
           />
+          */}
+
           <TradeshowCard
             date='February 26 - 27, 2025'
             img='/images/michigan-asphalt-logo.png'

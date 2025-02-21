@@ -41,10 +41,6 @@ import Image from 'next/image';
       lat: 35.038162,
       lng: -85.305639,
     },
-  */
-
-export default function GoogleTradeshowMap() {
-  const [shows, setShows] = useState([
     {
       imgUrl: '/images/rmaces-logo.png',
       name: '52nd Annual RMACES',
@@ -55,6 +51,10 @@ export default function GoogleTradeshowMap() {
       lat: 39.771474,
       lng: -104.806882,
     },
+  */
+
+export default function GoogleTradeshowMap() {
+  const [shows, setShows] = useState([
     {
       imgUrl: '/images/michigan-asphalt-logo.png',
       name: 'APAM 68th Annual Paving Conference',
