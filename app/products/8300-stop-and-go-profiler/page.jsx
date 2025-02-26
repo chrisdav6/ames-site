@@ -110,9 +110,6 @@ export default function StopAndGoProfiler8300() {
           <Link href='#computerSoftware'>Computer Software</Link>
         </Button>
         <Button asChild className='px-4 py-5 text-lg hover:bg-amesRed'>
-          <Link href='#sensors'>Available Sensors</Link>
-        </Button>
-        <Button asChild className='px-4 py-5 text-lg hover:bg-amesRed'>
           <Link href='#options'>Available Options</Link>
         </Button>
       </div>
@@ -223,27 +220,6 @@ export default function StopAndGoProfiler8300() {
             generated report tables format (HTML)
           </li>
         </ul>
-      </div>
-
-      <div id='sensors' className='mt-8 text-center md:text-left'>
-        <h3 className='text-xl font-extrabold text-amesRed underline'>
-          Available Sensors
-        </h3>
-
-        <section className='grid md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-5 justify-center w-full mt-4'>
-          <SmallCardLink
-            href='/products/lmi-gocator-laser'
-            src='/images/LMIGocatorLaserProductGrid.jpg'
-            alt='Concrete Line Laser'
-            title='LMI 5K Gocator'
-          />
-          <SmallCardLink
-            href='/products/ames-accutexture-100'
-            src='/images/AccuTexture100ProductGrid.jpg'
-            alt='AccuTexture 100'
-            title='Single Point Sensor'
-          />
-        </section>
       </div>
 
       <div id='options' className='mt-8 text-center md:text-left'>
