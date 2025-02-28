@@ -51,10 +51,6 @@ import Image from 'next/image';
       lat: 39.771474,
       lng: -104.806882,
     },
-  */
-
-export default function GoogleTradeshowMap() {
-  const [shows, setShows] = useState([
     {
       imgUrl: '/images/michigan-asphalt-logo.png',
       name: 'APAM 68th Annual Paving Conference',
@@ -65,6 +61,10 @@ export default function GoogleTradeshowMap() {
       lat: 43.600198,
       lng: -84.769425,
     },
+  */
+
+export default function GoogleTradeshowMap() {
+  const [shows, setShows] = useState([
     {
       imgUrl: '/images/paiky-logo.png',
       name: 'PAIKY 2025 Winter Training School',

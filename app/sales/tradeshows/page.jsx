@@ -69,8 +69,6 @@ export default function Tradeshows() {
             youtubeURL='https://www.youtube.com/channel/UCSJR-A8JiJq5Vh6ibbMJEoA'
             hr={true}
           />
-          */}
-
           <TradeshowCard
             date='February 26 - 27, 2025'
             img='/images/michigan-asphalt-logo.png'
@@ -85,6 +83,8 @@ export default function Tradeshows() {
             youtubeURL='https://www.youtube.com/channel/UC6zuZ5WXlIwLiZEtnMbatDg'
             hr={true}
           />
+          */}
+
           <TradeshowCard
             date='March 5 - 7, 2025'
             img='/images/paiky-logo.png'
