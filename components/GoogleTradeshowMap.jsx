@@ -61,6 +61,7 @@ import Image from 'next/image';
       lat: 43.600198,
       lng: -84.769425,
     },
+    
   */
 
 export default function GoogleTradeshowMap() {
