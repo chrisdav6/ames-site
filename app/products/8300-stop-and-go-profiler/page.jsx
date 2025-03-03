@@ -117,6 +117,21 @@ export default function StopAndGoProfiler8300() {
         <h3 className='text-xl font-extrabold text-amesRed underline'>Specs</h3>
         <ul className='text-lg mt-2'>
           <li>
+            - Change in speed does not affect profile data accuracy. 0-70 mph
+            speed range. No need for lead in/out sections
+          </li>
+          <li>
+            - Independently tested and certified by state DOT agencies. Changing
+            speed does not affect the accuracy of the IRI calculation
+          </li>
+          <li>
+            - The &quot;Stop & Go&quot; profiler can be retrofitted onto any
+            standard Model 8300 system
+          </li>
+          <li>
+            - Uses &quot;Gocator&quot; line laser manufactured by LMI Selcom
+          </li>
+          <li>
             - High Speed system can be on front or rear mount using the vehicles
             standard 2″ hitch receiver
           </li>
