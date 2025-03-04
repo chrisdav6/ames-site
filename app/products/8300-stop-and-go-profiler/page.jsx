@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import OptionsCard from '@/components/OptionsCard';
+import PhotoWithCaption from '@/components/PhotoWithCaption';
 
 export const metadata = {
   title: 'Ames Engineering | 8300 Stop and Go Road Profiler',
@@ -72,7 +73,25 @@ export default function StopAndGoProfiler8300() {
           departments in mind in order to make their jobs more efficient.
         </p>
 
-        <div className='mt-6 font-bold '>
+        <div className='flex flex-col md:flex-row mt-8 gap-4'>
+          <PhotoWithCaption
+            image='/images/StopAndGoProfilerProductGrid1.jpg'
+            alt='Stop and Go Profiler'
+            caption='Stop and Go Closeup View'
+          />
+          <PhotoWithCaption
+            image='/images/StopAndGoProfilerProductGrid2.jpg'
+            alt='Stop and Go Profiler'
+            caption='Stop and Go Sensor View'
+          />
+          <PhotoWithCaption
+            image='/images/StopAndGoProfilerProductGrid3.jpg'
+            alt='Stop and Go Profiler'
+            caption='Stop and Go Front View'
+          />
+        </div>
+
+        <div className='mt-8 font-bold '>
           <p className='underline'>
             The Ames High Speed Profiler meets or exceeds the following
             requirements:
