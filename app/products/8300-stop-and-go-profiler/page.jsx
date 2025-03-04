@@ -21,7 +21,7 @@ export default function StopAndGoProfiler8300() {
       {/* Images */}
       <div className='mt-4 w-full h-[300px] md:h-[600px] relative'>
         <Image
-          src='/images/StopAndGoProfilerProductImage.jpg'
+          src='/images/StopAndGoProfilerProductImage2.jpg'
           fill
           alt='8300 Stop and Go Profiler'
           className='w-full object-cover object-[-50px] md:object-center'
