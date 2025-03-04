@@ -11,6 +11,15 @@ export default function ProductGrid() {
         subTitle='Model 8300'
       />
 
+      {/* <ProductGridItem
+        href='/products/8300-stop-and-go-profiler'
+        src='/images/StopAndGoProfilerProductGrid3.jpg'
+        alt='Stop and Go High Speed Inertial Profiler - Model 8300'
+        title='Stop and Go Inertial Road Profiler'
+        subTitle='Model 8300'
+        absoulteText='New Product!'
+      /> */}
+
       <ProductGridItem
         href='/products/transverse-profiling-system'
         src='/images/TransverseImagingProductGrid.jpg'

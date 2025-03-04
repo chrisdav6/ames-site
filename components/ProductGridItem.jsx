@@ -1,13 +1,25 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
-export default function ProductGridItem({ href, src, alt, title, subTitle }) {
+export default function ProductGridItem({
+  href,
+  src,
+  alt,
+  title,
+  subTitle,
+  absoulteText,
+}) {
   return (
     <Link
       href={href}
       className='flex flex-col w-full bg-gray-200 group hover:shadow-lg'
     >
       <div className='relative w-full h-fit'>
+        {absoulteText && (
+          <div className='absolute top-5 left-0 bg-amesRed py-2 px-3 text-white font-bold'>
+            {absoulteText}
+          </div>
+        )}
         <Image
           src={src}
           alt={alt}
