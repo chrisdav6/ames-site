@@ -83,8 +83,6 @@ export default function Tradeshows() {
             youtubeURL='https://www.youtube.com/channel/UC6zuZ5WXlIwLiZEtnMbatDg'
             hr={true}
           />
-          
-          */}
 
           <TradeshowCard
             date='March 5 - 7, 2025'
@@ -99,6 +97,9 @@ export default function Tradeshows() {
             linkedInURL='https://www.linkedin.com/in/asphalt-in-kentucky-50918555'
             hr={true}
           />
+          
+          */}
+
           <TradeshowCard
             date='March 18 - 19, 2025'
             img='/images/ohio-logo.png'

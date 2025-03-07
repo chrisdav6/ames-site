@@ -61,11 +61,6 @@ import Image from 'next/image';
       lat: 43.600198,
       lng: -84.769425,
     },
-    
-  */
-
-export default function GoogleTradeshowMap() {
-  const [shows, setShows] = useState([
     {
       imgUrl: '/images/paiky-logo.png',
       name: 'PAIKY 2025 Winter Training School',
@@ -76,6 +71,11 @@ export default function GoogleTradeshowMap() {
       lat: 38.236821,
       lng: -84.747838,
     },
+    
+  */
+
+export default function GoogleTradeshowMap() {
+  const [shows, setShows] = useState([
     {
       imgUrl: '/images/ohio-logo.png',
       name: 'Ohio Asphalt Expo',
