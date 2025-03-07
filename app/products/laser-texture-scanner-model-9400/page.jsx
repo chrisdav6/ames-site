@@ -14,7 +14,7 @@ export default function LaserTextureScannerModel9400() {
     <div className='w-full justify-center pt-10 px-6 2xl:px-80 md:pt-14'>
       <div>
         <h1 className='mx-auto text-center md:text-left md:mx-0 text-2xl font-bold bg-amesRed w-fit py-2 px-3 text-white'>
-          Laser Texture Scanner 9400/9400HD
+          Laser Texture Scanner 9400HD
         </h1>
       </div>
 
@@ -23,7 +23,7 @@ export default function LaserTextureScannerModel9400() {
         <Image
           src='/images/LaserTextureScannerProductImage.jpg'
           fill
-          alt='Laser Texture Scanner 9400/9400HD'
+          alt='Laser Texture Scanner 9400HD'
           className='w-full object-cover object-[-150px] md:object-center'
           priority
         />
@@ -51,7 +51,7 @@ export default function LaserTextureScannerModel9400() {
       <div className='mt-6 text-lg text-center md:text-left'>
         <p>
           The Model{' '}
-          <span className='font-bold'>9400 Laser Texture Scanner</span> scans
+          <span className='font-bold'>9400HD Laser Texture Scanner</span> scans
           and precisely measures the texture characteristics of any surface.
           This is our most accurate texture scanner with the ability to measure
           both Microtexture and Macrotexture, including excellent correlation
@@ -115,7 +115,9 @@ export default function LaserTextureScannerModel9400() {
 
         <div className='mt-8'>
           <div>
-            <p className='underline'>9400 and 9400HD Common Characteristics</p>
+            <h3 className='text-xl font-extrabold text-amesRed underline'>
+              9400HD Features
+            </h3>
             <span className='block mt-2'>
               - Calculates Mean Profile (MPD), Texture Profile Index (TPI),
               Estimated Texture Depth (ETD), RMS, Ra, Rq, Skewness, Kurtosis and
@@ -154,37 +156,18 @@ export default function LaserTextureScannerModel9400() {
       </div>
 
       {/* Specs */}
-      <div className='flex items-center justify-center flex-wrap md:justify-start gap-2 mt-8'>
-        <Button asChild className='px-4 py-5 text-lg hover:bg-amesRed'>
-          <Link href='#9400specs'>LTS9400 Specs</Link>
-        </Button>
+      {/* <div className='flex items-center justify-center flex-wrap md:justify-start gap-2 mt-8'>
         <Button asChild className='px-4 py-5 text-lg hover:bg-amesRed'>
           <Link href='#9400HDspecs'>LTS9400HD Specs</Link>
         </Button>
         <Button asChild className='px-4 py-5 text-lg hover:bg-amesRed'>
           <Link href='#9400Advantages'>9400HD Advantages</Link>
         </Button>
-      </div>
-
-      <div id='9400specs' className='mt-6 text-center md:text-left'>
-        <h3 className='text-xl font-extrabold text-amesRed underline'>
-          LTS9400 Specs
-        </h3>
-        <ul className='text-lg mt-2'>
-          <li>- Vertical Resolution: 0.015 mm</li>
-          <li>- Measurement Range 50 mm</li>
-          <li>- Maximum Length Resolution: 0.015 mm</li>
-          <li>- Maximum Width Resolution: 0.0635 mm</li>
-          <li>- Triangulation Angle at center of range: 32°</li>
-          <li>- Dot size at center of range: 50 um</li>
-          <li>- Dot size at Max and Min range: 220 um</li>
-          <li>- Max laser sampling speed: 1 Khz</li>
-        </ul>
-      </div>
+      </div> */}
 
       <div id='9400HDspecs' className='mt-4 text-center md:text-left'>
         <h3 className='text-xl font-extrabold text-amesRed underline'>
-          LTS9400HD Specs
+          9400HD Specs
         </h3>
         <ul className='text-lg mt-2'>
           <li>- Vertical Resolution: 0.003 mm</li>
@@ -198,7 +181,7 @@ export default function LaserTextureScannerModel9400() {
         </ul>
       </div>
 
-      <div id='9400Advantages' className='mt-4 text-center md:text-left'>
+      {/* <div id='9400Advantages' className='mt-4 text-center md:text-left'>
         <h3 className='text-xl font-extrabold text-amesRed underline'>
           9400HD Advantages
         </h3>
@@ -233,7 +216,7 @@ export default function LaserTextureScannerModel9400() {
             surfaces
           </li>
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 }

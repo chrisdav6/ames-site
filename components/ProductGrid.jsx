@@ -49,7 +49,7 @@ export default function ProductGrid() {
         src='/images/LaserTextureScannerProductGrid.jpg'
         alt='Laser Texture Scanner'
         title='Laser Texture Scanner'
-        subTitle='Models 9400 & 9400HD'
+        subTitle='Model 9400HD'
       />
 
       <ProductGridItem
