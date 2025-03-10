@@ -43,8 +43,8 @@ const items = [
     label: '4200 Profilograph',
   },
   {
-    id: 'Laser Texture Scanner 9400/9400HD',
-    label: 'Laser Texture Scanner 9400/9400HD',
+    id: 'Laser Texture Scanner 9400HD',
+    label: 'Laser Texture Scanner 9400HD',
   },
   {
     id: 'Rapid Laser Texture Scanner 9500',

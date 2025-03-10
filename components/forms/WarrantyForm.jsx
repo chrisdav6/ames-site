@@ -728,10 +728,10 @@ export function WarrantyForm() {
                       </FormItem>
                       <FormItem className='flex items-center space-x-3 space-y-0'>
                         <FormControl>
-                          <RadioGroupItem value='Laser Texture Scanner 9400/9400HD' />
+                          <RadioGroupItem value='Laser Texture Scanner 9400HD' />
                         </FormControl>
                         <FormLabel className='text-lg font-normal'>
-                          Laser Texture Scanner 9400/9400HD
+                          Laser Texture Scanner 9400HD
                         </FormLabel>
                       </FormItem>
                       <FormItem className='flex items-center space-x-3 space-y-0'>
