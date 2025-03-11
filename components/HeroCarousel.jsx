@@ -1,4 +1,5 @@
 'use client';
+import Link from 'next/link';
 import { useEffect } from 'react';
 
 export default function HeroCarousel() {
@@ -84,6 +85,38 @@ export default function HeroCarousel() {
           style={{ backfaceVisibility: 'hidden' }}
         >
           <img
+            src='/images/slider-3a.jpg'
+            className='block w-full h-[600px] lg:h-[700px] xl:h-[800px] object-cover brightness-[60%]'
+            alt='8300 Stop and Go Inertial Road Profiler'
+          />
+          <div className='absolute inset-x-[15%] top-[25%] md:top-[28%] xl:top-[35%] py-5 text-center text-white md:block'>
+            <Link href='/products/8300-stop-and-go-profiler'>
+              <h5
+                className='text-5xl lg:text-7xl'
+                style={{
+                  textShadow: '0px 0px 10px #000000, 0px 0px 10px #000000',
+                }}
+              >
+                New Product Alert!
+              </h5>
+              <p
+                className='text-2xl lg:text-3xl mt-3'
+                style={{
+                  textShadow: '0px 0px 10px #000000, 0px 0px 10px #000000',
+                }}
+              >
+                8300 Stop and Go Inertial Road Profiler
+              </p>
+            </Link>
+          </div>
+        </div>
+        {/* <!--Second item--> */}
+        <div
+          className='relative float-left -mr-[100%] hidden w-full transition-transform duration-[1000ms] ease-in-out motion-reduce:transition-none'
+          data-twe-carousel-item
+          style={{ backfaceVisibility: 'hidden' }}
+        >
+          <img
             src='/images/slider-1withLogo.jpg'
             className='block w-full h-[600px] lg:h-[700px] xl:h-[800px] object-cover brightness-[60%]'
             alt='Proven Measurement Products'
@@ -107,7 +140,7 @@ export default function HeroCarousel() {
             </p>
           </div>
         </div>
-        {/* <!--Second item--> */}
+        {/* <!--Third item--> */}
         <div
           className='relative float-left -mr-[100%] hidden w-full transition-transform duration-[1000ms] ease-in-out motion-reduce:transition-none'
           data-twe-carousel-item
@@ -134,36 +167,6 @@ export default function HeroCarousel() {
               }}
             >
               We aim to serve our customers with unmatched service
-            </p>
-          </div>
-        </div>
-        {/* <!--Third item--> */}
-        <div
-          className='relative float-left -mr-[100%] hidden w-full transition-transform duration-[1000ms] ease-in-out motion-reduce:transition-none'
-          data-twe-carousel-item
-          style={{ backfaceVisibility: 'hidden' }}
-        >
-          <img
-            src='/images/slider-3a.jpg'
-            className='block w-full h-[600px] lg:h-[700px] xl:h-[800px] object-cover brightness-[60%]'
-            alt='8300 Stop and Go Inertial Road Profiler'
-          />
-          <div className='absolute inset-x-[15%] top-[25%] md:top-[28%] xl:top-[35%] py-5 text-center text-white md:block'>
-            <h5
-              className='text-5xl lg:text-7xl'
-              style={{
-                textShadow: '0px 0px 10px #000000, 0px 0px 10px #000000',
-              }}
-            >
-              New Product Alert!
-            </h5>
-            <p
-              className='text-2xl lg:text-3xl mt-3'
-              style={{
-                textShadow: '0px 0px 10px #000000, 0px 0px 10px #000000',
-              }}
-            >
-              8300 Stop and Go Inertial Road Profiler
             </p>
           </div>
         </div>
