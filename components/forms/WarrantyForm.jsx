@@ -704,6 +704,14 @@ export function WarrantyForm() {
                       </FormItem>
                       <FormItem className='flex items-center space-x-3 space-y-0'>
                         <FormControl>
+                          <RadioGroupItem value='8300 Stop and Go Profiler' />
+                        </FormControl>
+                        <FormLabel className='text-lg font-normal'>
+                          8300 Stop and Go Profiler
+                        </FormLabel>
+                      </FormItem>
+                      <FormItem className='flex items-center space-x-3 space-y-0'>
+                        <FormControl>
                           <RadioGroupItem value='Transverse Profiling System' />
                         </FormControl>
                         <FormLabel className='text-lg font-normal'>

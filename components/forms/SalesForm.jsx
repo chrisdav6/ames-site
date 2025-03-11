@@ -31,6 +31,10 @@ const items = [
     label: '8300 High Speed Profiler',
   },
   {
+    id: '8300 Stop and Go Profiler',
+    label: '8300 Stop and Go Profiler',
+  },
+  {
     id: 'Transverse Profiling System',
     label: 'Transverse Profiling System',
   },
