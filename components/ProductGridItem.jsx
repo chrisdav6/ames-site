@@ -16,7 +16,7 @@ export default function ProductGridItem({
     >
       <div className='relative w-full h-fit'>
         {absoulteText && (
-          <div className='absolute top-5 left-0 bg-amesRed py-2 px-3 text-white font-bold'>
+          <div className='absolute top-5 left-0 bg-[#CC0000] py-2 px-3 text-white font-bold z-10'>
             {absoulteText}
           </div>
         )}

@@ -19,6 +19,10 @@ const productLinks = [
     href: '/products/8300-high-speed-profiler',
   },
   {
+    name: '8300 Stop and Go Profiler',
+    href: '/products/8300-stop-and-go-profiler',
+  },
+  {
     name: 'Transverse Profiling System',
     href: '/products/transverse-profiling-system',
   },

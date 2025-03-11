@@ -144,9 +144,9 @@ export default function HeroCarousel() {
           style={{ backfaceVisibility: 'hidden' }}
         >
           <img
-            src='/images/slider-3.jpg'
+            src='/images/slider-3a.jpg'
             className='block w-full h-[600px] lg:h-[700px] xl:h-[800px] object-cover brightness-[60%]'
-            alt='Industry Leading Solutions'
+            alt='8300 Stop and Go Inertial Road Profiler'
           />
           <div className='absolute inset-x-[15%] top-[25%] md:top-[28%] xl:top-[35%] py-5 text-center text-white md:block'>
             <h5
@@ -155,7 +155,7 @@ export default function HeroCarousel() {
                 textShadow: '0px 0px 10px #000000, 0px 0px 10px #000000',
               }}
             >
-              Industry Leading Solutions
+              New Product Alert!
             </h5>
             <p
               className='text-2xl lg:text-3xl mt-3'
@@ -163,8 +163,7 @@ export default function HeroCarousel() {
                 textShadow: '0px 0px 10px #000000, 0px 0px 10px #000000',
               }}
             >
-              At the forefront in the development of sensor technology for
-              pavement measurements
+              8300 Stop and Go Inertial Road Profiler
             </p>
           </div>
         </div>
@@ -213,9 +212,9 @@ export default function HeroCarousel() {
   style={{ backfaceVisibility: 'hidden' }}
 >
   <img
-    src='/images/slider-3a.jpg'
+    src='/images/slider-3.jpg'
     className='block w-full h-[600px] lg:h-[700px] xl:h-[800px] object-cover brightness-[60%]'
-    alt='8300 Stop and Go Inertial Road Profiler'
+    alt='Industry Leading Solutions'
   />
   <div className='absolute inset-x-[15%] top-[25%] md:top-[28%] xl:top-[35%] py-5 text-center text-white md:block'>
     <h5
@@ -224,7 +223,7 @@ export default function HeroCarousel() {
         textShadow: '0px 0px 10px #000000, 0px 0px 10px #000000',
       }}
     >
-      New Product Alert!
+      Industry Leading Solutions
     </h5>
     <p
       className='text-2xl lg:text-3xl mt-3'
@@ -232,8 +231,9 @@ export default function HeroCarousel() {
         textShadow: '0px 0px 10px #000000, 0px 0px 10px #000000',
       }}
     >
-      8300 Stop and Go Inertial Road Profiler
+      At the forefront in the development of sensor technology for pavement
+      measurements
     </p>
   </div>
-</div>; */
+</div> */
 }
