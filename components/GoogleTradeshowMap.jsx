@@ -71,11 +71,6 @@ import Image from 'next/image';
       lat: 38.236821,
       lng: -84.747838,
     },
-    
-  */
-
-export default function GoogleTradeshowMap() {
-  const [shows, setShows] = useState([
     {
       imgUrl: '/images/ohio-logo.png',
       name: 'Ohio Asphalt Expo',
@@ -86,6 +81,11 @@ export default function GoogleTradeshowMap() {
       lat: 40.139683,
       lng: -82.976837,
     },
+    
+  */
+
+export default function GoogleTradeshowMap() {
+  const [shows, setShows] = useState([
     {
       imgUrl: '/images/woa-logo.png',
       name: 'World of Asphalt',

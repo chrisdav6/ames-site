@@ -97,8 +97,6 @@ export default function Tradeshows() {
             linkedInURL='https://www.linkedin.com/in/asphalt-in-kentucky-50918555'
             hr={true}
           />
-          
-          */}
 
           <TradeshowCard
             date='March 18 - 19, 2025'
@@ -114,6 +112,9 @@ export default function Tradeshows() {
             youtubeURL='https://www.youtube.com/user/FlexiblePavementOhio'
             hr={true}
           />
+          
+          */}
+
           <TradeshowCard
             date='March 25 - 27, 2025'
             img='/images/woa-logo.png'
