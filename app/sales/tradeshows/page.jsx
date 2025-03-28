@@ -116,20 +116,6 @@ export default function Tradeshows() {
           */}
 
           <TradeshowCard
-            date='March 25 - 27, 2025'
-            img='/images/woa-logo.png'
-            alt='World of Asphalt'
-            url='https://www.worldofasphalt.com'
-            name='World of Asphalt - St. Louis, MO - Booth #1008'
-            text1={`World of Asphalt is the leading asphalt trade show and conference. Over 450 of the industry's leading manufacturers and service providers in the aggregate, asphalt, pavement maintenance, and traffic safety industry sectors come together at World of Asphalt to showcase their latest products and technologies. The conference features learning opportunities with leading industry experts to discuss solutions to issues affecting the asphalt industry.`}
-            facebookURL='https://www.facebook.com/WorldofAsphalt'
-            twitterURL='https://x.com/WorldofAsphalt'
-            instagramURL='https://www.instagram.com/world.of.asphalt'
-            linkedInURL='https://www.linkedin.com/company/world-of-asphalt'
-            youtubeURL='https://www.youtube.com/user/WorldofAsphalt'
-            hr={true}
-          />
-          <TradeshowCard
             date='April 8 - 9, 2025'
             img='/images/maine-logo.png'
             alt='Maine Asphalt Paving Association'
@@ -262,6 +248,20 @@ export default function Tradeshows() {
             instagramURL='https://www.instagram.com/conexpoconagg'
             linkedInURL='https://www.linkedin.com/company/conexpoconagg'
             youtubeURL='https://www.youtube.com/user/conexpoconagg'
+            hr={true}
+          />
+          <TradeshowCard
+            date='March 15 - 17, 2027'
+            img='/images/woa-logo-2027.png'
+            alt='World of Asphalt'
+            url='https://www.worldofasphalt.com'
+            name='World of Asphalt - New Orleans, LA'
+            text1={`World of Asphalt is the leading asphalt trade show and conference. Over 450 of the industry's leading manufacturers and service providers in the aggregate, asphalt, pavement maintenance, and traffic safety industry sectors come together at World of Asphalt to showcase their latest products and technologies. The conference features learning opportunities with leading industry experts to discuss solutions to issues affecting the asphalt industry.`}
+            facebookURL='https://www.facebook.com/WorldofAsphalt'
+            twitterURL='https://x.com/WorldofAsphalt'
+            instagramURL='https://www.instagram.com/world.of.asphalt'
+            linkedInURL='https://www.linkedin.com/company/world-of-asphalt'
+            youtubeURL='https://www.youtube.com/user/WorldofAsphalt'
             hr={true}
           />
           <TradeshowCard

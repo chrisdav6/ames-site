@@ -87,16 +87,6 @@ import Image from 'next/image';
 export default function GoogleTradeshowMap() {
   const [shows, setShows] = useState([
     {
-      imgUrl: '/images/woa-logo.png',
-      name: 'World of Asphalt',
-      booth: 'Booth #1008',
-      cityState: 'St. Louis, MO',
-      date: 'March 25-27, 2025',
-      url: 'https://www.worldofasphalt.com',
-      lat: 38.635403,
-      lng: -90.203293,
-    },
-    {
       imgUrl: '/images/maine-logo.png',
       name: 'MAPA Annual Spring Paving Seminar',
       booth: '',
@@ -205,6 +195,16 @@ export default function GoogleTradeshowMap() {
       url: 'https://www.conexpoconagg.com',
       lat: 36.161515,
       lng: -115.161274,
+    },
+    {
+      imgUrl: '/images/woa-logo-2027.png',
+      name: 'World of Asphalt',
+      booth: '',
+      cityState: 'New Orleans, LA',
+      date: 'March 15-17, 2027',
+      url: 'https://www.worldofasphalt.com',
+      lat: 29.955946,
+      lng: -90.081347,
     },
     {
       imgUrl: '/images/ncat-conference.png',
