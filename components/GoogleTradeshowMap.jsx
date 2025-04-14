@@ -81,11 +81,6 @@ import Image from 'next/image';
       lat: 40.139683,
       lng: -82.976837,
     },
-    
-  */
-
-export default function GoogleTradeshowMap() {
-  const [shows, setShows] = useState([
     {
       imgUrl: '/images/maine-logo.png',
       name: 'MAPA Annual Spring Paving Seminar',
@@ -96,6 +91,11 @@ export default function GoogleTradeshowMap() {
       lat: 44.831204,
       lng: -68.781424,
     },
+    
+  */
+
+export default function GoogleTradeshowMap() {
+  const [shows, setShows] = useState([
     {
       imgUrl: '/images/naceLogo.png',
       name: 'NACE 2025 Annual Conference',

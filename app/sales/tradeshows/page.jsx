@@ -112,8 +112,6 @@ export default function Tradeshows() {
             youtubeURL='https://www.youtube.com/user/FlexiblePavementOhio'
             hr={true}
           />
-          
-          */}
 
           <TradeshowCard
             date='April 8 - 9, 2025'
@@ -126,6 +124,9 @@ export default function Tradeshows() {
             youtubeURL='https://www.youtube.com/channel/UC_Sx_eaSqmNYtj7n5iYofjw'
             hr={true}
           />
+          
+          */}
+
           <TradeshowCard
             date='April 14 - 17, 2025'
             img='/images/naceLogo.png'
