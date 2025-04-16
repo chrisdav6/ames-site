@@ -22,16 +22,6 @@ import Image from 'next/image';
       lng: -85.393312,
     },
     {
-      imgUrl: '/images/seaupg-logo.png',
-      name: 'SEAUPG',
-      booth: 'Booth #3',
-      cityState: 'Mobile, AL',
-      date: 'November 19-21, 2024',
-      url: 'http://www.seaupg.org',
-      lat: 30.702498,
-      lng: -88.056333,
-    },
-    {
       imgUrl: '/images/pavex.png',
       name: 'PAVE/X: The Pavement Experience',
       booth: 'Booth #1035',
@@ -80,18 +70,7 @@ import Image from 'next/image';
       url: 'https://www.flexiblepavements.org/OhioAsphaltExpo',
       lat: 40.139683,
       lng: -82.976837,
-    },
-    {
-      imgUrl: '/images/maine-logo.png',
-      name: 'MAPA Annual Spring Paving Seminar',
-      booth: '',
-      cityState: 'Bangor, ME',
-      date: 'April 8-9, 2025',
-      url: 'https://maine-apa.org/paving-seminar',
-      lat: 44.831204,
-      lng: -68.781424,
-    },
-    
+    }
   */
 
 export default function GoogleTradeshowMap() {
@@ -145,6 +124,16 @@ export default function GoogleTradeshowMap() {
       url: 'https://www.calcimaconference.org',
       lat: 33.829713,
       lng: -117.908835,
+    },
+    {
+      imgUrl: '/images/seaupg-logo.png',
+      name: 'SEAUPG',
+      booth: '',
+      cityState: 'Charleston, WV',
+      date: 'November 18-20, 2025',
+      url: 'http://www.seaupg.org',
+      lat: 38.351258,
+      lng: -81.617623,
     },
     {
       imgUrl: '/images/wisconsin-asphalt-logo.png',
@@ -205,6 +194,16 @@ export default function GoogleTradeshowMap() {
       url: 'https://www.worldofasphalt.com',
       lat: 29.955946,
       lng: -90.081347,
+    },
+    {
+      imgUrl: '/images/maine-logo.png',
+      name: 'MAPA Annual Spring Paving Seminar',
+      booth: '',
+      cityState: 'Bangor, ME',
+      date: 'April 7-8, 2026',
+      url: 'https://maine-apa.org/paving-seminar',
+      lat: 44.831204,
+      lng: -68.781424,
     },
     {
       imgUrl: '/images/ncat-conference.png',

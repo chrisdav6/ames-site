@@ -35,15 +35,7 @@ export default function Tradeshows() {
             linkedInURL='https://www.linkedin.com/company/asphalt-pavement-association-of-indiana-apai'
             hr={true}
           /> 
-          <TradeshowCard
-            date='November 19 - 21, 2024'
-            img='/images/seaupg-logo.png'
-            alt='SEAUPG'
-            url='http://www.seaupg.org'
-            name='SEAUPG - Mobile, AL - Booth #3'
-            text1='The SEAUPG annual meeting is held in the fall of each year. Hosted by state Departments of Transportation from each sub-group in rotation. SEAUPG Annual Meetings & Exhibits allow interaction between agencies, users, producers and material/equipment suppliers throughout the Southeastern states as well as the nation and abroad.'
-            hr={true}
-          />
+          
           <TradeshowCard
             date='January 28 - 30, 2025'
             img='/images/pavex.png'
@@ -56,6 +48,7 @@ export default function Tradeshows() {
             linkedInURL='https://www.linkedin.com/company/pave-x-show'
             hr={true}
           />
+
           <TradeshowCard
             date='February 19 - 20, 2025'
             img='/images/rmaces-logo.png'
@@ -69,6 +62,7 @@ export default function Tradeshows() {
             youtubeURL='https://www.youtube.com/channel/UCSJR-A8JiJq5Vh6ibbMJEoA'
             hr={true}
           />
+
           <TradeshowCard
             date='February 26 - 27, 2025'
             img='/images/michigan-asphalt-logo.png'
@@ -110,18 +104,6 @@ export default function Tradeshows() {
             instagramURL='https://www.instagram.com/flexpaveoh'
             linkedInURL='https://www.linkedin.com/company/flexible-pavements-of-ohio'
             youtubeURL='https://www.youtube.com/user/FlexiblePavementOhio'
-            hr={true}
-          />
-
-          <TradeshowCard
-            date='April 8 - 9, 2025'
-            img='/images/maine-logo.png'
-            alt='Maine Asphalt Paving Association'
-            url='https://maine-apa.org/paving-seminar'
-            name='MAPA 20th Annual Spring Paving Seminar - Bangor, ME'
-            text1={`Maine Asphalt Paving Association's 18th Annual Spring Paving Seminar. Invigorating workshops, networking opportunities and the largest Industry equipment show in Maine. MAPA works to encourage and promote the safe and environmentally sound use of bituminous asphalt products throughout the state of Maine.`}
-            facebookURL='https://www.facebook.com/profile.php?id=100063700834665'
-            youtubeURL='https://www.youtube.com/channel/UC_Sx_eaSqmNYtj7n5iYofjw'
             hr={true}
           />
           
@@ -186,6 +168,15 @@ export default function Tradeshows() {
             instagramURL='https://www.instagram.com/calcimarocks'
             linkedInURL='https://www.linkedin.com/company/calcima'
             youtubeURL='https://www.youtube.com/channel/UC-7hBI95v83T8mHA-FVFkXQ'
+            hr={true}
+          />
+          <TradeshowCard
+            date='November 18 - 20, 2025'
+            img='/images/seaupg-logo.png'
+            alt='SEAUPG'
+            url='http://www.seaupg.org'
+            name='SEAUPG - Charleston, WV'
+            text1='The SEAUPG annual meeting is held in the fall of each year. Hosted by state Departments of Transportation from each sub-group in rotation. SEAUPG Annual Meetings & Exhibits allow interaction between agencies, users, producers and material/equipment suppliers throughout the Southeastern states as well as the nation and abroad.'
             hr={true}
           />
           <TradeshowCard
@@ -263,6 +254,17 @@ export default function Tradeshows() {
             instagramURL='https://www.instagram.com/world.of.asphalt'
             linkedInURL='https://www.linkedin.com/company/world-of-asphalt'
             youtubeURL='https://www.youtube.com/user/WorldofAsphalt'
+            hr={true}
+          />
+          <TradeshowCard
+            date='April 7 - 8, 2026'
+            img='/images/maine-logo.png'
+            alt='Maine Asphalt Paving Association'
+            url='https://maine-apa.org/paving-seminar'
+            name='MAPA 21st Annual Spring Paving Seminar - Bangor, ME'
+            text1={`Maine Asphalt Paving Association's 21st Annual Spring Paving Seminar. Invigorating workshops, networking opportunities and the largest Industry equipment show in Maine. MAPA works to encourage and promote the safe and environmentally sound use of bituminous asphalt products throughout the state of Maine.`}
+            facebookURL='https://www.facebook.com/profile.php?id=100063700834665'
+            youtubeURL='https://www.youtube.com/channel/UC_Sx_eaSqmNYtj7n5iYofjw'
             hr={true}
           />
           <TradeshowCard
