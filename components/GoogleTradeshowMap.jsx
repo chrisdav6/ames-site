@@ -70,17 +70,7 @@ import Image from 'next/image';
       url: 'https://www.flexiblepavements.org/OhioAsphaltExpo',
       lat: 40.139683,
       lng: -82.976837,
-    },
-      {
-      imgUrl: '/images/naceLogo.png',
-      name: 'NACE 2025 Annual Conference',
-      booth: '',
-      cityState: 'Schaumburg, IL',
-      date: 'April 14-17, 2025',
-      url: 'https://www.countyengineers.org/2025-annual-meeting',
-      lat: 42.031074,
-      lng: -88.080154,
-    },
+    }
   */
 
 export default function GoogleTradeshowMap() {
@@ -204,6 +194,16 @@ export default function GoogleTradeshowMap() {
       url: 'https://maine-apa.org/paving-seminar',
       lat: 44.831204,
       lng: -68.781424,
+    },
+    {
+      imgUrl: '/images/naceLogo.png',
+      name: 'NACE 2026 Annual Conference',
+      booth: '',
+      cityState: 'Arlington, TX',
+      date: 'April 12-15, 2026',
+      url: 'https://www.countyengineers.org/future-meetings',
+      lat: 32.722226,
+      lng: -97.112523,
     },
     {
       imgUrl: '/images/ncat-conference.png',
