@@ -70,12 +70,8 @@ import Image from 'next/image';
       url: 'https://www.flexiblepavements.org/OhioAsphaltExpo',
       lat: 40.139683,
       lng: -82.976837,
-    }
-  */
-
-export default function GoogleTradeshowMap() {
-  const [shows, setShows] = useState([
-    {
+    },
+      {
       imgUrl: '/images/rpugLogo.png',
       name: 'Road Profile Users Group 2025 Conference',
       booth: '',
@@ -85,6 +81,10 @@ export default function GoogleTradeshowMap() {
       lat: 33.210594,
       lng: -97.136568,
     },
+  */
+
+export default function GoogleTradeshowMap() {
+  const [shows, setShows] = useState([
     {
       imgUrl: '/images/napa-logo.png',
       name: 'NAPA Midyear Meeting',
