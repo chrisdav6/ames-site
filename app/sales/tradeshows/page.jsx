@@ -23,18 +23,7 @@ export default function Tradeshows() {
         </p>
 
         <div className='flex flex-col gap-8 mt-8 text-center md:text-left text-lg'>
-          {/* <TradeshowCard
-            date='December 11 - 13, 2024'
-            img='/images/apai-logo.png'
-            alt='Asphalt Pavement Association of Indiana'
-            url='https://www.asphaltindiana.org/events.php'
-            name='APAI Winter Conference and Expo - Muncie, IN'
-            text1='The Asphalt Pavement Association of Indiana annual winter conference and trade show. Held each December, over 600 individuals and 50 vendors participate and discuss production and construction of quality asphalt pavements.'
-            facebookURL='https://www.facebook.com/AsphaltPavementAssociationIndiana'
-            twitterURL='https://x.com/asphaltindiana'
-            linkedInURL='https://www.linkedin.com/company/asphalt-pavement-association-of-indiana-apai'
-            hr={true}
-          /> 
+          {/*
           
           <TradeshowCard
             date='January 28 - 30, 2025'
@@ -195,6 +184,18 @@ export default function Tradeshows() {
             hr={true}
           />
           <TradeshowCard
+            date='December 10 - 12, 2025'
+            img='/images/apai-logo.png'
+            alt='Asphalt Pavement Association of Indiana'
+            url='https://mms.asphaltindiana.org//Calendar/moreinfo.php?org_id=APAI&eventid=167640'
+            name='APAI Winter Conference and Expo - Muncie, IN'
+            text1="The Asphalt Pavement Association of Indiana's annual winter conference and trade show. Held each December, with nearly 600 attendees from Indiana's asphalt industry, this event promises to be a high-energy, action-packed showcase of the latest innovations and trends. From educational sessions to networking opportunities and exciting events, be prepared for an experience that will leave you inspired and energized for the year ahead."
+            facebookURL='https://www.facebook.com/AsphaltPavementAssociationIndiana'
+            twitterURL='https://x.com/asphaltindiana'
+            linkedInURL='https://www.linkedin.com/company/asphalt-pavement-association-of-indiana-apai'
+            hr={true}
+          />
+          <TradeshowCard
             date='January 5 - 7, 2026'
             img='/images/mapa-logo.png'
             alt='Missouri Asphalt Paving Association'
@@ -234,20 +235,6 @@ export default function Tradeshows() {
             hr={true}
           />
           <TradeshowCard
-            date='March 15 - 17, 2027'
-            img='/images/woa-logo-2027.png'
-            alt='World of Asphalt'
-            url='https://www.worldofasphalt.com'
-            name='World of Asphalt - New Orleans, LA'
-            text1={`World of Asphalt is the leading asphalt trade show and conference. Over 450 of the industry's leading manufacturers and service providers in the aggregate, asphalt, pavement maintenance, and traffic safety industry sectors come together at World of Asphalt to showcase their latest products and technologies. The conference features learning opportunities with leading industry experts to discuss solutions to issues affecting the asphalt industry.`}
-            facebookURL='https://www.facebook.com/WorldofAsphalt'
-            twitterURL='https://x.com/WorldofAsphalt'
-            instagramURL='https://www.instagram.com/world.of.asphalt'
-            linkedInURL='https://www.linkedin.com/company/world-of-asphalt'
-            youtubeURL='https://www.youtube.com/user/WorldofAsphalt'
-            hr={true}
-          />
-          <TradeshowCard
             date='April 7 - 8, 2026'
             img='/images/maine-logo.png'
             alt='Maine Asphalt Paving Association'
@@ -269,6 +256,20 @@ export default function Tradeshows() {
             twitterURL='https://x.com/EngineersNACE'
             instagramURL='https://www.instagram.com/countyengineersrule'
             linkedInURL='https://www.linkedin.com/company/national-association-of-county-engineers'
+            hr={true}
+          />
+          <TradeshowCard
+            date='March 15 - 17, 2027'
+            img='/images/woa-logo-2027.png'
+            alt='World of Asphalt'
+            url='https://www.worldofasphalt.com'
+            name='World of Asphalt - New Orleans, LA'
+            text1={`World of Asphalt is the leading asphalt trade show and conference. Over 450 of the industry's leading manufacturers and service providers in the aggregate, asphalt, pavement maintenance, and traffic safety industry sectors come together at World of Asphalt to showcase their latest products and technologies. The conference features learning opportunities with leading industry experts to discuss solutions to issues affecting the asphalt industry.`}
+            facebookURL='https://www.facebook.com/WorldofAsphalt'
+            twitterURL='https://x.com/WorldofAsphalt'
+            instagramURL='https://www.instagram.com/world.of.asphalt'
+            linkedInURL='https://www.linkedin.com/company/world-of-asphalt'
+            youtubeURL='https://www.youtube.com/user/WorldofAsphalt'
             hr={true}
           />
           <TradeshowCard

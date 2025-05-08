@@ -11,16 +11,6 @@ import Image from 'next/image';
 
 //PAST SHOWS
 /*
-  {
-      imgUrl: '/images/apai-logo.png',
-      name: 'APAI Winter Conference and Expo',
-      booth: '',
-      cityState: 'Muncie, IN',
-      date: 'December 11-13, 2024',
-      url: 'https://www.asphaltindiana.org/events.php',
-      lat: 40.206962,
-      lng: -85.393312,
-    },
     {
       imgUrl: '/images/pavex.png',
       name: 'PAVE/X: The Pavement Experience',
@@ -144,6 +134,16 @@ export default function GoogleTradeshowMap() {
       url: 'https://www.asphaltisbest.com/events/EventDetails.aspx?id=1853252&group=',
       lat: 45.553381,
       lng: -94.164918,
+    },
+    {
+      imgUrl: '/images/apai-logo.png',
+      name: 'APAI Winter Conference and Expo',
+      booth: '',
+      cityState: 'Muncie, IN',
+      date: 'December 10-12, 2025',
+      url: 'https://mms.asphaltindiana.org//Calendar/moreinfo.php?org_id=APAI&eventid=167640',
+      lat: 40.206962,
+      lng: -85.393312,
     },
     {
       imgUrl: '/images/mapa-logo.png',
