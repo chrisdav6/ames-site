@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import OptionsCard from '@/components/OptionsCard';
 import PhotoWithCaption from '@/components/PhotoWithCaption';
+import { Trophy } from 'lucide-react';
 
 export const metadata = {
   title: 'Ames Engineering | 8300 Stop and Go Road Profiler',
@@ -50,6 +51,18 @@ export default function StopAndGoProfiler8300() {
 
       {/* Product Description */}
       <div className='mt-6 text-lg text-center md:text-left'>
+        <a
+          href='https://www.forconstructionpros.com/construction-technology/surveying-layout/product/22936360/ames-engineering-8300-stopandgo-high-speed-profiler'
+          target='_blank'
+        >
+          <p className='flex items-center justify-center md:justify-start text-xl mb-3'>
+            <span className='hidden lg:block'>
+              <Trophy className='w-8 h-8 pr-1' />
+            </span>
+            Asphalt Contractor 2025 Top 30 Award Winner!
+          </p>
+        </a>
+
         <p>
           The{' '}
           <span className='font-bold'>

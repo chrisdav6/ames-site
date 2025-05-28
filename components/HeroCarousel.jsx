@@ -1,6 +1,7 @@
 'use client';
 import Link from 'next/link';
 import { useEffect } from 'react';
+import { Trophy } from 'lucide-react';
 
 export default function HeroCarousel() {
   useEffect(() => {
@@ -108,6 +109,22 @@ export default function HeroCarousel() {
                 8300 Stop and Go Inertial Road Profiler
               </p>
             </Link>
+            <a
+              href='https://www.forconstructionpros.com/construction-technology/surveying-layout/product/22936360/ames-engineering-8300-stopandgo-high-speed-profiler'
+              target='_blank'
+            >
+              <p
+                className='flex items-center justify-center text-2xl lg:text-3xl mt-3 hover:text-yellow-500 transition duration-200'
+                style={{
+                  textShadow: '0px 0px 10px #000000, 0px 0px 10px #000000',
+                }}
+              >
+                <span className='hidden lg:block'>
+                  <Trophy className='w-10 h-10 pr-2' />
+                </span>
+                Asphalt Contractor 2025 Top 30 Award Winner!
+              </p>
+            </a>
           </div>
         </div>
         {/* <!--Second item--> */}
