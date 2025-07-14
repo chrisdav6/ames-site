@@ -122,6 +122,16 @@ export default function Tradeshows() {
             hr={true}
           />
           <TradeshowCard
+            date='September 4 - 5, 2025'
+            img='/images/rathLogo.png'
+            alt='International Symposium Towards Holistic Roads and Beyond'
+            url='https://www.roadassothai.com/news/931'
+            name={`International Symposium Towards Holistic Roads and Beyond - Bangkok, Thailand`}
+            text1={`International Symposium Towards Holistic Roads and Beyond co-organized by: Department of Rural Roads (DRR), Roads Association of Thailand (RATh) and the National Committee of PIARC for Thailand. Exhibition hall and workshops to promote the development of highways and logistics.`}
+            facebookURL='https://www.facebook.com/roadassothai'
+            hr={true}
+          />
+          <TradeshowCard
             date='September 8 - 11, 2025'
             img='/images/txapa-logo.png'
             alt='Texas Asphalt Pavement Association'

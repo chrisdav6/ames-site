@@ -86,6 +86,16 @@ export default function GoogleTradeshowMap() {
       lng: -72.67796,
     },
     {
+      imgUrl: '/images/rathLogo.png',
+      name: 'International Symposium Towards Holistic Roads and Beyond',
+      booth: '',
+      cityState: 'Bangkok, Thailand',
+      date: 'September 4-5, 2025',
+      url: 'https://www.roadassothai.com/news/931',
+      lat: 13.735959,
+      lng: 100.485655,
+    },
+    {
       imgUrl: '/images/txapa-logo.png',
       name: "TXAPA's 50th Annual Meeting",
       booth: '',
