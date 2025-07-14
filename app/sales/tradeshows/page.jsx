@@ -39,20 +39,6 @@ export default function Tradeshows() {
           />
 
           <TradeshowCard
-            date='February 19 - 20, 2025'
-            img='/images/rmaces-logo.png'
-            alt='Rocky Mountain Asphalt Conference & Equipment Show'
-            url='https://whova.com/web/lJQ-iWM97zLvsS%40GTUGkBcEBL2hv--Nzwq5VzVuKgMs%3D'
-            name='52nd Annual RMACES - Denver, CO'
-            text1='The 52nd Annual Rocky Mountain Asphalt Conference & Equipment Show. With over 100 vendors and exhibitors, this is your chance to connect with the best in the business and elevate your brand to new heights. Contractors, suppliers, governmental agency representatives, and consultants from the Rocky Mountain West hold an annual conference in Colorado to discuss new developments and quality advancements of asphalt pavements.'
-            facebookURL='https://www.facebook.com/profile.php?id=100046331990282'
-            instagramURL='https://www.instagram.com/colorado_asphalt_pavement_asso'
-            linkedInURL='https://www.linkedin.com/company/colorado-asphalt-pavement-associaiton'
-            youtubeURL='https://www.youtube.com/channel/UCSJR-A8JiJq5Vh6ibbMJEoA'
-            hr={true}
-          />
-
-          <TradeshowCard
             date='February 26 - 27, 2025'
             img='/images/michigan-asphalt-logo.png'
             alt='Michigan Asphalt Paving Association'
@@ -227,6 +213,19 @@ export default function Tradeshows() {
             twitterURL='https://x.com/nasemtrb'
             linkedInURL='https://www.linkedin.com/company/the-national-academies'
             youtubeURL='https://www.youtube.com/@nationalacademies'
+            hr={true}
+          />
+          <TradeshowCard
+            date='February 12 - 13, 2026'
+            img='/images/rmaces-logo.png'
+            alt='Rocky Mountain Asphalt Conference & Equipment Show'
+            url='http://www.rmaces.org'
+            name='53rd Annual RMACES - Denver, CO'
+            text1='The 53rd Annual Rocky Mountain Asphalt Conference & Equipment Show. With over 100 vendors and exhibitors, this is your chance to connect with the best in the business and elevate your brand to new heights. Contractors, suppliers, governmental agency representatives, and consultants from the Rocky Mountain West hold an annual conference in Colorado to discuss new developments and quality advancements of asphalt pavements.'
+            facebookURL='https://www.facebook.com/profile.php?id=100046331990282'
+            instagramURL='https://www.instagram.com/colorado_asphalt_pavement_asso'
+            linkedInURL='https://www.linkedin.com/company/colorado-asphalt-pavement-associaiton'
+            youtubeURL='https://www.youtube.com/channel/UCSJR-A8JiJq5Vh6ibbMJEoA'
             hr={true}
           />
           <TradeshowCard

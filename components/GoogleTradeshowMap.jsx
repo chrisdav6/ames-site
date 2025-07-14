@@ -22,16 +22,6 @@ import Image from 'next/image';
       lng: -85.305639,
     },
     {
-      imgUrl: '/images/rmaces-logo.png',
-      name: '52nd Annual RMACES',
-      booth: '',
-      cityState: 'Denver, CO',
-      date: 'February 19-20, 2025',
-      url: 'https://whova.com/web/lJQ-iWM97zLvsS@GTUGkBcEBL2hv--Nzwq5VzVuKgMs%3D',
-      lat: 39.771474,
-      lng: -104.806882,
-    },
-    {
       imgUrl: '/images/michigan-asphalt-logo.png',
       name: 'APAM 68th Annual Paving Conference',
       booth: '',
@@ -174,6 +164,16 @@ export default function GoogleTradeshowMap() {
       url: 'https://trb-annual-meeting.nationalacademies.org',
       lat: 38.911744,
       lng: -77.018697,
+    },
+    {
+      imgUrl: '/images/rmaces-logo.png',
+      name: '53rd Annual RMACES',
+      booth: '',
+      cityState: 'Denver, CO',
+      date: 'February 12-13, 2026',
+      url: 'https://www.rmaces.org',
+      lat: 39.771474,
+      lng: -104.806882,
     },
     {
       imgUrl: '/images/conexpo-logo.png',
