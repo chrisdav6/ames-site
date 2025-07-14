@@ -109,20 +109,6 @@ export default function Tradeshows() {
           */}
 
           <TradeshowCard
-            date='July 8 - 11, 2025'
-            img='/images/napa-logo.png'
-            alt='National Asphalt Pavement Association'
-            url='https://www.asphaltpavement.org/programs/napa-events/napa-midyear-meeting'
-            name='NAPA Midyear Meeting - Louisville, KY'
-            text1='The NAPA Midyear Meeting is three comprehensive days of committee meetings and educational sessions focused on advancing the asphalt pavement industry. Throughout this meeting, NAPA leadership gathers input, makes decisions, and reaffirms the strategic direction of our industry, members, and stakeholders.'
-            facebookURL='https://www.facebook.com/AsphaltPavement'
-            twitterURL='https://x.com/NAPATweets'
-            instagramURL='https://www.instagram.com/goasphalt'
-            linkedInURL='https://www.linkedin.com/company/asphaltpavement'
-            youtubeURL='https://www.youtube.com/channel/UCDroWs5yMvWHi1mEjHPOAIw'
-            hr={true}
-          />
-          <TradeshowCard
             date='September 8 - 11, 2025'
             img='/images/txapa-logo.png'
             alt='Texas Asphalt Pavement Association'
@@ -256,6 +242,20 @@ export default function Tradeshows() {
             twitterURL='https://x.com/EngineersNACE'
             instagramURL='https://www.instagram.com/countyengineersrule'
             linkedInURL='https://www.linkedin.com/company/national-association-of-county-engineers'
+            hr={true}
+          />
+          <TradeshowCard
+            date='July 14 - 17, 2026'
+            img='/images/napa-logo.png'
+            alt='National Asphalt Pavement Association'
+            url='https://www.asphaltpavement.org/programs/napa-events/meetings-calendar'
+            name='NAPA Midyear Meeting - Columbus, OH'
+            text1='The NAPA Midyear Meeting is three comprehensive days of committee meetings and educational sessions focused on advancing the asphalt pavement industry. Throughout this meeting, NAPA leadership gathers input, makes decisions, and reaffirms the strategic direction of our industry, members, and stakeholders.'
+            facebookURL='https://www.facebook.com/AsphaltPavement'
+            twitterURL='https://x.com/NAPATweets'
+            instagramURL='https://www.instagram.com/goasphalt'
+            linkedInURL='https://www.linkedin.com/company/asphaltpavement'
+            youtubeURL='https://www.youtube.com/channel/UCDroWs5yMvWHi1mEjHPOAIw'
             hr={true}
           />
           <TradeshowCard

@@ -76,16 +76,6 @@ import Image from 'next/image';
 export default function GoogleTradeshowMap() {
   const [shows, setShows] = useState([
     {
-      imgUrl: '/images/napa-logo.png',
-      name: 'NAPA Midyear Meeting',
-      booth: '',
-      cityState: 'Louisville, KY',
-      date: 'July 8-11, 2025',
-      url: 'https://www.asphaltpavement.org/programs/napa-events/napa-midyear-meeting',
-      lat: 38.233585,
-      lng: -85.770498,
-    },
-    {
       imgUrl: '/images/txapa-logo.png',
       name: "TXAPA's 50th Annual Meeting",
       booth: '',
@@ -204,6 +194,16 @@ export default function GoogleTradeshowMap() {
       url: 'https://www.countyengineers.org/future-meetings',
       lat: 32.722226,
       lng: -97.112523,
+    },
+    {
+      imgUrl: '/images/napa-logo.png',
+      name: 'NAPA Midyear Meeting',
+      booth: '',
+      cityState: 'Columbus, OH',
+      date: 'July 14-17, 2026',
+      url: 'https://www.asphaltpavement.org/programs/napa-events/meetings-calendar',
+      lat: 39.950705,
+      lng: -82.99982,
     },
     {
       imgUrl: '/images/ncat-conference.png',
