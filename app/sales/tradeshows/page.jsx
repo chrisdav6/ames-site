@@ -109,6 +109,19 @@ export default function Tradeshows() {
           */}
 
           <TradeshowCard
+            date='August 3 - 7, 2025'
+            img='/images/aashtoLogo.png'
+            alt='AASHTO'
+            url='https://web.cvent.com/event/6250a4fe-d85f-47f4-957c-ce80790d696b/summary'
+            name={`2025 AASHTO Committee on Materials and Pavement - Hartford, CT`}
+            text1={`This Committee is tasked with developing materials and test standards used by all AASHTO member departments. Materials and pavement engineers, along with technical experts from these departments, collaborate to reach a consensus on these crucial documents. Participation from industry professionals and academia is also encouraged to ensure the timely resolution of technical issues and to introduce innovative ideas for advancing the transportation industry.`}
+            facebookURL='https://www.facebook.com/AASHTOspeaks'
+            twitterURL='https://x.com/aashtospeaks'
+            instagramURL='https://www.instagram.com/aashtospeaks'
+            youtubeURL='https://www.youtube.com/user/aashtovideo'
+            hr={true}
+          />
+          <TradeshowCard
             date='September 8 - 11, 2025'
             img='/images/txapa-logo.png'
             alt='Texas Asphalt Pavement Association'

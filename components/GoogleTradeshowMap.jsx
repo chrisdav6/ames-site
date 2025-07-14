@@ -76,6 +76,16 @@ import Image from 'next/image';
 export default function GoogleTradeshowMap() {
   const [shows, setShows] = useState([
     {
+      imgUrl: '/images/aashtoLogo.png',
+      name: '2025 Committee on Materials and Pavement',
+      booth: '',
+      cityState: 'Hartford, CT',
+      date: 'August 3-7, 2025',
+      url: 'https://web.cvent.com/event/6250a4fe-d85f-47f4-957c-ce80790d696b/summary',
+      lat: 41.762526,
+      lng: -72.67796,
+    },
+    {
       imgUrl: '/images/txapa-logo.png',
       name: "TXAPA's 50th Annual Meeting",
       booth: '',
