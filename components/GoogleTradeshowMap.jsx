@@ -106,6 +106,16 @@ export default function GoogleTradeshowMap() {
       lng: -98.223925,
     },
     {
+      imgUrl: '/images/neaupg-logo.png',
+      name: 'NEAUPG Fall Meeting',
+      booth: '',
+      cityState: 'Harrisburg, PA',
+      date: 'October 29-30, 2025',
+      url: 'https://neaupg.engr.uconn.edu',
+      lat: 40.274496,
+      lng: -76.880249,
+    },
+    {
       imgUrl: '/images/calcimaLogo.png',
       name: 'CalCIMA Education Conference',
       booth: '',

@@ -22,7 +22,7 @@ export default function Tradeshows() {
           at a show near you!
         </p>
 
-        <div className='flex flex-col gap-8 mt-8 text-center md:text-left text-lg'>
+        <div className='flex flex-col gap-10 mt-8 text-center md:text-left text-lg'>
           {/*
           
           <TradeshowCard
@@ -142,6 +142,15 @@ export default function Tradeshows() {
             instagramURL='https://www.instagram.com/texasasphaltpavement'
             linkedInURL='https://www.linkedin.com/company/texas-asphalt-pavement-association'
             youtubeURL='https://www.youtube.com/channel/UCg9R6YxcVok22oBpf3PN8zg'
+            hr={true}
+          />
+          <TradeshowCard
+            date='October 29 - 30, 2025'
+            img='/images/neaupg-logo.png'
+            alt='NEAUPG Fall Meeting'
+            url='https://neaupg.engr.uconn.edu'
+            name='NEAUPG Fall Meeting - Harrisburg, PA'
+            text1='North East Asphalt User/Producer Groups annual fall Meeting. Promoting solutions through discussion to improve the quality and performance of asphalt pavement applications in the Northeastern United States. Hosted by NYSDOT with the Binder and Mix Committees meeting.'
             hr={true}
           />
           <TradeshowCard
