@@ -81,7 +81,6 @@ export default function Tradeshows() {
             youtubeURL='https://www.youtube.com/user/FlexiblePavementOhio'
             hr={true}
           />
-
           <TradeshowCard
             date='April 28 - May 1, 2025'
             img='/images/rpugLogo.png'
@@ -222,6 +221,20 @@ export default function Tradeshows() {
             twitterURL='https://x.com/nasemtrb'
             linkedInURL='https://www.linkedin.com/company/the-national-academies'
             youtubeURL='https://www.youtube.com/@nationalacademies'
+            hr={true}
+          />
+          <TradeshowCard
+            date='January 26 - 29, 2026'
+            img='/images/napa-logo.png'
+            alt='NAPA 2026 Annual Meeting'
+            url='https://www.asphaltpavement.org/programs/napa-events/napa-annual-meeting'
+            name='NAPA 2026 Annual Meeting - Scottsdale, AZ'
+            text1={`The NAPA 2026 Annual Meeting will give you the latest tools and insights to help you reach your goals in the asphalt pavement industry. Stay tuned for details about general sessions and workshops. Combined with invaluable industry networking, NAPA's Annual Meeting is where the industry gathers to set its future.`}
+            facebookURL='https://www.facebook.com/AsphaltPavement'
+            twitterURL='https://x.com/NAPATweets'
+            instagramURL='https://www.instagram.com/goasphalt'
+            linkedInURL='https://www.linkedin.com/company/asphaltpavement'
+            youtubeURL='https://www.youtube.com/channel/UCDroWs5yMvWHi1mEjHPOAIw'
             hr={true}
           />
           <TradeshowCard

@@ -176,6 +176,16 @@ export default function GoogleTradeshowMap() {
       lng: -77.018697,
     },
     {
+      imgUrl: '/images/napa-logo.png',
+      name: 'NAPA 2026 Annual Meeting',
+      booth: '',
+      cityState: 'Scottsdale, AZ',
+      date: 'January 26-29, 2026',
+      url: 'https://www.asphaltpavement.org/programs/napa-events/napa-annual-meeting',
+      lat: 33.677503,
+      lng: -111.854997,
+    },
+    {
       imgUrl: '/images/rmaces-logo.png',
       name: '53rd Annual RMACES',
       booth: '',
