@@ -91,6 +91,19 @@ export default function Tradeshows() {
             text1='RPUG&#39;s annual meeting is to serve as a forum for the exchange of information between end users, data collectors, vendors, construction and design engineers and researchers who have an interest in road profiles, road roughness/smoothness, pavement surface textures, friction, and tire-pavement noise.'
             hr={true}
           />
+          <TradeshowCard
+            date='December 9 - 10, 2025'
+            img='/images/mn-logo.png'
+            alt='Minnesota Asphalt Pavement Association'
+            url='https://www.asphaltisbest.com/events/EventDetails.aspx?id=1853252&group='
+            name='2025 Minnesota Asphalt Conference - St. Cloud, MN'
+            text1='The Minnesota Asphalt Pavement Association (MAPA) and the Minnesota Association of Asphalt Paving Technologists (MAAPT) hold thier annual conference. Featuring educational sessions, breakouts, hospitality room, and an awards dinner.'
+            facebookURL='https://www.facebook.com/MnAsphaltPavementAssoc'
+            twitterURL='https://x.com/mnasphalt'
+            instagramURL='https://www.instagram.com/mnasphalt'
+            linkedInURL='https://www.linkedin.com/company/minnesota-asphalt-pavement-association'
+            hr={true}
+          />
           
           */}
 
@@ -163,19 +176,6 @@ export default function Tradeshows() {
             text1='The Wisconsin Asphalt Pavement Association (WAPA) annual conference tackles subjects on a wide range of issues related to asphalt design, construction, maintenance, technical specifications, costs, marketing, and public policy at all levels of government (local, state, and federal).'
             twitterURL='https://x.com/wispave'
             youtubeURL='https://www.youtube.com/channel/UC51A1W2jB-YrkYiI8YaiSew'
-            hr={true}
-          />
-          <TradeshowCard
-            date='December 9 - 10, 2025'
-            img='/images/mn-logo.png'
-            alt='Minnesota Asphalt Pavement Association'
-            url='https://www.asphaltisbest.com/events/EventDetails.aspx?id=1853252&group='
-            name='2025 Minnesota Asphalt Conference - St. Cloud, MN'
-            text1='The Minnesota Asphalt Pavement Association (MAPA) and the Minnesota Association of Asphalt Paving Technologists (MAAPT) hold thier annual conference. Featuring educational sessions, breakouts, hospitality room, and an awards dinner.'
-            facebookURL='https://www.facebook.com/MnAsphaltPavementAssoc'
-            twitterURL='https://x.com/mnasphalt'
-            instagramURL='https://www.instagram.com/mnasphalt'
-            linkedInURL='https://www.linkedin.com/company/minnesota-asphalt-pavement-association'
             hr={true}
           />
           <TradeshowCard

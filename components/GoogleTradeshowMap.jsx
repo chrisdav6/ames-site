@@ -61,6 +61,16 @@ import Image from 'next/image';
       lat: 33.210594,
       lng: -97.136568,
     },
+    {
+      imgUrl: '/images/mn-logo.png',
+      name: '2025 Minnesota Asphalt Conference',
+      booth: '',
+      cityState: 'St. Cloud, MN',
+      date: 'December 9-10, 2025',
+      url: 'https://www.asphaltisbest.com/events/EventDetails.aspx?id=1853252&group=',
+      lat: 45.553381,
+      lng: -94.164918,
+    },
   */
 
 export default function GoogleTradeshowMap() {
@@ -124,16 +134,6 @@ export default function GoogleTradeshowMap() {
       url: 'https://www.wispave.org',
       lat: 43.625082,
       lng: -89.775456,
-    },
-    {
-      imgUrl: '/images/mn-logo.png',
-      name: '2025 Minnesota Asphalt Conference',
-      booth: '',
-      cityState: 'St. Cloud, MN',
-      date: 'December 9-10, 2025',
-      url: 'https://www.asphaltisbest.com/events/EventDetails.aspx?id=1853252&group=',
-      lat: 45.553381,
-      lng: -94.164918,
     },
     {
       imgUrl: '/images/apai-logo.png',
