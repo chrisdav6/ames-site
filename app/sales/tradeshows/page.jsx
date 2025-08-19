@@ -224,6 +224,18 @@ export default function Tradeshows() {
             hr={true}
           />
           <TradeshowCard
+            date='January 19 - 21, 2026'
+            img='/images/penn-asphalt-logo.png'
+            alt='Pennsylvania Asphalt Pavement Association'
+            url='https://www.pa-asphalt.org/events/papa-events/146-66th-annual-papa-conference-save-the-date'
+            name='66th Annual PAPA Conference - Hershey, PA'
+            text1={`The Pennsylvania Asphalt Pavement Association's annual conference program provides valued updates and information on the latest asphalt technologies from asphalt pavement professionals with local and nationally recognized experts from industry, state and federal agencies and academia.`}
+            facebookURL='https://www.facebook.com/PennsylvaniaAsphalt'
+            twitterURL='https://x.com/AsphaltPA'
+            youtubeURL='https://www.youtube.com/channel/UC47YotWes1rWnKKn1o3yFYg'
+            hr={true}
+          />
+          <TradeshowCard
             date='January 26 - 29, 2026'
             img='/images/napa-logo.png'
             alt='NAPA 2026 Annual Meeting'

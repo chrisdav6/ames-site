@@ -176,6 +176,16 @@ export default function GoogleTradeshowMap() {
       lng: -77.018697,
     },
     {
+      imgUrl: '/images/penn-asphalt-logo.png',
+      name: '66th Annual PAPA Conference',
+      booth: '',
+      cityState: 'Hershey, PA',
+      date: 'January 19-21, 2026',
+      url: 'https://www.pa-asphalt.org/events/papa-events/146-66th-annual-papa-conference-save-the-date',
+      lat: 40.285737,
+      lng: -76.334034,
+    },
+    {
       imgUrl: '/images/napa-logo.png',
       name: 'NAPA 2026 Annual Meeting',
       booth: '',
