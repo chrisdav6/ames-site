@@ -103,8 +103,6 @@ export default function Tradeshows() {
             linkedInURL='https://www.linkedin.com/company/minnesota-asphalt-pavement-association'
             hr={true}
           />
-          
-          */}
 
           <TradeshowCard
             date='August 3 - 7, 2025'
@@ -119,6 +117,9 @@ export default function Tradeshows() {
             youtubeURL='https://www.youtube.com/user/aashtovideo'
             hr={true}
           />
+          
+          */}
+
           <TradeshowCard
             date='September 4 - 5, 2025'
             img='/images/rathLogo.png'

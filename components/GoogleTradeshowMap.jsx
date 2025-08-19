@@ -71,10 +71,6 @@ import Image from 'next/image';
       lat: 45.553381,
       lng: -94.164918,
     },
-  */
-
-export default function GoogleTradeshowMap() {
-  const [shows, setShows] = useState([
     {
       imgUrl: '/images/aashtoLogo.png',
       name: '2025 Committee on Materials and Pavement',
@@ -85,6 +81,10 @@ export default function GoogleTradeshowMap() {
       lat: 41.762526,
       lng: -72.67796,
     },
+  */
+
+export default function GoogleTradeshowMap() {
+  const [shows, setShows] = useState([
     {
       imgUrl: '/images/rathLogo.png',
       name: 'International Symposium Towards Holistic Roads and Beyond',
