@@ -206,6 +206,16 @@ export default function GoogleTradeshowMap() {
       lng: -111.854997,
     },
     {
+      imgUrl: '/images/utah-asphalt-logo.png',
+      name: '2026 Utah Asphalt Conference',
+      booth: '',
+      cityState: 'Sandy, UT',
+      date: 'February 18-19, 2026',
+      url: 'https://members.utahasphalt.org/events/Details/uapa-2026-asphalt-conference-1343185?sourceTypeId=Website',
+      lat: 40.566912,
+      lng: -111.842014,
+    },
+    {
       imgUrl: '/images/conexpo-logo.png',
       name: 'ConExpo',
       booth: '',

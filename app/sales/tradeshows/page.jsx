@@ -265,6 +265,19 @@ export default function Tradeshows() {
             hr={true}
           />
           <TradeshowCard
+            date='February 18 - 19, 2026'
+            img='/images/utah-asphalt-logo.png'
+            alt='2026 Utah Asphalt Conference'
+            url='https://members.utahasphalt.org/events/Details/uapa-2026-asphalt-conference-1343185?sourceTypeId=Website'
+            name='2026 Utah Asphalt Conference - Sandy, UT'
+            text1='The Utah Asphalt Conference (UAC) is the premier asphalt related event in the state of Utah. The conference brings together the asphalt industry’s best and brightest for a second-to-none trade show and over twenty-eight educational seminars. The 2024 UAC where we will provide you with all of the tools, technologies, and best practices you need to accomplish your goals as well as plenty of networking opportunities.'
+            facebookURL='https://www.facebook.com/utahasphaltpavement'
+            twitterURL='https://x.com/utahasphalt'
+            linkedInURL='https://www.linkedin.com/company/utah-asphalt-pavement-association'
+            youtubeURL='https://www.youtube.com/channel/UClIzjjlNiZBi2vdA56Of5gg'
+            hr={true}
+          />
+          <TradeshowCard
             date='March 3 - 7, 2026'
             img='/images/conexpo-logo.png'
             alt='CONEXPO-CON/AGG'

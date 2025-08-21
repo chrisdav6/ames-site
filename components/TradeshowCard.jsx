@@ -27,7 +27,13 @@ export default function TradeshowCard({
       <div className='flex flex-col md:flex-row gap-10'>
         {/* Image Container */}
         <div className='max-w-[250px] md:max-w-[150px] mx-auto'>
-          <Image src={img} width={1000} height={1000} alt={alt} />
+          <Image
+            src={img}
+            width={1000}
+            height={1000}
+            alt={alt}
+            className='max-h-[200px] md:max-h-[125px] object-contain'
+          />
         </div>
         {/* Description */}
         <div>
