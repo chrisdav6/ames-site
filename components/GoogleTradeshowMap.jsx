@@ -81,6 +81,16 @@ import Image from 'next/image';
       lat: 41.762526,
       lng: -72.67796,
     },
+    {
+      imgUrl: '/images/rmaces-logo.png',
+      name: '53rd Annual RMACES',
+      booth: '',
+      cityState: 'Denver, CO',
+      date: 'February 12-13, 2026',
+      url: 'https://www.rmaces.org',
+      lat: 39.771474,
+      lng: -104.806882,
+    },
   */
 
 export default function GoogleTradeshowMap() {
@@ -194,16 +204,6 @@ export default function GoogleTradeshowMap() {
       url: 'https://www.asphaltpavement.org/programs/napa-events/napa-annual-meeting',
       lat: 33.677503,
       lng: -111.854997,
-    },
-    {
-      imgUrl: '/images/rmaces-logo.png',
-      name: '53rd Annual RMACES',
-      booth: '',
-      cityState: 'Denver, CO',
-      date: 'February 12-13, 2026',
-      url: 'https://www.rmaces.org',
-      lat: 39.771474,
-      lng: -104.806882,
     },
     {
       imgUrl: '/images/conexpo-logo.png',

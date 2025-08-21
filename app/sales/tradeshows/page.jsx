@@ -117,6 +117,20 @@ export default function Tradeshows() {
             youtubeURL='https://www.youtube.com/user/aashtovideo'
             hr={true}
           />
+
+          <TradeshowCard
+            date='February 12 - 13, 2026'
+            img='/images/rmaces-logo.png'
+            alt='Rocky Mountain Asphalt Conference & Equipment Show'
+            url='http://www.rmaces.org'
+            name='53rd Annual RMACES - Denver, CO'
+            text1='The 53rd Annual Rocky Mountain Asphalt Conference & Equipment Show. With over 100 vendors and exhibitors, this is your chance to connect with the best in the business and elevate your brand to new heights. Contractors, suppliers, governmental agency representatives, and consultants from the Rocky Mountain West hold an annual conference in Colorado to discuss new developments and quality advancements of asphalt pavements.'
+            facebookURL='https://www.facebook.com/profile.php?id=100046331990282'
+            instagramURL='https://www.instagram.com/colorado_asphalt_pavement_asso'
+            linkedInURL='https://www.linkedin.com/company/colorado-asphalt-pavement-associaiton'
+            youtubeURL='https://www.youtube.com/channel/UCSJR-A8JiJq5Vh6ibbMJEoA'
+            hr={true}
+          />
           
           */}
 
@@ -248,19 +262,6 @@ export default function Tradeshows() {
             instagramURL='https://www.instagram.com/goasphalt'
             linkedInURL='https://www.linkedin.com/company/asphaltpavement'
             youtubeURL='https://www.youtube.com/channel/UCDroWs5yMvWHi1mEjHPOAIw'
-            hr={true}
-          />
-          <TradeshowCard
-            date='February 12 - 13, 2026'
-            img='/images/rmaces-logo.png'
-            alt='Rocky Mountain Asphalt Conference & Equipment Show'
-            url='http://www.rmaces.org'
-            name='53rd Annual RMACES - Denver, CO'
-            text1='The 53rd Annual Rocky Mountain Asphalt Conference & Equipment Show. With over 100 vendors and exhibitors, this is your chance to connect with the best in the business and elevate your brand to new heights. Contractors, suppliers, governmental agency representatives, and consultants from the Rocky Mountain West hold an annual conference in Colorado to discuss new developments and quality advancements of asphalt pavements.'
-            facebookURL='https://www.facebook.com/profile.php?id=100046331990282'
-            instagramURL='https://www.instagram.com/colorado_asphalt_pavement_asso'
-            linkedInURL='https://www.linkedin.com/company/colorado-asphalt-pavement-associaiton'
-            youtubeURL='https://www.youtube.com/channel/UCSJR-A8JiJq5Vh6ibbMJEoA'
             hr={true}
           />
           <TradeshowCard
