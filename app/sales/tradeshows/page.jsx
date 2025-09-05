@@ -131,8 +131,6 @@ export default function Tradeshows() {
             youtubeURL='https://www.youtube.com/channel/UCSJR-A8JiJq5Vh6ibbMJEoA'
             hr={true}
           />
-          
-          */}
 
           <TradeshowCard
             date='September 4 - 5, 2025'
@@ -144,6 +142,9 @@ export default function Tradeshows() {
             facebookURL='https://www.facebook.com/roadassothai'
             hr={true}
           />
+          
+          */}
+
           <TradeshowCard
             date='September 8 - 11, 2025'
             img='/images/txapa-logo.png'
