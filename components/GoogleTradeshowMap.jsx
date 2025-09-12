@@ -101,10 +101,6 @@ import Image from 'next/image';
       lat: 13.735959,
       lng: 100.485655,
     },
-  */
-
-export default function GoogleTradeshowMap() {
-  const [shows, setShows] = useState([
     {
       imgUrl: '/images/txapa-logo.png',
       name: "TXAPA's 50th Annual Meeting",
@@ -115,6 +111,10 @@ export default function GoogleTradeshowMap() {
       lat: 29.462161,
       lng: -98.223925,
     },
+  */
+
+export default function GoogleTradeshowMap() {
+  const [shows, setShows] = useState([
     {
       imgUrl: '/images/neaupg-logo.png',
       name: 'NEAUPG Fall Meeting',
