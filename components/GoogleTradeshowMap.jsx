@@ -42,16 +42,6 @@ import Image from 'next/image';
       lng: -84.747838,
     },
     {
-      imgUrl: '/images/ohio-logo.png',
-      name: 'Ohio Asphalt Expo',
-      booth: '',
-      cityState: 'Columbus, OH',
-      date: 'March 18-19, 2025',
-      url: 'https://www.flexiblepavements.org/OhioAsphaltExpo',
-      lat: 40.139683,
-      lng: -82.976837,
-    },
-      {
       imgUrl: '/images/rpugLogo.png',
       name: 'Road Profile Users Group 2025 Conference',
       booth: '',
@@ -214,6 +204,16 @@ export default function GoogleTradeshowMap() {
       url: 'https://www.conexpoconagg.com',
       lat: 36.161515,
       lng: -115.161274,
+    },
+    {
+      imgUrl: '/images/ohio-logo.png',
+      name: 'Ohio Asphalt Expo',
+      booth: '',
+      cityState: 'Columbus, OH',
+      date: 'March 17-18, 2026',
+      url: 'https://www.flexiblepavements.org/OhioAsphaltExpo',
+      lat: 40.139683,
+      lng: -82.976837,
     },
     {
       imgUrl: '/images/woa-logo-2027.png',

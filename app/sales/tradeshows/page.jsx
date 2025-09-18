@@ -68,20 +68,6 @@ export default function Tradeshows() {
           />
 
           <TradeshowCard
-            date='March 18 - 19, 2025'
-            img='/images/ohio-logo.png'
-            alt='Flexible Pavements of Ohio'
-            url='https://www.flexiblepavements.org/OhioAsphaltExpo'
-            name='Ohio Asphalt Expo - Columbus, OH'
-            text1='The Asphalt Expo is a premiere asphalt pavement event with multiple concurrent educational sessions and an indoor and outdoor trade show and exhibition. If you construct, inspect,manage or maintain local or private transportation infrastructure the Ohio Asphalt Expo has the information you need to ensure a successful, long-lasting asphalt pavement.'
-            facebookURL='https://www.facebook.com/flexiblepavements'
-            twitterURL='https://x.com/Ohio_Asphalt'
-            instagramURL='https://www.instagram.com/flexpaveoh'
-            linkedInURL='https://www.linkedin.com/company/flexible-pavements-of-ohio'
-            youtubeURL='https://www.youtube.com/user/FlexiblePavementOhio'
-            hr={true}
-          />
-          <TradeshowCard
             date='April 28 - May 1, 2025'
             img='/images/rpugLogo.png'
             alt='Road Profile Users&#39;s Group'
@@ -90,6 +76,7 @@ export default function Tradeshows() {
             text1='RPUG&#39;s annual meeting is to serve as a forum for the exchange of information between end users, data collectors, vendors, construction and design engineers and researchers who have an interest in road profiles, road roughness/smoothness, pavement surface textures, friction, and tire-pavement noise.'
             hr={true}
           />
+
           <TradeshowCard
             date='December 9 - 10, 2025'
             img='/images/mn-logo.png'
@@ -277,6 +264,20 @@ export default function Tradeshows() {
             instagramURL='https://www.instagram.com/conexpoconagg'
             linkedInURL='https://www.linkedin.com/company/conexpoconagg'
             youtubeURL='https://www.youtube.com/user/conexpoconagg'
+            hr={true}
+          />
+          <TradeshowCard
+            date='March 17 - 18, 2026'
+            img='/images/ohio-logo.png'
+            alt='Flexible Pavements of Ohio'
+            url='https://www.flexiblepavements.org/OhioAsphaltExpo'
+            name='Ohio Asphalt Expo - Columbus, OH'
+            text1='The Asphalt Expo is a premiere asphalt pavement event with multiple concurrent educational sessions and an indoor and outdoor trade show and exhibition. If you construct, inspect,manage or maintain local or private transportation infrastructure the Ohio Asphalt Expo has the information you need to ensure a successful, long-lasting asphalt pavement.'
+            facebookURL='https://www.facebook.com/flexiblepavements'
+            twitterURL='https://x.com/Ohio_Asphalt'
+            instagramURL='https://www.instagram.com/flexpaveoh'
+            linkedInURL='https://www.linkedin.com/company/flexible-pavements-of-ohio'
+            youtubeURL='https://www.youtube.com/user/FlexiblePavementOhio'
             hr={true}
           />
           <TradeshowCard
