@@ -102,16 +102,6 @@ import Image from 'next/image';
       lng: 100.485655,
     },
     {
-      imgUrl: '/images/txapa-logo.png',
-      name: "TXAPA's 50th Annual Meeting",
-      booth: '',
-      cityState: 'San Antonio, TX',
-      date: 'September 8-11, 2025',
-      url: 'https://texasasphalt.org/events/2025-annual-meeting',
-      lat: 29.462161,
-      lng: -98.223925,
-    },
-    {
       imgUrl: '/images/neaupg-logo.png',
       name: 'NEAUPG Fall Meeting',
       booth: '',
@@ -264,6 +254,16 @@ export default function GoogleTradeshowMap() {
       url: 'https://www.asphaltpavement.org/programs/napa-events/meetings-calendar',
       lat: 39.950705,
       lng: -82.99982,
+    },
+    {
+      imgUrl: '/images/txapa-logo.png',
+      name: "TXAPA's 51st Annual Meeting",
+      booth: '',
+      cityState: 'San Antonio, TX',
+      date: 'September 14-17, 2026',
+      url: 'https://texasasphalt.org/events/2026-txapa-annual-meeting',
+      lat: 29.462161,
+      lng: -98.223925,
     },
     {
       imgUrl: '/images/ncat-conference.png',

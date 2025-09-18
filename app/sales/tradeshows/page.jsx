@@ -144,21 +144,6 @@ export default function Tradeshows() {
           />
 
           <TradeshowCard
-            date='September 8 - 11, 2025'
-            img='/images/txapa-logo.png'
-            alt='Texas Asphalt Pavement Association'
-            url='https://texasasphalt.org/events/2025-annual-meeting'
-            name={`TXAPA's 50th Annual Meeting - San Antonio, TX`}
-            text1={`TXAPA holds its annual meeting over four days in mid-September, combining education, networking, and fun. The agenda features award-winning speakers and entertainers and includes technical sessions, ample networking time, a golf tournament, casino night, and a live and silent auction benefiting the TXAPA Scholarship Program. The size of the meeting has grown significantly since the first one in 1974. In 2019, more than 600 TXAPA members, TxDOT personnel, and their spouses attended. The meeting venue is always one of Texas’ premier destination resorts.`}
-            facebookURL='https://www.facebook.com/TexasAsphalt'
-            twitterURL='https://x.com/TexasAsphalt'
-            instagramURL='https://www.instagram.com/texasasphaltpavement'
-            linkedInURL='https://www.linkedin.com/company/texas-asphalt-pavement-association'
-            youtubeURL='https://www.youtube.com/channel/UCg9R6YxcVok22oBpf3PN8zg'
-            hr={true}
-          />
-
-          <TradeshowCard
             date='October 29 - 30, 2025'
             img='/images/neaupg-logo.png'
             alt='NEAUPG Fall Meeting'
@@ -330,6 +315,20 @@ export default function Tradeshows() {
             instagramURL='https://www.instagram.com/goasphalt'
             linkedInURL='https://www.linkedin.com/company/asphaltpavement'
             youtubeURL='https://www.youtube.com/channel/UCDroWs5yMvWHi1mEjHPOAIw'
+            hr={true}
+          />
+          <TradeshowCard
+            date='September 14 - 17, 2026'
+            img='/images/txapa-logo.png'
+            alt='Texas Asphalt Pavement Association'
+            url='https://texasasphalt.org/events/2026-txapa-annual-meeting'
+            name={`TXAPA's 51st Annual Meeting - San Antonio, TX`}
+            text1={`TXAPA holds its annual meeting over four days in mid-September, combining education, networking, and fun. The agenda features award-winning speakers and entertainers and includes technical sessions, ample networking time, a golf tournament, casino night, and a live and silent auction benefiting the TXAPA Scholarship Program. The size of the meeting has grown significantly since the first one in 1974. In 2019, more than 600 TXAPA members, TxDOT personnel, and their spouses attended. The meeting venue is always one of Texas’ premier destination resorts.`}
+            facebookURL='https://www.facebook.com/TexasAsphalt'
+            twitterURL='https://x.com/TexasAsphalt'
+            instagramURL='https://www.instagram.com/texasasphaltpavement'
+            linkedInURL='https://www.linkedin.com/company/texas-asphalt-pavement-association'
+            youtubeURL='https://www.youtube.com/channel/UCg9R6YxcVok22oBpf3PN8zg'
             hr={true}
           />
           <TradeshowCard
