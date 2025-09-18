@@ -62,16 +62,6 @@ import Image from 'next/image';
       lng: -94.164918,
     },
     {
-      imgUrl: '/images/aashtoLogo.png',
-      name: '2025 Committee on Materials and Pavement',
-      booth: '',
-      cityState: 'Hartford, CT',
-      date: 'August 3-7, 2025',
-      url: 'https://web.cvent.com/event/6250a4fe-d85f-47f4-957c-ce80790d696b/summary',
-      lat: 41.762526,
-      lng: -72.67796,
-    },
-    {
       imgUrl: '/images/rmaces-logo.png',
       name: '53rd Annual RMACES',
       booth: '',
@@ -254,6 +244,16 @@ export default function GoogleTradeshowMap() {
       url: 'https://www.asphaltpavement.org/programs/napa-events/meetings-calendar',
       lat: 39.950705,
       lng: -82.99982,
+    },
+    {
+      imgUrl: '/images/aashtoLogo.png',
+      name: '2026 Committee on Materials and Pavement',
+      booth: '',
+      cityState: 'Richmond, VA',
+      date: 'August 3-7, 2025',
+      url: 'https://transportation.org/meetings/events',
+      lat: 37.536661,
+      lng: -77.448196,
     },
     {
       imgUrl: '/images/txapa-logo.png',
