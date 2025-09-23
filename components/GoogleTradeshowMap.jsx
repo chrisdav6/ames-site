@@ -22,16 +22,6 @@ import Image from 'next/image';
       lng: -85.305639,
     },
     {
-      imgUrl: '/images/michigan-asphalt-logo.png',
-      name: 'APAM 68th Annual Paving Conference',
-      booth: '',
-      cityState: 'Mt. Pleasant, MI',
-      date: 'February 26-27, 2025',
-      url: 'https://www.apa-mi.org/pc_home_page.php',
-      lat: 43.600198,
-      lng: -84.769425,
-    },
-    {
       imgUrl: '/images/paiky-logo.png',
       name: 'PAIKY 2025 Winter Training School',
       booth: '',
@@ -184,6 +174,16 @@ export default function GoogleTradeshowMap() {
       url: 'https://members.utahasphalt.org/events/Details/uapa-2026-asphalt-conference-1343185?sourceTypeId=Website',
       lat: 40.566912,
       lng: -111.842014,
+    },
+    {
+      imgUrl: '/images/michigan-asphalt-logo.png',
+      name: "APAM's Annual Paving Conference",
+      booth: '',
+      cityState: 'Battle Creek, MI',
+      date: 'February 25-26, 2026',
+      url: 'https://mms.apa-mi.org//Calendar/moreinfo.php?org_id=APAM&eventid=184049',
+      lat: 42.325441,
+      lng: -85.187007,
     },
     {
       imgUrl: '/images/conexpo-logo.png',

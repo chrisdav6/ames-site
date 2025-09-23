@@ -39,21 +39,6 @@ export default function Tradeshows() {
           />
 
           <TradeshowCard
-            date='February 26 - 27, 2025'
-            img='/images/michigan-asphalt-logo.png'
-            alt='Michigan Asphalt Paving Association'
-            url='https://www.apa-mi.org/pc_home_page.php'
-            name='APAM 68th Annual Paving Conference - Mt. Pleasant, MI'
-            text1='The Michigan Asphalt Paving Association annual asphalt paving conference. This event is considered one of the most informative in the construction industry, featuring a full day of information and educational sessions.'
-            facebookURL='https://www.facebook.com/AsphaltPavementAssociationOfMichigan'
-            twitterURL='https://x.com/AsphaltPerforms'
-            instagramURL='https://www.instagram.com/asphaltperforms'
-            linkedInURL='https://www.linkedin.com/company/asphalt-pavement-association-of-michigan-inc'
-            youtubeURL='https://www.youtube.com/channel/UC6zuZ5WXlIwLiZEtnMbatDg'
-            hr={true}
-          />
-
-          <TradeshowCard
             date='March 5 - 7, 2025'
             img='/images/paiky-logo.png'
             alt='PAIKY 2025 Winter Training School'
@@ -236,6 +221,20 @@ export default function Tradeshows() {
             twitterURL='https://x.com/utahasphalt'
             linkedInURL='https://www.linkedin.com/company/utah-asphalt-pavement-association'
             youtubeURL='https://www.youtube.com/channel/UClIzjjlNiZBi2vdA56Of5gg'
+            hr={true}
+          />
+          <TradeshowCard
+            date='February 25 - 26, 2026'
+            img='/images/michigan-asphalt-logo.png'
+            alt='Michigan Asphalt Paving Association'
+            url='https://mms.apa-mi.org//Calendar/moreinfo.php?org_id=APAM&eventid=184049'
+            name="APAM's Annual Paving Conference - Battle Creek, MI"
+            text1='The Michigan Asphalt Paving Association annual asphalt paving conference. This event is considered one of the most informative in the construction industry, featuring a full day of information and educational sessions.'
+            facebookURL='https://www.facebook.com/AsphaltPavementAssociationOfMichigan'
+            twitterURL='https://x.com/AsphaltPerforms'
+            instagramURL='https://www.instagram.com/asphaltperforms'
+            linkedInURL='https://www.linkedin.com/company/asphalt-pavement-association-of-michigan-inc'
+            youtubeURL='https://www.youtube.com/channel/UC6zuZ5WXlIwLiZEtnMbatDg'
             hr={true}
           />
           <TradeshowCard
