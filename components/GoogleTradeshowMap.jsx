@@ -32,16 +32,6 @@ import Image from 'next/image';
       lng: -84.747838,
     },
     {
-      imgUrl: '/images/rpugLogo.png',
-      name: 'Road Profile Users Group 2025 Conference',
-      booth: '',
-      cityState: 'Denton, TX',
-      date: 'April 28-May 1, 2025',
-      url: 'https://rpug.org',
-      lat: 33.210594,
-      lng: -97.136568,
-    },
-    {
       imgUrl: '/images/mn-logo.png',
       name: '2025 Minnesota Asphalt Conference',
       booth: '',
@@ -234,6 +224,16 @@ export default function GoogleTradeshowMap() {
       url: 'https://www.countyengineers.org/future-meetings',
       lat: 32.722226,
       lng: -97.112523,
+    },
+    {
+      imgUrl: '/images/rpugLogo.png',
+      name: 'Road Profile Users Group 2026 Conference',
+      booth: '',
+      cityState: 'Pittsburgh, PA',
+      date: 'April 28-May 1, 2026',
+      url: 'https://rpug.org',
+      lat: 40.431537,
+      lng: -79.995863,
     },
     {
       imgUrl: '/images/napa-logo.png',

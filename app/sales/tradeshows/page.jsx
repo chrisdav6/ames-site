@@ -53,16 +53,6 @@ export default function Tradeshows() {
           />
 
           <TradeshowCard
-            date='April 28 - May 1, 2025'
-            img='/images/rpugLogo.png'
-            alt='Road Profile Users&#39;s Group'
-            url='https://rpug.org'
-            name='Road Profile Users Group 2025 Conference - Denton, TX'
-            text1='RPUG&#39;s annual meeting is to serve as a forum for the exchange of information between end users, data collectors, vendors, construction and design engineers and researchers who have an interest in road profiles, road roughness/smoothness, pavement surface textures, friction, and tire-pavement noise.'
-            hr={true}
-          />
-
-          <TradeshowCard
             date='December 9 - 10, 2025'
             img='/images/mn-logo.png'
             alt='Minnesota Asphalt Pavement Association'
@@ -287,6 +277,15 @@ export default function Tradeshows() {
             twitterURL='https://x.com/EngineersNACE'
             instagramURL='https://www.instagram.com/countyengineersrule'
             linkedInURL='https://www.linkedin.com/company/national-association-of-county-engineers'
+            hr={true}
+          />
+          <TradeshowCard
+            date='April 28 - May 1, 2026'
+            img='/images/rpugLogo.png'
+            alt='Road Profile Users&#39;s Group'
+            url='https://rpug.org'
+            name='Road Profile Users Group 2026 Conference - Pittsburgh, PA'
+            text1='RPUG&#39;s annual meeting is to serve as a forum for the exchange of information between end users, data collectors, vendors, construction and design engineers and researchers who have an interest in road profiles, road roughness/smoothness, pavement surface textures, friction, and tire-pavement noise.'
             hr={true}
           />
           <TradeshowCard
