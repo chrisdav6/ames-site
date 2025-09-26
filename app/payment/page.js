@@ -4,8 +4,7 @@ import { FaSpinner } from 'react-icons/fa';
 
 export default function Payment() {
   const router = useRouter();
-  window.open('https://api.ipospays.com/v1/sl/jWfeo_170925135559', '_blank');
-  router.push('/');
+  router.push('https://api.ipospays.com/v1/sl/jWfeo_170925135559');
 
   return (
     <div className='w-full h-[600px]'>

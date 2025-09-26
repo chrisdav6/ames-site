@@ -147,7 +147,8 @@ const contactLinks = [
   },
   {
     name: 'Pay Invoice Online',
-    href: '/payment',
+    href: 'https://api.ipospays.com/v1/sl/jWfeo_170925135559',
+    external: true,
   },
   {
     name: 'TransTech Systems',
