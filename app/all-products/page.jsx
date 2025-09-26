@@ -1,7 +1,6 @@
 import CTABanner from '@/components/CTABanner';
 import ProductGrid from '@/components/ProductGrid';
 import { Button } from '@/components/ui/button';
-import Link from 'next/link';
 import { BsConeStriped } from 'react-icons/bs';
 import { FaCalendarAlt } from 'react-icons/fa';
 
