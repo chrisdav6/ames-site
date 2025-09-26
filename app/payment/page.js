@@ -1,13 +1,11 @@
-import { redirect } from 'next/navigation';
+'use client';
+import { useRouter } from 'next/navigation';
 import { FaSpinner } from 'react-icons/fa';
 
-export const metadata = {
-  title: 'Ames Engineering | Payment',
-  description: 'Pay your Ames Engineering invoice online',
-};
-
 export default function Payment() {
-  redirect('https://api.ipospays.com/v1/sl/jWfeo_170925135559');
+  const router = useRouter();
+  window.open('https://api.ipospays.com/v1/sl/jWfeo_170925135559', '_blank');
+  router.push('/');
 
   return (
     <div className='w-full h-[600px]'>

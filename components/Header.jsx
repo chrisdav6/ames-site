@@ -146,6 +146,10 @@ const contactLinks = [
     href: '/support/supportRequest',
   },
   {
+    name: 'Pay Invoice Online',
+    href: '/payment',
+  },
+  {
     name: 'TransTech Systems',
     href: 'https://transtechsys.com',
     external: true,
