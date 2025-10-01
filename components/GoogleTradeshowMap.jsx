@@ -106,7 +106,7 @@ export default function GoogleTradeshowMap() {
       lng: -89.775456,
     },
     {
-      imgUrl: '/images/apai-logo.png',
+      imgUrl: '/images/apai2025.png',
       name: 'APAI Winter Conference and Expo',
       booth: '',
       cityState: 'Muncie, IN',
@@ -250,7 +250,7 @@ export default function GoogleTradeshowMap() {
       name: '2026 Committee on Materials and Pavement',
       booth: '',
       cityState: 'Richmond, VA',
-      date: 'August 3-7, 2025',
+      date: 'August 3-7, 2026',
       url: 'https://transportation.org/meetings/events',
       lat: 37.536661,
       lng: -77.448196,

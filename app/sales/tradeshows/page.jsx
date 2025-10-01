@@ -139,7 +139,7 @@ export default function Tradeshows() {
           />
           <TradeshowCard
             date='December 10 - 12, 2025'
-            img='/images/apai-logo.png'
+            img='/images/apai2025.png'
             alt='Asphalt Pavement Association of Indiana'
             url='https://mms.asphaltindiana.org//Calendar/moreinfo.php?org_id=APAI&eventid=167640'
             name='APAI Winter Conference and Expo - Muncie, IN'
