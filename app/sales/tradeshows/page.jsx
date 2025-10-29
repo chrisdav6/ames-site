@@ -128,6 +128,31 @@ export default function Tradeshows() {
           />
           <TradeshowCard
             date='December 2 - 3, 2025'
+            img='/images/iggaLogo.png'
+            alt='IGGA'
+            url='https://www.igga.net'
+            name='IGGA Annual Meeting - Carlsbad, CA'
+            text1='The annual International Grooving and Grinding Association meeting is a fantastic opportunity to connect with fellow IGGA members, top manufacturers, and leading contractors from across the industry. The International Grooving & Grinding Association (IGGA) is the sole representative of the grooving, grinding and concrete pavement preservation (CPP) industry.'
+            facebookURL='https://www.facebook.com/PavementPres'
+            linkedInURL='https://www.linkedin.com/company/international-grooving-&-grinding-assoc-inc'
+            youtubeURL='https://www.youtube.com/user/PavementPresResource'
+            hr={true}
+          />
+          <TradeshowCard
+            date='December 2 - 4, 2025'
+            img='/images/acpaLogo.png'
+            alt='ACPA'
+            url='https://2025meeting.acpa.org'
+            name='62nd Annual ACPA Meeting - Carlsbad, CA'
+            text1="The annual ACPA meeting will dive into national and local strategies to grow concrete pavement markets, with exclusive sessions for chapter leaders and promoters. Explore the latest best practices and policy insights in a full day of Concrete Pavement University sessions and Government Affairs programming. Wrap up with insightful CPU sessions focused on innovation and emerging trends, and help shape ACPA's direction in the interactive Lessons and Priorities Forum."
+            facebookURL='https://www.facebook.com/paveconcrete63'
+            twitterURL='https://x.com/PaveConcrete'
+            linkedInURL='https://www.linkedin.com/company/american-concrete-pavement-association'
+            youtubeURL='https://www.youtube.com/concretepavements'
+            hr={true}
+          />
+          <TradeshowCard
+            date='December 2 - 3, 2025'
             img='/images/wisconsin-asphalt-logo.png'
             alt='WAPA'
             url='https://www.wispave.org'
