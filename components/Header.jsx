@@ -6,7 +6,6 @@ import NavItem from './NavItem';
 import { FiMenu } from 'react-icons/fi';
 import { FaFacebook } from 'react-icons/fa';
 import { FaInstagram, FaXTwitter } from 'react-icons/fa6';
-import { IoLogoYoutube } from 'react-icons/io';
 import { IoClose } from 'react-icons/io5';
 
 const productLinks = [
@@ -93,6 +92,14 @@ const supportLinks = [
     name: 'Product Warranty Registration',
     href: '/support/productRegistration',
   },
+  {
+    name: 'Research Reports',
+    href: '/resources',
+  },
+  {
+    name: 'Inertial Road Profilers FAQ',
+    href: '/resources/inertial-road-profilers-faq',
+  },
 ];
 
 const salesLinks = [
@@ -118,17 +125,6 @@ const aboutLinks = [
   {
     name: 'Our Company',
     href: '/about',
-  },
-];
-
-const resourcesLinks = [
-  {
-    name: 'Research Reports',
-    href: '/resources',
-  },
-  {
-    name: 'Inertial Road Profilers FAQ',
-    href: '/resources/inertial-road-profilers-faq',
   },
 ];
 
@@ -301,26 +297,6 @@ export default function Header() {
           </button>
 
           <button className='relative group'>
-            <NavItem name='Resources' />
-            <div
-              className={`hidden group-hover:flex flex-col gap-1 absolute right-0 p-2 bg-white border ${
-                closeHover && 'group-hover:hidden'
-              }`}
-              onClick={handleCloseHoverOnClick}
-            >
-              {resourcesLinks.map((link, idx) => (
-                <Link
-                  key={idx}
-                  href={link.href}
-                  className='px-2 py-1 hover:bg-amesRed hover:text-white text-base text-left text-nowrap'
-                >
-                  {link.name}
-                </Link>
-              ))}
-            </div>
-          </button>
-
-          <button className='relative group'>
             <NavItem name='Contact' />
             <div
               className={`hidden group-hover:flex flex-col gap-1 absolute right-0 p-2 bg-white border ${
@@ -444,22 +420,6 @@ export default function Header() {
             <NavItem name='About' mobile={true} />
             <div className='flex flex-col gap-1 p-2 bg-white'>
               {aboutLinks.map((link, idx) => (
-                <Link
-                  onClick={handleMobileClose}
-                  key={idx}
-                  href={link.href}
-                  className='px-2 py-1 text-nowrap'
-                >
-                  {link.name}
-                </Link>
-              ))}
-            </div>
-          </button>
-
-          <button className='relative group'>
-            <NavItem name='Resources' mobile={true} />
-            <div className='flex flex-col gap-1 p-2 bg-white'>
-              {resourcesLinks.map((link, idx) => (
                 <Link
                   onClick={handleMobileClose}
                   key={idx}
