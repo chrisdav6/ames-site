@@ -257,7 +257,7 @@ export default function Tradeshows() {
             img='/images/conexpo-logo.png'
             alt='CONEXPO-CON/AGG'
             url='https://www.conexpoconagg.com'
-            name='ConExpo - Las Vegas, NV'
+            name='ConExpo - Las Vegas, NV - Booth #C32468'
             text1={`Held once every 3 years, CONEXPO-CON/AGG is North America’s largest construction trade show representing asphalt, aggregates, concrete, earthmoving, lifting, mining, utilities and more. 2,800 exhibitors, 2,500,000 square feet and 150 education sessions! Bringing contractors, dealers, distributors, service providers, engineers and producers together in one place. No other show connects attendees from every major construction sector.`}
             facebookURL='https://www.facebook.com/conexpoconagg'
             twitterURL='https://x.com/conexpoconagg'

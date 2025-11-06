@@ -198,7 +198,7 @@ export default function GoogleTradeshowMap() {
     {
       imgUrl: '/images/conexpo-logo.png',
       name: 'ConExpo',
-      booth: '',
+      booth: 'Booth #C32468',
       cityState: 'Las Vegas, NV',
       date: 'March 3-7, 2026',
       url: 'https://www.conexpoconagg.com',
