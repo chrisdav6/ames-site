@@ -122,7 +122,7 @@ export default function Tradeshows() {
             img='/images/seaupg-logo.png'
             alt='SEAUPG'
             url='http://www.seaupg.org'
-            name='SEAUPG - Charleston, WV'
+            name='SEAUPG - Charleston, WV - Booth #21'
             text1='The SEAUPG annual meeting is held in the fall of each year. Hosted by state Departments of Transportation from each sub-group in rotation. SEAUPG Annual Meetings & Exhibits allow interaction between agencies, users, producers and material/equipment suppliers throughout the Southeastern states as well as the nation and abroad.'
             hr={true}
           />

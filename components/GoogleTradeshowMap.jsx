@@ -88,7 +88,7 @@ export default function GoogleTradeshowMap() {
     {
       imgUrl: '/images/seaupg-logo.png',
       name: 'SEAUPG',
-      booth: '',
+      booth: 'Booth #21',
       cityState: 'Charleston, WV',
       date: 'November 18-20, 2025',
       url: 'http://www.seaupg.org',
