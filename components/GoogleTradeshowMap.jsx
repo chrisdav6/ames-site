@@ -71,10 +71,6 @@ import Image from 'next/image';
       lat: 40.274496,
       lng: -76.880249,
     },
-  */
-
-export default function GoogleTradeshowMap() {
-  const [shows, setShows] = useState([
     {
       imgUrl: '/images/calcimaLogo.png',
       name: 'CalCIMA Education Conference',
@@ -85,6 +81,10 @@ export default function GoogleTradeshowMap() {
       lat: 33.829713,
       lng: -117.908835,
     },
+  */
+
+export default function GoogleTradeshowMap() {
+  const [shows, setShows] = useState([
     {
       imgUrl: '/images/seaupg-logo.png',
       name: 'SEAUPG',

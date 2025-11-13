@@ -100,8 +100,6 @@ export default function Tradeshows() {
             text1='North East Asphalt User/Producer Groups annual fall Meeting. Promoting solutions through discussion to improve the quality and performance of asphalt pavement applications in the Northeastern United States. Hosted by NYSDOT with the Binder and Mix Committees meeting.'
             hr={true}
           />
-          
-          */}
 
           <TradeshowCard
             date='November 10 - 13, 2025'
@@ -117,6 +115,9 @@ export default function Tradeshows() {
             youtubeURL='https://www.youtube.com/channel/UC-7hBI95v83T8mHA-FVFkXQ'
             hr={true}
           />
+          
+          */}
+
           <TradeshowCard
             date='November 18 - 20, 2025'
             img='/images/seaupg-logo.png'
