@@ -81,10 +81,6 @@ import Image from 'next/image';
       lat: 33.829713,
       lng: -117.908835,
     },
-  */
-
-export default function GoogleTradeshowMap() {
-  const [shows, setShows] = useState([
     {
       imgUrl: '/images/seaupg-logo.png',
       name: 'SEAUPG',
@@ -95,6 +91,10 @@ export default function GoogleTradeshowMap() {
       lat: 38.351258,
       lng: -81.617623,
     },
+  */
+
+export default function GoogleTradeshowMap() {
+  const [shows, setShows] = useState([
     {
       imgUrl: '/images/iggaLogo.png',
       name: 'IGGA Annual Meeting',

@@ -115,8 +115,6 @@ export default function Tradeshows() {
             youtubeURL='https://www.youtube.com/channel/UC-7hBI95v83T8mHA-FVFkXQ'
             hr={true}
           />
-          
-          */}
 
           <TradeshowCard
             date='November 18 - 20, 2025'
@@ -127,6 +125,9 @@ export default function Tradeshows() {
             text1='The SEAUPG annual meeting is held in the fall of each year. Hosted by state Departments of Transportation from each sub-group in rotation. SEAUPG Annual Meetings & Exhibits allow interaction between agencies, users, producers and material/equipment suppliers throughout the Southeastern states as well as the nation and abroad.'
             hr={true}
           />
+          
+          */}
+
           <TradeshowCard
             date='December 2 - 3, 2025'
             img='/images/iggaLogo.png'
