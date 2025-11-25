@@ -22,16 +22,6 @@ import Image from 'next/image';
       lng: -85.305639,
     },
     {
-      imgUrl: '/images/paiky-logo.png',
-      name: 'PAIKY 2025 Winter Training School',
-      booth: '',
-      cityState: 'Louisville, KY',
-      date: 'March 5-7, 2025',
-      url: 'https://members.paiky.org/site_event_detail.cfm?pk_association_event=31956',
-      lat: 38.236821,
-      lng: -84.747838,
-    },
-    {
       imgUrl: '/images/mn-logo.png',
       name: '2025 Minnesota Asphalt Conference',
       booth: '',
@@ -174,6 +164,16 @@ export default function GoogleTradeshowMap() {
       url: 'https://www.asphaltpavement.org/programs/napa-events/napa-annual-meeting',
       lat: 33.677503,
       lng: -111.854997,
+    },
+    {
+      imgUrl: '/images/paiky-logo.png',
+      name: 'PAIKY 2026 Winter Training School',
+      booth: '',
+      cityState: 'Louisville, KY',
+      date: 'February 4-6, 2026',
+      url: 'https://members.paiky.org/site_event_detail.cfm?pk_association_event=35109',
+      lat: 38.236821,
+      lng: -84.747838,
     },
     {
       imgUrl: '/images/utah-asphalt-logo.png',
