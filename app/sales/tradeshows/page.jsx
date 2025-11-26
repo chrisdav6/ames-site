@@ -191,7 +191,7 @@ export default function Tradeshows() {
             date='January 19 - 21, 2026'
             img='/images/penn-asphalt-logo.png'
             alt='Pennsylvania Asphalt Pavement Association'
-            url='https://www.pa-asphalt.org/events/papa-events/146-66th-annual-papa-conference-save-the-date'
+            url='https://www.pa-asphalt.org/events/papa-main-events/179-2026-66th-annual-papa-conference'
             name='66th Annual PAPA Conference - Hershey, PA'
             text1={`The Pennsylvania Asphalt Pavement Association's annual conference program provides valued updates and information on the latest asphalt technologies from asphalt pavement professionals with local and nationally recognized experts from industry, state and federal agencies and academia.`}
             facebookURL='https://www.facebook.com/PennsylvaniaAsphalt'
