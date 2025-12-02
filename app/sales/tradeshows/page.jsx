@@ -243,8 +243,8 @@ export default function Tradeshows() {
             date='February 25 - 26, 2026'
             img='/images/michigan-asphalt-logo.png'
             alt='Michigan Asphalt Paving Association'
-            url='https://mms.apa-mi.org//Calendar/moreinfo.php?org_id=APAM&eventid=184049'
-            name="APAM's Annual Paving Conference - Battle Creek, MI"
+            url='https://www.apa-mi.org/pc_home_page.php'
+            name="APAM's Annual Paving Conference - Battle Creek, MI - Booth #21"
             text1='The Michigan Asphalt Paving Association annual asphalt paving conference. This event is considered one of the most informative in the construction industry, featuring a full day of information and educational sessions.'
             facebookURL='https://www.facebook.com/AsphaltPavementAssociationOfMichigan'
             twitterURL='https://x.com/AsphaltPerforms'

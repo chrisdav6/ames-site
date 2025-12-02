@@ -188,10 +188,10 @@ export default function GoogleTradeshowMap() {
     {
       imgUrl: '/images/michigan-asphalt-logo.png',
       name: "APAM's Annual Paving Conference",
-      booth: '',
+      booth: 'Booth #21',
       cityState: 'Battle Creek, MI',
       date: 'February 25-26, 2026',
-      url: 'https://mms.apa-mi.org//Calendar/moreinfo.php?org_id=APAM&eventid=184049',
+      url: 'https://www.apa-mi.org/pc_home_page.php',
       lat: 42.325441,
       lng: -85.187007,
     },
