@@ -111,8 +111,6 @@ export default function Tradeshows() {
             text1='The SEAUPG annual meeting is held in the fall of each year. Hosted by state Departments of Transportation from each sub-group in rotation. SEAUPG Annual Meetings & Exhibits allow interaction between agencies, users, producers and material/equipment suppliers throughout the Southeastern states as well as the nation and abroad.'
             hr={true}
           />
-          
-          */}
 
           <TradeshowCard
             date='December 2 - 3, 2025'
@@ -126,6 +124,7 @@ export default function Tradeshows() {
             youtubeURL='https://www.youtube.com/user/PavementPresResource'
             hr={true}
           />
+
           <TradeshowCard
             date='December 2 - 4, 2025'
             img='/images/acpaLogo.png'
@@ -139,6 +138,7 @@ export default function Tradeshows() {
             youtubeURL='https://www.youtube.com/concretepavements'
             hr={true}
           />
+          
           <TradeshowCard
             date='December 2 - 3, 2025'
             img='/images/wisconsin-asphalt-logo.png'
@@ -150,6 +150,9 @@ export default function Tradeshows() {
             youtubeURL='https://www.youtube.com/channel/UC51A1W2jB-YrkYiI8YaiSew'
             hr={true}
           />
+          
+          */}
+
           <TradeshowCard
             date='December 10 - 12, 2025'
             img='/images/apai2025.png'
