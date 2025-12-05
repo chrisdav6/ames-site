@@ -208,7 +208,7 @@ export default function GoogleTradeshowMap() {
     {
       imgUrl: '/images/ohio-logo.png',
       name: 'Ohio Asphalt Expo',
-      booth: '',
+      booth: 'Booth #20',
       cityState: 'Columbus, OH',
       date: 'March 17-18, 2026',
       url: 'https://www.flexiblepavements.org/OhioAsphaltExpo',
