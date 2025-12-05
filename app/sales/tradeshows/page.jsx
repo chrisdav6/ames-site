@@ -157,7 +157,7 @@ export default function Tradeshows() {
             date='December 10 - 12, 2025'
             img='/images/apai2025.png'
             alt='Asphalt Pavement Association of Indiana'
-            url='https://mms.asphaltindiana.org//Calendar/moreinfo.php?org_id=APAI&eventid=167640'
+            url='https://www.asphaltindiana.org/conference'
             name='APAI Winter Conference and Expo - Muncie, IN'
             text1="The Asphalt Pavement Association of Indiana's annual winter conference and trade show. Held each December, with nearly 600 attendees from Indiana's asphalt industry, this event promises to be a high-energy, action-packed showcase of the latest innovations and trends. From educational sessions to networking opportunities and exciting events, be prepared for an experience that will leave you inspired and energized for the year ahead."
             facebookURL='https://www.facebook.com/AsphaltPavementAssociationIndiana'

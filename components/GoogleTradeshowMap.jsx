@@ -121,7 +121,7 @@ export default function GoogleTradeshowMap() {
       booth: '',
       cityState: 'Muncie, IN',
       date: 'December 10-12, 2025',
-      url: 'https://mms.asphaltindiana.org//Calendar/moreinfo.php?org_id=APAI&eventid=167640',
+      url: 'https://www.asphaltindiana.org/conference',
       lat: 40.206962,
       lng: -85.393312,
     },
