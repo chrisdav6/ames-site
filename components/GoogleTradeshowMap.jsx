@@ -111,10 +111,6 @@ import Image from 'next/image';
       lat: 43.625082,
       lng: -89.775456,
     },
-  */
-
-export default function GoogleTradeshowMap() {
-  const [shows, setShows] = useState([
     {
       imgUrl: '/images/apai2025.png',
       name: 'APAI Winter Conference and Expo',
@@ -125,6 +121,10 @@ export default function GoogleTradeshowMap() {
       lat: 40.206962,
       lng: -85.393312,
     },
+  */
+
+export default function GoogleTradeshowMap() {
+  const [shows, setShows] = useState([
     {
       imgUrl: '/images/mapa-logo.png',
       name: '36th Annual MAPA Conference',

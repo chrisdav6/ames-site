@@ -150,8 +150,6 @@ export default function Tradeshows() {
             youtubeURL='https://www.youtube.com/channel/UC51A1W2jB-YrkYiI8YaiSew'
             hr={true}
           />
-          
-          */}
 
           <TradeshowCard
             date='December 10 - 12, 2025'
@@ -165,6 +163,9 @@ export default function Tradeshows() {
             linkedInURL='https://www.linkedin.com/company/asphalt-pavement-association-of-indiana-apai'
             hr={true}
           />
+          
+          */}
+
           <TradeshowCard
             date='January 5 - 7, 2026'
             img='/images/mapa-logo.png'
