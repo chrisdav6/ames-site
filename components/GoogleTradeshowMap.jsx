@@ -243,7 +243,7 @@ export default function GoogleTradeshowMap() {
       date: 'April 12-15, 2026',
       url: 'https://www.countyengineers.org/future-meetings',
       lat: 32.722226,
-      lng: -97.112523,
+      lng: -96.112523,
     },
     {
       imgUrl: '/images/rpugLogo.png',
@@ -254,6 +254,16 @@ export default function GoogleTradeshowMap() {
       url: 'https://rpug.org',
       lat: 40.431537,
       lng: -79.995863,
+    },
+    {
+      imgUrl: '/images/txapa-maps-logo.png',
+      name: 'TXAPA MAPS Regional Meeting',
+      booth: '',
+      cityState: 'Dallas-Fort Worth, TX',
+      date: 'May 27-28, 2026',
+      url: 'https://texasasphalt.org/events/maps-dfw-hurst',
+      lat: 32.812926,
+      lng: -97.326318,
     },
     {
       imgUrl: '/images/napa-logo.png',

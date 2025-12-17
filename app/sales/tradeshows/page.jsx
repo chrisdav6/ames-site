@@ -319,6 +319,20 @@ export default function Tradeshows() {
             hr={true}
           />
           <TradeshowCard
+            date='May 27 - 28, 2026'
+            img='/images/txapa-maps-logo.png'
+            alt='Texas Asphalt Pavement Association'
+            url='https://texasasphalt.org/events/maps-dfw-hurst'
+            name='TXAPA MAPS Regional Meeting - Dallas-Fort Worth'
+            text1='The Managing Asphalt Pavements (MAPS) Conference features a showcase of the latest leading-edge equipment, new technology, and services to optimize your asphalt paving projects from top-tier suppliers and vendors. If you are responsible for specifying, designing, constructing, and/or managing asphalt pavement projects, you don’t want to miss TXAPA’s MAPS Conference.'
+            facebookURL='https://www.facebook.com/TexasAsphalt'
+            twitterURL='https://x.com/TexasAsphalt'
+            instagramURL='https://www.instagram.com/texasasphaltpavement'
+            linkedInURL='https://www.linkedin.com/company/texas-asphalt-pavement-association'
+            youtubeURL='https://www.youtube.com/channel/UCg9R6YxcVok22oBpf3PN8zg'
+            hr={true}
+          />
+          <TradeshowCard
             date='July 14 - 17, 2026'
             img='/images/napa-logo.png'
             alt='National Asphalt Pavement Association'
