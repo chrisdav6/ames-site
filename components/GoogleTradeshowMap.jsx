@@ -148,7 +148,7 @@ export default function GoogleTradeshowMap() {
     {
       imgUrl: '/images/penn-asphalt-logo.png',
       name: '66th Annual PAPA Conference',
-      booth: '',
+      booth: 'Booth #6',
       cityState: 'Hershey, PA',
       date: 'January 19-21, 2026',
       url: 'https://www.pa-asphalt.org/events/papa-main-events/179-2026-66th-annual-papa-conference',
