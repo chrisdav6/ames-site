@@ -148,13 +148,13 @@ export default function Footer() {
             >
               <FaInstagram className='w-7 h-7 text-[#909090] hover:text-[#fc5cfc] transition duration-300' />
             </a>
-            {/* <a
-              href='https://www.youtube.com'
+            <a
+              href='https://www.youtube.com/@AmesEngineering'
               target='_blank'
               className='lg:hover:-translate-y-0.5 transition duration-300'
             >
               <IoLogoYoutube className='w-7 h-7 text-[#909090] hover:text-[#F40000] transition duration-300' />
-            </a> */}
+            </a>
           </div>
         </div>
         {/* Center */}
