@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import NavItem from './NavItem';
 import { FiMenu } from 'react-icons/fi';
-import { FaFacebook } from 'react-icons/fa';
+import { FaFacebook, FaLinkedin } from 'react-icons/fa';
 import { FaInstagram, FaXTwitter } from 'react-icons/fa6';
 import { IoClose } from 'react-icons/io5';
 import { IoLogoYoutube } from 'react-icons/io';
@@ -180,6 +180,12 @@ const socialLinks = [
     href: 'https://www.youtube.com/@AmesEngineering',
     external: true,
     icon: <IoLogoYoutube />,
+  },
+  {
+    name: 'LinkedIn',
+    href: 'https://www.linkedin.com/company/ames-engineering-llc',
+    external: true,
+    icon: <FaLinkedin />,
   },
 ];
 

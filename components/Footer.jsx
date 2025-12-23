@@ -1,6 +1,6 @@
 'use client';
 import Link from 'next/link';
-import { FaFacebook } from 'react-icons/fa';
+import { FaFacebook, FaLinkedin } from 'react-icons/fa';
 import { FaInstagram, FaXTwitter } from 'react-icons/fa6';
 import { IoLogoYoutube } from 'react-icons/io';
 import { FaShippingFast } from 'react-icons/fa';
@@ -154,6 +154,13 @@ export default function Footer() {
               className='lg:hover:-translate-y-0.5 transition duration-300'
             >
               <IoLogoYoutube className='w-7 h-7 text-[#909090] hover:text-[#F40000] transition duration-300' />
+            </a>
+            <a
+              href='https://www.linkedin.com/company/ames-engineering-llc'
+              target='_blank'
+              className='lg:hover:-translate-y-0.5 transition duration-300'
+            >
+              <FaLinkedin className='w-7 h-7 text-[#909090] hover:text-[#0077B5] transition duration-300' />
             </a>
           </div>
         </div>
