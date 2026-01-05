@@ -22,7 +22,8 @@ export default function SupportRequest() {
         </div>
       </div>
 
-      <p className='mx-auto md:mx-0 bg-amesRed w-fit py-2 px-3 text-white mt-8 text-center md:text-left'>
+      {/* Holiday Message */}
+      {/* <p className='mx-auto md:mx-0 bg-amesRed w-fit py-2 px-3 text-white mt-8 text-center md:text-left'>
         <FaHollyBerry className='inline-flex items-center mr-1' />
         Please note: We will be closed for the holidays from December 24th and
         reopening January 2nd. If you are sending in your products
@@ -30,7 +31,7 @@ export default function SupportRequest() {
         for calibration or service, please make sure they arrive to us before
         December 23rd to keep them from being held up at the shipping facility.
         <FaHollyBerry className='inline-flex items-center ml-1' />
-      </p>
+      </p> */}
 
       <div>
         <SupportForm />
