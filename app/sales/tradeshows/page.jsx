@@ -167,18 +167,6 @@ export default function Tradeshows() {
           */}
 
           <TradeshowCard
-            date='January 5 - 7, 2026'
-            img='/images/mapa-logo.png'
-            alt='Missouri Asphalt Paving Association'
-            url='https://moasphalt.org/events'
-            name='36th Annual MAPA Conference - Columbia, MO'
-            text1='The Missouri Asphalt Paving Association conference is your chance to get caught up on the outlook of the industry and check out the new innovative technologies available from exhibitors on the showroom floor, bringing you information on the most current industry news. Along with education, the conference gives you a fantastic opportunity to network with peers and meet other industry professionals'
-            facebookURL='https://www.facebook.com/MoAsphalt'
-            twitterURL='https://x.com/MoAsphalt'
-            linkedInURL='https://www.linkedin.com/company/moasphalt'
-            hr={true}
-          />
-          <TradeshowCard
             date='January 11 - 15, 2026'
             img='/images/trb-logo.png'
             alt='Transportation Research Board'
@@ -371,6 +359,18 @@ export default function Tradeshows() {
             instagramURL='https://www.instagram.com/texasasphaltpavement'
             linkedInURL='https://www.linkedin.com/company/texas-asphalt-pavement-association'
             youtubeURL='https://www.youtube.com/channel/UCg9R6YxcVok22oBpf3PN8zg'
+            hr={true}
+          />
+          <TradeshowCard
+            date='January 4 - 6, 2027'
+            img='/images/mapa-logo.png'
+            alt='Missouri Asphalt Paving Association'
+            url='https://moasphalt.org/events'
+            name='37th Annual MAPA Conference - Columbia, MO'
+            text1='The Missouri Asphalt Paving Association conference is your chance to get caught up on the outlook of the industry and check out the new innovative technologies available from exhibitors on the showroom floor, bringing you information on the most current industry news. Along with education, the conference gives you a fantastic opportunity to network with peers and meet other industry professionals'
+            facebookURL='https://www.facebook.com/MoAsphalt'
+            twitterURL='https://x.com/MoAsphalt'
+            linkedInURL='https://www.linkedin.com/company/moasphalt'
             hr={true}
           />
           <TradeshowCard

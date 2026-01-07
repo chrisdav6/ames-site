@@ -126,16 +126,6 @@ import Image from 'next/image';
 export default function GoogleTradeshowMap() {
   const [shows, setShows] = useState([
     {
-      imgUrl: '/images/mapa-logo.png',
-      name: '36th Annual MAPA Conference',
-      booth: '',
-      cityState: 'Columbia, MO',
-      date: 'January 5-7, 2026',
-      url: 'https://moasphalt.org/events',
-      lat: 38.948857,
-      lng: -92.334012,
-    },
-    {
       imgUrl: '/images/trb-logo.png',
       name: 'TRB 105th Annual Meeting',
       booth: 'Booth #727',
@@ -216,16 +206,6 @@ export default function GoogleTradeshowMap() {
       lng: -82.976837,
     },
     {
-      imgUrl: '/images/woa-logo-2027.png',
-      name: 'World of Asphalt',
-      booth: '',
-      cityState: 'New Orleans, LA',
-      date: 'March 15-17, 2027',
-      url: 'https://www.worldofasphalt.com',
-      lat: 29.955946,
-      lng: -90.081347,
-    },
-    {
       imgUrl: '/images/maine-logo.png',
       name: 'MAPA Annual Spring Paving Seminar',
       booth: '',
@@ -294,6 +274,26 @@ export default function GoogleTradeshowMap() {
       url: 'https://texasasphalt.org/events/2026-txapa-annual-meeting',
       lat: 29.462161,
       lng: -98.223925,
+    },
+    {
+      imgUrl: '/images/mapa-logo.png',
+      name: '37th Annual MAPA Conference',
+      booth: '',
+      cityState: 'Columbia, MO',
+      date: 'January 4-6, 2027',
+      url: 'https://moasphalt.org/events',
+      lat: 38.948857,
+      lng: -92.334012,
+    },
+    {
+      imgUrl: '/images/woa-logo-2027.png',
+      name: 'World of Asphalt',
+      booth: '',
+      cityState: 'New Orleans, LA',
+      date: 'March 15-17, 2027',
+      url: 'https://www.worldofasphalt.com',
+      lat: 29.955946,
+      lng: -90.081347,
     },
     {
       imgUrl: '/images/ncat-conference.png',
