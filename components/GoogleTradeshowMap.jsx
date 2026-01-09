@@ -62,16 +62,6 @@ import Image from 'next/image';
       lng: -76.880249,
     },
     {
-      imgUrl: '/images/calcimaLogo.png',
-      name: 'CalCIMA Education Conference',
-      booth: '',
-      cityState: 'Anaheim, CA',
-      date: 'November 10-13, 2025',
-      url: 'https://www.calcimaconference.org',
-      lat: 33.829713,
-      lng: -117.908835,
-    },
-    {
       imgUrl: '/images/seaupg-logo.png',
       name: 'SEAUPG',
       booth: 'Booth #21',
@@ -274,6 +264,16 @@ export default function GoogleTradeshowMap() {
       url: 'https://texasasphalt.org/events/2026-txapa-annual-meeting',
       lat: 29.462161,
       lng: -98.223925,
+    },
+    {
+      imgUrl: '/images/calcimaLogo.png',
+      name: '2026 CalCIMA Education Conference',
+      booth: '',
+      cityState: 'Monterey, CA',
+      date: 'November 3-6, 2026',
+      url: 'https://calcima.org/events/EventDetails.aspx?id=1984377&group=',
+      lat: 36.59182,
+      lng: -121.886428,
     },
     {
       imgUrl: '/images/mapa-logo.png',

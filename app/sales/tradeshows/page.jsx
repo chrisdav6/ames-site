@@ -88,21 +88,6 @@ export default function Tradeshows() {
           />
 
           <TradeshowCard
-            date='November 10 - 13, 2025'
-            img='/images/calcimaLogo.png'
-            alt='CalCima'
-            url='https://www.calcimaconference.org'
-            name='CalCIMA 2025 Education Conference - Anaheim, CA'
-            text1='Join us at the CalCIMA 2025 Education Conference, there will be multiple sessions about concrete, environmental impacts, asphalt and more. This is also a great opportunity to connect with professionals in the construction and industrial minerals industries, as well as learn about all the different companies. We hope to see you there!'
-            facebookURL='https://www.facebook.com/CalCIMA.org'
-            twitterURL='https://x.com/CalcimaRocks'
-            instagramURL='https://www.instagram.com/calcimarocks'
-            linkedInURL='https://www.linkedin.com/company/calcima'
-            youtubeURL='https://www.youtube.com/channel/UC-7hBI95v83T8mHA-FVFkXQ'
-            hr={true}
-          />
-
-          <TradeshowCard
             date='November 18 - 20, 2025'
             img='/images/seaupg-logo.png'
             alt='SEAUPG'
@@ -359,6 +344,20 @@ export default function Tradeshows() {
             instagramURL='https://www.instagram.com/texasasphaltpavement'
             linkedInURL='https://www.linkedin.com/company/texas-asphalt-pavement-association'
             youtubeURL='https://www.youtube.com/channel/UCg9R6YxcVok22oBpf3PN8zg'
+            hr={true}
+          />
+          <TradeshowCard
+            date='November 3 - 6, 2026'
+            img='/images/calcimaLogo.png'
+            alt='CalCima'
+            url='https://calcima.org/events/EventDetails.aspx?id=1984377&group='
+            name='CalCIMA 2026 Education Conference - Monterey, CA'
+            text1='Join us at the CalCIMA 2026 Education Conference, there will be multiple sessions about concrete, environmental impacts, asphalt and more. This is also a great opportunity to connect with professionals in the construction and industrial minerals industries, as well as learn about all the different companies. We hope to see you there!'
+            facebookURL='https://www.facebook.com/CalCIMA.org'
+            twitterURL='https://x.com/CalcimaRocks'
+            instagramURL='https://www.instagram.com/calcimarocks'
+            linkedInURL='https://www.linkedin.com/company/calcima'
+            youtubeURL='https://www.youtube.com/channel/UC-7hBI95v83T8mHA-FVFkXQ'
             hr={true}
           />
           <TradeshowCard
