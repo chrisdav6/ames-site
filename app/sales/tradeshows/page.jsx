@@ -152,19 +152,6 @@ export default function Tradeshows() {
           */}
 
           <TradeshowCard
-            date='January 11 - 15, 2026'
-            img='/images/trb-logo.png'
-            alt='Transportation Research Board'
-            url='https://trb-annual-meeting.nationalacademies.org'
-            name='TRB 105th Annual Meeting - Washington, DC - Booth #727'
-            text1={`The Transportation Research Board's (TRB) Annual Meeting is the largest global gathering of transportation professionals and researchers with a focus on innovative solutions for all modes of transportation. The meeting program will cover all transportation modes, with more than 5,000 presentations in nearly 800 sessions and workshops, addressing topics of interest to policy makers, administrators, practitioners, researchers, and representatives of government, industry, and academic institutions.`}
-            facebookURL='https://www.facebook.com/NASEMTRB'
-            twitterURL='https://x.com/nasemtrb'
-            linkedInURL='https://www.linkedin.com/company/the-national-academies'
-            youtubeURL='https://www.youtube.com/@nationalacademies'
-            hr={true}
-          />
-          <TradeshowCard
             date='January 19 - 21, 2026'
             img='/images/penn-asphalt-logo.png'
             alt='Pennsylvania Asphalt Pavement Association'
@@ -370,6 +357,19 @@ export default function Tradeshows() {
             facebookURL='https://www.facebook.com/MoAsphalt'
             twitterURL='https://x.com/MoAsphalt'
             linkedInURL='https://www.linkedin.com/company/moasphalt'
+            hr={true}
+          />
+          <TradeshowCard
+            date='January 10 - 14, 2027'
+            img='/images/trb-logo.png'
+            alt='Transportation Research Board'
+            url='https://trb-annual-meeting.nationalacademies.org'
+            name='TRB 106th Annual Meeting - Washington, DC - Booth #724'
+            text1={`The Transportation Research Board's (TRB) Annual Meeting is the largest global gathering of transportation professionals and researchers with a focus on innovative solutions for all modes of transportation. The meeting program will cover all transportation modes, with more than 5,000 presentations in nearly 800 sessions and workshops, addressing topics of interest to policy makers, administrators, practitioners, researchers, and representatives of government, industry, and academic institutions.`}
+            facebookURL='https://www.facebook.com/NASEMTRB'
+            twitterURL='https://x.com/nasemtrb'
+            linkedInURL='https://www.linkedin.com/company/the-national-academies'
+            youtubeURL='https://www.youtube.com/@nationalacademies'
             hr={true}
           />
           <TradeshowCard

@@ -116,16 +116,6 @@ import Image from 'next/image';
 export default function GoogleTradeshowMap() {
   const [shows, setShows] = useState([
     {
-      imgUrl: '/images/trb-logo.png',
-      name: 'TRB 105th Annual Meeting',
-      booth: 'Booth #727',
-      cityState: 'Washington, DC',
-      date: 'January 11-15, 2026',
-      url: 'https://trb-annual-meeting.nationalacademies.org',
-      lat: 38.911744,
-      lng: -77.018697,
-    },
-    {
       imgUrl: '/images/penn-asphalt-logo.png',
       name: '66th Annual PAPA Conference',
       booth: 'Booth #6',
@@ -284,6 +274,16 @@ export default function GoogleTradeshowMap() {
       url: 'https://moasphalt.org/events',
       lat: 38.948857,
       lng: -92.334012,
+    },
+    {
+      imgUrl: '/images/trb-logo.png',
+      name: 'TRB 106th Annual Meeting',
+      booth: 'Booth #724',
+      cityState: 'Washington, DC',
+      date: 'January 10-14, 2027',
+      url: 'https://trb-annual-meeting.nationalacademies.org',
+      lat: 38.911744,
+      lng: -77.018697,
     },
     {
       imgUrl: '/images/woa-logo-2027.png',
