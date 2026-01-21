@@ -111,10 +111,6 @@ import Image from 'next/image';
       lat: 40.206962,
       lng: -85.393312,
     },
-  */
-
-export default function GoogleTradeshowMap() {
-  const [shows, setShows] = useState([
     {
       imgUrl: '/images/penn-asphalt-logo.png',
       name: '66th Annual PAPA Conference',
@@ -125,6 +121,10 @@ export default function GoogleTradeshowMap() {
       lat: 40.285737,
       lng: -76.334034,
     },
+  */
+
+export default function GoogleTradeshowMap() {
+  const [shows, setShows] = useState([
     {
       imgUrl: '/images/napa-logo.png',
       name: 'NAPA 2026 Annual Meeting',

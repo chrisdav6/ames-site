@@ -148,8 +148,6 @@ export default function Tradeshows() {
             linkedInURL='https://www.linkedin.com/company/asphalt-pavement-association-of-indiana-apai'
             hr={true}
           />
-          
-          */}
 
           <TradeshowCard
             date='January 19 - 21, 2026'
@@ -163,6 +161,9 @@ export default function Tradeshows() {
             youtubeURL='https://www.youtube.com/channel/UC47YotWes1rWnKKn1o3yFYg'
             hr={true}
           />
+          
+          */}
+
           <TradeshowCard
             date='January 26 - 29, 2026'
             img='/images/napa-logo.png'
