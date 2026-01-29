@@ -173,7 +173,7 @@ export default function StopAndGoProfiler8300() {
           <li>- Single or dual wheel track systems</li>
           <li>- Frame is adjustable to accommodate different vehicles</li>
           <li>
-            - Capable of collecting measurements at speeds between 10 and 70 mph
+            - Capable of collecting measurements at speeds between 0 and 70 mph
           </li>
           <li>
             - Laser height sensor with a range of eight inches and a resolution
