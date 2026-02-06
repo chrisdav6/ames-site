@@ -161,8 +161,6 @@ export default function Tradeshows() {
             youtubeURL='https://www.youtube.com/channel/UC47YotWes1rWnKKn1o3yFYg'
             hr={true}
           />
-          
-          */}
 
           <TradeshowCard
             date='February 4 - 6, 20265'
@@ -177,6 +175,9 @@ export default function Tradeshows() {
             linkedInURL='https://www.linkedin.com/in/asphalt-in-kentucky-50918555'
             hr={true}
           />
+          
+          */}
+
           <TradeshowCard
             date='February 18 - 19, 2026'
             img='/images/utah-asphalt-logo.png'

@@ -121,10 +121,6 @@ import Image from 'next/image';
       lat: 40.285737,
       lng: -76.334034,
     },
-  */
-
-export default function GoogleTradeshowMap() {
-  const [shows, setShows] = useState([
     {
       imgUrl: '/images/paiky-logo.png',
       name: 'PAIKY 2026 Winter Training School',
@@ -135,6 +131,10 @@ export default function GoogleTradeshowMap() {
       lat: 38.236821,
       lng: -84.747838,
     },
+  */
+
+export default function GoogleTradeshowMap() {
+  const [shows, setShows] = useState([
     {
       imgUrl: '/images/utah-asphalt-logo.png',
       name: '2026 Utah Asphalt Conference',
