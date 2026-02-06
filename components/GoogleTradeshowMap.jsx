@@ -126,16 +126,6 @@ import Image from 'next/image';
 export default function GoogleTradeshowMap() {
   const [shows, setShows] = useState([
     {
-      imgUrl: '/images/napa-logo.png',
-      name: 'NAPA 2026 Annual Meeting',
-      booth: '',
-      cityState: 'Scottsdale, AZ',
-      date: 'January 26-29, 2026',
-      url: 'https://www.asphaltpavement.org/programs/napa-events/napa-annual-meeting',
-      lat: 33.677503,
-      lng: -111.854997,
-    },
-    {
       imgUrl: '/images/paiky-logo.png',
       name: 'PAIKY 2026 Winter Training School',
       booth: '',
@@ -286,6 +276,16 @@ export default function GoogleTradeshowMap() {
       lng: -77.018697,
     },
     {
+      imgUrl: '/images/napa-logo.png',
+      name: 'NAPA 2027 Annual Meeting',
+      booth: '',
+      cityState: 'Miami, FL',
+      date: 'February 8-11, 2027',
+      url: 'https://www.asphaltpavement.org/programs/napa-events/napa-annual-meeting',
+      lat: 25.762627,
+      lng: -80.208742,
+    },
+    {
       imgUrl: '/images/woa-logo-2027.png',
       name: 'World of Asphalt',
       booth: '',
@@ -307,7 +307,7 @@ export default function GoogleTradeshowMap() {
     },
   ]);
   const [selectedShow, setSelectedShow] = useState(undefined);
-  const defaultPosition = { lat: 37.610949, lng: -92.605202 };
+  const defaultPosition = { lat: 36.610949, lng: -92.605202 };
 
   return (
     <APIProvider apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}>
