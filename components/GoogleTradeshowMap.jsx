@@ -92,16 +92,6 @@ import Image from 'next/image';
       lng: -116.314076,
     },
     {
-      imgUrl: '/images/wisconsin-asphalt-logo.png',
-      name: 'WAPA 66th Annual Conference',
-      booth: '',
-      cityState: 'Wisconsin Dells, WI',
-      date: 'December 2-3, 2025',
-      url: 'https://www.wispave.org',
-      lat: 43.625082,
-      lng: -89.775456,
-    },
-    {
       imgUrl: '/images/apai2025.png',
       name: 'APAI Winter Conference and Expo',
       booth: '',
@@ -254,6 +244,16 @@ export default function GoogleTradeshowMap() {
       url: 'https://calcima.org/events/EventDetails.aspx?id=1984377&group=',
       lat: 36.59182,
       lng: -121.886428,
+    },
+    {
+      imgUrl: '/images/wisconsin-asphalt-logo.png',
+      name: 'WAPA 67th Annual Conference',
+      booth: '',
+      cityState: 'Wisconsin Dells, WI',
+      date: 'December 1-2, 2026',
+      url: 'https://www.wispave.org/wapas-67th-annual-conference-and-business-meeting',
+      lat: 43.625082,
+      lng: -89.775456,
     },
     {
       imgUrl: '/images/mapa-logo.png',

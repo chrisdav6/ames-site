@@ -123,18 +123,6 @@ export default function Tradeshows() {
             youtubeURL='https://www.youtube.com/concretepavements'
             hr={true}
           />
-          
-          <TradeshowCard
-            date='December 2 - 3, 2025'
-            img='/images/wisconsin-asphalt-logo.png'
-            alt='WAPA'
-            url='https://www.wispave.org'
-            name='WAPA’s 66th Annual Conference and Business Meeting - Wisconsin Dells, WI'
-            text1='The Wisconsin Asphalt Pavement Association (WAPA) annual conference tackles subjects on a wide range of issues related to asphalt design, construction, maintenance, technical specifications, costs, marketing, and public policy at all levels of government (local, state, and federal).'
-            twitterURL='https://x.com/wispave'
-            youtubeURL='https://www.youtube.com/channel/UC51A1W2jB-YrkYiI8YaiSew'
-            hr={true}
-          />
 
           <TradeshowCard
             date='December 10 - 12, 2025'
@@ -334,6 +322,17 @@ export default function Tradeshows() {
             instagramURL='https://www.instagram.com/calcimarocks'
             linkedInURL='https://www.linkedin.com/company/calcima'
             youtubeURL='https://www.youtube.com/channel/UC-7hBI95v83T8mHA-FVFkXQ'
+            hr={true}
+          />
+          <TradeshowCard
+            date='December 1 - 2, 2026'
+            img='/images/wisconsin-asphalt-logo.png'
+            alt='WAPA'
+            url='https://www.wispave.org/wapas-67th-annual-conference-and-business-meeting'
+            name='WAPA’s 67th Annual Conference and Business Meeting - Wisconsin Dells, WI'
+            text1='The Wisconsin Asphalt Pavement Association (WAPA) annual conference tackles subjects on a wide range of issues related to asphalt design, construction, maintenance, technical specifications, costs, marketing, and public policy at all levels of government (local, state, and federal).'
+            twitterURL='https://x.com/wispave'
+            youtubeURL='https://www.youtube.com/channel/UC51A1W2jB-YrkYiI8YaiSew'
             hr={true}
           />
           <TradeshowCard
