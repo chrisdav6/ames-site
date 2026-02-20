@@ -111,20 +111,6 @@ export default function Tradeshows() {
           />
 
           <TradeshowCard
-            date='December 2 - 4, 2025'
-            img='/images/acpaLogo.png'
-            alt='ACPA'
-            url='https://2025meeting.acpa.org'
-            name='62nd Annual ACPA Meeting - Carlsbad, CA'
-            text1="The annual ACPA meeting will dive into national and local strategies to grow concrete pavement markets, with exclusive sessions for chapter leaders and promoters. Explore the latest best practices and policy insights in a full day of Concrete Pavement University sessions and Government Affairs programming. Wrap up with insightful CPU sessions focused on innovation and emerging trends, and help shape ACPA's direction in the interactive Lessons and Priorities Forum."
-            facebookURL='https://www.facebook.com/paveconcrete63'
-            twitterURL='https://x.com/PaveConcrete'
-            linkedInURL='https://www.linkedin.com/company/american-concrete-pavement-association'
-            youtubeURL='https://www.youtube.com/concretepavements'
-            hr={true}
-          />
-
-          <TradeshowCard
             date='December 10 - 12, 2025'
             img='/images/apai2025.png'
             alt='Asphalt Pavement Association of Indiana'
@@ -333,6 +319,19 @@ export default function Tradeshows() {
             text1='The Wisconsin Asphalt Pavement Association (WAPA) annual conference tackles subjects on a wide range of issues related to asphalt design, construction, maintenance, technical specifications, costs, marketing, and public policy at all levels of government (local, state, and federal).'
             twitterURL='https://x.com/wispave'
             youtubeURL='https://www.youtube.com/channel/UC51A1W2jB-YrkYiI8YaiSew'
+            hr={true}
+          />
+          <TradeshowCard
+            date='December 1 - 3, 2026'
+            img='/images/acpaLogo.png'
+            alt='ACPA'
+            url='https://2026meeting.acpa.org'
+            name='63rd Annual ACPA Meeting - Hollywood, FL'
+            text1="The annual ACPA meeting will dive into national and local strategies to grow concrete pavement markets, with exclusive sessions for chapter leaders and promoters. Explore the latest best practices and policy insights in a full day of Concrete Pavement University sessions and Government Affairs programming. Wrap up with insightful CPU sessions focused on innovation and emerging trends, and help shape ACPA's direction in the interactive Lessons and Priorities Forum."
+            facebookURL='https://www.facebook.com/paveconcrete63'
+            twitterURL='https://x.com/PaveConcrete'
+            linkedInURL='https://www.linkedin.com/company/american-concrete-pavement-association'
+            youtubeURL='https://www.youtube.com/concretepavements'
             hr={true}
           />
           <TradeshowCard

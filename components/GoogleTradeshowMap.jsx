@@ -82,16 +82,6 @@ import Image from 'next/image';
       lng: -117.314076,
     },
     {
-      imgUrl: '/images/acpaLogo.png',
-      name: '62nd Annual ACPA Meeting',
-      booth: '',
-      cityState: 'Carlsbad, CA',
-      date: 'December 2-4, 2025',
-      url: 'https://2025meeting.acpa.org',
-      lat: 33.123556,
-      lng: -116.314076,
-    },
-    {
       imgUrl: '/images/apai2025.png',
       name: 'APAI Winter Conference and Expo',
       booth: '',
@@ -254,6 +244,16 @@ export default function GoogleTradeshowMap() {
       url: 'https://www.wispave.org/wapas-67th-annual-conference-and-business-meeting',
       lat: 43.625082,
       lng: -89.775456,
+    },
+    {
+      imgUrl: '/images/acpaLogo.png',
+      name: '63rd Annual ACPA Meeting',
+      booth: '',
+      cityState: 'Hollywood, FL',
+      date: 'December 1-3, 2026',
+      url: 'https://2025meeting.acpa.org',
+      lat: 27.034598,
+      lng: -80.18235,
     },
     {
       imgUrl: '/images/mapa-logo.png',
