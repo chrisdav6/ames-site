@@ -131,10 +131,6 @@ import Image from 'next/image';
       lat: 38.236821,
       lng: -84.747838,
     },
-  */
-
-export default function GoogleTradeshowMap() {
-  const [shows, setShows] = useState([
     {
       imgUrl: '/images/utah-asphalt-logo.png',
       name: '2026 Utah Asphalt Conference',
@@ -145,6 +141,10 @@ export default function GoogleTradeshowMap() {
       lat: 40.566912,
       lng: -111.842014,
     },
+  */
+
+export default function GoogleTradeshowMap() {
+  const [shows, setShows] = useState([
     {
       imgUrl: '/images/michigan-asphalt-logo.png',
       name: "APAM's Annual Paving Conference",

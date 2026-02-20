@@ -175,8 +175,6 @@ export default function Tradeshows() {
             linkedInURL='https://www.linkedin.com/in/asphalt-in-kentucky-50918555'
             hr={true}
           />
-          
-          */}
 
           <TradeshowCard
             date='February 18 - 19, 2026'
@@ -191,6 +189,9 @@ export default function Tradeshows() {
             youtubeURL='https://www.youtube.com/channel/UClIzjjlNiZBi2vdA56Of5gg'
             hr={true}
           />
+          
+          */}
+
           <TradeshowCard
             date='February 25 - 26, 2026'
             img='/images/michigan-asphalt-logo.png'
