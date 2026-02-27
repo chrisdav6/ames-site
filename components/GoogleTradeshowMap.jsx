@@ -121,10 +121,6 @@ import Image from 'next/image';
       lat: 40.566912,
       lng: -111.842014,
     },
-  */
-
-export default function GoogleTradeshowMap() {
-  const [shows, setShows] = useState([
     {
       imgUrl: '/images/michigan-asphalt-logo.png',
       name: "APAM's Annual Paving Conference",
@@ -135,6 +131,10 @@ export default function GoogleTradeshowMap() {
       lat: 42.325441,
       lng: -85.187007,
     },
+  */
+
+export default function GoogleTradeshowMap() {
+  const [shows, setShows] = useState([
     {
       imgUrl: '/images/conexpo-logo.png',
       name: 'ConExpo',

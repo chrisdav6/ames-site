@@ -163,8 +163,6 @@ export default function Tradeshows() {
             youtubeURL='https://www.youtube.com/channel/UClIzjjlNiZBi2vdA56Of5gg'
             hr={true}
           />
-          
-          */}
 
           <TradeshowCard
             date='February 25 - 26, 2026'
@@ -180,6 +178,9 @@ export default function Tradeshows() {
             youtubeURL='https://www.youtube.com/channel/UC6zuZ5WXlIwLiZEtnMbatDg'
             hr={true}
           />
+          
+          */}
+
           <TradeshowCard
             date='March 3 - 7, 2026'
             img='/images/conexpo-logo.png'
