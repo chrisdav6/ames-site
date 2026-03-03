@@ -10,6 +10,7 @@ export default function ProductGrid() {
         alt='Ames Connect'
         title='Ames Connect'
         subTitle='Profiler Data Platform'
+        absoulteText='New Product!'
       />
 
       <ProductGridItem
