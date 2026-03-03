@@ -4,6 +4,15 @@ export default function ProductGrid() {
   return (
     <section className='grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 justify-center w-full px-10 2xl:px-80 pt-14'>
       <ProductGridItem
+        href='https://www.amesengconnect.com'
+        target='_blank'
+        src='/images/AmesConnectProductGrid.jpg'
+        alt='Ames Connect'
+        title='Ames Connect'
+        subTitle='Profiler Data Platform'
+      />
+
+      <ProductGridItem
         href='/products/8300-high-speed-profiler'
         src='/images/HighSpeedProfilerProductGrid.jpg'
         alt='High Speed Inertial Profiler - Model 8300'
