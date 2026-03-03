@@ -15,6 +15,11 @@ const productLinks = [
     href: '/all-products',
   },
   {
+    name: 'Ames Connect',
+    href: 'https://www.amesengconnect.com',
+    external: true,
+  },
+  {
     name: '8300 High Speed Profiler',
     href: '/products/8300-high-speed-profiler',
   },
@@ -234,6 +239,7 @@ export default function Header() {
             >
               {productLinks.map((link, idx) => (
                 <Link
+                  target={link.external && '_blank'}
                   key={idx}
                   href={link.href}
                   className='px-2 py-1 hover:bg-amesRed hover:text-white text-base text-left text-nowrap'
@@ -393,6 +399,7 @@ export default function Header() {
               {productLinks.map((link, idx) => (
                 <Link
                   onClick={handleMobileClose}
+                  target={link.external && '_blank'}
                   key={idx}
                   href={link.href}
                   className='px-2 py-1 text-nowrap'
