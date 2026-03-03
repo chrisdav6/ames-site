@@ -74,14 +74,57 @@ export default function HeroCarousel() {
             4
           </span>
         </button>
+        <button
+          type='button'
+          data-twe-target='#carouselExampleCaptions'
+          data-twe-slide-to='4'
+          className='relative mx-[3px] box-content h-[3px] w-[150px] lg:h-[4px] lg:w-[300px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[1000ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none'
+          aria-label='Slide 5'
+        >
+          <span className='absolute top-[-30px] left-[510px] font-base lg:font-bold text-xl text-white'>
+            5
+          </span>
+        </button>
       </div>
 
       {/* <!--Carousel items--> */}
       <div className="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
-        {/* <!--First item--> */}
+        {/* <!--Ames Connect--> */}
         <div
           className='relative float-left -mr-[100%] w-full transition-transform duration-[1000ms] ease-in-out motion-reduce:transition-none'
           data-twe-carousel-active
+          data-twe-carousel-item
+          style={{ backfaceVisibility: 'hidden' }}
+        >
+          <img
+            src='/images/slider-5.jpg'
+            className='block w-full h-[600px] lg:h-[700px] xl:h-[800px] object-cover brightness-[60%]'
+            alt='Ames Connect'
+          />
+          <div className='absolute inset-x-[15%] top-[25%] md:top-[28%] xl:top-[35%] py-5 text-center text-white md:block'>
+            <Link href='https://www.amesengconnect.com' target='_blank'>
+              <h5
+                className='text-5xl lg:text-7xl'
+                style={{
+                  textShadow: '0px 0px 10px #000000, 0px 0px 10px #000000',
+                }}
+              >
+                Ames Connect is Here!
+              </h5>
+              <p
+                className='text-2xl lg:text-3xl mt-3'
+                style={{
+                  textShadow: '0px 0px 10px #000000, 0px 0px 10px #000000',
+                }}
+              >
+                The Software Platform for Your Road Profiler Data
+              </p>
+            </Link>
+          </div>
+        </div>
+        {/* <!--First item--> */}
+        <div
+          className='relative float-left -mr-[100%] hidden w-full transition-transform duration-[1000ms] ease-in-out motion-reduce:transition-none'
           data-twe-carousel-item
           style={{ backfaceVisibility: 'hidden' }}
         >
