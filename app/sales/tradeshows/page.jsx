@@ -182,20 +182,6 @@ export default function Tradeshows() {
           */}
 
           <TradeshowCard
-            date='March 3 - 7, 2026'
-            img='/images/conexpo-logo.png'
-            alt='CONEXPO-CON/AGG'
-            url='https://www.conexpoconagg.com'
-            name='ConExpo - Las Vegas, NV - Booth #C32468'
-            text1={`Held once every 3 years, CONEXPO-CON/AGG is North America’s largest construction trade show representing asphalt, aggregates, concrete, earthmoving, lifting, mining, utilities and more. 2,800 exhibitors, 2,500,000 square feet and 150 education sessions! Bringing contractors, dealers, distributors, service providers, engineers and producers together in one place. No other show connects attendees from every major construction sector.`}
-            facebookURL='https://www.facebook.com/conexpoconagg'
-            twitterURL='https://x.com/conexpoconagg'
-            instagramURL='https://www.instagram.com/conexpoconagg'
-            linkedInURL='https://www.linkedin.com/company/conexpoconagg'
-            youtubeURL='https://www.youtube.com/user/conexpoconagg'
-            hr={true}
-          />
-          <TradeshowCard
             date='March 17 - 18, 2026'
             img='/images/ohio-logo.png'
             alt='Flexible Pavements of Ohio'
@@ -400,6 +386,21 @@ export default function Tradeshows() {
             instagramURL='https://www.instagram.com/auburnasphalt'
             linkedInURL='https://www.linkedin.com/company/ncatauburn'
             youtubeURL='https://www.youtube.com/channel/UC5grTAnUU_oE9F2FPpEdgJw'
+          />
+
+          <TradeshowCard
+            date='March 13 - 17, 2029'
+            img='/images/conexpo-logo.png'
+            alt='CONEXPO-CON/AGG'
+            url='https://www.conexpoconagg.com'
+            name='ConExpo - Las Vegas, NV'
+            text1={`Held once every 3 years, CONEXPO-CON/AGG is North America’s largest construction trade show representing asphalt, aggregates, concrete, earthmoving, lifting, mining, utilities and more. 2,800 exhibitors, 2,500,000 square feet and 150 education sessions! Bringing contractors, dealers, distributors, service providers, engineers and producers together in one place. No other show connects attendees from every major construction sector.`}
+            facebookURL='https://www.facebook.com/conexpoconagg'
+            twitterURL='https://x.com/conexpoconagg'
+            instagramURL='https://www.instagram.com/conexpoconagg'
+            linkedInURL='https://www.linkedin.com/company/conexpoconagg'
+            youtubeURL='https://www.youtube.com/user/conexpoconagg'
+            hr={true}
           />
         </div>
       </div>

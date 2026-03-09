@@ -136,16 +136,6 @@ import Image from 'next/image';
 export default function GoogleTradeshowMap() {
   const [shows, setShows] = useState([
     {
-      imgUrl: '/images/conexpo-logo.png',
-      name: 'ConExpo',
-      booth: 'Booth #C32468',
-      cityState: 'Las Vegas, NV',
-      date: 'March 3-7, 2026',
-      url: 'https://www.conexpoconagg.com',
-      lat: 36.161515,
-      lng: -115.161274,
-    },
-    {
       imgUrl: '/images/ohio-logo.png',
       name: 'Ohio Asphalt Expo',
       booth: 'Booth #23',
@@ -304,6 +294,16 @@ export default function GoogleTradeshowMap() {
       url: 'https://eng.auburn.edu/research/centers/ncat/testtrack/conference.html',
       lat: 32.620384,
       lng: -85.473941,
+    },
+    {
+      imgUrl: '/images/conexpo-logo.png',
+      name: 'ConExpo',
+      booth: '',
+      cityState: 'Las Vegas, NV',
+      date: 'March 13-17, 2029',
+      url: 'https://www.conexpoconagg.com',
+      lat: 36.161515,
+      lng: -115.161274,
     },
   ]);
   const [selectedShow, setSelectedShow] = useState(undefined);
