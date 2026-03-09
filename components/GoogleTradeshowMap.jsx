@@ -12,16 +12,6 @@ import Image from 'next/image';
 //PAST SHOWS
 /*
     {
-      imgUrl: '/images/pavex.png',
-      name: 'PAVE/X: The Pavement Experience',
-      booth: 'Booth #1035',
-      cityState: 'Chattanooga, TN',
-      date: 'January 28-30, 2025',
-      url: 'https://www.pavexshow.com',
-      lat: 35.038162,
-      lng: -85.305639,
-    },
-    {
       imgUrl: '/images/mn-logo.png',
       name: '2025 Minnesota Asphalt Conference',
       booth: '',
@@ -80,16 +70,6 @@ import Image from 'next/image';
       url: 'https://www.asphaltindiana.org/conference',
       lat: 40.206962,
       lng: -85.393312,
-    },
-    {
-      imgUrl: '/images/penn-asphalt-logo.png',
-      name: '66th Annual PAPA Conference',
-      booth: 'Booth #6',
-      cityState: 'Hershey, PA',
-      date: 'January 19-21, 2026',
-      url: 'https://www.pa-asphalt.org/events/papa-main-events/179-2026-66th-annual-papa-conference',
-      lat: 40.285737,
-      lng: -76.334034,
     },
     {
       imgUrl: '/images/paiky-logo.png',
@@ -264,6 +244,16 @@ export default function GoogleTradeshowMap() {
       url: 'https://trb-annual-meeting.nationalacademies.org',
       lat: 38.911744,
       lng: -77.018697,
+    },
+    {
+      imgUrl: '/images/penn-asphalt-logo.png',
+      name: '67th Annual PAPA Conference',
+      booth: '',
+      cityState: 'Hershey, PA',
+      date: 'January 18-20, 2027',
+      url: 'https://www.pa-asphalt.org/events/all-events/papa-main-events/151-67th-annual-papa-conference-save-the-date',
+      lat: 40.285737,
+      lng: -76.334034,
     },
     {
       imgUrl: '/images/napa-logo.png',

@@ -24,19 +24,6 @@ export default function Tradeshows() {
 
         <div className='flex flex-col gap-10 mt-8 text-center md:text-left text-lg'>
           {/*
-          
-          <TradeshowCard
-            date='January 28 - 30, 2025'
-            img='/images/pavex.png'
-            alt='PAVE/X Pavement Experience'
-            url='https://www.pavexshow.com'
-            name='PAVE/X: The Pavement Experience - Chattanooga, TN - Booth #1035'
-            text1='Through this new, unique event PAVE/X Pavement Experience aims to help contractors and business owners propel their business and expertise forward with live equipment demonstrations, an in-depth educational program and deeper connection opportunities on an expansive trade show floor.'
-            facebookURL='https://www.facebook.com/PAVEXShow'
-            instagramURL='https://www.instagram.com/pavexshow'
-            linkedInURL='https://www.linkedin.com/company/pave-x-show'
-            hr={true}
-          />
 
           <TradeshowCard
             date='December 9 - 10, 2025'
@@ -110,19 +97,6 @@ export default function Tradeshows() {
             facebookURL='https://www.facebook.com/AsphaltPavementAssociationIndiana'
             twitterURL='https://x.com/asphaltindiana'
             linkedInURL='https://www.linkedin.com/company/asphalt-pavement-association-of-indiana-apai'
-            hr={true}
-          />
-
-          <TradeshowCard
-            date='January 19 - 21, 2026'
-            img='/images/penn-asphalt-logo.png'
-            alt='Pennsylvania Asphalt Pavement Association'
-            url='https://www.pa-asphalt.org/events/papa-main-events/179-2026-66th-annual-papa-conference'
-            name='66th Annual PAPA Conference - Hershey, PA - Booth #6'
-            text1={`The Pennsylvania Asphalt Pavement Association's annual conference program provides valued updates and information on the latest asphalt technologies from asphalt pavement professionals with local and nationally recognized experts from industry, state and federal agencies and academia.`}
-            facebookURL='https://www.facebook.com/PennsylvaniaAsphalt'
-            twitterURL='https://x.com/AsphaltPA'
-            youtubeURL='https://www.youtube.com/channel/UC47YotWes1rWnKKn1o3yFYg'
             hr={true}
           />
 
@@ -343,6 +317,18 @@ export default function Tradeshows() {
             twitterURL='https://x.com/nasemtrb'
             linkedInURL='https://www.linkedin.com/company/the-national-academies'
             youtubeURL='https://www.youtube.com/@nationalacademies'
+            hr={true}
+          />
+          <TradeshowCard
+            date='January 18 - 20, 2027'
+            img='/images/penn-asphalt-logo.png'
+            alt='Pennsylvania Asphalt Pavement Association'
+            url='https://www.pa-asphalt.org/events/all-events/papa-main-events/151-67th-annual-papa-conference-save-the-date'
+            name='67th Annual PAPA Conference - Hershey, PA'
+            text1={`The Pennsylvania Asphalt Pavement Association's annual conference program provides valued updates and information on the latest asphalt technologies from asphalt pavement professionals with local and nationally recognized experts from industry, state and federal agencies and academia.`}
+            facebookURL='https://www.facebook.com/PennsylvaniaAsphalt'
+            twitterURL='https://x.com/AsphaltPA'
+            youtubeURL='https://www.youtube.com/channel/UC47YotWes1rWnKKn1o3yFYg'
             hr={true}
           />
           <TradeshowCard
