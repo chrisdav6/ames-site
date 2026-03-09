@@ -62,16 +62,6 @@ import Image from 'next/image';
       lng: -76.880249,
     },
     {
-      imgUrl: '/images/seaupg-logo.png',
-      name: 'SEAUPG',
-      booth: 'Booth #21',
-      cityState: 'Charleston, WV',
-      date: 'November 18-20, 2025',
-      url: 'http://www.seaupg.org',
-      lat: 38.351258,
-      lng: -81.617623,
-    },
-    {
       imgUrl: '/images/iggaLogo.png',
       name: 'IGGA Annual Meeting',
       booth: '',
@@ -224,6 +214,16 @@ export default function GoogleTradeshowMap() {
       url: 'https://calcima.org/events/EventDetails.aspx?id=1984377&group=',
       lat: 36.59182,
       lng: -121.886428,
+    },
+    {
+      imgUrl: '/images/seaupg-logo.png',
+      name: 'SEAUPG 2026',
+      booth: '',
+      cityState: 'Oklahoma City, OK',
+      date: 'November 17-19, 2026',
+      url: 'http://www.seaupg.org',
+      lat: 35.438051,
+      lng: -97.515588,
     },
     {
       imgUrl: '/images/wisconsin-asphalt-logo.png',
