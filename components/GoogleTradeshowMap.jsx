@@ -101,6 +101,16 @@ import Image from 'next/image';
       lat: 42.325441,
       lng: -85.187007,
     },
+    {
+      imgUrl: '/images/naceLogo.png',
+      name: 'NACE 2026 Annual Conference',
+      booth: '',
+      cityState: 'Arlington, TX',
+      date: 'April 12-15, 2026',
+      url: 'https://www.countyengineers.org/future-meetings',
+      lat: 32.722226,
+      lng: -96.112523,
+    },
   */
 
 export default function GoogleTradeshowMap() {
@@ -124,16 +134,6 @@ export default function GoogleTradeshowMap() {
       url: 'https://maine-apa.org/paving-seminar',
       lat: 44.831204,
       lng: -68.781424,
-    },
-    {
-      imgUrl: '/images/naceLogo.png',
-      name: 'NACE 2026 Annual Conference',
-      booth: '',
-      cityState: 'Arlington, TX',
-      date: 'April 12-15, 2026',
-      url: 'https://www.countyengineers.org/future-meetings',
-      lat: 32.722226,
-      lng: -96.112523,
     },
     {
       imgUrl: '/images/rpugLogo.png',

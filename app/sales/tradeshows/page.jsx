@@ -142,6 +142,20 @@ export default function Tradeshows() {
             youtubeURL='https://www.youtube.com/channel/UC6zuZ5WXlIwLiZEtnMbatDg'
             hr={true}
           />
+
+          <TradeshowCard
+            date='April 12 - 15, 2026'
+            img='/images/naceLogo.png'
+            alt='NACE 2026 Annual Conference'
+            url='https://www.countyengineers.org/future-meetings'
+            name='NACE 2026 Annual Conference - Arlington, TX'
+            text1={`As a county road and infrastructure professional, NACE 2026 is one of the best investments. NACE and the Illinois Association of County Engineers invites you to connect with peers from across the country, discover strategies for cost savings and operational efficiency, and enhance your toolkit with innovative, practical solutions.`}
+            facebookURL='https://www.facebook.com/engineersnace'
+            twitterURL='https://x.com/EngineersNACE'
+            instagramURL='https://www.instagram.com/countyengineersrule'
+            linkedInURL='https://www.linkedin.com/company/national-association-of-county-engineers'
+            hr={true}
+          />
           
           */}
 
@@ -168,19 +182,6 @@ export default function Tradeshows() {
             text1={`Maine Asphalt Paving Association's 21st Annual Spring Paving Seminar. Invigorating workshops, networking opportunities and the largest Industry equipment show in Maine. MAPA works to encourage and promote the safe and environmentally sound use of bituminous asphalt products throughout the state of Maine.`}
             facebookURL='https://www.facebook.com/profile.php?id=100063700834665'
             youtubeURL='https://www.youtube.com/channel/UC_Sx_eaSqmNYtj7n5iYofjw'
-            hr={true}
-          />
-          <TradeshowCard
-            date='April 12 - 15, 2026'
-            img='/images/naceLogo.png'
-            alt='NACE 2026 Annual Conference'
-            url='https://www.countyengineers.org/future-meetings'
-            name='NACE 2026 Annual Conference - Arlington, TX'
-            text1={`As a county road and infrastructure professional, NACE 2026 is one of the best investments. NACE and the Illinois Association of County Engineers invites you to connect with peers from across the country, discover strategies for cost savings and operational efficiency, and enhance your toolkit with innovative, practical solutions.`}
-            facebookURL='https://www.facebook.com/engineersnace'
-            twitterURL='https://x.com/EngineersNACE'
-            instagramURL='https://www.instagram.com/countyengineersrule'
-            linkedInURL='https://www.linkedin.com/company/national-association-of-county-engineers'
             hr={true}
           />
           <TradeshowCard
