@@ -156,8 +156,6 @@ export default function Tradeshows() {
             linkedInURL='https://www.linkedin.com/company/national-association-of-county-engineers'
             hr={true}
           />
-          
-          */}
 
           <TradeshowCard
             date='March 17 - 18, 2026'
@@ -173,6 +171,9 @@ export default function Tradeshows() {
             youtubeURL='https://www.youtube.com/user/FlexiblePavementOhio'
             hr={true}
           />
+          
+          */}
+
           <TradeshowCard
             date='April 7 - 8, 2026'
             img='/images/maine-logo.png'

@@ -111,10 +111,6 @@ import Image from 'next/image';
       lat: 32.722226,
       lng: -96.112523,
     },
-  */
-
-export default function GoogleTradeshowMap() {
-  const [shows, setShows] = useState([
     {
       imgUrl: '/images/ohio-logo.png',
       name: 'Ohio Asphalt Expo',
@@ -125,6 +121,10 @@ export default function GoogleTradeshowMap() {
       lat: 40.139683,
       lng: -82.976837,
     },
+  */
+
+export default function GoogleTradeshowMap() {
+  const [shows, setShows] = useState([
     {
       imgUrl: '/images/maine-logo.png',
       name: 'MAPA Annual Spring Paving Seminar',
