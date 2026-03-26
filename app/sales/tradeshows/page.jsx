@@ -26,20 +26,6 @@ export default function Tradeshows() {
           {/*
 
           <TradeshowCard
-            date='December 9 - 10, 2025'
-            img='/images/mn-logo.png'
-            alt='Minnesota Asphalt Pavement Association'
-            url='https://www.asphaltisbest.com/events/EventDetails.aspx?id=1853252&group='
-            name='2025 Minnesota Asphalt Conference - St. Cloud, MN'
-            text1='The Minnesota Asphalt Pavement Association (MAPA) and the Minnesota Association of Asphalt Paving Technologists (MAAPT) hold thier annual conference. Featuring educational sessions, breakouts, hospitality room, and an awards dinner.'
-            facebookURL='https://www.facebook.com/MnAsphaltPavementAssoc'
-            twitterURL='https://x.com/mnasphalt'
-            instagramURL='https://www.instagram.com/mnasphalt'
-            linkedInURL='https://www.linkedin.com/company/minnesota-asphalt-pavement-association'
-            hr={true}
-          />
-
-          <TradeshowCard
             date='February 12 - 13, 2026'
             img='/images/rmaces-logo.png'
             alt='Rocky Mountain Asphalt Conference & Equipment Show'
@@ -273,6 +259,19 @@ export default function Tradeshows() {
             hr={true}
           />
           <TradeshowCard
+            date='November 30 - December 1, 2026'
+            img='/images/mn-logo.png'
+            alt='Minnesota Asphalt Pavement Association'
+            url='https://www.asphaltisbest.com/events/2026-annual-meeting'
+            name='2026 Minnesota Asphalt Conference - Prior Lake, MN'
+            text1='The Minnesota Asphalt Pavement Association (MAPA) and the Minnesota Association of Asphalt Paving Technologists (MAAPT) hold thier annual conference. Featuring educational sessions, breakouts, hospitality room, and an awards dinner.'
+            facebookURL='https://www.facebook.com/MnAsphaltPavementAssoc'
+            twitterURL='https://x.com/mnasphalt'
+            instagramURL='https://www.instagram.com/mnasphalt'
+            linkedInURL='https://www.linkedin.com/company/minnesota-asphalt-pavement-association'
+            hr={true}
+          />
+          <TradeshowCard
             date='December 1 - 2, 2026'
             img='/images/wisconsin-asphalt-logo.png'
             alt='WAPA'
@@ -387,7 +386,7 @@ export default function Tradeshows() {
             instagramURL='https://www.instagram.com/conexpoconagg'
             linkedInURL='https://www.linkedin.com/company/conexpoconagg'
             youtubeURL='https://www.youtube.com/user/conexpoconagg'
-            hr={true}
+            hr={false}
           />
         </div>
       </div>

@@ -12,16 +12,6 @@ import Image from 'next/image';
 //PAST SHOWS
 /*
     {
-      imgUrl: '/images/mn-logo.png',
-      name: '2025 Minnesota Asphalt Conference',
-      booth: '',
-      cityState: 'St. Cloud, MN',
-      date: 'December 9-10, 2025',
-      url: 'https://www.asphaltisbest.com/events/EventDetails.aspx?id=1853252&group=',
-      lat: 45.553381,
-      lng: -94.164918,
-    },
-    {
       imgUrl: '/images/rmaces-logo.png',
       name: '53rd Annual RMACES',
       booth: '',
@@ -204,6 +194,17 @@ export default function GoogleTradeshowMap() {
       url: 'http://www.seaupg.org',
       lat: 35.438051,
       lng: -97.515588,
+    },
+    {
+      imgUrl: '/images/mn-logo.png',
+      name: '2026 Minnesota Asphalt Conference',
+      booth: '',
+      cityState: 'Prior Lake, MN',
+      date: 'November 30-10, 2025',
+      date: 'November 30-December 1, 2026',
+      url: 'https://www.asphaltisbest.com/events/2026-annual-meeting',
+      lat: 44.727331,
+      lng: -93.442685,
     },
     {
       imgUrl: '/images/wisconsin-asphalt-logo.png',
