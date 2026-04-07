@@ -371,6 +371,7 @@ export default function Tradeshows() {
             instagramURL='https://www.instagram.com/auburnasphalt'
             linkedInURL='https://www.linkedin.com/company/ncatauburn'
             youtubeURL='https://www.youtube.com/channel/UC5grTAnUU_oE9F2FPpEdgJw'
+            hr={true}
           />
 
           <TradeshowCard
