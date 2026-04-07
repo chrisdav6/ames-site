@@ -142,21 +142,6 @@ export default function Tradeshows() {
             linkedInURL='https://www.linkedin.com/company/national-association-of-county-engineers'
             hr={true}
           />
-
-          <TradeshowCard
-            date='March 17 - 18, 2026'
-            img='/images/ohio-logo.png'
-            alt='Flexible Pavements of Ohio'
-            url='https://www.flexiblepavements.org/OhioAsphaltExpo'
-            name='Ohio Asphalt Expo - Columbus, OH - Booth #23'
-            text1='The Asphalt Expo is a premiere asphalt pavement event with multiple concurrent educational sessions and an indoor and outdoor trade show and exhibition. If you construct, inspect,manage or maintain local or private transportation infrastructure the Ohio Asphalt Expo has the information you need to ensure a successful, long-lasting asphalt pavement.'
-            facebookURL='https://www.facebook.com/flexiblepavements'
-            twitterURL='https://x.com/Ohio_Asphalt'
-            instagramURL='https://www.instagram.com/flexpaveoh'
-            linkedInURL='https://www.linkedin.com/company/flexible-pavements-of-ohio'
-            youtubeURL='https://www.youtube.com/user/FlexiblePavementOhio'
-            hr={true}
-          />
           
           */}
 
@@ -344,6 +329,20 @@ export default function Tradeshows() {
             instagramURL='https://www.instagram.com/goasphalt'
             linkedInURL='https://www.linkedin.com/company/asphaltpavement'
             youtubeURL='https://www.youtube.com/channel/UCDroWs5yMvWHi1mEjHPOAIw'
+            hr={true}
+          />
+          <TradeshowCard
+            date='March 2 - 3, 2027'
+            img='/images/ohio-logo.png'
+            alt='Flexible Pavements of Ohio'
+            url='https://www.flexiblepavements.org/OhioAsphaltExpo'
+            name='Ohio Asphalt Expo - Columbus, OH'
+            text1='The Asphalt Expo is a premiere asphalt pavement event with multiple concurrent educational sessions and an indoor and outdoor trade show and exhibition. If you construct, inspect,manage or maintain local or private transportation infrastructure the Ohio Asphalt Expo has the information you need to ensure a successful, long-lasting asphalt pavement.'
+            facebookURL='https://www.facebook.com/flexiblepavements'
+            twitterURL='https://x.com/Ohio_Asphalt'
+            instagramURL='https://www.instagram.com/flexpaveoh'
+            linkedInURL='https://www.linkedin.com/company/flexible-pavements-of-ohio'
+            youtubeURL='https://www.youtube.com/user/FlexiblePavementOhio'
             hr={true}
           />
           <TradeshowCard

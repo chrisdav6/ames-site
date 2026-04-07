@@ -100,17 +100,7 @@ import Image from 'next/image';
       url: 'https://www.countyengineers.org/future-meetings',
       lat: 32.722226,
       lng: -96.112523,
-    },
-    {
-      imgUrl: '/images/ohio-logo.png',
-      name: 'Ohio Asphalt Expo',
-      booth: 'Booth #23',
-      cityState: 'Columbus, OH',
-      date: 'March 17-18, 2026',
-      url: 'https://www.flexiblepavements.org/OhioAsphaltExpo',
-      lat: 40.139683,
-      lng: -82.976837,
-    },
+    }
   */
 
 export default function GoogleTradeshowMap() {
@@ -153,7 +143,7 @@ export default function GoogleTradeshowMap() {
       date: 'July 14-17, 2026',
       url: 'https://www.asphaltpavement.org/programs/napa-events/meetings-calendar',
       lat: 39.950705,
-      lng: -82.99982,
+      lng: -82.59982,
     },
     {
       imgUrl: '/images/aashtoLogo.png',
@@ -265,6 +255,16 @@ export default function GoogleTradeshowMap() {
       url: 'https://www.asphaltpavement.org/programs/napa-events/napa-annual-meeting',
       lat: 25.762627,
       lng: -80.208742,
+    },
+    {
+      imgUrl: '/images/ohio-logo.png',
+      name: 'Ohio Asphalt Expo',
+      booth: '',
+      cityState: 'Columbus, OH',
+      date: 'March 2-3, 2027',
+      url: 'https://www.flexiblepavements.org/OhioAsphaltExpo',
+      lat: 40.139683,
+      lng: -82.976837,
     },
     {
       imgUrl: '/images/woa-logo-2027.png',
