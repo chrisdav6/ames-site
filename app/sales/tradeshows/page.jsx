@@ -142,8 +142,6 @@ export default function Tradeshows() {
             linkedInURL='https://www.linkedin.com/company/national-association-of-county-engineers'
             hr={true}
           />
-          
-          */}
 
           <TradeshowCard
             date='April 7 - 8, 2026'
@@ -156,6 +154,9 @@ export default function Tradeshows() {
             youtubeURL='https://www.youtube.com/channel/UC_Sx_eaSqmNYtj7n5iYofjw'
             hr={true}
           />
+          
+          */}
+
           <TradeshowCard
             date='April 28 - May 1, 2026'
             img='/images/rpugLogo.png'
