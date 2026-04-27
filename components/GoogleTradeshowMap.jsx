@@ -100,16 +100,6 @@ import Image from 'next/image';
       url: 'https://www.countyengineers.org/future-meetings',
       lat: 32.722226,
       lng: -96.112523,
-    }
-      {
-      imgUrl: '/images/maine-logo.png',
-      name: 'MAPA Annual Spring Paving Seminar',
-      booth: '',
-      cityState: 'Bangor, ME',
-      date: 'April 7-8, 2026',
-      url: 'https://maine-apa.org/paving-seminar',
-      lat: 44.831204,
-      lng: -68.781424,
     },
   */
 
@@ -275,6 +265,16 @@ export default function GoogleTradeshowMap() {
       url: 'https://www.worldofasphalt.com',
       lat: 29.955946,
       lng: -90.081347,
+    },
+    {
+      imgUrl: '/images/maine-logo.png',
+      name: 'MAPA Annual Spring Paving Seminar',
+      booth: '',
+      cityState: 'Bangor, ME',
+      date: 'April 6-7, 2027',
+      url: 'https://maine-apa.org/paving-seminar',
+      lat: 44.831204,
+      lng: -68.781424,
     },
     {
       imgUrl: '/images/ncat-conference.png',
