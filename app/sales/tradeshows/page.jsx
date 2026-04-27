@@ -360,7 +360,7 @@ export default function Tradeshows() {
             hr={true}
           />
           <TradeshowCard
-            date='2027'
+            date='May 11 - 13, 2027'
             img='/images/ncat-conference.png'
             alt='National Center for Asphalt Technology'
             url='https://eng.auburn.edu/research/centers/ncat/testtrack/conference.html'

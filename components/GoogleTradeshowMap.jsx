@@ -281,7 +281,7 @@ export default function GoogleTradeshowMap() {
       name: 'NCAT Test Track Conference',
       booth: '',
       cityState: 'Auburn, AL',
-      date: '2027',
+      date: 'May 11-13, 2027',
       url: 'https://eng.auburn.edu/research/centers/ncat/testtrack/conference.html',
       lat: 32.620384,
       lng: -85.473941,
