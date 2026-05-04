@@ -101,10 +101,6 @@ import Image from 'next/image';
       lat: 32.722226,
       lng: -96.112523,
     },
-  */
-
-export default function GoogleTradeshowMap() {
-  const [shows, setShows] = useState([
     {
       imgUrl: '/images/rpugLogo.png',
       name: 'Road Profile Users Group 2026 Conference',
@@ -115,6 +111,10 @@ export default function GoogleTradeshowMap() {
       lat: 40.431537,
       lng: -79.995863,
     },
+  */
+
+export default function GoogleTradeshowMap() {
+  const [shows, setShows] = useState([
     {
       imgUrl: '/images/txapa-maps-logo.png',
       name: 'TXAPA MAPS Regional Meeting',

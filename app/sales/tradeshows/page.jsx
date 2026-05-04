@@ -142,8 +142,6 @@ export default function Tradeshows() {
             linkedInURL='https://www.linkedin.com/company/national-association-of-county-engineers'
             hr={true}
           />
-          
-          */}
 
           <TradeshowCard
             date='April 28 - May 1, 2026'
@@ -154,6 +152,9 @@ export default function Tradeshows() {
             text1='RPUG&#39;s annual meeting is to serve as a forum for the exchange of information between end users, data collectors, vendors, construction and design engineers and researchers who have an interest in road profiles, road roughness/smoothness, pavement surface textures, friction, and tire-pavement noise.'
             hr={true}
           />
+          
+          */}
+
           <TradeshowCard
             date='May 27 - 28, 2026'
             img='/images/txapa-maps-logo.png'
