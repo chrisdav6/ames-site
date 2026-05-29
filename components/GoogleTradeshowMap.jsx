@@ -111,10 +111,6 @@ import Image from 'next/image';
       lat: 40.431537,
       lng: -79.995863,
     },
-  */
-
-export default function GoogleTradeshowMap() {
-  const [shows, setShows] = useState([
     {
       imgUrl: '/images/txapa-maps-logo.png',
       name: 'TXAPA MAPS Regional Meeting',
@@ -125,6 +121,10 @@ export default function GoogleTradeshowMap() {
       lat: 32.812926,
       lng: -97.326318,
     },
+  */
+
+export default function GoogleTradeshowMap() {
+  const [shows, setShows] = useState([
     {
       imgUrl: '/images/napa-logo.png',
       name: 'NAPA Midyear Meeting',

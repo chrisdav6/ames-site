@@ -152,8 +152,6 @@ export default function Tradeshows() {
             text1='RPUG&#39;s annual meeting is to serve as a forum for the exchange of information between end users, data collectors, vendors, construction and design engineers and researchers who have an interest in road profiles, road roughness/smoothness, pavement surface textures, friction, and tire-pavement noise.'
             hr={true}
           />
-          
-          */}
 
           <TradeshowCard
             date='May 27 - 28, 2026'
@@ -169,6 +167,9 @@ export default function Tradeshows() {
             youtubeURL='https://www.youtube.com/channel/UCg9R6YxcVok22oBpf3PN8zg'
             hr={true}
           />
+          
+          */}
+
           <TradeshowCard
             date='July 14 - 17, 2026'
             img='/images/napa-logo.png'
