@@ -63,8 +63,8 @@ const items = [
     label: 'Pro GPS-DMI 250',
   },
   {
-    id: 'Pro GPS-DMI Laptop',
-    label: 'Pro GPS-DMI Laptop',
+    id: 'Pro GPS-DMI for Laptop',
+    label: 'Pro GPS-DMI for Laptop',
   },
   {
     id: 'Pro GPS-DMI HD Imaging',
@@ -752,8 +752,8 @@ export function SalesForm() {
                                     ? field.onChange([...field.value, item.id])
                                     : field.onChange(
                                         field.value?.filter(
-                                          (value) => value !== item.id
-                                        )
+                                          (value) => value !== item.id,
+                                        ),
                                       );
                                 }}
                               />

@@ -768,10 +768,10 @@ export function WarrantyForm() {
                       </FormItem>
                       <FormItem className='flex items-center space-x-3 space-y-0'>
                         <FormControl>
-                          <RadioGroupItem value='Pro GPS-DMI Laptop' />
+                          <RadioGroupItem value='Pro GPS-DMI for Laptop' />
                         </FormControl>
                         <FormLabel className='text-lg font-normal'>
-                          Pro GPS-DMI Laptop
+                          Pro GPS-DMI for Laptop
                         </FormLabel>
                       </FormItem>
                       <FormItem className='flex items-center space-x-3 space-y-0'>
