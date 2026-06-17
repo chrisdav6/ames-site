@@ -59,7 +59,7 @@ export default function ProGPSDMI() {
         </Button>
         <Button asChild className='px-4 py-5 text-lg hover:bg-amesRed'>
           <Link href='/pdf/AmesGPSDMIProLaptopBrochure.pdf' target='_blank'>
-            DMI Laptop Brochure
+            DMI for Laptop Brochure
           </Link>
         </Button>
         <Button asChild className='px-4 py-5 text-lg hover:bg-amesRed'>
@@ -115,7 +115,7 @@ export default function ProGPSDMI() {
             built-in LCD display.
           </span>
           <span className='block mt-1'>
-            - The <span className='font-bold'>Pro GPS-DMI Laptop</span> and{' '}
+            - The <span className='font-bold'>Pro GPS-DMI for Laptop</span> and{' '}
             <span className='font-bold'>HD Imaging</span> use a USB connection
             to a laptop with our GPS-DMI Display software installed. The
             software measures distance, collects GPS station information, and
@@ -138,8 +138,8 @@ export default function ProGPSDMI() {
           />
           <PhotoWithCaption
             image='/images/dmiLaptopCardImage.jpg'
-            alt='Pro GPS-DMI Laptop'
-            caption='Pro GPS-DMI Laptop'
+            alt='Pro GPS-DMI for Laptop'
+            caption='Pro GPS-DMI for Laptop'
           />
         </div>
 
@@ -194,7 +194,7 @@ export default function ProGPSDMI() {
                   </span>
                 </TableHead>
                 <TableHead className='text-center'>DMI 250</TableHead>
-                <TableHead className='text-center'>Laptop</TableHead>
+                <TableHead className='text-center'>DMI for Laptop</TableHead>
                 <TableHead className='text-center'>HD Imaging</TableHead>
               </TableRow>
             </TableHeader>
