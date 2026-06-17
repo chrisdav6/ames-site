@@ -56,7 +56,7 @@ const productLinks = [
     href: '/products/pro-gps-dmi-250',
   },
   {
-    name: 'Pro GPS-DMI Laptop',
+    name: 'Pro GPS-DMI for Laptop',
     href: '/products/ames-pro-gps-dmi-laptop',
   },
   {

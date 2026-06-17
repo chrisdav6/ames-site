@@ -14,7 +14,7 @@ export default function ProGPSDMILaptop() {
     <div className='w-full justify-center pt-10 px-6 2xl:px-80 md:pt-14'>
       <div>
         <h1 className='mx-auto text-center md:text-left md:mx-0 text-2xl font-bold bg-amesRed w-fit py-2 px-3 text-white'>
-          Pro GPS-DMI Laptop
+          Pro GPS-DMI for Laptop
         </h1>
       </div>
 
@@ -47,23 +47,27 @@ export default function ProGPSDMILaptop() {
       {/* Product Description */}
       <div className='mt-6 text-lg text-center md:text-left'>
         <p>
-          The Ames <span className='font-bold'>Pro GPS-DMI Laptop</span> uses
-          DGPS signals to measure linear distance along with input from the OBD
-          II port from your vehicle for increased accuracy. The unit comes with
-          Ames proprietary data collection and logging software. It features
-          file logging capabilities that enable you to generate a .kml file of
-          your traveled route, that can later be viewed in Google Earth.
+          The Ames <span className='font-bold'>Pro GPS-DMI for Laptop</span>{' '}
+          uses DGPS signals to measure linear distance along with input from the
+          OBD II port from your vehicle for increased accuracy. The unit comes
+          with Ames proprietary data collection and logging software. It
+          features file logging capabilities that enable you to generate a .kml
+          file of your traveled route, that can later be viewed in Google Earth.
           Accurate to within 0.15% of measured distance. The unit does not
           require calibration, is highly portable and can easily be moved from
           vehicle to vehicle in minutes. There is no hard wiring to the vehicle
           required.
         </p>
 
+        <p className='text-red-500 mt-5 font-semibold'>
+          *Laptop not included with unit. Sold as an add on option.
+        </p>
+
         <div className='flex flex-col md:flex-row mt-8 gap-4'>
           <PhotoWithCaption
             image='/images/dmiLaptopCardImage.jpg'
-            alt='Ames Pro GPS-DMI Laptop'
-            caption='Pro GPS-DMI Laptop'
+            alt='Ames Pro GPS-DMI for Laptop'
+            caption='Pro GPS-DMI for Laptop'
           />
         </div>
 
@@ -88,9 +92,6 @@ export default function ProGPSDMILaptop() {
           </span>
           <span className='block'>
             - Generates .kml log file with gps coordinates
-          </span>
-          <span className='block'>
-            - Optional Autostart/stop sensor for increased accuracy
           </span>
         </div>
       </div>
