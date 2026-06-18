@@ -147,12 +147,12 @@ const contactLinks = [
     name: 'Contact Support',
     href: '/support/supportRequest',
   },
-  // {
-  //   name: 'Pay Invoice Online',
-  //   href: 'https://api.ipospays.com/v1/sl/jWfeo_170925135559',
-  //   external: true,
-  //   payOnline: true,
-  // },
+  {
+    name: 'Pay Invoice Online',
+    href: 'https://api.ipospays.com/v1/sl/nD2RX_180626121128',
+    external: true,
+    payOnline: true,
+  },
   {
     name: 'TransTech Systems',
     href: 'https://transtechsys.com',
@@ -353,14 +353,14 @@ export default function Header() {
             </div>
           </button>
 
-          {/*<button className='hidden lg:block px-4 py-2 transition duration-300 font-medium bg-amesRed text-white hover:bg-[#ac1818]'>
+          <button className='hidden lg:block px-4 py-2 transition duration-300 font-medium bg-amesRed text-white hover:bg-[#ac1818]'>
             <Link
-              href='https://api.ipospays.com/v1/sl/jWfeo_170925135559'
+              href='https://api.ipospays.com/v1/sl/nD2RX_180626121128'
               target='_blank'
             >
               Pay Invoice Online
             </Link>
-          </button>*/}
+          </button>
         </nav>
       </div>
 

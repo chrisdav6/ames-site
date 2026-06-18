@@ -16,14 +16,14 @@ export default function AllProducts() {
         <h3 className='mx-auto md:mx-0 text-2xl font-bold bg-amesRed w-fit py-2 px-3 text-white'>
           Our Products
         </h3>
-        {/* <Button>
+        <Button>
           <a
-            href='https://api.ipospays.com/v1/sl/jWfeo_170925135559 '
+            href='https://api.ipospays.com/v1/sl/nD2RX_180626121128'
             target='_blank'
           >
             Pay Invoice Online
           </a>
-        </Button> */}
+        </Button>
       </div>
 
       <ProductGrid />
