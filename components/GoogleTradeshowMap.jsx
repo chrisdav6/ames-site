@@ -156,6 +156,16 @@ export default function GoogleTradeshowMap() {
       lng: -98.223925,
     },
     {
+      imgUrl: '/images/NewMexicoAsphalt.png',
+      name: 'Southwest Asphalt Conference and Equipment Show',
+      booth: '',
+      cityState: 'Albuquerque, NM',
+      date: 'October 28-29, 2026',
+      url: 'https://apanm.org/swaces',
+      lat: 35.13012,
+      lng: -106.562464,
+    },
+    {
       imgUrl: '/images/calcimaLogo.png',
       name: '2026 CalCIMA Education Conference',
       booth: '',
