@@ -32,16 +32,6 @@ import Image from 'next/image';
       lng: 100.485655,
     },
     {
-      imgUrl: '/images/neaupg-logo.png',
-      name: 'NEAUPG Fall Meeting',
-      booth: '',
-      cityState: 'Harrisburg, PA',
-      date: 'October 29-30, 2025',
-      url: 'https://neaupg.engr.uconn.edu',
-      lat: 40.274496,
-      lng: -76.880249,
-    },
-    {
       imgUrl: '/images/iggaLogo.png',
       name: 'IGGA Annual Meeting',
       booth: '',
@@ -154,6 +144,16 @@ export default function GoogleTradeshowMap() {
       url: 'https://texasasphalt.org/events/2026-txapa-annual-meeting',
       lat: 29.462161,
       lng: -98.223925,
+    },
+    {
+      imgUrl: '/images/neaupg-logo.png',
+      name: 'NEAUPG Fall Meeting',
+      booth: '',
+      cityState: 'Nashua, NH',
+      date: 'October 21-22, 2026',
+      url: 'https://neaupg.engr.uconn.edu',
+      lat: 42.754221,
+      lng: -71.474044,
     },
     {
       imgUrl: '/images/NewMexicoAsphalt.png',

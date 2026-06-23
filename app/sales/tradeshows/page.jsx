@@ -51,16 +51,6 @@ export default function Tradeshows() {
           />
 
           <TradeshowCard
-            date='October 29 - 30, 2025'
-            img='/images/neaupg-logo.png'
-            alt='NEAUPG Fall Meeting'
-            url='https://neaupg.engr.uconn.edu'
-            name='NEAUPG Fall Meeting - Harrisburg, PA'
-            text1='North East Asphalt User/Producer Groups annual fall Meeting. Promoting solutions through discussion to improve the quality and performance of asphalt pavement applications in the Northeastern United States. Hosted by NYSDOT with the Binder and Mix Committees meeting.'
-            hr={true}
-          />
-
-          <TradeshowCard
             date='December 2 - 3, 2025'
             img='/images/iggaLogo.png'
             alt='IGGA'
@@ -209,6 +199,15 @@ export default function Tradeshows() {
             instagramURL='https://www.instagram.com/texasasphaltpavement'
             linkedInURL='https://www.linkedin.com/company/texas-asphalt-pavement-association'
             youtubeURL='https://www.youtube.com/channel/UCg9R6YxcVok22oBpf3PN8zg'
+            hr={true}
+          />
+          <TradeshowCard
+            date='October 21 - 22, 2026'
+            img='/images/neaupg-logo.png'
+            alt='NEAUPG Fall Meeting'
+            url='https://neaupg.engr.uconn.edu'
+            name='NEAUPG Fall Meeting - Nashua, NH'
+            text1='North East Asphalt User/Producer Groups annual fall Meeting. Promoting solutions through discussion to improve the quality and performance of asphalt pavement applications in the Northeastern United States. Hosted by NYSDOT with the Binder and Mix Committees meeting.'
             hr={true}
           />
           <TradeshowCard
