@@ -217,7 +217,7 @@ export default function Tradeshows() {
             alt='Asphalt Pavement Association of New Mexico Logo'
             url='https://apanm.org/swaces'
             name='Southwest Asphalt Conference and Equipment Show - Albuquerque, NM'
-            text1='The Asphalt Pavement Association of New Mexico (APANM) proudly presents the Southwest Asphalt Conference & Equipment Show (SW ACES) - The first event of its kind in New Mexico, bringing the entire asphalt and roadway construction industry together with the largest equipment show in the state - all under one roof. SWACES combines a major equipment show, expert-led education, leadership and policy discussion, and unmatched networking opportunities with the people who build, maintain, and fund our roads.'
+            text1='The Asphalt Pavement Association of New Mexico (APANM) proudly presents the Southwest Asphalt Conference & Equipment Show (SWACES) - The first event of its kind in New Mexico, bringing the entire asphalt and roadway construction industry together with the largest equipment show in the state - all under one roof. SWACES combines a major equipment show, expert-led education, leadership and policy discussion, and unmatched networking opportunities with the people who build, maintain, and fund our roads.'
             facebookURL='https://www.facebook.com/profile.php?id=61555651976074'
             instagramURL='https://www.instagram.com/apanewmexico'
             linkedInURL='https://www.linkedin.com/company/asphalt-pavement-association-of-new-mexico'
