@@ -17,12 +17,7 @@ export default function AllProducts() {
           Our Products
         </h3>
         <Button>
-          <a
-            href='https://api.ipospays.com/v1/sl/nD2RX_180626121128'
-            target='_blank'
-          >
-            Pay Invoice Online
-          </a>
+          <a href='/payment'>Pay Invoice Online</a>
         </Button>
       </div>
 

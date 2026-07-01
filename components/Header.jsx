@@ -149,8 +149,7 @@ const contactLinks = [
   },
   {
     name: 'Pay Invoice Online',
-    href: 'https://api.ipospays.com/v1/sl/nD2RX_180626121128',
-    external: true,
+    href: '/payment',
     payOnline: true,
   },
   {
@@ -354,12 +353,7 @@ export default function Header() {
           </button>
 
           <button className='hidden lg:block px-4 py-2 transition duration-300 font-medium bg-amesRed text-white hover:bg-[#ac1818]'>
-            <Link
-              href='https://api.ipospays.com/v1/sl/nD2RX_180626121128'
-              target='_blank'
-            >
-              Pay Invoice Online
-            </Link>
+            <Link href='/payment'>Pay Invoice Online</Link>
           </button>
         </nav>
       </div>
