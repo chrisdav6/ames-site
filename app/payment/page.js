@@ -36,14 +36,30 @@ export default function Payment() {
           Payment Terms & Conditions - Understanding Your Payment Options
         </h3>
 
-        <p className='text-lg mt-8'>
-          <strong>If you are paying by credit card via this link,</strong>{' '}
-          please note that a 3% credit card surcharge will be{' '}
-          <u>automatically</u> applied to this transaction. You will{' '}
-          <u>enter the invoice total balance amount due</u> onto the payment
-          page (do not calculate the new amount yourself). The final 'PAY' value
-          will automatically calculate as the invoice amount x 1.03; this is the
-          new total amount that will be charged to your card.
+        <p className='text-lg mt-8 font-bold'>Credit Card Payments</p>
+        <p class='text-lg'>
+          A <strong>3% surcharge</strong> applies to all credit card
+          transactions.
+        </p>
+
+        <p class='text-lg mb-1 mt-5'>
+          <strong>Steps to pay:</strong>
+        </p>
+        <p class='mb-0 text-lg'>
+          • <strong>Enter invoice total:</strong> Type the exact balance due
+          from your invoice.{' '}
+          <strong>
+            <u>Do not calculate the fee yourself</u>
+          </strong>
+          .
+        </p>
+        <p class='mb-0 text-lg'>
+          • <strong>Review final amount:</strong> The system automatically adds
+          a 3% fee as your final charged amount.
+        </p>
+        <p class='mb-0 text-lg'>
+          • <strong>Check the box below:</strong> Confirm you accept the 3% fee
+          and are authorized to pay for your company.
         </p>
 
         <p className='mt-5 mb-1 text-lg'>
