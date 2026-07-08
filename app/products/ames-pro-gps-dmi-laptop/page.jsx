@@ -14,7 +14,7 @@ export default function ProGPSDMILaptop() {
     <div className='w-full justify-center pt-10 px-6 2xl:px-80 md:pt-14'>
       <div>
         <h1 className='mx-auto text-center md:text-left md:mx-0 text-2xl font-bold bg-amesRed w-fit py-2 px-3 text-white'>
-          Pro GPS-DMI for Laptop
+          Pro GPS-DMI for Laptops
         </h1>
       </div>
 
@@ -23,7 +23,7 @@ export default function ProGPSDMILaptop() {
         <Image
           src='/images/ProGPSDMILaptopProductImage.jpg'
           fill
-          alt='Pro GPS-DMI Laptop'
+          alt='Pro GPS-DMI Laptops'
           className='w-full object-cover object-[-150px] md:object-center'
           priority
         />
@@ -47,7 +47,7 @@ export default function ProGPSDMILaptop() {
       {/* Product Description */}
       <div className='mt-6 text-lg text-center md:text-left'>
         <p>
-          The Ames <span className='font-bold'>Pro GPS-DMI for Laptop</span>{' '}
+          The Ames <span className='font-bold'>Pro GPS-DMI for Laptops</span>{' '}
           uses DGPS signals to measure linear distance along with input from the
           OBD II port from your vehicle for increased accuracy. The unit comes
           with Ames proprietary data collection and logging software. It
