@@ -64,7 +64,6 @@ export default function LaserTextureScannerModel9400() {
 
         <div className='mt-6 font-bold '>
           <span className='block mt-2'>- Mean Profile Depth (MPD)</span>
-          <span className='block'>- Texture Profile Index (TPI)</span>
           <span className='block'>- Estimated Texture Depth (ETD)</span>
           <span className='block'>
             - Slope and/or Elevation Variance with user selectable band pass
@@ -119,9 +118,8 @@ export default function LaserTextureScannerModel9400() {
               9400HD Features
             </h3>
             <span className='block mt-2'>
-              - Calculates Mean Profile (MPD), Texture Profile Index (TPI),
-              Estimated Texture Depth (ETD), RMS, Ra, Rq, Skewness, Kurtosis and
-              VAR.
+              - Calculates Mean Profile (MPD), Estimated Texture Depth (ETD),
+              RMS, Ra, Rq, Skewness, Kurtosis and VAR.
             </span>
             <span className='block'>
               - Scanner immediately displays the results on a sunlight readable

@@ -113,7 +113,6 @@ export default function RapidLaserTextureScannerModel9500() {
 
         <ul className='text-lg mt-2'>
           <li>- Mean Profile Depth (MPD)</li>
-          <li>- Texture Profile Index (TPI)</li>
           <li>- Estimated Texture Depth (ETD)</li>
           <li>- Power Spectral Density (PSD)</li>
           <li>- Root Mean Square (RMS)</li>
@@ -143,9 +142,8 @@ export default function RapidLaserTextureScannerModel9500() {
 
         <ul className='text-lg mt-2'>
           <li>
-            - Calculates Mean Profile (MPD), Texture Profile Index (TPI),
-            Estimated Texture Depth (ETD), RMS, Ra, Rq, Skewness, Kurtosis and
-            VAR
+            - Calculates Mean Profile (MPD), Estimated Texture Depth (ETD), RMS,
+            Ra, Rq, Skewness, Kurtosis and VAR
           </li>
           <li>
             - Scanner immediately displays the results on a sunlight readable
