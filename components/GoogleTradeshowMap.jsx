@@ -116,16 +116,6 @@ import Image from 'next/image';
 export default function GoogleTradeshowMap() {
   const [shows, setShows] = useState([
     {
-      imgUrl: '/images/napa-logo.png',
-      name: 'NAPA Midyear Meeting',
-      booth: '',
-      cityState: 'Columbus, OH',
-      date: 'July 14-17, 2026',
-      url: 'https://www.asphaltpavement.org/programs/napa-events/meetings-calendar',
-      lat: 39.950705,
-      lng: -82.59982,
-    },
-    {
       imgUrl: '/images/aashtoLogo.png',
       name: '2026 Committee on Materials and Pavement',
       booth: '',
@@ -295,6 +285,16 @@ export default function GoogleTradeshowMap() {
       url: 'https://eng.auburn.edu/research/centers/ncat/testtrack/conference.html',
       lat: 32.620384,
       lng: -85.473941,
+    },
+    {
+      imgUrl: '/images/napa-logo.png',
+      name: 'NAPA Midyear Meeting',
+      booth: '',
+      cityState: 'Santa Ana, NM',
+      date: 'July 18-21, 2027',
+      url: 'https://www.asphaltpavement.org/events/midyear',
+      lat: 35.409829,
+      lng: -106.948444,
     },
     {
       imgUrl: '/images/conexpo-logo.png',

@@ -161,20 +161,6 @@ export default function Tradeshows() {
           */}
 
           <TradeshowCard
-            date='July 14 - 17, 2026'
-            img='/images/napa-logo.png'
-            alt='National Asphalt Pavement Association'
-            url='https://www.asphaltpavement.org/programs/napa-events/meetings-calendar'
-            name='NAPA Midyear Meeting - Columbus, OH'
-            text1='The NAPA Midyear Meeting is three comprehensive days of committee meetings and educational sessions focused on advancing the asphalt pavement industry. Throughout this meeting, NAPA leadership gathers input, makes decisions, and reaffirms the strategic direction of our industry, members, and stakeholders.'
-            facebookURL='https://www.facebook.com/AsphaltPavement'
-            twitterURL='https://x.com/NAPATweets'
-            instagramURL='https://www.instagram.com/goasphalt'
-            linkedInURL='https://www.linkedin.com/company/asphaltpavement'
-            youtubeURL='https://www.youtube.com/channel/UCDroWs5yMvWHi1mEjHPOAIw'
-            hr={true}
-          />
-          <TradeshowCard
             date='August 2 - 8, 2026'
             img='/images/aashtoLogo.png'
             alt='AASHTO'
@@ -386,7 +372,20 @@ export default function Tradeshows() {
             youtubeURL='https://www.youtube.com/channel/UC5grTAnUU_oE9F2FPpEdgJw'
             hr={true}
           />
-
+          <TradeshowCard
+            date='July 18 - 21, 2027'
+            img='/images/napa-logo.png'
+            alt='National Asphalt Pavement Association'
+            url='https://www.asphaltpavement.org/events/midyear'
+            name='NAPA Midyear Meeting - Santa Ana, NM'
+            text1='The NAPA Midyear Meeting is three comprehensive days of committee meetings and educational sessions focused on advancing the asphalt pavement industry. Throughout this meeting, NAPA leadership gathers input, makes decisions, and reaffirms the strategic direction of our industry, members, and stakeholders.'
+            facebookURL='https://www.facebook.com/AsphaltPavement'
+            twitterURL='https://x.com/NAPATweets'
+            instagramURL='https://www.instagram.com/goasphalt'
+            linkedInURL='https://www.linkedin.com/company/asphaltpavement'
+            youtubeURL='https://www.youtube.com/channel/UCDroWs5yMvWHi1mEjHPOAIw'
+            hr={true}
+          />
           <TradeshowCard
             date='March 13 - 17, 2029'
             img='/images/conexpo-logo.png'
