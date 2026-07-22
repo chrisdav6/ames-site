@@ -126,6 +126,16 @@ export default function GoogleTradeshowMap() {
       lng: -77.448196,
     },
     {
+      imgUrl: '/images/ISIC.png',
+      name: '2026 ISIC North American Conference',
+      booth: '',
+      cityState: 'Louisville, KY',
+      date: 'August 24-26, 2026',
+      url: 'https://is-ic.org/conferences/isic-local-chapter-meetings/2026-isic-northamerican-conference',
+      lat: 38.206532,
+      lng: -85.653686,
+    },
+    {
       imgUrl: '/images/txapa-logo.png',
       name: "TXAPA's 51st Annual Meeting",
       booth: '',
