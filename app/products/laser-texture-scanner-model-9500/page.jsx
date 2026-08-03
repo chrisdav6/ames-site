@@ -2,6 +2,15 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import PhotoWithCaption from '@/components/PhotoWithCaption';
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from '@/components/ui/table';
+import { Check } from 'lucide-react';
 
 export const metadata = {
   title: 'Ames Engineering | Rapid Laser Texture Scanner 9500',
@@ -52,10 +61,10 @@ export default function RapidLaserTextureScannerModel9500() {
         <p>
           The portable Model{' '}
           <span className='font-bold'>9500 Laser Texture Scanner</span> is a
-          rapid macrotexture scanner which replaces the Sand Patch Test (ETD)
-          and Circular Texture Meter (MPD). This scanner completes a full scan
-          of the 4″ x 4″ area in about 90 seconds, giving quick results on the
-          host computer.
+          rapid macrotexture scanner that replaces the Sand Patch Test (ETD) and
+          Circular Texture Meter (MPD). The scanner requires a host computer to
+          operate (not included) and completes a full scan of a 4″ × 4″ area in
+          approximately 90 seconds, providing fast results on the host computer.
         </p>
 
         <div className='flex flex-col md:flex-row mt-8 gap-4'>
@@ -74,6 +83,202 @@ export default function RapidLaserTextureScannerModel9500() {
             alt='Laser Texture Scanner 9500 3D Analysis'
             caption='3D Analysis'
           />
+        </div>
+
+        {/* Table */}
+        <div className='mt-16 mb-12'>
+          <Table className='text-lg bg-gray-100'>
+            <TableHeader className='bg-amesRed'>
+              <TableRow>
+                <TableHead className='text-white'>Features</TableHead>
+                <TableHead className='text-center'>AMES 9400HD</TableHead>
+                <TableHead className='text-center'>AMES 9500</TableHead>
+              </TableRow>
+            </TableHeader>
+            <TableBody>
+              <TableRow>
+                <TableCell className='font-medium'>
+                  Calculates Mean Profile Depth (MPD), Estimated Texture Depth
+                  (ETD), RMS, Ra, Rq, Skewness, Kurtosis & VAR
+                </TableCell>
+                <TableCell className='text-center'>
+                  <Check className='text-green-500 mx-auto' size={40} />
+                </TableCell>
+                <TableCell className='text-center'>Software Needed</TableCell>
+              </TableRow>
+
+              <TableRow>
+                <TableCell className='font-medium'>
+                  Index Units Can Be Set to Metric or Imperial
+                </TableCell>
+                <TableCell className='text-center'>
+                  <Check className='text-green-500 mx-auto' size={40} />
+                </TableCell>
+                <TableCell className='text-center'>Software Needed</TableCell>
+              </TableRow>
+
+              <TableRow>
+                <TableCell className='font-medium'>
+                  Built In GPS Receiver
+                </TableCell>
+                <TableCell className='text-center'>
+                  <Check className='text-green-500 mx-auto' size={40} />
+                </TableCell>
+                <TableCell className='text-center'>
+                  <Check className='text-green-500 mx-auto' size={40} />
+                </TableCell>
+              </TableRow>
+
+              <TableRow>
+                <TableCell className='font-medium max-w-2'>
+                  Backlit LCD for Easy Night-time Viewing
+                </TableCell>
+                <TableCell className='text-center'>
+                  <Check className='text-green-500 mx-auto' size={40} />
+                </TableCell>
+                <TableCell className='text-center'>
+                  <Check className='text-green-500 mx-auto' size={40} />
+                </TableCell>
+              </TableRow>
+
+              <TableRow>
+                <TableCell className='font-medium max-w-2'>
+                  Includes Sun Shroud with a Cutout Window and Measurement
+                  Rulers
+                </TableCell>
+                <TableCell className='text-center'>
+                  <Check className='text-green-500 mx-auto' size={40} />
+                </TableCell>
+                <TableCell className='text-center'>
+                  <Check className='text-green-500 mx-auto' size={40} />
+                </TableCell>
+              </TableRow>
+
+              <TableRow>
+                <TableCell className='font-medium'>Scan Area</TableCell>
+                <TableCell className='text-center'>
+                  104.00 mm x 72.00 mm
+                </TableCell>
+                <TableCell className='text-center'>4” x 4”</TableCell>
+              </TableRow>
+
+              <TableRow>
+                <TableCell className='font-medium'>
+                  Collects Both Elevation Height Data and Scan Intensity Image
+                </TableCell>
+                <TableCell className='text-center'>
+                  <Check className='text-green-500 mx-auto' size={40} />
+                </TableCell>
+                <TableCell className='text-center'>
+                  <Check className='text-green-500 mx-auto' size={40} />
+                </TableCell>
+              </TableRow>
+
+              <TableRow>
+                <TableCell className='font-medium'>
+                  Scanner Immediately Displays the Results On a Sunlight
+                  Readable LCD Built-in Display (1997 ISO Version)
+                </TableCell>
+                <TableCell className='text-center'>
+                  <Check className='text-green-500 mx-auto' size={40} />
+                </TableCell>
+                <TableCell className='text-center'>Analysis Software</TableCell>
+              </TableRow>
+
+              <TableRow>
+                <TableCell className='font-medium'>Texture Scans</TableCell>
+                <TableCell className='text-center'>
+                  Macro<sup>1</sup> &amp; Micro<sup>2</sup> Texture
+                </TableCell>
+                <TableCell className='text-center'>Macro texture</TableCell>
+              </TableRow>
+
+              <TableRow>
+                <TableCell className='font-medium'>Sampling Distance</TableCell>
+                <TableCell className='text-center'>
+                  Programmable (5 Presets)
+                </TableCell>
+                <TableCell className='text-center'>Fixed</TableCell>
+              </TableRow>
+
+              <TableRow>
+                <TableCell className='font-medium'>Laser Type</TableCell>
+                <TableCell className='text-center'>
+                  1 Single Point Laser
+                </TableCell>
+                <TableCell className='text-center'>4 Inch Line Laser</TableCell>
+              </TableRow>
+
+              <TableRow>
+                <TableCell className='font-medium'>
+                  Requires Low Pass Filter
+                </TableCell>
+                <TableCell className='text-center'></TableCell>
+                <TableCell className='text-center'>
+                  <Check className='text-green-500 mx-auto' size={40} />
+                </TableCell>
+              </TableRow>
+
+              <TableRow>
+                <TableCell className='font-medium'>
+                  Microsoft Windows Tablet Included
+                </TableCell>
+                <TableCell className='text-center'></TableCell>
+                <TableCell className='text-center'>
+                  <Check className='text-green-500 mx-auto' size={40} />
+                </TableCell>
+              </TableRow>
+
+              <TableRow>
+                <TableCell className='font-medium'>
+                  External USB Port Available
+                </TableCell>
+                <TableCell className='text-center'></TableCell>
+                <TableCell className='text-center'>
+                  <Check className='text-green-500 mx-auto' size={40} />
+                </TableCell>
+              </TableRow>
+
+              <TableRow>
+                <TableCell className='font-medium'>
+                  A Windows Based Computer Can Be Used to Directly Control the
+                  Scanner
+                </TableCell>
+                <TableCell className='text-center'>
+                  <div className='inline-flex items-start'>
+                    <Check className='text-green-500' size={40} />
+                    <span className='m-0 p-0 leading-none'>*</span>
+                  </div>
+                </TableCell>
+                <TableCell className='text-center'>
+                  <Check className='text-green-500 mx-auto' size={40} />
+                </TableCell>
+              </TableRow>
+
+              <TableRow>
+                <TableCell className='font-medium'>File Storage</TableCell>
+                <TableCell className='text-center'>
+                  All Files Are Stored On the Scanner for Later Download
+                </TableCell>
+                <TableCell className='text-center'>
+                  All Files Are Stored On the Microsoft Windows Tablet
+                </TableCell>
+              </TableRow>
+            </TableBody>
+          </Table>
+
+          <div className='mt-5'>
+            <p className='text-sm'>
+              * Can be controlled from a computer, but is easier to operate
+              directly on the scanner.
+            </p>
+            <p className='text-sm'>
+              <sup>1</sup> Macro texture: .5 mm and above
+            </p>
+            <p className='text-sm'>
+              <sup>2</sup> Micro texture: .5mm and below
+            </p>
+          </div>
         </div>
 
         <div className='mt-6'>
@@ -145,10 +350,6 @@ export default function RapidLaserTextureScannerModel9500() {
             - Calculates Mean Profile (MPD), Estimated Texture Depth (ETD), RMS,
             Ra, Rq, Skewness, Kurtosis and VAR
           </li>
-          <li>
-            - Scanner immediately displays the results on a sunlight readable
-            LCD display
-          </li>
           <li>- Scan Area: 4″ x 4″</li>
           <li>- Laser type: 4″ Line Laser</li>
           <li>- Length Resolution: 4”/2048: 0.00195” = .0496 mm</li>
@@ -174,10 +375,7 @@ export default function RapidLaserTextureScannerModel9500() {
           </li>
           <li>- Product Dimensions 305 mm x 151 mm x 290 mm(L x W x H)</li>
           <li>- Weight: 4.2kg</li>
-          <li>
-            - Data Storage: 2GB internal Flash, Downloadable to a PC through an
-            Ethernet interface
-          </li>
+          <li>- Data Storage: Reserved for calibration files only.</li>
           <li>- Backlit LCD for easy night-time viewing</li>
           <li>
             - Scanner comes with included rugged Windows 2-in-1 laptop for easy
