@@ -111,10 +111,6 @@ import Image from 'next/image';
       lat: 32.812926,
       lng: -97.326318,
     },
-  */
-
-export default function GoogleTradeshowMap() {
-  const [shows, setShows] = useState([
     {
       imgUrl: '/images/aashtoLogo.png',
       name: '2026 Committee on Materials and Pavement',
@@ -125,6 +121,10 @@ export default function GoogleTradeshowMap() {
       lat: 37.536661,
       lng: -77.448196,
     },
+  */
+
+export default function GoogleTradeshowMap() {
+  const [shows, setShows] = useState([
     {
       imgUrl: '/images/ISIC.png',
       name: '2026 ISIC North American Conference',

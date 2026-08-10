@@ -157,8 +157,6 @@ export default function Tradeshows() {
             youtubeURL='https://www.youtube.com/channel/UCg9R6YxcVok22oBpf3PN8zg'
             hr={true}
           />
-          
-          */}
 
           <TradeshowCard
             date='August 2 - 8, 2026'
@@ -173,6 +171,9 @@ export default function Tradeshows() {
             youtubeURL='https://www.youtube.com/user/aashtovideo'
             hr={true}
           />
+          
+          */}
+
           <TradeshowCard
             date='August 24 - 26, 2026'
             img='/images/ISIC.png'
