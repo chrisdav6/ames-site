@@ -322,7 +322,7 @@ export default function InertialRoadProfilersFAQ() {
               <div className='text-xl'>
                 <p>
                   Our Lightweight Profilers are based on John Deere Traditional
-                  Series (TS) Gators.
+                  Series (TX) Gators.
                 </p>
               </div>
             </AccordionContent>
