@@ -189,7 +189,7 @@ export default function Tradeshows() {
             img='/images/txapa-logo.png'
             alt='Texas Asphalt Pavement Association'
             url='https://texasasphalt.org/events/2026-txapa-annual-meeting'
-            name={`TXAPA's 51st Annual Meeting - San Antonio, TX`}
+            name={`TXAPA's 51st Annual Meeting - San Antonio, TX - Booth #30`}
             text1={`TXAPA holds its annual meeting over four days in mid-September, combining education, networking, and fun. The agenda features award-winning speakers and entertainers and includes technical sessions, ample networking time, a golf tournament, casino night, and a live and silent auction benefiting the TXAPA Scholarship Program. The size of the meeting has grown significantly since the first one in 1974. In 2019, more than 600 TXAPA members, TxDOT personnel, and their spouses attended. The meeting venue is always one of Texas’ premier destination resorts.`}
             facebookURL='https://www.facebook.com/TexasAsphalt'
             twitterURL='https://x.com/TexasAsphalt'
@@ -212,7 +212,7 @@ export default function Tradeshows() {
             img='/images/NewMexicoAsphalt.png'
             alt='Asphalt Pavement Association of New Mexico Logo'
             url='https://apanm.org/swaces'
-            name='Southwest Asphalt Conference and Equipment Show - Albuquerque, NM'
+            name='Southwest Asphalt Conference and Equipment Show - Albuquerque, NM - Booth #D19'
             text1='The Asphalt Pavement Association of New Mexico (APANM) proudly presents the Southwest Asphalt Conference & Equipment Show (SWACES) - The first event of its kind in New Mexico, bringing the entire asphalt and roadway construction industry together with the largest equipment show in the state - all under one roof. SWACES combines a major equipment show, expert-led education, leadership and policy discussion, and unmatched networking opportunities with the people who build, maintain, and fund our roads.'
             facebookURL='https://www.facebook.com/profile.php?id=61555651976074'
             instagramURL='https://www.instagram.com/apanewmexico'
@@ -349,7 +349,7 @@ export default function Tradeshows() {
             img='/images/woa-logo-2027.png'
             alt='World of Asphalt'
             url='https://www.worldofasphalt.com'
-            name='World of Asphalt - New Orleans, LA'
+            name='World of Asphalt - New Orleans, LA - Booth #1055'
             text1={`World of Asphalt is the leading asphalt trade show and conference. Over 450 of the industry's leading manufacturers and service providers in the aggregate, asphalt, pavement maintenance, and traffic safety industry sectors come together at World of Asphalt to showcase their latest products and technologies. The conference features learning opportunities with leading industry experts to discuss solutions to issues affecting the asphalt industry.`}
             facebookURL='https://www.facebook.com/WorldofAsphalt'
             twitterURL='https://x.com/WorldofAsphalt'
@@ -374,7 +374,7 @@ export default function Tradeshows() {
             img='/images/ncat-conference.png'
             alt='National Center for Asphalt Technology'
             url='https://eng.auburn.edu/research/centers/ncat/testtrack/conference.html'
-            name='NCAT Test Track Conference - Auburn, AL'
+            name='NCAT Test Track Conference - Auburn, AL - Booth #19'
             text1='Held every three years, the Test Track Conference is a forum to present research findings from the previous cycle of accelerated pavement testing. During the two and a half day program, participants learn about advancements in asphalt pavement design, construction, technologies, and maintenance that are more cost effective and improve performance. The conference also provides a valuable networking opportunity and sets the stage for further cooperation among federal, state, and local agencies as well as the private sector.'
             facebookURL='https://www.facebook.com/NCATAuburn'
             twitterURL='https://x.com/ncatauburn'

@@ -138,7 +138,7 @@ export default function GoogleTradeshowMap() {
     {
       imgUrl: '/images/txapa-logo.png',
       name: "TXAPA's 51st Annual Meeting",
-      booth: '',
+      booth: 'Booth #30',
       cityState: 'San Antonio, TX',
       date: 'September 14-17, 2026',
       url: 'https://texasasphalt.org/events/2026-txapa-annual-meeting',
@@ -158,7 +158,7 @@ export default function GoogleTradeshowMap() {
     {
       imgUrl: '/images/NewMexicoAsphalt.png',
       name: 'Southwest Asphalt Conference and Equipment Show',
-      booth: '',
+      booth: 'Booth #D19',
       cityState: 'Albuquerque, NM',
       date: 'October 28-29, 2026',
       url: 'https://apanm.org/swaces',
@@ -269,7 +269,7 @@ export default function GoogleTradeshowMap() {
     {
       imgUrl: '/images/woa-logo-2027.png',
       name: 'World of Asphalt',
-      booth: '',
+      booth: 'Booth #1055',
       cityState: 'New Orleans, LA',
       date: 'March 15-17, 2027',
       url: 'https://www.worldofasphalt.com',
@@ -289,7 +289,7 @@ export default function GoogleTradeshowMap() {
     {
       imgUrl: '/images/ncat-conference.png',
       name: 'NCAT Test Track Conference',
-      booth: '',
+      booth: 'Booth #19',
       cityState: 'Auburn, AL',
       date: 'May 11-13, 2027',
       url: 'https://eng.auburn.edu/research/centers/ncat/testtrack/conference.html',
