@@ -64,19 +64,6 @@ export default function Tradeshows() {
           />
 
           <TradeshowCard
-            date='December 10 - 12, 2025'
-            img='/images/apai2025.png'
-            alt='Asphalt Pavement Association of Indiana'
-            url='https://www.asphaltindiana.org/conference'
-            name='APAI Winter Conference and Expo - Muncie, IN'
-            text1="The Asphalt Pavement Association of Indiana's annual winter conference and trade show. Held each December, with nearly 600 attendees from Indiana's asphalt industry, this event promises to be a high-energy, action-packed showcase of the latest innovations and trends. From educational sessions to networking opportunities and exciting events, be prepared for an experience that will leave you inspired and energized for the year ahead."
-            facebookURL='https://www.facebook.com/AsphaltPavementAssociationIndiana'
-            twitterURL='https://x.com/asphaltindiana'
-            linkedInURL='https://www.linkedin.com/company/asphalt-pavement-association-of-indiana-apai'
-            hr={true}
-          />
-
-          <TradeshowCard
             date='February 4 - 6, 20265'
             img='/images/paiky-logo.png'
             alt='PAIKY 2026 Winter Training School'
@@ -277,6 +264,18 @@ export default function Tradeshows() {
             twitterURL='https://x.com/PaveConcrete'
             linkedInURL='https://www.linkedin.com/company/american-concrete-pavement-association'
             youtubeURL='https://www.youtube.com/concretepavements'
+            hr={true}
+          />
+          <TradeshowCard
+            date='December 9 - 11, 2026'
+            img='/images/apai2025.png'
+            alt='Asphalt Pavement Association of Indiana'
+            url='https://www.asphaltindiana.org/conference'
+            name='APAI Winter Conference and Expo - Muncie, IN'
+            text1="The Asphalt Pavement Association of Indiana's annual winter conference and trade show. Held each December, with nearly 600 attendees from Indiana's asphalt industry, this event promises to be a high-energy, action-packed showcase of the latest innovations and trends. From educational sessions to networking opportunities and exciting events, be prepared for an experience that will leave you inspired and energized for the year ahead."
+            facebookURL='https://www.facebook.com/AsphaltPavementAssociationIndiana'
+            twitterURL='https://x.com/asphaltindiana'
+            linkedInURL='https://www.linkedin.com/company/asphalt-pavement-association-of-indiana-apai'
             hr={true}
           />
           <TradeshowCard

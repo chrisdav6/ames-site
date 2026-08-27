@@ -42,16 +42,6 @@ import Image from 'next/image';
       lng: -117.314076,
     },
     {
-      imgUrl: '/images/apai2025.png',
-      name: 'APAI Winter Conference and Expo',
-      booth: '',
-      cityState: 'Muncie, IN',
-      date: 'December 10-12, 2025',
-      url: 'https://www.asphaltindiana.org/conference',
-      lat: 40.206962,
-      lng: -85.393312,
-    },
-    {
       imgUrl: '/images/paiky-logo.png',
       name: 'PAIKY 2026 Winter Training School',
       booth: '',
@@ -215,6 +205,16 @@ export default function GoogleTradeshowMap() {
       url: 'https://2025meeting.acpa.org',
       lat: 27.034598,
       lng: -80.18235,
+    },
+    {
+      imgUrl: '/images/apai2025.png',
+      name: 'APAI Winter Conference and Expo',
+      booth: '',
+      cityState: 'Muncie, IN',
+      date: 'December 9-11, 2026',
+      url: 'https://www.asphaltindiana.org/conference',
+      lat: 40.206962,
+      lng: -85.393312,
     },
     {
       imgUrl: '/images/mapa-logo.png',
