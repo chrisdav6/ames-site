@@ -158,10 +158,6 @@ export default function Tradeshows() {
             youtubeURL='https://www.youtube.com/user/aashtovideo'
             hr={true}
           />
-          
-          
-          */}
-
           <TradeshowCard
             date='August 24 - 26, 2026'
             img='/images/ISIC.png'
@@ -171,6 +167,8 @@ export default function Tradeshows() {
             text1='The 2026 ISIC North American Conference brings together transportation agencies, contractors, consultants, technology providers, and industry leaders to explore the latest advancements in intelligent construction. Hosted by the International Society for Intelligent Construction (ISIC), the conference focuses on emerging technologies that are improving infrastructure delivery through digital innovation, automation, and data-driven construction practices.'
             hr={true}
           />
+          */}
+
           <TradeshowCard
             date='September 14 - 17, 2026'
             img='/images/txapa-logo.png'

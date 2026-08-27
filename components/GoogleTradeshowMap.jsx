@@ -111,10 +111,6 @@ import Image from 'next/image';
       lat: 37.536661,
       lng: -77.448196,
     },
-  */
-
-export default function GoogleTradeshowMap() {
-  const [shows, setShows] = useState([
     {
       imgUrl: '/images/ISIC.png',
       name: '2026 ISIC North American Conference',
@@ -125,6 +121,10 @@ export default function GoogleTradeshowMap() {
       lat: 38.206532,
       lng: -85.653686,
     },
+  */
+
+export default function GoogleTradeshowMap() {
+  const [shows, setShows] = useState([
     {
       imgUrl: '/images/txapa-logo.png',
       name: "TXAPA's 51st Annual Meeting",
