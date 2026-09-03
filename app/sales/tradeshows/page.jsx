@@ -167,6 +167,24 @@ export default function Tradeshows() {
             text1='The 2026 ISIC North American Conference brings together transportation agencies, contractors, consultants, technology providers, and industry leaders to explore the latest advancements in intelligent construction. Hosted by the International Society for Intelligent Construction (ISIC), the conference focuses on emerging technologies that are improving infrastructure delivery through digital innovation, automation, and data-driven construction practices.'
             hr={true}
           />
+          <TradeshowCard
+            date='October 21 - 22, 2026'
+            img='/images/neaupg-logo.png'
+            alt='NEAUPG Fall Meeting'
+            url='https://neaupg.engr.uconn.edu'
+            name='NEAUPG Fall Meeting - Nashua, NH'
+            text1='North East Asphalt User/Producer Groups annual fall Meeting. Promoting solutions through discussion to improve the quality and performance of asphalt pavement applications in the Northeastern United States. Hosted by NYSDOT with the Binder and Mix Committees meeting.'
+            hr={true}
+          />
+          <TradeshowCard
+            date='November 17 - 19, 2026'
+            img='/images/seaupg-logo.png'
+            alt='SEAUPG'
+            url='http://www.seaupg.org'
+            name='SEAUPG 2026 - Oklahoma City, OK'
+            text1='The SEAUPG annual meeting is held in the fall of each year. Hosted by state Departments of Transportation from each sub-group in rotation. SEAUPG Annual Meetings & Exhibits allow interaction between agencies, users, producers and material/equipment suppliers throughout the Southeastern states as well as the nation and abroad.'
+            hr={true}
+          />
           */}
 
           <TradeshowCard
@@ -181,15 +199,6 @@ export default function Tradeshows() {
             instagramURL='https://www.instagram.com/texasasphaltpavement'
             linkedInURL='https://www.linkedin.com/company/texas-asphalt-pavement-association'
             youtubeURL='https://www.youtube.com/channel/UCg9R6YxcVok22oBpf3PN8zg'
-            hr={true}
-          />
-          <TradeshowCard
-            date='October 21 - 22, 2026'
-            img='/images/neaupg-logo.png'
-            alt='NEAUPG Fall Meeting'
-            url='https://neaupg.engr.uconn.edu'
-            name='NEAUPG Fall Meeting - Nashua, NH'
-            text1='North East Asphalt User/Producer Groups annual fall Meeting. Promoting solutions through discussion to improve the quality and performance of asphalt pavement applications in the Northeastern United States. Hosted by NYSDOT with the Binder and Mix Committees meeting.'
             hr={true}
           />
           <TradeshowCard
@@ -216,15 +225,6 @@ export default function Tradeshows() {
             instagramURL='https://www.instagram.com/calcimarocks'
             linkedInURL='https://www.linkedin.com/company/calcima'
             youtubeURL='https://www.youtube.com/channel/UC-7hBI95v83T8mHA-FVFkXQ'
-            hr={true}
-          />
-          <TradeshowCard
-            date='November 17 - 19, 2026'
-            img='/images/seaupg-logo.png'
-            alt='SEAUPG'
-            url='http://www.seaupg.org'
-            name='SEAUPG 2026 - Oklahoma City, OK'
-            text1='The SEAUPG annual meeting is held in the fall of each year. Hosted by state Departments of Transportation from each sub-group in rotation. SEAUPG Annual Meetings & Exhibits allow interaction between agencies, users, producers and material/equipment suppliers throughout the Southeastern states as well as the nation and abroad.'
             hr={true}
           />
           <TradeshowCard

@@ -121,6 +121,26 @@ import Image from 'next/image';
       lat: 38.206532,
       lng: -85.653686,
     },
+    {
+      imgUrl: '/images/neaupg-logo.png',
+      name: 'NEAUPG Fall Meeting',
+      booth: '',
+      cityState: 'Nashua, NH',
+      date: 'October 21-22, 2026',
+      url: 'https://neaupg.engr.uconn.edu',
+      lat: 42.754221,
+      lng: -71.474044,
+    },
+    {
+      imgUrl: '/images/seaupg-logo.png',
+      name: 'SEAUPG 2026',
+      booth: '',
+      cityState: 'Oklahoma City, OK',
+      date: 'November 17-19, 2026',
+      url: 'http://www.seaupg.org',
+      lat: 35.438051,
+      lng: -97.515588,
+    },
   */
 
 export default function GoogleTradeshowMap() {
@@ -134,16 +154,6 @@ export default function GoogleTradeshowMap() {
       url: 'https://texasasphalt.org/events/2026-txapa-annual-meeting',
       lat: 29.462161,
       lng: -98.223925,
-    },
-    {
-      imgUrl: '/images/neaupg-logo.png',
-      name: 'NEAUPG Fall Meeting',
-      booth: '',
-      cityState: 'Nashua, NH',
-      date: 'October 21-22, 2026',
-      url: 'https://neaupg.engr.uconn.edu',
-      lat: 42.754221,
-      lng: -71.474044,
     },
     {
       imgUrl: '/images/NewMexicoAsphalt.png',
@@ -164,16 +174,6 @@ export default function GoogleTradeshowMap() {
       url: 'https://calcima.org/events/EventDetails.aspx?id=1984377&group=',
       lat: 36.59182,
       lng: -121.886428,
-    },
-    {
-      imgUrl: '/images/seaupg-logo.png',
-      name: 'SEAUPG 2026',
-      booth: '',
-      cityState: 'Oklahoma City, OK',
-      date: 'November 17-19, 2026',
-      url: 'http://www.seaupg.org',
-      lat: 35.438051,
-      lng: -97.515588,
     },
     {
       imgUrl: '/images/mn-logo.png',
