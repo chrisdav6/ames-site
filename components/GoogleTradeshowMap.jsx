@@ -141,10 +141,6 @@ import Image from 'next/image';
       lat: 35.438051,
       lng: -97.515588,
     },
-  */
-
-export default function GoogleTradeshowMap() {
-  const [shows, setShows] = useState([
     {
       imgUrl: '/images/txapa-logo.png',
       name: "TXAPA's 51st Annual Meeting",
@@ -155,6 +151,10 @@ export default function GoogleTradeshowMap() {
       lat: 29.462161,
       lng: -98.223925,
     },
+  */
+
+export default function GoogleTradeshowMap() {
+  const [shows, setShows] = useState([
     {
       imgUrl: '/images/NewMexicoAsphalt.png',
       name: 'Southwest Asphalt Conference and Equipment Show',

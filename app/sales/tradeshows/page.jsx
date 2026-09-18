@@ -185,8 +185,6 @@ export default function Tradeshows() {
             text1='The SEAUPG annual meeting is held in the fall of each year. Hosted by state Departments of Transportation from each sub-group in rotation. SEAUPG Annual Meetings & Exhibits allow interaction between agencies, users, producers and material/equipment suppliers throughout the Southeastern states as well as the nation and abroad.'
             hr={true}
           />
-          */}
-
           <TradeshowCard
             date='September 14 - 17, 2026'
             img='/images/txapa-logo.png'
@@ -201,6 +199,8 @@ export default function Tradeshows() {
             youtubeURL='https://www.youtube.com/channel/UCg9R6YxcVok22oBpf3PN8zg'
             hr={true}
           />
+          */}
+
           <TradeshowCard
             date='October 28 - 29, 2026'
             img='/images/NewMexicoAsphalt.png'
