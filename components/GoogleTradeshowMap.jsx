@@ -158,7 +158,7 @@ export default function GoogleTradeshowMap() {
     {
       imgUrl: '/images/NewMexicoAsphalt.png',
       name: 'Southwest Asphalt Conference and Equipment Show',
-      booth: 'Booth #D19',
+      booth: 'Booth #D8',
       cityState: 'Albuquerque, NM',
       date: 'October 28-29, 2026',
       url: 'https://apanm.org/swaces',
