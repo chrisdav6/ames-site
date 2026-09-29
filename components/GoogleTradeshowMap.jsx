@@ -141,16 +141,6 @@ import Image from 'next/image';
       lat: 35.438051,
       lng: -97.515588,
     },
-    {
-      imgUrl: '/images/txapa-logo.png',
-      name: "TXAPA's 51st Annual Meeting",
-      booth: 'Booth #30',
-      cityState: 'San Antonio, TX',
-      date: 'September 14-17, 2026',
-      url: 'https://texasasphalt.org/events/2026-txapa-annual-meeting',
-      lat: 29.462161,
-      lng: -98.223925,
-    },
   */
 
 export default function GoogleTradeshowMap() {
@@ -305,6 +295,16 @@ export default function GoogleTradeshowMap() {
       url: 'https://www.asphaltpavement.org/events/midyear',
       lat: 35.409829,
       lng: -106.948444,
+    },
+    {
+      imgUrl: '/images/txapa-logo.png',
+      name: "TXAPA's 52nd Annual Meeting",
+      booth: '',
+      cityState: 'San Antonio, TX',
+      date: 'September 13-16, 2027',
+      url: 'https://texasasphalt.org/events/2027-txapa-annual-meeting',
+      lat: 29.462161,
+      lng: -98.223925,
     },
     {
       imgUrl: '/images/conexpo-logo.png',
