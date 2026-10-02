@@ -141,6 +141,16 @@ import Image from 'next/image';
       lat: 35.438051,
       lng: -97.515588,
     },
+    {
+      imgUrl: '/images/napa-logo.png',
+      name: 'NAPA 2027 Annual Meeting',
+      booth: '',
+      cityState: 'Miami, FL',
+      date: 'February 8-11, 2027',
+      url: 'https://www.asphaltpavement.org/programs/napa-events/napa-annual-meeting',
+      lat: 25.762627,
+      lng: -80.208742,
+    },
   */
 
 export default function GoogleTradeshowMap() {
@@ -235,16 +245,6 @@ export default function GoogleTradeshowMap() {
       url: 'https://www.pa-asphalt.org/events/all-events/papa-main-events/151-67th-annual-papa-conference-save-the-date',
       lat: 40.285737,
       lng: -76.334034,
-    },
-    {
-      imgUrl: '/images/napa-logo.png',
-      name: 'NAPA 2027 Annual Meeting',
-      booth: '',
-      cityState: 'Miami, FL',
-      date: 'February 8-11, 2027',
-      url: 'https://www.asphaltpavement.org/programs/napa-events/napa-annual-meeting',
-      lat: 25.762627,
-      lng: -80.208742,
     },
     {
       imgUrl: '/images/ohio-logo.png',

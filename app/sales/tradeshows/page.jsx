@@ -185,6 +185,20 @@ export default function Tradeshows() {
             text1='The SEAUPG annual meeting is held in the fall of each year. Hosted by state Departments of Transportation from each sub-group in rotation. SEAUPG Annual Meetings & Exhibits allow interaction between agencies, users, producers and material/equipment suppliers throughout the Southeastern states as well as the nation and abroad.'
             hr={true}
           />
+          <TradeshowCard
+            date='February 8 - 11, 2027'
+            img='/images/napa-logo.png'
+            alt='NAPA 2027 Annual Meeting'
+            url='https://www.asphaltpavement.org/programs/napa-events/napa-annual-meeting'
+            name='NAPA 2027 Annual Meeting - Miami, FL'
+            text1={`The NAPA 2027 Annual Meeting will give you the latest tools and insights to help you reach your goals in the asphalt pavement industry. Stay tuned for details about general sessions and workshops. Combined with invaluable industry networking, NAPA's Annual Meeting is where the industry gathers to set its future.`}
+            facebookURL='https://www.facebook.com/AsphaltPavement'
+            twitterURL='https://x.com/NAPATweets'
+            instagramURL='https://www.instagram.com/goasphalt'
+            linkedInURL='https://www.linkedin.com/company/asphaltpavement'
+            youtubeURL='https://www.youtube.com/channel/UCDroWs5yMvWHi1mEjHPOAIw'
+            hr={true}
+          />
           */}
 
           <TradeshowCard
@@ -297,20 +311,6 @@ export default function Tradeshows() {
             facebookURL='https://www.facebook.com/PennsylvaniaAsphalt'
             twitterURL='https://x.com/AsphaltPA'
             youtubeURL='https://www.youtube.com/channel/UC47YotWes1rWnKKn1o3yFYg'
-            hr={true}
-          />
-          <TradeshowCard
-            date='February 8 - 11, 2027'
-            img='/images/napa-logo.png'
-            alt='NAPA 2027 Annual Meeting'
-            url='https://www.asphaltpavement.org/programs/napa-events/napa-annual-meeting'
-            name='NAPA 2027 Annual Meeting - Miami, FL'
-            text1={`The NAPA 2027 Annual Meeting will give you the latest tools and insights to help you reach your goals in the asphalt pavement industry. Stay tuned for details about general sessions and workshops. Combined with invaluable industry networking, NAPA's Annual Meeting is where the industry gathers to set its future.`}
-            facebookURL='https://www.facebook.com/AsphaltPavement'
-            twitterURL='https://x.com/NAPATweets'
-            instagramURL='https://www.instagram.com/goasphalt'
-            linkedInURL='https://www.linkedin.com/company/asphaltpavement'
-            youtubeURL='https://www.youtube.com/channel/UCDroWs5yMvWHi1mEjHPOAIw'
             hr={true}
           />
           <TradeshowCard
