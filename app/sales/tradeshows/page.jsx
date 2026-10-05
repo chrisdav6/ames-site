@@ -38,7 +38,6 @@ export default function Tradeshows() {
             youtubeURL='https://www.youtube.com/channel/UCSJR-A8JiJq5Vh6ibbMJEoA'
             hr={true}
           />
-
           <TradeshowCard
             date='September 4 - 5, 2025'
             img='/images/rathLogo.png'
@@ -49,7 +48,6 @@ export default function Tradeshows() {
             facebookURL='https://www.facebook.com/roadassothai'
             hr={true}
           />
-
           <TradeshowCard
             date='December 2 - 3, 2025'
             img='/images/iggaLogo.png'
@@ -62,7 +60,6 @@ export default function Tradeshows() {
             youtubeURL='https://www.youtube.com/user/PavementPresResource'
             hr={true}
           />
-
           <TradeshowCard
             date='February 4 - 6, 20265'
             img='/images/paiky-logo.png'
@@ -76,7 +73,6 @@ export default function Tradeshows() {
             linkedInURL='https://www.linkedin.com/in/asphalt-in-kentucky-50918555'
             hr={true}
           />
-
           <TradeshowCard
             date='February 18 - 19, 2026'
             img='/images/utah-asphalt-logo.png'
@@ -90,7 +86,6 @@ export default function Tradeshows() {
             youtubeURL='https://www.youtube.com/channel/UClIzjjlNiZBi2vdA56Of5gg'
             hr={true}
           />
-
           <TradeshowCard
             date='February 25 - 26, 2026'
             img='/images/michigan-asphalt-logo.png'
@@ -105,7 +100,6 @@ export default function Tradeshows() {
             youtubeURL='https://www.youtube.com/channel/UC6zuZ5WXlIwLiZEtnMbatDg'
             hr={true}
           />
-
           <TradeshowCard
             date='April 12 - 15, 2026'
             img='/images/naceLogo.png'
@@ -119,7 +113,6 @@ export default function Tradeshows() {
             linkedInURL='https://www.linkedin.com/company/national-association-of-county-engineers'
             hr={true}
           />
-
           <TradeshowCard
             date='April 28 - May 1, 2026'
             img='/images/rpugLogo.png'
@@ -129,22 +122,6 @@ export default function Tradeshows() {
             text1='RPUG&#39;s annual meeting is to serve as a forum for the exchange of information between end users, data collectors, vendors, construction and design engineers and researchers who have an interest in road profiles, road roughness/smoothness, pavement surface textures, friction, and tire-pavement noise.'
             hr={true}
           />
-
-          <TradeshowCard
-            date='May 27 - 28, 2026'
-            img='/images/txapa-maps-logo.png'
-            alt='Texas Asphalt Pavement Association'
-            url='https://texasasphalt.org/events/maps-dfw-hurst'
-            name='TXAPA MAPS Regional Meeting - Dallas-Fort Worth'
-            text1='The Managing Asphalt Pavements (MAPS) Conference features a showcase of the latest leading-edge equipment, new technology, and services to optimize your asphalt paving projects from top-tier suppliers and vendors. If you are responsible for specifying, designing, constructing, and/or managing asphalt pavement projects, you don’t want to miss TXAPA’s MAPS Conference.'
-            facebookURL='https://www.facebook.com/TexasAsphalt'
-            twitterURL='https://x.com/TexasAsphalt'
-            instagramURL='https://www.instagram.com/texasasphaltpavement'
-            linkedInURL='https://www.linkedin.com/company/texas-asphalt-pavement-association'
-            youtubeURL='https://www.youtube.com/channel/UCg9R6YxcVok22oBpf3PN8zg'
-            hr={true}
-          />
-
           <TradeshowCard
             date='August 2 - 8, 2026'
             img='/images/aashtoLogo.png'
@@ -342,6 +319,20 @@ export default function Tradeshows() {
             hr={true}
           />
           <TradeshowCard
+            date='March 31 - April 1, 2027'
+            img='/images/txapa-maps-logo.png'
+            alt='Texas Asphalt Pavement Association'
+            url='https://texasasphalt.org/maps'
+            name='TXAPA MAPS Regional Meeting - McAllen'
+            text1='The Managing Asphalt Pavements (MAPS) Conference features a showcase of the latest leading-edge equipment, new technology, and services to optimize your asphalt paving projects from top-tier suppliers and vendors. If you are responsible for specifying, designing, constructing, and/or managing asphalt pavement projects, you don’t want to miss TXAPA’s MAPS Conference.'
+            facebookURL='https://www.facebook.com/TexasAsphalt'
+            twitterURL='https://x.com/TexasAsphalt'
+            instagramURL='https://www.instagram.com/texasasphaltpavement'
+            linkedInURL='https://www.linkedin.com/company/texas-asphalt-pavement-association'
+            youtubeURL='https://www.youtube.com/channel/UCg9R6YxcVok22oBpf3PN8zg'
+            hr={true}
+          />
+          <TradeshowCard
             date='April 6 - 7, 2027'
             img='/images/maine-logo.png'
             alt='Maine Asphalt Paving Association'
@@ -364,6 +355,20 @@ export default function Tradeshows() {
             instagramURL='https://www.instagram.com/auburnasphalt'
             linkedInURL='https://www.linkedin.com/company/ncatauburn'
             youtubeURL='https://www.youtube.com/channel/UC5grTAnUU_oE9F2FPpEdgJw'
+            hr={true}
+          />
+          <TradeshowCard
+            date='June 23 - 24, 2027'
+            img='/images/txapa-maps-logo.png'
+            alt='Texas Asphalt Pavement Association'
+            url='https://texasasphalt.org/maps'
+            name='TXAPA MAPS Regional Meeting - Lubbock'
+            text1='The Managing Asphalt Pavements (MAPS) Conference features a showcase of the latest leading-edge equipment, new technology, and services to optimize your asphalt paving projects from top-tier suppliers and vendors. If you are responsible for specifying, designing, constructing, and/or managing asphalt pavement projects, you don’t want to miss TXAPA’s MAPS Conference.'
+            facebookURL='https://www.facebook.com/TexasAsphalt'
+            twitterURL='https://x.com/TexasAsphalt'
+            instagramURL='https://www.instagram.com/texasasphaltpavement'
+            linkedInURL='https://www.linkedin.com/company/texas-asphalt-pavement-association'
+            youtubeURL='https://www.youtube.com/channel/UCg9R6YxcVok22oBpf3PN8zg'
             hr={true}
           />
           <TradeshowCard
