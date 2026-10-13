@@ -123,19 +123,6 @@ export default function Tradeshows() {
             hr={true}
           />
           <TradeshowCard
-            date='August 2 - 8, 2026'
-            img='/images/aashtoLogo.png'
-            alt='AASHTO'
-            url='https://transportation.org/meetings/events'
-            name={`2026 AASHTO Committee on Materials and Pavement - Richmond, VA`}
-            text1={`This Committee is tasked with developing materials and test standards used by all AASHTO member departments. Materials and pavement engineers, along with technical experts from these departments, collaborate to reach a consensus on these crucial documents. Participation from industry professionals and academia is also encouraged to ensure the timely resolution of technical issues and to introduce innovative ideas for advancing the transportation industry.`}
-            facebookURL='https://www.facebook.com/AASHTOspeaks'
-            twitterURL='https://x.com/aashtospeaks'
-            instagramURL='https://www.instagram.com/aashtospeaks'
-            youtubeURL='https://www.youtube.com/user/aashtovideo'
-            hr={true}
-          />
-          <TradeshowCard
             date='August 24 - 26, 2026'
             img='/images/ISIC.png'
             alt='ISIC'
@@ -397,6 +384,19 @@ export default function Tradeshows() {
             instagramURL='https://www.instagram.com/texasasphaltpavement'
             linkedInURL='https://www.linkedin.com/company/texas-asphalt-pavement-association'
             youtubeURL='https://www.youtube.com/channel/UCg9R6YxcVok22oBpf3PN8zg'
+            hr={true}
+          />
+          <TradeshowCard
+            date='August 9 - 13, 2027'
+            img='/images/aashtoLogo.png'
+            alt='AASHTO'
+            url='https://transportation.org/materials'
+            name={`2027 AASHTO Committee on Materials and Pavement - Omaha, NE`}
+            text1={`This Committee is tasked with developing materials and test standards used by all AASHTO member departments. Materials and pavement engineers, along with technical experts from these departments, collaborate to reach a consensus on these crucial documents. Participation from industry professionals and academia is also encouraged to ensure the timely resolution of technical issues and to introduce innovative ideas for advancing the transportation industry.`}
+            facebookURL='https://www.facebook.com/AASHTOspeaks'
+            twitterURL='https://x.com/aashtospeaks'
+            instagramURL='https://www.instagram.com/aashtospeaks'
+            youtubeURL='https://www.youtube.com/user/aashtovideo'
             hr={true}
           />
           <TradeshowCard

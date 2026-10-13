@@ -92,16 +92,6 @@ import Image from 'next/image';
       lng: -79.995863,
     },
     {
-      imgUrl: '/images/aashtoLogo.png',
-      name: '2026 Committee on Materials and Pavement',
-      booth: '',
-      cityState: 'Richmond, VA',
-      date: 'August 3-7, 2026',
-      url: 'https://transportation.org/meetings/events',
-      lat: 37.536661,
-      lng: -77.448196,
-    },
-    {
       imgUrl: '/images/ISIC.png',
       name: '2026 ISIC North American Conference',
       booth: '',
@@ -315,6 +305,16 @@ export default function GoogleTradeshowMap() {
       url: 'https://texasasphalt.org/events/2027-txapa-annual-meeting',
       lat: 29.462161,
       lng: -98.223925,
+    },
+    {
+      imgUrl: '/images/aashtoLogo.png',
+      name: '2027 AASHTO Committee on Materials and Pavement',
+      booth: '',
+      cityState: 'Omaha, NE',
+      date: 'August 9-13, 2027',
+      url: 'https://transportation.org/materials',
+      lat: 41.269155,
+      lng: -96.022577,
     },
     {
       imgUrl: '/images/conexpo-logo.png',
