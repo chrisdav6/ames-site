@@ -199,8 +199,8 @@ export default function Tradeshows() {
                 >
                   From Gauge to Cloud: Modernizing Asphalt QC
                 </a>{' '}
-                with the help of our PQI 380+ Non-Nuclear Asphalt Density Gauge
-                paired with our TransTech Connect QC Cloud Platform on Friday at
+                with the help of the PQI 380+ Non-Nuclear Asphalt Density Gauge
+                paired with the TransTech Connect QC Cloud Platform on Friday at
                 10am in the Cypress 1-3 room. We hope to see you there!
               </>
             }
