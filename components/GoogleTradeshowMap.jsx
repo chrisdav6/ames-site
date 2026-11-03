@@ -131,10 +131,6 @@ import Image from 'next/image';
       lat: 25.762627,
       lng: -80.208742,
     },
-  */
-
-export default function GoogleTradeshowMap() {
-  const [shows, setShows] = useState([
     {
       imgUrl: '/images/NewMexicoAsphalt.png',
       name: 'Southwest Asphalt Conference and Equipment Show',
@@ -145,6 +141,10 @@ export default function GoogleTradeshowMap() {
       lat: 35.13012,
       lng: -106.562464,
     },
+  */
+
+export default function GoogleTradeshowMap() {
+  const [shows, setShows] = useState([
     {
       imgUrl: '/images/calcimaLogo.png',
       name: '2026 CalCIMA Education Conference',

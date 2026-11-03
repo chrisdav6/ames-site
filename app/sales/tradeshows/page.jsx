@@ -163,8 +163,6 @@ export default function Tradeshows() {
             youtubeURL='https://www.youtube.com/channel/UCDroWs5yMvWHi1mEjHPOAIw'
             hr={true}
           />
-          */}
-
           <TradeshowCard
             date='October 28 - 29, 2026'
             img='/images/NewMexicoAsphalt.png'
@@ -177,6 +175,8 @@ export default function Tradeshows() {
             linkedInURL='https://www.linkedin.com/company/asphalt-pavement-association-of-new-mexico'
             hr={true}
           />
+          */}
+
           <TradeshowCard
             date='November 3 - 6, 2026'
             img='/images/calcimaLogo.png'
