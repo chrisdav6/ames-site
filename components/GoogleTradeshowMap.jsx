@@ -141,10 +141,6 @@ import Image from 'next/image';
       lat: 35.13012,
       lng: -106.562464,
     },
-  */
-
-export default function GoogleTradeshowMap() {
-  const [shows, setShows] = useState([
     {
       imgUrl: '/images/calcimaLogo.png',
       name: '2026 CalCIMA Education Conference',
@@ -155,6 +151,10 @@ export default function GoogleTradeshowMap() {
       lat: 36.59182,
       lng: -121.886428,
     },
+  */
+
+export default function GoogleTradeshowMap() {
+  const [shows, setShows] = useState([
     {
       imgUrl: '/images/mn-logo.png',
       name: '2026 Minnesota Asphalt Conference',

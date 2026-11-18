@@ -175,8 +175,6 @@ export default function Tradeshows() {
             linkedInURL='https://www.linkedin.com/company/asphalt-pavement-association-of-new-mexico'
             hr={true}
           />
-          */}
-
           <TradeshowCard
             date='November 3 - 6, 2026'
             img='/images/calcimaLogo.png'
@@ -211,6 +209,9 @@ export default function Tradeshows() {
             youtubeURL='https://www.youtube.com/channel/UC-7hBI95v83T8mHA-FVFkXQ'
             hr={true}
           />
+          */}
+
+        
           <TradeshowCard
             date='November 30 - December 1, 2026'
             img='/images/mn-logo.png'
