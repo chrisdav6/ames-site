@@ -42,16 +42,6 @@ import Image from 'next/image';
       lng: -117.314076,
     },
     {
-      imgUrl: '/images/paiky-logo.png',
-      name: 'PAIKY 2026 Winter Training School',
-      booth: '',
-      cityState: 'Louisville, KY',
-      date: 'February 4-6, 2026',
-      url: 'https://members.paiky.org/site_event_detail.cfm?pk_association_event=35109',
-      lat: 38.236821,
-      lng: -84.747838,
-    },
-    {
       imgUrl: '/images/utah-asphalt-logo.png',
       name: '2026 Utah Asphalt Conference',
       booth: '',
@@ -235,6 +225,16 @@ export default function GoogleTradeshowMap() {
       url: 'https://www.flexiblepavements.org/OhioAsphaltExpo',
       lat: 40.139683,
       lng: -82.976837,
+    },
+    {
+      imgUrl: '/images/paiky-logo.png',
+      name: 'PAIKY 2027 Winter Training School',
+      booth: '',
+      cityState: 'Louisville, KY',
+      date: 'March 3-5, 2027',
+      url: 'https://www.paiky.org',
+      lat: 38.236821,
+      lng: -84.747838,
     },
     {
       imgUrl: '/images/woa-logo-2027.png',
