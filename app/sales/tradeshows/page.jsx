@@ -162,43 +162,8 @@ export default function Tradeshows() {
             linkedInURL='https://www.linkedin.com/company/asphalt-pavement-association-of-new-mexico'
             hr={true}
           />
-          <TradeshowCard
-            date='November 3 - 6, 2026'
-            img='/images/calcimaLogo.png'
-            alt='CalCima'
-            url='https://calcima.org/events/EventDetails.aspx?id=1984377&group='
-            name='CalCIMA 2026 Education Conference - Monterey, CA'
-            text1={
-              <>
-                Join us at the CalCIMA 2026 Education Conference. There will be
-                multiple sessions about concrete, environmental impacts,
-                asphalt, and more. This is also a great opportunity to connect
-                with professionals in the construction and industrial minerals
-                industries, as well as learn about all the different companies.
-                Our very own Jake Szwarcberg will be talking about{' '}
-                <a
-                  className='text-gray-800 font-bold'
-                  href='https://calcima.org/page/edconf_fullprogram?#:~:text=From%20Gauge%20to%20Cloud'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  From Gauge to Cloud: Modernizing Asphalt QC
-                </a>{' '}
-                with the help of the PQI 380+ Non-Nuclear Asphalt Density Gauge
-                paired with the TransTech Connect QC Cloud Platform on Friday at
-                10am in the Cypress 1-3 room. We hope to see you there!
-              </>
-            }
-            facebookURL='https://www.facebook.com/CalCIMA.org'
-            twitterURL='https://x.com/CalcimaRocks'
-            instagramURL='https://www.instagram.com/calcimarocks'
-            linkedInURL='https://www.linkedin.com/company/calcima'
-            youtubeURL='https://www.youtube.com/channel/UC-7hBI95v83T8mHA-FVFkXQ'
-            hr={true}
-          />
           */}
 
-        
           <TradeshowCard
             date='November 30 - December 1, 2026'
             img='/images/mn-logo.png'
@@ -418,6 +383,29 @@ export default function Tradeshows() {
             twitterURL='https://x.com/aashtospeaks'
             instagramURL='https://www.instagram.com/aashtospeaks'
             youtubeURL='https://www.youtube.com/user/aashtovideo'
+            hr={true}
+          />
+          <TradeshowCard
+            date='November 16 - 19, 2027'
+            img='/images/calcimaLogo.png'
+            alt='CalCima'
+            url='https://calcima.org/events/EventDetails.aspx?id=2085045&group='
+            name='CalCIMA 2027 Education Conference - La Quinta, CA'
+            text1={
+              <>
+                Join us at the CalCIMA 2027 Education Conference. There will be
+                multiple sessions about concrete, environmental impacts,
+                asphalt, and more. This is also a great opportunity to connect
+                with professionals in the construction and industrial minerals
+                industries, as well as learn about all the different companies.
+                We hope to see you there!
+              </>
+            }
+            facebookURL='https://www.facebook.com/CalCIMA.org'
+            twitterURL='https://x.com/CalcimaRocks'
+            instagramURL='https://www.instagram.com/calcimarocks'
+            linkedInURL='https://www.linkedin.com/company/calcima'
+            youtubeURL='https://www.youtube.com/channel/UC-7hBI95v83T8mHA-FVFkXQ'
             hr={true}
           />
           <TradeshowCard

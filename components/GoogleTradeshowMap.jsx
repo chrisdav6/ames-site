@@ -131,16 +131,6 @@ import Image from 'next/image';
       lat: 35.13012,
       lng: -106.562464,
     },
-    {
-      imgUrl: '/images/calcimaLogo.png',
-      name: '2026 CalCIMA Education Conference',
-      booth: '',
-      cityState: 'Monterey, CA',
-      date: 'November 3-6, 2026',
-      url: 'https://calcima.org/events/EventDetails.aspx?id=1984377&group=',
-      lat: 36.59182,
-      lng: -121.886428,
-    },
   */
 
 export default function GoogleTradeshowMap() {
@@ -315,6 +305,16 @@ export default function GoogleTradeshowMap() {
       url: 'https://transportation.org/materials',
       lat: 41.269155,
       lng: -96.022577,
+    },
+    {
+      imgUrl: '/images/calcimaLogo.png',
+      name: '2027 CalCIMA Education Conference',
+      booth: '',
+      cityState: 'La Quinta, CA',
+      date: 'November 16-19, 2027',
+      url: 'https://calcima.org/events/EventDetails.aspx?id=2085045&group=',
+      lat: 33.641853, 
+      lng: -116.254380,
     },
     {
       imgUrl: '/images/conexpo-logo.png',
