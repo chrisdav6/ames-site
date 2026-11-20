@@ -199,10 +199,10 @@ export default function GoogleTradeshowMap() {
     {
       imgUrl: '/images/penn-asphalt-logo.png',
       name: '67th Annual PAPA Conference',
-      booth: '',
+      booth: 'Booth #18',
       cityState: 'Hershey, PA',
       date: 'January 18-20, 2027',
-      url: 'https://www.pa-asphalt.org/events/all-events/papa-main-events/151-67th-annual-papa-conference-save-the-date',
+      url: 'https://www.pa-asphalt.org/events/papa-events/papa-main-events/188-2027-67th-annual-papa-conference',
       lat: 40.285737,
       lng: -76.334034,
     },

@@ -242,8 +242,8 @@ export default function Tradeshows() {
             date='January 18 - 20, 2027'
             img='/images/penn-asphalt-logo.png'
             alt='Pennsylvania Asphalt Pavement Association'
-            url='https://www.pa-asphalt.org/events/all-events/papa-main-events/151-67th-annual-papa-conference-save-the-date'
-            name='67th Annual PAPA Conference - Hershey, PA'
+            url='https://www.pa-asphalt.org/events/papa-events/papa-main-events/188-2027-67th-annual-papa-conference'
+            name='67th Annual PAPA Conference - Hershey, PA - Booth #18'
             text1={`The Pennsylvania Asphalt Pavement Association's annual conference program provides valued updates and information on the latest asphalt technologies from asphalt pavement professionals with local and nationally recognized experts from industry, state and federal agencies and academia.`}
             facebookURL='https://www.facebook.com/PennsylvaniaAsphalt'
             twitterURL='https://x.com/AsphaltPA'
